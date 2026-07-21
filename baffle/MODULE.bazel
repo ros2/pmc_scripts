@@ -1,0 +1,37 @@
+module(
+    name = "baffle_maker",
+    version = "0.0.1",
+    bazel_compatibility = [">=7.2.1"],
+)
+
+bazel_dep(name = "llvm", version = "0.8.11")
+bazel_dep(name = "platforms", version = "1.1.0")
+bazel_dep(name = "rules_cc", version = "0.2.22")
+bazel_dep(name = "rules_python", version = "2.2.0")
+
+register_toolchains("@llvm//toolchain:all")
+
+python = use_extension("@rules_python//python/extensions:python.bzl", "python")
+python.toolchain(
+    is_default = True,
+    python_version = "3.14",
+)
+use_repo(python, "python_3_14")
+
+uv = use_extension(
+    "@rules_python//python/uv:uv.bzl",
+    "uv",
+    dev_dependency = True,
+)
+uv.configure(version = "0.6.2")
+use_repo(uv, "uv")
+
+register_toolchains("@uv//:all")
+
+pip = use_extension("@rules_python//python/extensions:pip.bzl", "pip")
+pip.parse(
+    hub_name = "baffle_maker_py_deps",
+    python_version = "3.14",
+    requirements_lock = "//:requirements_lock_3_14.txt",
+)
+use_repo(pip, "baffle_maker_py_deps")

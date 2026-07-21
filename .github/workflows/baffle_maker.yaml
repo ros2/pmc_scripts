@@ -1,0 +1,79 @@
+name: Make a baffle!
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # 8:30AM PST (UTC-8) every Thursday. GitHub Actions cron is always UTC and
+    # doesn't shift for daylight saving, so this runs at 9:30AM PDT in summer.
+    - cron: '30 16 * * 4'
+  workflow_dispatch:
+    inputs:
+      publish_to_pages:
+        description: 'Publish the result to pages'
+        required: true
+        type: boolean
+        default: false
+
+env:
+  USE_BAZEL_VERSION: 9.1.1
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  call-api:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: baffle
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
+      - name: Setup Bazel
+        uses: bazel-contrib/setup-bazel@0.19.0
+        with:
+          bazelisk-cache: false
+          disk-cache: false
+          repository-cache: false
+      - name: Determine data file paths
+        id: paths
+        run: |
+          DATE=$(date -u +%Y-%m-%d)
+          echo "raw=$GITHUB_WORKSPACE/baffle/site/${DATE}.yaml" >> "$GITHUB_OUTPUT"
+          echo "analyzed=$GITHUB_WORKSPACE/baffle/site/${DATE}_analyzed.yaml" >> "$GITHUB_OUTPUT"
+      - name: Query GitHub for open pull requests (MODEL)
+        env:
+          GITHUB_API_TOKEN: ${{ secrets.WAFFLE_API_TOKEN }}
+        run: |
+          bazel run //waffle:query -- "${{ steps.paths.outputs.raw }}"
+      - name: Classify contributors (CONTROLLER)
+        run: |
+          bazel run //waffle:analyze -- "${{ steps.paths.outputs.raw }}"
+      - name: Render the baffle board (VIEW)
+        run: |
+          bazel run //waffle:render -- "${{ steps.paths.outputs.analyzed }}"
+      - name: Setup Pages
+        if: github.event_name == 'push' || github.event_name == 'schedule' || inputs.publish_to_pages == true
+        uses: actions/configure-pages@v5
+      - name: Upload site artifact
+        if: github.event_name == 'push' || github.event_name == 'schedule' || inputs.publish_to_pages == true
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: baffle/site
+
+  deploy:
+    needs: call-api
+    if: github.event_name == 'push' || github.event_name == 'schedule' || inputs.publish_to_pages == true
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

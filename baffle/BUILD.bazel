@@ -1,0 +1,8 @@
+load("@rules_python//python/uv:lock.bzl", "lock")
+
+lock(
+    name = "requirements_3_14",
+    srcs = ["requirements.in"],
+    out = "requirements_lock_3_14.txt",
+    python_version = "3.14",
+)
