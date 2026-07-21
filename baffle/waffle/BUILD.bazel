@@ -1,0 +1,42 @@
+load("@baffle_maker_py_deps//:requirements.bzl", "requirement")
+load("@rules_python//python:defs.bzl", "py_binary", "py_library")
+
+py_library(
+    name = "common",
+    srcs = ["common.py"],
+    imports = ["."],
+)
+
+py_binary(
+    name = "query",
+    srcs = ["query.py"],
+    main = "query.py",
+    imports = ["."],
+    deps = [
+        ":common",
+        requirement("pygithub"),
+        requirement("pyyaml"),
+    ],
+)
+
+py_binary(
+    name = "render",
+    srcs = ["render.py"],
+    main = "render.py",
+    imports = ["."],
+    deps = [
+        ":common",
+        requirement("pyyaml"),
+    ],
+)
+
+py_binary(
+    name = "analyze",
+    srcs = ["analyze.py"],
+    main = "analyze.py",
+    imports = ["."],
+    deps = [
+        ":common",
+        requirement("pyyaml"),
+    ],
+)

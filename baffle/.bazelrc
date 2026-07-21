@@ -1,0 +1,17 @@
+# Our approach to message generation works on a per-message dependency
+# chain. We need to be able to merge messages into 
+common --incompatible_default_to_explicit_init_py
+
+# This restricts the environment variables available to build actions, 
+# keeping the build environment more hermetic.
+common --incompatible_strict_action_env
+
+# This propagates our host environment variable with the GitHub API
+# token to the sandbox, so the waffle script can use it.
+common --run_env=GITHUB_API_TOKEN
+
+# Ensure that we use toolchains_llvm instead of the host toolchain.
+build --repo_env="BAZEL_DO_NOT_DETECT_CPP_TOOLCHAIN=1"
+
+# Ignore any host-level pip configurations.
+build --repo_env="PIP_CONFIG_FILE=/dev/null"
