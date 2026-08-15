@@ -1,0 +1,12 @@
+{
+  "number": 217,
+  "title": "Update release team membership",
+  "author": "stefanscherzinger",
+  "state": "closed",
+  "created_at": "2023-03-20T17:22:05Z",
+  "updated_at": "2023-04-11T19:42:07Z",
+  "closed_at": "2023-04-11T19:42:07Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/217",
+  "body": "# Updates to schunk_svh membership.\r\n\r\n## New team members\r\n\r\n* [@harry-arnst](https://github.com/SCHUNK-GmbH-Co-KG/schunk_svh_ros_driver/blob/ros2-humble/schunk_svh_driver/package.xml#L10)\r\n\r\nHarry is joining our maintenance team from Schunk's side (OEM). Also see the PR [#36531](https://github.com/ros/rosdistro/pull/36531) on `rosdistro`.\r\n\r\n## Retiring team members\r\n\r\n* None\r\n",
+  "comments": []
+}

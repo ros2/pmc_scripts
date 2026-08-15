@@ -1,0 +1,21 @@
+{
+  "number": 665,
+  "title": "Add release team `4am_robotics`",
+  "author": "Deleh",
+  "state": "closed",
+  "created_at": "2024-11-25T16:58:30Z",
+  "updated_at": "2024-12-16T01:57:26Z",
+  "closed_at": "2024-12-14T15:45:55Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/665",
+  "body": "* Name of the new release team: 4am_robotics\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [cob_common](https://github.com/4am-robotics/cob_common)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/46160a58090791131932deee4057d40b39564885/humble/distribution.yaml#L1395)\r\n    * [x] There is an existing release repository which should be imported: https://github.com/4am-robotics/cob_common-release\r\n\r\n* Team members\r\n  * [@benmaidel](https://github.com/4am-robotics/cob_common/blob/f3854c63975f905c38aace72371197febe8bfc6a/cob_common/package.xml#L12)\r\n  * [@Deleh](https://github.com/4am-robotics/cob_common/blob/f3854c63975f905c38aace72371197febe8bfc6a/cob_common/package.xml#L13)\r\n",
+  "comments": [
+    {
+      "id": 2544323787,
+      "author": "nuclearsandwich",
+      "created_at": "2024-12-16T01:57:25Z",
+      "updated_at": "2024-12-16T01:57:25Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/665#issuecomment-2544323787",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

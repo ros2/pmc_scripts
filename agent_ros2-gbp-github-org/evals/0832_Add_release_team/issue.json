@@ -1,0 +1,37 @@
+{
+  "number": 832,
+  "title": "Add release team",
+  "author": "ndahn",
+  "state": "closed",
+  "created_at": "2025-07-31T16:26:58Z",
+  "updated_at": "2025-09-10T22:57:11Z",
+  "closed_at": "2025-09-10T18:20:33Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/832",
+  "body": "* Name of the new release team: better_launch\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [better_launch (humble)](https://github.com/dfki-ric/better_launch)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/47200/files#diff-06d8e864ec414dbf75d3ec6d593a7070858d8a07684fb6b236b90e362edebf3d)\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n  * [better_launch (jazzy)](https://github.com/dfki-ric/better_launch)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/47200/files#diff-580207c444f0a1f496e481bc9a963900cc939b64d8925164ecb120730a4195b6)\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n  * [better_launch (kilted)](https://github.com/dfki-ric/better_launch)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/47200/files#diff-16d697304fa8d28764ea5d462f7d4766e6c6e516b990a35a9c8312f82975f54c)\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n  * [better_launch (rolling)](https://github.com/dfki-ric/better_launch)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/47200/files#diff-a79d50d14101a47dfc4ea7b0dd7b9446f34b544807d8f0c48cc6a8f07fc3b36a)\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n\n\n* Team members\n  * [@ndahn](https://github.com/dfki-ric/better_launch/blob/7864f67e07bbaa611555d52905e6e4a0a0736b42/package.xml#L14)",
+  "comments": [
+    {
+      "id": 3146562186,
+      "author": "nuclearsandwich",
+      "created_at": "2025-08-02T15:19:07Z",
+      "updated_at": "2025-08-02T15:19:07Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/832#issuecomment-3146562186",
+      "body": "Once the rosdistro PR has merged this request can be processed."
+    },
+    {
+      "id": 3275214450,
+      "author": "ndahn",
+      "created_at": "2025-09-10T14:22:21Z",
+      "updated_at": "2025-09-10T14:22:21Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/832#issuecomment-3275214450",
+      "body": "The rosdistro PR has been merged. "
+    },
+    {
+      "id": 3276780953,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-10T22:57:11Z",
+      "updated_at": "2025-09-10T22:57:11Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/832#issuecomment-3276780953",
+      "body": "This change has been deployed."
+    }
+  ]
+}

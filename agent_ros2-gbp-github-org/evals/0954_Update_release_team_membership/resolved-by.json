@@ -1,0 +1,4 @@
+{
+  "commit": "1082b418929d48046d6005af0c5c8cdd6527e64d",
+  "diff": "diff --git a/hebi.tf b/hebi.tf\nindex ea49c53..4b48a43 100644\n--- a/hebi.tf\n+++ b/hebi.tf\n@@ -2,6 +2,7 @@ locals {\n   hebi_team = [\n     \"cwbollinger\",\n     \"hr1799\",\n+    \"iamtesch\",\n   ]\n   hebi_repositories = [\n     \"hebi_cpp_api-release\",\n"
+}

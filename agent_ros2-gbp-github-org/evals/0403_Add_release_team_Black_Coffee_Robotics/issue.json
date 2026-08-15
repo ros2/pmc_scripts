@@ -1,0 +1,21 @@
+{
+  "number": 403,
+  "title": "Add release team: Black Coffee Robotics",
+  "author": "ggupta9777",
+  "state": "closed",
+  "created_at": "2023-12-27T11:18:48Z",
+  "updated_at": "2024-01-06T01:24:11Z",
+  "closed_at": "2024-01-06T01:24:11Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/403",
+  "body": "* Name of the new release team: black_coffee_robotics\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [bcr_bot](https://github.com/blackcoffeerobotics/bcr_bot.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L671-L685)\r\n    * [ ] There is an existing release repository which should be imported: https://github.com/blackcoffeerobotics/bcr_bot_ros2-release.git\r\n* Team members\r\n  * [@ggupta9777](https://github.com/blackcoffeerobotics/bcr_bot/blob/ros2/package.xml#L7)\r\n  * [@D-1shu](https://github.com/blackcoffeerobotics/bcr_bot/blob/ros2/package.xml#L8)",
+  "comments": [
+    {
+      "id": 1879226904,
+      "author": "clalancette",
+      "created_at": "2024-01-05T20:34:14Z",
+      "updated_at": "2024-01-05T20:34:14Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/403#issuecomment-1879226904",
+      "body": "This looks good to me."
+    }
+  ]
+}

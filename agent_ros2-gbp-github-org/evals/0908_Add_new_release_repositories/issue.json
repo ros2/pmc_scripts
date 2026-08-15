@@ -1,0 +1,29 @@
+{
+  "number": 908,
+  "title": "Add new release repositories",
+  "author": "cyan-at",
+  "state": "closed",
+  "created_at": "2025-10-31T03:26:29Z",
+  "updated_at": "2025-12-05T20:19:54Z",
+  "closed_at": "2025-12-05T20:19:10Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/908",
+  "body": "* Name of the release team: eventdispatch\n\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [ros2_eventdispatch](https://github.com/cyan-at/ros2_eventdispatch.git)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/jazzy/distribution.yaml#L8187)\n    * [ x ] There is an existing release repository which should be imported: [ros2_eventdispatch-release](https://github.com/cyan-at/ros2_eventdispatch-release.git)\n\n",
+  "comments": [
+    {
+      "id": 3471179030,
+      "author": "cyan-at",
+      "created_at": "2025-10-31T03:28:22Z",
+      "updated_at": "2025-10-31T03:28:22Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/908#issuecomment-3471179030",
+      "body": "Dependent on https://github.com/ros2-gbp/ros2-gbp-github-org/issues/907"
+    },
+    {
+      "id": 3618462583,
+      "author": "cottsay",
+      "created_at": "2025-12-05T20:19:54Z",
+      "updated_at": "2025-12-05T20:19:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/908#issuecomment-3618462583",
+      "body": "This has been deployed: https://github.com/ros2-gbp/ros2_eventdispatch-release"
+    }
+  ]
+}

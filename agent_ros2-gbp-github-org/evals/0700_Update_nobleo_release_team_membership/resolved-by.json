@@ -1,0 +1,4 @@
+{
+  "commit": "0dff57d86f89e3dd981adb1cfaf52465e12896a2",
+  "diff": "diff --git a/nobleo.tf b/nobleo.tf\nindex 88089f9..f6a7ce3 100644\n--- a/nobleo.tf\n+++ b/nobleo.tf\n@@ -1,6 +1,7 @@\n locals {\n   nobleo_team = [\n     \"Timple\",\n+    \"Rayman\",\n   ]\n   nobleo_repositories = [\n     \"azure_iot_sdk_c-release\",\n"
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "9ee8f5346062a5a69ca14e38f536b97ca2fd0536",
+  "diff": "diff --git a/teamspatzenhirn.tf b/teamspatzenhirn.tf\nindex ff973b6..b40852c 100644\n--- a/teamspatzenhirn.tf\n+++ b/teamspatzenhirn.tf\n@@ -4,6 +4,7 @@ locals {\n     \"ottojo\",\n   ]\n   teamspatzenhirn_repositories = [\n+    \"rig_reconfigure-release\",\n     \"rviz_2d_overlay_plugins-release\",\n   ]\n }\n"
+}

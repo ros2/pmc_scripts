@@ -1,0 +1,4 @@
+{
+  "commit": "e2466f71911d6af615f6347b0adfa2f71ed846fc",
+  "diff": "diff --git a/nobleo.tf b/nobleo.tf\nindex 6ae1b03..ac6551c 100644\n--- a/nobleo.tf\n+++ b/nobleo.tf\n@@ -9,6 +9,7 @@ locals {\n     \"libnabo-release\",\n     \"libpointmatcher-release\",\n     \"magic_enum-release\",\n+    \"mp_units_vendor-release\",\n     \"nobleo_socketcan_bridge-release\",\n     \"ros2_fmt_logger-release\",\n     \"rslidar_msg-release\",\n"
+}

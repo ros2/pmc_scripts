@@ -1,0 +1,4 @@
+{
+  "commit": "16beaf3a09ec3a02b0440f92cc2202094005317b",
+  "diff": "diff --git a/robotwebtools.tf b/robotwebtools.tf\nindex 85b8bdb..7978aac 100644\n--- a/robotwebtools.tf\n+++ b/robotwebtools.tf\n@@ -9,6 +9,7 @@ locals {\n   ]\n   robotwebtools_repositories = [\n     \"rosbridge_suite-release\",\n+    \"tf2_web_republisher-release\",\n     \"web_video_server-release\",\n   ]\n }\n"
+}

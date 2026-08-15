@@ -1,0 +1,4 @@
+{
+  "commit": "a4907a5dc91124fc85271a6491c791773253ca73",
+  "diff": "diff --git a/polymath_robotics.tf b/polymath_robotics.tf\nindex a96eace..17ac371 100644\n--- a/polymath_robotics.tf\n+++ b/polymath_robotics.tf\n@@ -2,9 +2,11 @@ locals {\n   polymath_robotics_team = [\n     \"emersonknapp\",\n     \"troygibb\",\n+    \"zeerekahmad\",\n   ]\n   polymath_robotics_repositories = [\n     \"replay_testing-release\",\n+    \"socketcan_adapter-release\",\n   ]\n }\n \n"
+}

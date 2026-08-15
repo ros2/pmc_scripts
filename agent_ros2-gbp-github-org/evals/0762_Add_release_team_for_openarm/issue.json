@@ -1,0 +1,29 @@
+{
+  "number": 762,
+  "title": "Add release team for openarm",
+  "author": "thomasonzhou",
+  "state": "closed",
+  "created_at": "2025-05-07T00:08:41Z",
+  "updated_at": "2025-05-16T17:37:33Z",
+  "closed_at": "2025-05-16T17:37:33Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/762",
+  "body": "* Name of the new release team: openarm\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [openarm_ros2](https://github.com/reazon-research/openarm_ros2)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/45385/files)\n\n* Team members\n  * [@thomasonzhou](https://github.com/reazon-research/openarm_ros2/blob/main/openarm/package.xml#L7)\n",
+  "comments": [
+    {
+      "id": 2867581965,
+      "author": "nuclearsandwich",
+      "created_at": "2025-05-09T18:36:57Z",
+      "updated_at": "2025-05-09T18:36:57Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/762#issuecomment-2867581965",
+      "body": "Resolved by #763."
+    },
+    {
+      "id": 2867784829,
+      "author": "nuclearsandwich",
+      "created_at": "2025-05-09T20:14:02Z",
+      "updated_at": "2025-05-09T20:14:02Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/762#issuecomment-2867784829",
+      "body": "This change has been deployed."
+    }
+  ]
+}

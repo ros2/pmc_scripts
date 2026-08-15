@@ -1,0 +1,21 @@
+{
+  "number": 1000,
+  "title": "Add new release repositories",
+  "author": "StefanFabian",
+  "state": "closed",
+  "created_at": "2026-03-09T07:17:52Z",
+  "updated_at": "2026-03-18T21:13:24Z",
+  "closed_at": "2026-03-18T21:07:24Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1000",
+  "body": "<!--\n  Which release team will maintain these repositories?\n  If you do not yet have a release team in the ros2-gbp-github-org project, please use the [new release team](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/new?assignees=&labels=&projects=&template=new_release_team.md&title=Add+release+team) template instead.\n  That template supports adding a new team and repositories at the same time.\n-->\n* Name of the release team: tuda_sim\n\n<!--\nBefore release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\nGuidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\nIf you are requesting multiple repositories at once, please list them all here instead of creating multiple issues.\n-->\n* Release repositories to add:\n  * rqml - [rosdep](https://github.com/ros/rosdistro/pull/49333)\n  * gstreamer_ros_babel_fish - [rosdep](https://github.com/ros/rosdistro/pull/49765)\n\n",
+  "comments": [
+    {
+      "id": 4085614333,
+      "author": "cottsay",
+      "created_at": "2026-03-18T21:13:24Z",
+      "updated_at": "2026-03-18T21:13:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1000#issuecomment-4085614333",
+      "body": "This has been deployed:\n- https://github.com/ros2-gbp/gstreamer_ros_babel_fish-release\n- https://github.com/ros2-gbp/rqml-release"
+    }
+  ]
+}

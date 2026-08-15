@@ -1,0 +1,21 @@
+{
+  "number": 398,
+  "title": "Add release team sick_scan_xd",
+  "author": "rostest",
+  "state": "closed",
+  "created_at": "2023-12-12T17:32:02Z",
+  "updated_at": "2024-01-06T01:16:08Z",
+  "closed_at": "2024-01-06T01:16:08Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/398",
+  "body": "* Name of the new release team: sick_scan_xd_team\r\n* Release repositories to add:\r\n  * [sick_scan_xd](https://github.com/SICKAG/sick_scan_xd)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/7ecc79f0830865f57430ba34b89d857cbfe6e5bf/humble/distribution.yaml#L7607)\r\n    * [ ] There is an existing release repository which should be imported:\r\n* Team members\r\n  * [@rostest](https://github.com/SICKAG/sick_scan_xd/blob/8dda48809bdb01cdb8b484b8041ed510f380f969/package.xml#L7)\r\n",
+  "comments": [
+    {
+      "id": 1879220969,
+      "author": "clalancette",
+      "created_at": "2024-01-05T20:27:42Z",
+      "updated_at": "2024-01-05T20:27:42Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/398#issuecomment-1879220969",
+      "body": "This looks good to me."
+    }
+  ]
+}

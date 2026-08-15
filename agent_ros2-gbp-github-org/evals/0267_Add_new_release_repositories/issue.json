@@ -1,0 +1,21 @@
+{
+  "number": 267,
+  "title": "Add new release repositories",
+  "author": "Yadunund",
+  "state": "closed",
+  "created_at": "2023-06-07T10:46:02Z",
+  "updated_at": "2023-06-09T02:16:11Z",
+  "closed_at": "2023-06-09T01:54:59Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/267",
+  "body": "* Name of the release team: rmf\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [rmf_variants-release](https://github.com/open-rmf/rmf_variant)\r\n    * https://github.com/ros/rosdistro/pull/37510\r\n\r\n",
+  "comments": [
+    {
+      "id": 1583839514,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-09T02:16:11Z",
+      "updated_at": "2023-06-09T02:16:11Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/267#issuecomment-1583839514",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

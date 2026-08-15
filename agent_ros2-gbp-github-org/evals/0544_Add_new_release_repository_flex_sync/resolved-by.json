@@ -1,0 +1,4 @@
+{
+  "commit": "fb2884a82c3f5e4f484af05024b8f32dc42211d1",
+  "diff": "diff --git a/misc_utilities.tf b/misc_utilities.tf\nindex 86a0ef1..fbafa31 100644\n--- a/misc_utilities.tf\n+++ b/misc_utilities.tf\n@@ -8,6 +8,7 @@ locals {\n     \"ffmpeg_image_transport-release\",\n     \"ffmpeg_image_transport_msgs-release\",\n     \"ffmpeg_image_transport_tools-release\",\n+    \"flex_sync-release\",\n   ]\n }\n \n"
+}

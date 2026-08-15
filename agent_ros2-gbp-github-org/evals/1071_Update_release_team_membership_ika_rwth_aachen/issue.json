@@ -1,0 +1,21 @@
+{
+  "number": 1071,
+  "title": "Update release team membership: ika_rwth_aachen",
+  "author": "lostendo",
+  "state": "closed",
+  "created_at": "2026-06-25T16:19:21Z",
+  "updated_at": "2026-07-22T20:02:12Z",
+  "closed_at": "2026-07-22T19:59:48Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1071",
+  "body": "# Updates to ika_rwth_aachen membership.\n\n## New team members\n\n*  [@lostendo](https://github.com/ika-rwth-aachen/ros2_unbag/blob/main/package.xml)\n\n## Retiring team members\n\n*None\n",
+  "comments": [
+    {
+      "id": 5050868559,
+      "author": "cottsay",
+      "created_at": "2026-07-22T20:02:12Z",
+      "updated_at": "2026-07-22T20:02:12Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1071#issuecomment-5050868559",
+      "body": "This has been deployed."
+    }
+  ]
+}

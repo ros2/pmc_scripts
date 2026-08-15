@@ -1,0 +1,4 @@
+{
+  "commit": "9d0fee99dafd43566d4c0df792da0053d6e8756a",
+  "diff": "diff --git a/numsr.tf b/numsr.tf\nindex 5e71e62..4dac7c1 100644\n--- a/numsr.tf\n+++ b/numsr.tf\n@@ -7,6 +7,7 @@ locals {\n   ]\n   numsr_repositories = [\n     \"catch_ros2-release\",\n+    \"potential_fields-release\",\n   ]\n }\n \n"
+}

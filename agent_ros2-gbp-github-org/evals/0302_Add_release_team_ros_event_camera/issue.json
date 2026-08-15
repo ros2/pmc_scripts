@@ -1,0 +1,21 @@
+{
+  "number": 302,
+  "title": "Add release team ros_event_camera",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2023-07-24T23:08:00Z",
+  "updated_at": "2023-07-29T01:02:50Z",
+  "closed_at": "2023-07-29T00:39:15Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/302",
+  "body": "* Name of the new release team: ros_event_camera\r\n* Release repositories to add:\r\n  * [metavision_driver](https://github.com/ros-event-camera/metavision_driver)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/bf80e138b4fd32fd12f4ae396831562f45575de1/rolling/distribution.yaml#L2554)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/bf80e138b4fd32fd12f4ae396831562f45575de1/humble/distribution.yaml#L3099)\r\n  * [event_camera_msgs](https://github.com/ros-event-camera/event_camera_msgs)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/bf80e138b4fd32fd12f4ae396831562f45575de1/rolling/distribution.yaml#L1198)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/bf80e138b4fd32fd12f4ae396831562f45575de1/humble/distribution.yaml#L1444)\r\n* Team members\r\n  * [@berndpfrommer](https://github.com/ros-event-camera/metavision_driver/blob/c7ec5f84bd9688e87e32ff83d6df64e577c3469a/package.xml#L7)\r\n  * @k-chaney",
+  "comments": [
+    {
+      "id": 1656501559,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-29T01:02:50Z",
+      "updated_at": "2023-07-29T01:02:50Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/302#issuecomment-1656501559",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

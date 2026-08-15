@@ -1,0 +1,29 @@
+{
+  "number": 574,
+  "title": "Update release team membership",
+  "author": "poggenhans",
+  "state": "closed",
+  "created_at": "2024-07-27T14:26:52Z",
+  "updated_at": "2024-08-14T06:04:45Z",
+  "closed_at": "2024-08-14T04:14:28Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/574",
+  "body": "# Updates to `mrt_cmake_modules` membership.\r\n\r\n## New team members\r\n\r\n* [@poggenhans](https://github.com/KIT-MRT/mrt_cmake_modules/blob/master/package.xml#L8)\r\n",
+  "comments": [
+    {
+      "id": 2267295235,
+      "author": "wep21",
+      "created_at": "2024-08-04T04:15:24Z",
+      "updated_at": "2024-08-04T04:15:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/574#issuecomment-2267295235",
+      "body": "@nuclearsandwich friendly ping"
+    },
+    {
+      "id": 2287924921,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-14T06:04:44Z",
+      "updated_at": "2024-08-14T06:04:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/574#issuecomment-2287924921",
+      "body": "This change has been deployed."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "b8b83ccadae92d52c985357e110f7a3eff6b54fd",
+  "diff": "diff --git a/universal_robots.tf b/universal_robots.tf\nindex 1bab3de..92de691 100644\n--- a/universal_robots.tf\n+++ b/universal_robots.tf\n@@ -1,6 +1,7 @@\n locals {\n   universal_robots_team = [\n     \"RobertWilbrandt\",\n+    \"VinDp\",\n     \"fmauch\",\n     \"t-schnell\",\n   ]\n"
+}

@@ -1,0 +1,29 @@
+{
+  "number": 558,
+  "title": "Add release team for asyncapi_gencpp, hatchbed_common, log_view, opensw, opensw_ros",
+  "author": "malban",
+  "state": "closed",
+  "created_at": "2024-07-09T00:21:59Z",
+  "updated_at": "2024-07-24T14:40:52Z",
+  "closed_at": "2024-07-12T22:39:57Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/558",
+  "body": "* Name of the new release team: hatchbed\r\n* Release repositories to add:\r\n  * [asyncapi_gencpp](https://github.com/hatchbed/asyncapi_gencpp)\r\n    * [rolling/asyncapi_gencpp](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L498)\r\n  * [hatchbed_common](https://github.com/hatchbed/hatchbed_common)\r\n    * [rolling/hatchbed_common](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L2385)\r\n  * [log_view](https://github.com/hatchbed/log_view)\r\n    * [rolling/log_view](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L3148)\r\n    * [x] There is an existing release repository which should be imported: https://github.com/hatchbed/log_view-release\r\n  * [opensw](https://github.com/hatchbed/opensw)\r\n    * [rolling/opensw](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L4216)\r\n  * [opensw_ros](https://github.com/hatchbed/opensw_ros)\r\n    * [rolling/opensw_ros](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L4226)\r\n\r\nTeam Members:\r\n  * @malban\r\n  * @pjreed",
+  "comments": [
+    {
+      "id": 2226546872,
+      "author": "nuclearsandwich",
+      "created_at": "2024-07-12T23:58:02Z",
+      "updated_at": "2024-07-12T23:58:02Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/558#issuecomment-2226546872",
+      "body": "This change has been deployed!"
+    },
+    {
+      "id": 2248193105,
+      "author": "malban",
+      "created_at": "2024-07-24T14:40:51Z",
+      "updated_at": "2024-07-24T14:40:51Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/558#issuecomment-2248193105",
+      "body": "@nuclearsandwich \r\n\r\nShould the contents of https://github.com/hatchbed/log_view-release get imported to https://github.com/ros2-gbp/log_view-release?\r\n\r\nAlso, should I have permissions to the release repo?\r\n\r\nI get this error when running bloom:\r\n```\r\n==> git remote -v\r\norigin\tgit@github.com:ros2-gbp/log_view-release.git (fetch)\r\norigin\tgit@github.com:ros2-gbp/log_view-release.git (push)\r\n==> git push origin master --dry-run\r\nERROR: Permission to ros2-gbp/log_view-release.git denied to malban.\r\nfatal: Could not read from remote repository..\r\n```\r\n\r\nI might be doing something wrong, but I set up an access token in `~/.config/bloom` and setup `~/.gitconfig` to always use my ssh credentials as recommended here: http://wiki.ros.org/bloom/Tutorials/GithubManualAuthorization "
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "number": 505,
+  "title": "Add release team (for kuka drivers)",
+  "author": "Svastits",
+  "state": "closed",
+  "created_at": "2024-04-24T06:46:36Z",
+  "updated_at": "2024-05-03T22:59:55Z",
+  "closed_at": "2024-05-03T20:45:34Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/505",
+  "body": "* Name of the new release team: kuka\r\n* Release repositories to add:\r\n\r\n  * [kuka_external_control_sdk](https://github.com/kroshu/kuka-external-control-sdk)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/ae6a26d3d3ddf3a0f7acab8ca8c7a7f2b6377196/humble/distribution.yaml#L3154C1-L3163C22)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n  * [kuka_robot_descriptions](https://github.com/kroshu/kuka_robot_descriptions)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/ae6a26d3d3ddf3a0f7acab8ca8c7a7f2b6377196/humble/distribution.yaml#L3164C1-L3173C22)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n  * [kuka_drivers](https://github.com/kroshu/kuka_drivers)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/ae6a26d3d3ddf3a0f7acab8ca8c7a7f2b6377196/humble/distribution.yaml#L3144C1-L3153C22)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@Svastits](https://github.com/kroshu/kuka_drivers/blob/44c5a6fce0e1efd0482be00f8372a58442462117/kuka_drivers/package.xml#L6)\r\n  * [@kovacsge11](https://github.com/kroshu/kuka_drivers/blob/44c5a6fce0e1efd0482be00f8372a58442462117/kuka_drivers/package.xml#L7)\r\n  * [@VX792](https://github.com/kroshu/kuka_drivers/blob/44c5a6fce0e1efd0482be00f8372a58442462117/kuka_drivers/package.xml#L8)\r\n",
+  "comments": [
+    {
+      "id": 2093865342,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-03T22:59:54Z",
+      "updated_at": "2024-05-03T22:59:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/505#issuecomment-2093865342",
+      "body": "This change has been deployed."
+    }
+  ]
+}

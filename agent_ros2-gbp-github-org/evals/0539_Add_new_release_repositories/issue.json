@@ -1,0 +1,37 @@
+{
+  "number": 539,
+  "title": "Add new release repositories",
+  "author": "SteveMacenski",
+  "state": "closed",
+  "created_at": "2024-06-05T23:42:55Z",
+  "updated_at": "2024-06-26T16:19:48Z",
+  "closed_at": "2024-06-26T04:01:38Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/539",
+  "body": "* Name of the release team: navigation\r\n\r\n* Release repositories to add:\r\n  * [nav2_minimal_turtlebot_simulation](https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation)\r\n    * [jazzy rosdistro PR](https://github.com/ros/rosdistro/pull/41511)\r\n    * [rolling rosdistro PR](https://github.com/ros/rosdistro/pull/41510)\r\n    * [ ] There is an existing release repository which should be imported: https://github.com/ros-navigation/nav2_minimal_turtlebot_simulation-release\r\n\r\n",
+  "comments": [
+    {
+      "id": 2190699926,
+      "author": "SteveMacenski",
+      "created_at": "2024-06-26T04:48:51Z",
+      "updated_at": "2024-06-26T04:52:51Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/539#issuecomment-2190699926",
+      "body": "@nuclearsandwich how should I go about moving that existing release repo over to this org - should I add you to the existing repo to do the transfer or should I myself? I just don’t want to make a move like that without the OK and that I have the appropriate permissions. "
+    },
+    {
+      "id": 2190732118,
+      "author": "nuclearsandwich",
+      "created_at": "2024-06-26T05:22:43Z",
+      "updated_at": "2024-06-26T05:22:43Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/539#issuecomment-2190732118",
+      "body": "> should I add you to the existing repo to do the transfer or should I myself? I just don’t want to make a move like that without the OK and that I have the appropriate permissions.\r\n\r\nThanks for checking in. We generally don't bother with transferring release repositories. I usually use a mirror clone and push to update the ros2-gbp repository.\r\n\r\n```\r\ngit clone --mirror <previous release repo>\r\ngit remote add ros2-gbp git@github.com:ros2-gbp/$(basename pwd)\r\ngit push --mirror ros2-gbp\r\n```\r\n\r\nI also recommend archiving the original release repo so that the artifacts remain available but the repository is not accidentally used instead of the ros2-gbp one."
+    },
+    {
+      "id": 2192103886,
+      "author": "SteveMacenski",
+      "created_at": "2024-06-26T16:19:47Z",
+      "updated_at": "2024-06-26T16:19:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/539#issuecomment-2192103886",
+      "body": "Done. Should I manually update the rosdistro file or does part of the automation here do that? https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L3840-L3854"
+    }
+  ]
+}

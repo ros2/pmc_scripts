@@ -1,0 +1,21 @@
+{
+  "number": 648,
+  "title": "Add release team: cognipilot",
+  "author": "bperseghetti",
+  "state": "closed",
+  "created_at": "2024-11-12T22:49:20Z",
+  "updated_at": "2024-11-21T18:57:55Z",
+  "closed_at": "2024-11-21T17:55:41Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/648",
+  "body": "* Name of the new release team: cognipilot\r\n* Release repositories to add:\r\n  * [ros2_psutil_msgs](https://github.com/CogniPilot/ros2_psutil_msgs)\r\n    * [ros/rosdistro source entry](LINK TO SOURCE FIELD IN ROS/ROSDISTRO)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n  * [ros2_psutil](https://github.com/CogniPilot/ros2_psutil)\r\n    * [ros/rosdistro source entry](LINK TO SOURCE FIELD IN ROS/ROSDISTRO)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n  * [synapse_msgs](https://github.com/CogniPilot/synapse_msgs)\r\n    * [ros/rosdistro source entry](LINK TO SOURCE FIELD IN ROS/ROSDISTRO)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@bperseghetti](https://github.com/CogniPilot/ros2_psutil_msgs/blob/8d53087a6fa970047cd62f757808f6b66a5a174f/package.xml#L7)\r\n  * [@jgoppert](https://github.com/CogniPilot/synapse_msgs/blob/ceb3330b622dad830dd76c38f35bd7548dcf1a7c/package.xml#L7)\r\n",
+  "comments": [
+    {
+      "id": 2492029006,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-21T18:57:54Z",
+      "updated_at": "2024-11-21T18:57:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/648#issuecomment-2492029006",
+      "body": "This change has been deployed."
+    }
+  ]
+}

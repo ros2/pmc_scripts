@@ -1,0 +1,61 @@
+{
+  "number": 179,
+  "title": "Add new release repository: joy_tester",
+  "author": "joshnewans",
+  "state": "closed",
+  "created_at": "2023-01-18T20:07:43Z",
+  "updated_at": "2023-01-28T05:51:34Z",
+  "closed_at": "2023-01-28T04:41:54Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/179",
+  "body": "* Name of the release team: \r\n`josh_newans`\r\n\r\n* Release repositories to add:\r\n  * [joy_tester](https://github.com/joshnewans/joy_tester)\r\n\r\nNote the initial rosdistro PRs are still pending\r\n",
+  "comments": [
+    {
+      "id": 1398767934,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-20T18:18:34Z",
+      "updated_at": "2023-01-20T18:18:34Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/179#issuecomment-1398767934",
+      "body": "Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\nGuidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\nThis section of the current contribution guideline is the best guide for the process so far https://github.com/ros/rosdistro/blob/master/CONTRIBUTING.md#documentation-indexing some of the information may only apply to ROS 1 packages but opening a PR for source and doc entries for any ROS 2 distribution will be enough to trigger the naming review.\r\n\r\nPlease open the ros/rosdistro PR and link it in this issue. Once your package has been reviewed and index we can proceed with the release repository configuration."
+    },
+    {
+      "id": 1398807943,
+      "author": "joshnewans",
+      "created_at": "2023-01-20T18:58:33Z",
+      "updated_at": "2023-01-20T18:58:33Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/179#issuecomment-1398807943",
+      "body": "Thanks! Sorry about that, and no worries, Rosdistro PRs are linked below:\r\n\r\n- https://github.com/ros/rosdistro/pull/35881\r\n- https://github.com/ros/rosdistro/pull/35882\r\n- https://github.com/ros/rosdistro/pull/35883\r\n"
+    },
+    {
+      "id": 1404472552,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-26T01:59:33Z",
+      "updated_at": "2023-01-26T01:59:33Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/179#issuecomment-1404472552",
+      "body": "Thanks @joshnewans, for future reference it's only strictly required to get your package indexed in one active distribution. That's enough to get the naming review and then when you first release your package into the other distributions there will be a prompt to add source and doc indexing along with the release. But there is also nothing wrong with having it indexed everywhere first as that will give the devel jobs time to run before your first releases are packaged."
+    },
+    {
+      "id": 1404499147,
+      "author": "joshnewans",
+      "created_at": "2023-01-26T02:44:02Z",
+      "updated_at": "2023-01-26T02:44:02Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/179#issuecomment-1404499147",
+      "body": "Thanks @nuclearsandwich! So this one can be processed now yeah? (Even though humble is being held for sync) Or would you prefer to wait for the humble sync to be done? I don't mind, as long as that doesn't then mean I miss the next foxy/rolling sync for the binary release.\r\n\r\nRe the process, as I did it I thought: \"putting them both up now will be more efficient, once the rosdistro PRs are approved this one can be approved without the delay of it going back and forth between them and me\". But straight after that it occurred to me that it's probably more efficient the other way, as I'm the one who is actually paying attention to where my package is at, rather than creating more busywork for you guys (seeing one here you can't push through, and having to actively check the rosdistro PRs, or if you are the person approving the rosdistro one, to then remember to come back here). And even though the back-and-forth is a bit annoying, it means that any time you see an issue/PR it should be good to go.\r\n\r\nSo sorry for that little hurdle - I'll do it right next time ;)"
+    },
+    {
+      "id": 1407291044,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-28T04:41:48Z",
+      "updated_at": "2023-01-28T04:41:48Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/179#issuecomment-1407291044",
+      "body": "> ! So this one can be processed now yeah?\r\n\r\nYep, there was no additional blocker here. I was processing those on rosdistro duty and didn't want to break stride to switch to ros2-gbp admin. I try to make at least one full pass here per week but this week has been super busy so I'm late getting to it.\r\n\r\n> So sorry for that little hurdle - I'll do it right next time ;)\r\n\r\nNo worries. There wasn't any additional overhead for us.\r\n\r\n#179 adds this repository."
+    },
+    {
+      "id": 1407301882,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-28T05:51:34Z",
+      "updated_at": "2023-01-28T05:51:34Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/179#issuecomment-1407301882",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "number": 689,
+  "title": "Add new release repository for urinterfaces",
+  "author": "urfeex",
+  "state": "closed",
+  "created_at": "2025-01-14T07:36:47Z",
+  "updated_at": "2025-01-23T21:56:42Z",
+  "closed_at": "2025-01-23T19:33:10Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/689",
+  "body": "* Name of the release team: universal_robots_team\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [urinterfaces](https://github.com/UniversalRobots/urinterfaces.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/7ee202637d280cb553ee2ce0cf84b2ab9c892649/humble/distribution.yaml#L11254-L11259)\r\n\r\n",
+  "comments": [
+    {
+      "id": 2611099399,
+      "author": "nuclearsandwich",
+      "created_at": "2025-01-23T21:56:41Z",
+      "updated_at": "2025-01-23T21:56:41Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/689#issuecomment-2611099399",
+      "body": "This change has been deployed."
+    }
+  ]
+}

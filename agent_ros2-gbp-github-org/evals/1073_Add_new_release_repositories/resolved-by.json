@@ -1,0 +1,4 @@
+{
+  "commit": "c657e488d2a103f0440bde851e65b61b0a56996f",
+  "diff": "diff --git a/pal_robotics.tf b/pal_robotics.tf\nindex 8c0685d..db96b3c 100644\n--- a/pal_robotics.tf\n+++ b/pal_robotics.tf\n@@ -8,6 +8,9 @@ locals {\n   pal_robotics_repositories = [\n     \"aruco_ros-release\",\n     \"backward_ros-release\",\n+    \"kangaroo_moveit_config-release\",\n+    \"kangaroo_robot-release\",\n+    \"kangaroo_simulation-release\",\n     \"launch_pal-release\",\n     \"mujoco_vendor-release\",\n     \"omni_base_navigation-release\",\n"
+}

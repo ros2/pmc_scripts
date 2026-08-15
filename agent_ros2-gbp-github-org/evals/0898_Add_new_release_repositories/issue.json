@@ -1,0 +1,29 @@
+{
+  "number": 898,
+  "title": "Add new release repositories",
+  "author": "facontidavide",
+  "state": "closed",
+  "created_at": "2025-10-20T11:21:15Z",
+  "updated_at": "2025-12-05T19:38:33Z",
+  "closed_at": "2025-12-05T19:37:12Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/898",
+  "body": "* Name of the release team: facontidavide\n\n* Release repositories to add:\n\n  * [facontidavide/cloudini](https://github.com/facontidavide/cloudini)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L1146)\n\n",
+  "comments": [
+    {
+      "id": 3591594075,
+      "author": "facontidavide",
+      "created_at": "2025-11-29T11:32:09Z",
+      "updated_at": "2025-11-29T11:32:09Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/898#issuecomment-3591594075",
+      "body": "Hi, any update on this?\n\n"
+    },
+    {
+      "id": 3618310047,
+      "author": "cottsay",
+      "created_at": "2025-12-05T19:38:33Z",
+      "updated_at": "2025-12-05T19:38:33Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/898#issuecomment-3618310047",
+      "body": "This has been deployed: https://github.com/ros2-gbp/cloudini-release\n\nI recommend updating all ROS distributions to use the new release repositories under `ros2-gbp` so that all of the distributions are in the same place, at which time you may decommission the existing release repo."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "number": 260,
+  "title": "Add new release repositories for MetroRobots",
+  "author": "DLu",
+  "state": "closed",
+  "created_at": "2023-05-26T15:45:32Z",
+  "updated_at": "2023-06-03T00:45:24Z",
+  "closed_at": "2023-06-03T00:30:12Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/260",
+  "body": "* Name of the release team: [metro_robots](https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/metro_robots.tf)\r\n\r\n* Release repositories to add:\r\n  * [social_nav_ros](https://github.com/MetroRobots/social_nav_ros)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/dac5ede8bee976579e83ce8cfe66c424d5dcfcf0/foxy/distribution.yaml#L6772)\r\n  * [urdf_launch](https://github.com/MetroRobots/urdf_launch)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/dac5ede8bee976579e83ce8cfe66c424d5dcfcf0/foxy/distribution.yaml#L7470)\r\n  * [classic_bags](https://github.com/MetroRobots/classic_bags)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/dac5ede8bee976579e83ce8cfe66c424d5dcfcf0/rolling/distribution.yaml#L684)\r\n\r\n",
+  "comments": [
+    {
+      "id": 1574498053,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-03T00:45:24Z",
+      "updated_at": "2023-06-03T00:45:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/260#issuecomment-1574498053",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

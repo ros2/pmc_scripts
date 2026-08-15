@@ -1,0 +1,53 @@
+{
+  "number": 441,
+  "title": "Add a new release repository for unitree_ros",
+  "author": "PedroS235",
+  "state": "closed",
+  "created_at": "2024-02-08T15:01:46Z",
+  "updated_at": "2024-03-23T01:50:28Z",
+  "closed_at": "2024-03-22T15:58:05Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/441",
+  "body": "* Name of the release team: snt-arg\r\n\r\n* Release repositories to add:\r\n  * [unitree_ros](https://github.com/snt-arg/unitree_ros)\r\n    * I have created a [PR](https://github.com/ros/rosdistro/pull/39857#issuecomment-1934281070) on rosdistro. Waiting it to be merged.\r\n",
+  "comments": [
+    {
+      "id": 1936672221,
+      "author": "nuclearsandwich",
+      "created_at": "2024-02-09T22:11:57Z",
+      "updated_at": "2024-02-09T22:11:57Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/441#issuecomment-1936672221",
+      "body": "> * Waiting it to be merged.\r\n\r\nProjects must be merged in rosdistro before release repositories are created. "
+    },
+    {
+      "id": 1938862879,
+      "author": "PedroS235",
+      "created_at": "2024-02-12T15:11:11Z",
+      "updated_at": "2024-02-12T15:11:11Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/441#issuecomment-1938862879",
+      "body": "Hey @nuclearsandwich,\r\n\r\nThanks for reviewing the issue. \r\nI am currently stuck due to license restrictions to add the repo to rosdistro. I am in the process to change to a license that fits rosdistro requirements, thus it will take some time for me to change it. \r\n\r\nWould it be fine for this issue to be opened until it gets uploaded to rosdistro?"
+    },
+    {
+      "id": 1949112371,
+      "author": "nuclearsandwich",
+      "created_at": "2024-02-16T18:51:26Z",
+      "updated_at": "2024-02-16T18:51:26Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/441#issuecomment-1949112371",
+      "body": "> Would it be fine for this issue to be opened until it gets uploaded to rosdistro?\r\n\r\nYep, this issue can remain parked until the upstream PR is resolved which I see could be shortly."
+    },
+    {
+      "id": 1991107382,
+      "author": "PedroS235",
+      "created_at": "2024-03-12T09:10:17Z",
+      "updated_at": "2024-03-12T09:10:17Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/441#issuecomment-1991107382",
+      "body": "Hey @nuclearsandwich,\r\n\r\nThe PR has now been merged. However, I am not too sure where I can get this rosdistro source link. Would it be these:\r\n- [iron](https://github.com/ros/rosdistro/blob/91f78edebe2e15c21647d12dc196ebc5c9b28f8a/iron/distribution.yaml#L7754?)\r\n- [humble](https://github.com/ros/rosdistro/blob/91f78edebe2e15c21647d12dc196ebc5c9b28f8a/humble/distribution.yaml#L9231)"
+    },
+    {
+      "id": 2016299318,
+      "author": "nuclearsandwich",
+      "created_at": "2024-03-23T01:50:26Z",
+      "updated_at": "2024-03-23T01:50:26Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/441#issuecomment-2016299318",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

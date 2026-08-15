@@ -1,0 +1,4 @@
+{
+  "commit": "547906cd887c9d5d11dda6bd6aa8822b83120cd7",
+  "diff": "diff --git a/sony_rdc.tf b/sony_rdc.tf\nindex 546b22f..33c73f7 100644\n--- a/sony_rdc.tf\n+++ b/sony_rdc.tf\n@@ -4,6 +4,7 @@ locals {\n     \"fujitatomoya\",\n   ]\n   sony_rdc_repositories = [\n+    \"rcl_logging_syslog-release\",\n     \"service_load_balancing-release\",\n   ]\n }\n"
+}

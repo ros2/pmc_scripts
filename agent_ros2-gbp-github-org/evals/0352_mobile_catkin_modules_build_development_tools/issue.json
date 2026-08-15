@@ -1,0 +1,29 @@
+{
+  "number": 352,
+  "title": "mobile_catkin_modules_build_development_tools",
+  "author": "RonaldsonBellande",
+  "state": "closed",
+  "created_at": "2023-11-03T04:17:56Z",
+  "updated_at": "2023-11-05T19:46:39Z",
+  "closed_at": "2023-11-05T16:54:25Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/352",
+  "body": "* Name of the release team: Ronaldson Bellande\r\n\r\n* Release repositories to add: https://github.com/Application-UI-UX/mobile_catkin_modules_build_development_tools\r\n* https://github.com/ros2-gbp/ros2-gbp-github-org/pull/339/commits/a715f9c933ffcf4bbfeb73063ef49146d3225c5f",
+  "comments": [
+    {
+      "id": 1793789746,
+      "author": "nuclearsandwich",
+      "created_at": "2023-11-05T16:54:25Z",
+      "updated_at": "2023-11-05T16:54:25Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/352#issuecomment-1793789746",
+      "body": "Resolved by #339."
+    },
+    {
+      "id": 1793828262,
+      "author": "nuclearsandwich",
+      "created_at": "2023-11-05T19:46:39Z",
+      "updated_at": "2023-11-05T19:46:39Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/352#issuecomment-1793828262",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

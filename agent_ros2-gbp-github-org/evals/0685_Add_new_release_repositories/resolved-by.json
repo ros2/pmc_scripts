@@ -1,0 +1,4 @@
+{
+  "commit": "f90c544cfda069318f8e44e0bc77be606bb6349c",
+  "diff": "diff --git a/mrpt2.tf b/mrpt2.tf\nindex 6e3c00c..532d55d 100644\n--- a/mrpt2.tf\n+++ b/mrpt2.tf\n@@ -7,6 +7,7 @@ locals {\n     \"mola-release\",\n     \"mola_common-release\",\n     \"mola_lidar_odometry-release\",\n+    \"mola_state_estimation-release\",\n     \"mola_test_datasets-release\",\n     \"mp2p_icp-release\",\n     \"mrpt2-release\",\n"
+}

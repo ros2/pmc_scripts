@@ -1,0 +1,4 @@
+{
+  "commit": "7c7961aec238d746d192c10c6771afdeabfb9310",
+  "diff": "diff --git a/universal_robots.tf b/universal_robots.tf\nindex c480520..8029234 100644\n--- a/universal_robots.tf\n+++ b/universal_robots.tf\n@@ -11,6 +11,7 @@ locals {\n     \"ur_description-release\",\n     \"ur_msgs-release\",\n     \"ur_simulation_gz-release\",\n+    \"urinterfaces-release\",\n   ]\n }\n \n"
+}

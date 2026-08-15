@@ -1,0 +1,29 @@
+{
+  "number": 983,
+  "title": "Add new release repository for mujoco_ros2_control",
+  "author": "christophfroehlich",
+  "state": "closed",
+  "created_at": "2026-02-15T11:16:46Z",
+  "updated_at": "2026-02-20T06:16:55Z",
+  "closed_at": "2026-02-19T19:29:45Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/983",
+  "body": "<!--\n  Which release team will maintain these repositories?\n  If you do not yet have a release team in the ros2-gbp-github-org project, please use the [new release team](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/new?assignees=&labels=&projects=&template=new_release_team.md&title=Add+release+team) template instead.\n  That template supports adding a new team and repositories at the same time.\n-->\n* Name of the release team: [control](https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/control.tf)\n\n<!--\nBefore release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\nGuidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\nIf you are requesting multiple repositories at once, please list them all here instead of creating multiple issues.\n-->\n* Release repositories to add:\n  * [mujoco_ros2_control](https://github.com/ros-controls/mujoco_ros2_control)\n    * https://github.com/ros/rosdistro/pull/49827\n    * https://github.com/ros/rosdistro/pull/49139\n    * https://github.com/ros/rosdistro/pull/49140\n    * https://github.com/ros/rosdistro/pull/49138\n    <!--\n      The ROS project maintains an index of official ROS distributions and the packages that they contain.\n      Before a release repository is created, your repository must be listed in that index.\n      You can request that a new repostiory be added by submitting a pull request to https://github.com/ros/rosdistro\n      Once you have submitted the pull request, you may use it to complete and submit this issue.\n      However, the release repository will not be created until the ros/rosdistro pull request has been merged.\n    -->\n\nThank you!",
+  "comments": [
+    {
+      "id": 3931319259,
+      "author": "cottsay",
+      "created_at": "2026-02-20T02:58:57Z",
+      "updated_at": "2026-02-20T02:58:57Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/983#issuecomment-3931319259",
+      "body": "This has been deployed: https://github.com/ros2-gbp/mujoco_ros2_control-release"
+    },
+    {
+      "id": 3931893840,
+      "author": "saikishor",
+      "created_at": "2026-02-20T06:16:54Z",
+      "updated_at": "2026-02-20T06:16:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/983#issuecomment-3931893840",
+      "body": "Thank you so much Scott 🙌🏽🙌🏽"
+    }
+  ]
+}

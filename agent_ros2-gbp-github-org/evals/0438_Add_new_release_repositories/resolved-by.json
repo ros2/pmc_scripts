@@ -1,0 +1,4 @@
+{
+  "commit": "6fbe5edb6a4480fe323b646a247dae2af8adc6ca",
+  "diff": "diff --git a/boeing.tf b/boeing.tf\nindex 4dde7ed..0f64e47 100644\n--- a/boeing.tf\n+++ b/boeing.tf\n@@ -6,6 +6,9 @@ locals {\n   ]\n   boeing_repositories = [\n     \"boeing_gazebo_model_attachement_plugin-release\",\n+    \"gazebo_no_physics_plugin-release\",\n+    \"gazebo_planar_move_plugin-release\",\n+    \"gazebo_set_joint_positions_plugin-release\",\n   ]\n }\n \n"
+}

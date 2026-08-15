@@ -1,0 +1,4 @@
+{
+  "commit": "dc9b9ede6cdda0686d5a49a8a2a433f8cc79d70b",
+  "diff": "diff --git a/py_trees.tf b/py_trees.tf\nindex 0b139d0..26f0be6 100644\n--- a/py_trees.tf\n+++ b/py_trees.tf\n@@ -8,6 +8,7 @@ locals {\n     \"py_trees_js-release\",\n     \"py_trees_ros-release\",\n     \"py_trees_ros_interfaces-release\",\n+    \"py_trees_ros_tutorials-release\",\n     \"py_trees_ros_viewer-release\"\n   ]\n }\n"
+}

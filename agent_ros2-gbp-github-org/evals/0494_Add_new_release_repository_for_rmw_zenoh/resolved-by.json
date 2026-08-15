@@ -1,0 +1,4 @@
+{
+  "commit": "b41571523c8e292304d5e3a75438801e9d17879b",
+  "diff": "diff --git a/00-ros2_core.tf b/00-ros2_core.tf\nindex 5796fb0..80f287f 100644\n--- a/00-ros2_core.tf\n+++ b/00-ros2_core.tf\n@@ -141,6 +141,7 @@ locals {\n     \"rmw_dds_common-release\",\n     \"rmw_fastrtps-release\",\n     \"rmw_implementation-release\",\n+    \"rmw_zenoh-release\",\n     \"ros1_bridge-release\",\n     \"ros2_message_filters-release\",\n     \"ros2cli-release\",\n"
+}

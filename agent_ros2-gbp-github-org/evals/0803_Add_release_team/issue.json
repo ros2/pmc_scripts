@@ -1,0 +1,37 @@
+{
+  "number": 803,
+  "title": "Add release team",
+  "author": "christian-rauch",
+  "state": "closed",
+  "created_at": "2025-06-21T09:21:01Z",
+  "updated_at": "2025-09-10T22:57:04Z",
+  "closed_at": "2025-09-10T18:16:34Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/803",
+  "body": "* Name of the new release team: `open3d`\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [open3d](https://github.com/christian-rauch/open3d_colcon.git)\n    * https://github.com/ros/rosdistro/pull/47284\n    * https://github.com/ros/rosdistro/blob/76411b71a540fca944856506d9595e506d6c32a7/rolling/distribution.yaml#L4855-L4859\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n\n* Team members\n  * [@christian-rauch](https://github.com/christian-rauch/open3d_colcon/blob/4f04b27be86425495d8bc49934f34e97e3ab2897/package.xml#L7)\n",
+  "comments": [
+    {
+      "id": 3050658992,
+      "author": "nuclearsandwich",
+      "created_at": "2025-07-09T00:26:28Z",
+      "updated_at": "2025-07-09T00:26:28Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/803#issuecomment-3050658992",
+      "body": "Hi @christian-rauch before we can create release repositories for a project it needs to undergo ROS package naming review and [indexing](https://docs.ros.org/en/jazzy/How-To-Guides/Releasing/Index-Your-Packages.html) in https://github.com/ros/rosdistro\n\nSince this looks like a vendor package you might also be able to make use of [ament_cmake_vendor_package](https://github.com/ament/ament_cmake/tree/rolling/ament_cmake_vendor_package) which will help the package conform to our vendoring conventions."
+    },
+    {
+      "id": 3200834305,
+      "author": "christian-rauch",
+      "created_at": "2025-08-19T13:45:18Z",
+      "updated_at": "2025-08-19T13:45:18Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/803#issuecomment-3200834305",
+      "body": "@nuclearsandwich The `open3d_vendor` package is now in the rosdistro index: https://github.com/ros/rosdistro/blob/76411b71a540fca944856506d9595e506d6c32a7/rolling/distribution.yaml#L4855-L4859."
+    },
+    {
+      "id": 3276780756,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-10T22:57:04Z",
+      "updated_at": "2025-09-10T22:57:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/803#issuecomment-3276780756",
+      "body": "This change has been deployed."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "76c63c370be5ea00b56c160540874a60552b8525",
+  "diff": "diff --git a/rmf.tf b/rmf.tf\nindex e929ea6..c2317c2 100644\n--- a/rmf.tf\n+++ b/rmf.tf\n@@ -21,6 +21,7 @@ locals {\n     \"rmf_traffic-release\",\n     \"rmf_traffic_editor-release\",\n     \"rmf_utils-release\",\n+    \"rmf_variants-release\",\n     \"rmf_visualization-release\",\n     \"rmf_visualization_msgs-release\",\n     \"stubborn_buddies-release\",\n"
+}

@@ -1,0 +1,45 @@
+{
+  "number": 257,
+  "title": "Add release team for https://github.com/Minipada/ros2_data_collection",
+  "author": "Minipada",
+  "state": "closed",
+  "created_at": "2023-05-16T17:41:42Z",
+  "updated_at": "2023-06-03T00:45:14Z",
+  "closed_at": "2023-06-03T00:23:50Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/257",
+  "body": "* Name of the new release team: minipada\r\n* Release repositories to add:\r\n  * https://github.com/Minipada/ros2_data_collection\r\n\r\n* Team members\r\n  * @minipada\r\n",
+  "comments": [
+    {
+      "id": 1554781188,
+      "author": "nuclearsandwich",
+      "created_at": "2023-05-19T15:52:05Z",
+      "updated_at": "2023-05-19T15:52:05Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/257#issuecomment-1554781188",
+      "body": "Hello @Minipada, before we create a release repository could you please open a PR on https://github.com/ros/rosdistro adding a source entry to one of the currently active ROS 2 distributions (Rolling or Humble would be best). This will ensure your packages undergo license and naming review before the release repository is created. Once open you can link the PR here and bump this request once it is merged."
+    },
+    {
+      "id": 1556018284,
+      "author": "Minipada",
+      "created_at": "2023-05-20T21:38:41Z",
+      "updated_at": "2023-05-20T21:38:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/257#issuecomment-1556018284",
+      "body": "Thanks, I created this https://github.com/ros/rosdistro/pull/37289"
+    },
+    {
+      "id": 1558111726,
+      "author": "Minipada",
+      "created_at": "2023-05-22T22:25:19Z",
+      "updated_at": "2023-05-22T22:25:19Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/257#issuecomment-1558111726",
+      "body": "@nuclearsandwich It is merged"
+    },
+    {
+      "id": 1574497961,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-03T00:45:13Z",
+      "updated_at": "2023-06-03T00:45:13Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/257#issuecomment-1574497961",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

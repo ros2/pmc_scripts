@@ -1,0 +1,29 @@
+{
+  "number": 917,
+  "title": "Update release team membership",
+  "author": "hidmic",
+  "state": "closed",
+  "created_at": "2025-11-25T19:44:21Z",
+  "updated_at": "2025-12-05T20:51:48Z",
+  "closed_at": "2025-12-05T20:47:01Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/917",
+  "body": "# Updates to `beluga` membership.\n\n## New team members\n\n* @LaBruma ([maintainer](https://github.com/Ekumen-OS/beluga/blob/c0b2740cebb60aaa9912973a16bd9597689d4914/beluga/package.xml#L12))\n",
+  "comments": [
+    {
+      "id": 3618563409,
+      "author": "cottsay",
+      "created_at": "2025-12-05T20:49:44Z",
+      "updated_at": "2025-12-05T20:49:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/917#issuecomment-3618563409",
+      "body": "This has been deployed."
+    },
+    {
+      "id": 3618567821,
+      "author": "hidmic",
+      "created_at": "2025-12-05T20:51:37Z",
+      "updated_at": "2025-12-05T20:51:48Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/917#issuecomment-3618567821",
+      "body": "Thanks @cottsay ! 🫡 "
+    }
+  ]
+}

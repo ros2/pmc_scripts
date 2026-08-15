@@ -1,0 +1,4 @@
+{
+  "commit": "4f9ae1338035123894f327ed22a83e7ceddb2ecd",
+  "diff": "diff --git a/ctu_vras.tf b/ctu_vras.tf\nindex 3a71f90..9f5fc56 100644\n--- a/ctu_vras.tf\n+++ b/ctu_vras.tf\n@@ -3,6 +3,8 @@ locals {\n     \"peci1\",\n   ]\n   ctu_vras_repositories = [\n+    \"compass-release\",\n+    \"cras_msgs-release\",\n     \"cras_ros_utils-release\",\n   ]\n }\n"
+}

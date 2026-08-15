@@ -1,0 +1,21 @@
+{
+  "number": 828,
+  "title": "Add release team",
+  "author": "david-wb",
+  "state": "closed",
+  "created_at": "2025-07-29T16:35:34Z",
+  "updated_at": "2025-08-03T17:29:31Z",
+  "closed_at": "2025-08-02T15:11:24Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/828",
+  "body": "* Name of the new release team: chroma\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [namosim](https://github.com/Chroma-CITI/namosim)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/7c4bf0873be5abb6e9905a13d37ded18c0863287/humble/distribution.yaml#L5723)\n* Team members\n  * [@david-wb](https://github.com/Chroma-CITI/namosim/blob/e442bf5fba21a64d0ec6e5c30fd4bfbc76884433/package.xml#L8)\n  * [@jacques-saraydaryan](https://github.com/Chroma-CITI/namosim/blob/e442bf5fba21a64d0ec6e5c30fd4bfbc76884433/package.xml#L9)\n",
+  "comments": [
+    {
+      "id": 3148587464,
+      "author": "nuclearsandwich",
+      "created_at": "2025-08-03T17:29:31Z",
+      "updated_at": "2025-08-03T17:29:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/828#issuecomment-3148587464",
+      "body": "This change has been deployed."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "number": 700,
+  "title": "Update nobleo release team membership",
+  "author": "Rayman",
+  "state": "closed",
+  "created_at": "2025-02-17T12:46:37Z",
+  "updated_at": "2025-02-26T16:44:27Z",
+  "closed_at": "2025-02-26T00:57:54Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/700",
+  "body": "# Updates to <!-- RELEASE_TEAM --> membership.\n\n## New team members\n\n* Add [@Rayman](https://github.com/nobleo/nobleo_socketcan_bridge/blob/main/package.xml) to nobleo release team\n",
+  "comments": [
+    {
+      "id": 2685614220,
+      "author": "nuclearsandwich",
+      "created_at": "2025-02-26T16:44:26Z",
+      "updated_at": "2025-02-26T16:44:26Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/700#issuecomment-2685614220",
+      "body": "This change has been deployed."
+    }
+  ]
+}

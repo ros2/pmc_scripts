@@ -1,0 +1,4 @@
+{
+  "commit": "c3ed2604cfa063c5e8d10317aa856d65a1c6d066",
+  "diff": "diff --git a/mrpt2.tf b/mrpt2.tf\nindex e731e12..6e3c00c 100644\n--- a/mrpt2.tf\n+++ b/mrpt2.tf\n@@ -13,10 +13,12 @@ locals {\n     \"mrpt_msgs-release\",\n     \"mrpt_navigation-release\",\n     \"mrpt_path_planning-release\",\n+    \"mrpt_ros-release\",\n     \"mrpt_sensors-release\",\n     \"mrpt_slam-release\",\n     \"mvsim-release\",\n     \"pose_cov_ops-release\",\n+    \"python_mrpt_ros-release\",\n   ]\n }\n \n"
+}

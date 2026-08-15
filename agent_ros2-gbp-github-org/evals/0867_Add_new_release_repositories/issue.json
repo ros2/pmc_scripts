@@ -1,0 +1,37 @@
+{
+  "number": 867,
+  "title": "Add new release repositories",
+  "author": "mehermvr",
+  "state": "closed",
+  "created_at": "2025-09-12T12:55:29Z",
+  "updated_at": "2025-09-26T18:18:47Z",
+  "closed_at": "2025-09-26T18:18:47Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/867",
+  "body": "* Name of the release team: prbonn \n(team creation request in #866)\n\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [rko_lio](https://github.com/PRBonn/rko_lio)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/3c8f20c38195ebeef8bca6ad8cc136e9fe983b23/rolling/distribution.yaml#L6225)\n\n\n",
+  "comments": [
+    {
+      "id": 3285801951,
+      "author": "mehermvr",
+      "created_at": "2025-09-12T15:47:30Z",
+      "updated_at": "2025-09-12T15:47:30Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/867#issuecomment-3285801951",
+      "body": "Question: if i want to make a release for multiple distros (jazzy, kilted and rolling in this case), do i make separate release repositories or just this one request is enough?"
+    },
+    {
+      "id": 3309259809,
+      "author": "mehermvr",
+      "created_at": "2025-09-18T19:19:23Z",
+      "updated_at": "2025-09-18T19:19:40Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/867#issuecomment-3309259809",
+      "body": "just in case, rosdistro source entries for: [rolling](https://github.com/ros/rosdistro/blob/3c8f20c38195ebeef8bca6ad8cc136e9fe983b23/rolling/distribution.yaml#L6225), [kilted](https://github.com/ros/rosdistro/blob/4ab73d90f9defb594d95e7d8c11a3ae6694d6538/kilted/distribution.yaml#L6295), [jazzy](https://github.com/ros/rosdistro/blob/4ab73d90f9defb594d95e7d8c11a3ae6694d6538/jazzy/distribution.yaml#L7246)"
+    },
+    {
+      "id": 3310958124,
+      "author": "jlblancoc",
+      "created_at": "2025-09-19T07:18:59Z",
+      "updated_at": "2025-09-19T07:18:59Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/867#issuecomment-3310958124",
+      "body": "@mehermvr Just one release repo is enough for all distros. "
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "number": 1065,
+  "title": "Update release team membership",
+  "author": "bjsowa",
+  "state": "closed",
+  "created_at": "2026-06-12T09:07:03Z",
+  "updated_at": "2026-07-16T21:10:52Z",
+  "closed_at": "2026-07-16T21:03:39Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1065",
+  "body": "# Updates to `fictionlab` membership.\n\n## Retiring team members\n\n* @Bitterisland6\n",
+  "comments": [
+    {
+      "id": 4996625517,
+      "author": "cottsay",
+      "created_at": "2026-07-16T21:10:52Z",
+      "updated_at": "2026-07-16T21:10:52Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1065#issuecomment-4996625517",
+      "body": "This has been deployed."
+    }
+  ]
+}

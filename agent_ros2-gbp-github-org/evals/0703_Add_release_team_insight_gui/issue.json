@@ -1,0 +1,21 @@
+{
+  "number": 703,
+  "title": "Add release team insight_gui",
+  "author": "julianmueller",
+  "state": "closed",
+  "created_at": "2025-02-19T16:50:13Z",
+  "updated_at": "2025-02-26T16:44:35Z",
+  "closed_at": "2025-02-26T01:19:19Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/703",
+  "body": "* Name of the new release team: insight_gui\n* Release repositories to add:\n  * [insight_gui](https://github.com/julianmueller/insight_gui.git)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/41072b52cb508415f727175ae706871570650380/jazzy/distribution.yaml#L3276)\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n* Team members\n  * [@julianmueller](https://github.com/julianmueller/insight_gui/blob/bd1121fe7e4681f39d88237cf887798e0ce0b1c5/package.xml#L7)\n",
+  "comments": [
+    {
+      "id": 2685614532,
+      "author": "nuclearsandwich",
+      "created_at": "2025-02-26T16:44:33Z",
+      "updated_at": "2025-02-26T16:44:33Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/703#issuecomment-2685614532",
+      "body": "This change has been deployed."
+    }
+  ]
+}

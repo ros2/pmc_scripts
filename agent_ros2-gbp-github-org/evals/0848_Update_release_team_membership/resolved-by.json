@@ -1,0 +1,4 @@
+{
+  "commit": "db326b9ef635529a6ccf70f6874a0cfa192cd678",
+  "diff": "diff --git a/kuka.tf b/kuka.tf\nindex ba89d37..4220926 100644\n--- a/kuka.tf\n+++ b/kuka.tf\n@@ -1,8 +1,10 @@\n locals {\n   kuka_team = [\n     \"Svastits\",\n-    \"VX792\",\n     \"kovacsge11\",\n+    \"pasztork\",\n+    \"altex111\",\n+    \"Groebehavn\",\n   ]\n   kuka_repositories = [\n     \"kuka_drivers-release\",\n"
+}

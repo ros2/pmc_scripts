@@ -1,0 +1,21 @@
+{
+  "number": 947,
+  "title": "Add new release repositories: hebi_hardware, hebi_msgs",
+  "author": "hr1799",
+  "state": "closed",
+  "created_at": "2025-12-12T15:20:34Z",
+  "updated_at": "2026-01-12T23:14:30Z",
+  "closed_at": "2026-01-12T23:12:34Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/947",
+  "body": "* Name of the release team: hebi\n\n* Release repositories to add:\n  * [hebi_hardware](https://github.com/HebiRobotics/hebi_hardware.git)\n    * [ros/rosdistro source entry](https://github.com/HebiRobotics/rosdistro/blob/6809378cc1fc76f34beebc663d6ca6be7ea02cec/jazzy/distribution.yaml#L3636)\n  * [hebi_msgs](https://github.com/HebiRobotics/hebi_msgs.git)\n    * [ros/rosdistro source entry](https://github.com/HebiRobotics/rosdistro/blob/6809378cc1fc76f34beebc663d6ca6be7ea02cec/jazzy/distribution.yaml#L3642)\n",
+  "comments": [
+    {
+      "id": 3740928986,
+      "author": "cottsay",
+      "created_at": "2026-01-12T23:14:30Z",
+      "updated_at": "2026-01-12T23:14:30Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/947#issuecomment-3740928986",
+      "body": "This has been deployed:\n* https://github.com/ros2-gbp/hebi_hardware-release\n* https://github.com/ros2-gbp/hebi_msgs-release"
+    }
+  ]
+}

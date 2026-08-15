@@ -1,0 +1,21 @@
+{
+  "number": 199,
+  "title": "[Vision Msgs] Update release team membership",
+  "author": "SteveMacenski",
+  "state": "closed",
+  "created_at": "2023-02-16T19:10:39Z",
+  "updated_at": "2023-02-17T01:12:20Z",
+  "closed_at": "2023-02-17T01:02:39Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/199",
+  "body": "# Updates to <!-- RELEASE_TEAM --> membership.\r\n\r\n## New team members\r\n\r\n* [@stevemacenski](https://github.com/ros-perception/vision_msgs/blob/ros2/vision_msgs_rviz_plugins/package.xml#L8)\r\n\r\n## Retiring team members\r\n\r\n* N/A",
+  "comments": [
+    {
+      "id": 1433954841,
+      "author": "nuclearsandwich",
+      "created_at": "2023-02-17T01:12:20Z",
+      "updated_at": "2023-02-17T01:12:20Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/199#issuecomment-1433954841",
+      "body": "#201 which implements this change has been deployed!"
+    }
+  ]
+}

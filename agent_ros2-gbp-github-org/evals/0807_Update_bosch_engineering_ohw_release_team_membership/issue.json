@@ -1,0 +1,45 @@
+{
+  "number": 807,
+  "title": "Update bosch_engineering_ohw release team membership",
+  "author": "Sopterean-Calin",
+  "state": "closed",
+  "created_at": "2025-07-03T10:38:32Z",
+  "updated_at": "2025-08-03T17:03:30Z",
+  "closed_at": "2025-08-02T14:20:16Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/807",
+  "body": "# Updates to bosch_engineering_ohw membership.\n\n## New team members\n\n* @Sopterean-Calin (https://github.com/bosch-engineering/off_highway_sensor_drivers/graphs/contributors)\n* @Gabriela-AdrianaLapuste (https://github.com/bosch-engineering/corner_radar_driver/graphs/contributors)\n\n## Retiring team members\n\n* none\n",
+  "comments": [
+    {
+      "id": 3050671961,
+      "author": "nuclearsandwich",
+      "created_at": "2025-07-09T00:35:19Z",
+      "updated_at": "2025-07-09T00:35:19Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/807#issuecomment-3050671961",
+      "body": "Hello @Sopterean-Calin contributions graphs are not sufficient evidence to update team membership due to the fact that commits may be added to a repository by individuals other than the commit author.\n\nThat is, it's possible that you authored these commits but do not have push access to the repository. It's unlikely, given the usage pattern of that repository but still possible and in order to protect the release repository from attempts to escalate privileges we have to be maximally cautious.\n\nThe most preferred form of evidence is an update the package.xml maintainer field for a package or packages owned by the team. If that's impractical for whatever reason an approval or 👍🏼 from one or more of the current team members would also be sufficient.\n\nThanks for understanding!"
+    },
+    {
+      "id": 3073515101,
+      "author": "shu-beg",
+      "created_at": "2025-07-15T13:02:58Z",
+      "updated_at": "2025-07-15T13:02:58Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/807#issuecomment-3073515101",
+      "body": "Hi @nuclearsandwich,\nthanks for being that cautious about the topic. The changes are hereby approved :)"
+    },
+    {
+      "id": 3140260629,
+      "author": "rcp1-beg",
+      "created_at": "2025-07-31T14:44:49Z",
+      "updated_at": "2025-07-31T14:44:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/807#issuecomment-3140260629",
+      "body": "@nuclearsandwich May you have another look? @shu-beg and I as maintainer approve this change."
+    },
+    {
+      "id": 3148561198,
+      "author": "nuclearsandwich",
+      "created_at": "2025-08-03T17:03:29Z",
+      "updated_at": "2025-08-03T17:03:29Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/807#issuecomment-3148561198",
+      "body": "This change has been deployed."
+    }
+  ]
+}

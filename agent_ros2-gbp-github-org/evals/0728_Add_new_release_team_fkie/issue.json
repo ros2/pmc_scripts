@@ -1,0 +1,21 @@
+{
+  "number": 728,
+  "title": "Add new release team `fkie`",
+  "author": "roehling",
+  "state": "closed",
+  "created_at": "2025-03-27T16:56:47Z",
+  "updated_at": "2025-04-13T00:16:53Z",
+  "closed_at": "2025-04-12T19:47:17Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/728",
+  "body": "* Name of the release team: FKIE ROS Release Team (`fkie`)\n\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [fkie_message_filters](https://github.com/fkie/message_filters)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/9cfed9dc768dd516d6e33d6635be0b0f5e928b18/rolling/distribution.yaml#L1829) ([merged pull request](https://github.com/ros/rosdistro/pull/44884))\n\n* Team members:\n@roehling\n@atiderko",
+  "comments": [
+    {
+      "id": 2799266087,
+      "author": "nuclearsandwich",
+      "created_at": "2025-04-13T00:16:52Z",
+      "updated_at": "2025-04-13T00:16:52Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/728#issuecomment-2799266087",
+      "body": "This change has been deployed."
+    }
+  ]
+}

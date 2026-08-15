@@ -1,0 +1,21 @@
+{
+  "number": 985,
+  "title": "Add release team 'crx_kinematics'",
+  "author": "danielcranston",
+  "state": "closed",
+  "created_at": "2026-02-17T14:34:21Z",
+  "updated_at": "2026-02-20T02:58:28Z",
+  "closed_at": "2026-02-19T19:29:59Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/985",
+  "body": "* Name of the new release team: crx_kinematics\n\n\n* Release repositories to add:\n  * [crx_kinematics](https://github.com/danielcranston/crx_kinematics)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/60e2362fcf4888999542f43a0ca25bc19532c447/jazzy/distribution.yaml#L1857-L1866)\n      * (Added in https://github.com/ros/rosdistro/pull/49510)\n \n* Team members\n  * [@danielcranston](https://github.com/danielcranston/crx_kinematics/blob/master/crx_kinematics/package.xml#L7)\n",
+  "comments": [
+    {
+      "id": 3931318108,
+      "author": "cottsay",
+      "created_at": "2026-02-20T02:58:28Z",
+      "updated_at": "2026-02-20T02:58:28Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/985#issuecomment-3931318108",
+      "body": "This has been deployed: https://github.com/ros2-gbp/crx_kinematics-release"
+    }
+  ]
+}

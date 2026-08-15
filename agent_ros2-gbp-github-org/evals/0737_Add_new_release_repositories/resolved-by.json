@@ -1,0 +1,4 @@
+{
+  "commit": "7fd837eca3e00930a45c82ae0c887de0644cc53b",
+  "diff": "diff --git a/tooling_wg.tf b/tooling_wg.tf\nindex dcf3cd5..61b5cc8 100644\n--- a/tooling_wg.tf\n+++ b/tooling_wg.tf\n@@ -10,6 +10,7 @@ locals {\n     \"wep21\",\n   ]\n   tooling_wg_repositories = [\n+    \"graph_monitor-release\",\n     \"keyboard_handler-release\",\n     \"libstatistics_collector-release\",\n     \"rosbag2_storage_mcap-release\",\n"
+}

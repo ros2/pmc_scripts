@@ -1,0 +1,4 @@
+{
+  "commit": "ac62ce040f8c05c83a1ccb1217312dd9ea0ca006",
+  "diff": "diff --git a/moveit.tf b/moveit.tf\nindex 13f5758..e44dded 100644\n--- a/moveit.tf\n+++ b/moveit.tf\n@@ -3,6 +3,7 @@ locals {\n     \"JafarAbdi\",\n     \"christhrasher\",\n     \"henningkayser\",\n+    \"MarqRazz\",\n     \"pac48\",\n     \"rhaschke\",\n     \"sea-bass\",\n"
+}

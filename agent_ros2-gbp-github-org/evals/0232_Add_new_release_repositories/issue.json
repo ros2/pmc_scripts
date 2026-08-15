@@ -1,0 +1,29 @@
+{
+  "number": 232,
+  "title": "Add new release repositories",
+  "author": "maxbader",
+  "state": "closed",
+  "created_at": "2023-03-31T06:50:32Z",
+  "updated_at": "2023-04-11T17:37:25Z",
+  "closed_at": "2023-04-11T17:13:50Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/232",
+  "body": "* Name of the release team: tuw_robotics\r\n\r\n* Release repositories to add:\r\n  * [tuw_geometry](https://github.com/tuw-robotics/tuw_geometry)\r\n    * [x] There is an existing release repository which should be imported: [tuw_geometry-release](https://github.com/tuw-robotics/tuw_geometry-release)\r\n  * [tuw_rviz_plugins](https://github.com/tuw-robotics/tuw_rviz_plugins)\r\n    * The release is not ready but if it would it will be https://github.com/tuw-robotics/tuw_rviz_plugins-release\r\n\r\nThanks and Greetings\r\n",
+  "comments": [
+    {
+      "id": 1503795917,
+      "author": "nuclearsandwich",
+      "created_at": "2023-04-11T17:13:25Z",
+      "updated_at": "2023-04-11T17:13:25Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/232#issuecomment-1503795917",
+      "body": "> * tuw_rviz_plugins\r\n\r\nInstead of using this repository, could you just use the ros2-gbp repository once it is created that way no mirroring is necessary?"
+    },
+    {
+      "id": 1503825808,
+      "author": "nuclearsandwich",
+      "created_at": "2023-04-11T17:37:24Z",
+      "updated_at": "2023-04-11T17:37:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/232#issuecomment-1503825808",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

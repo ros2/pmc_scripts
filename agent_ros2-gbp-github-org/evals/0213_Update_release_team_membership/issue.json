@@ -1,0 +1,21 @@
+{
+  "number": 213,
+  "title": "Update release team membership",
+  "author": "stefanscherzinger",
+  "state": "closed",
+  "created_at": "2023-03-03T10:07:48Z",
+  "updated_at": "2023-03-04T01:01:08Z",
+  "closed_at": "2023-03-04T00:53:24Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/213",
+  "body": "# Updates to universal_robots membership.\r\n\r\n## New team members\r\n\r\n* [@RobertWilbrandt](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/blob/main/ur_robot_driver/package.xml#L10)\r\n\r\n## Retiring team members\r\n\r\n* none\r\n",
+  "comments": [
+    {
+      "id": 1454311054,
+      "author": "nuclearsandwich",
+      "created_at": "2023-03-04T01:01:08Z",
+      "updated_at": "2023-03-04T01:01:08Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/213#issuecomment-1454311054",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

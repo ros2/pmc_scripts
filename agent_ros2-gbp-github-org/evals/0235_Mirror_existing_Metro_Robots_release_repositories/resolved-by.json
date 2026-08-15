@@ -1,0 +1,4 @@
+{
+  "commit": "62209da77a8250a9282515bbfb68ef29ebc08992",
+  "diff": "diff --git a/metro_robots.tf b/metro_robots.tf\nindex 0d296ba..9f4ee51 100644\n--- a/metro_robots.tf\n+++ b/metro_robots.tf\n@@ -3,6 +3,8 @@ locals {\n     \"DLu\",\n   ]\n   metro_robots_repositories = [\n+    \"color_util-release\",\n+    \"polygon_ros-release\",\n     \"ros_system_fingerprint-release\",\n     \"simple_actions-release\",\n   ]\n"
+}

@@ -1,0 +1,21 @@
+{
+  "number": 336,
+  "title": "Update release team membership",
+  "author": "Kansea",
+  "state": "closed",
+  "created_at": "2023-09-19T02:07:49Z",
+  "updated_at": "2023-10-06T23:59:05Z",
+  "closed_at": "2023-10-06T23:59:04Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/336",
+  "body": "# Updates to <!-- RELEASE_TEAM --> membership.\r\n\r\n## New team members\r\n\r\n* @s000ne",
+  "comments": [
+    {
+      "id": 1751511553,
+      "author": "nuclearsandwich",
+      "created_at": "2023-10-06T23:59:04Z",
+      "updated_at": "2023-10-06T23:59:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/336#issuecomment-1751511553",
+      "body": "@Kansea your issue did not specify which team you wanted updated, but I was able to find the team you're both on. @s000ne has already been invited to the team but they did not accept the invitation. A new one will be issued shortly which they must accept within 7 days."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "07bc168ef7935e4959b01a9cdc126cf476c27329",
+  "diff": "diff --git a/microstrain.tf b/microstrain.tf\nindex 4ba655f..cf01fa1 100644\n--- a/microstrain.tf\n+++ b/microstrain.tf\n@@ -1,5 +1,6 @@\n locals {\n   microstrain_team = [\n+    \"aidan-laracy-HBK\",\n     \"robbiefish\",\n   ]\n   microstrain_repositories = [\n"
+}

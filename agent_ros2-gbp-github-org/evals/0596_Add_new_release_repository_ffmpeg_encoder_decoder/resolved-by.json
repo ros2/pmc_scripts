@@ -1,0 +1,4 @@
+{
+  "commit": "73bf3ef6f0e31960f1a94bb245222ff28dabc617",
+  "diff": "diff --git a/misc_utilities.tf b/misc_utilities.tf\nindex fbafa31..06bbeeb 100644\n--- a/misc_utilities.tf\n+++ b/misc_utilities.tf\n@@ -5,6 +5,7 @@ locals {\n   misc_utilities_repositories = [\n     \"apriltag_detector-release\",\n     \"apriltag_mit-release\",\n+    \"ffmpeg_encoder_decoder-release\",\n     \"ffmpeg_image_transport-release\",\n     \"ffmpeg_image_transport_msgs-release\",\n     \"ffmpeg_image_transport_tools-release\",\n"
+}

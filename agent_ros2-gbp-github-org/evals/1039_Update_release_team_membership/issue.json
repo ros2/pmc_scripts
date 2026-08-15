@@ -1,0 +1,21 @@
+{
+  "number": 1039,
+  "title": "Update release team membership",
+  "author": "Noel215",
+  "state": "closed",
+  "created_at": "2026-05-20T14:59:15Z",
+  "updated_at": "2026-06-09T15:49:51Z",
+  "closed_at": "2026-06-09T15:38:31Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1039",
+  "body": "# Updates to pal_robotics_team membership.\n\n## Retiring team members\n\n* @jordan-palacios\n* @ileniaperrella\n",
+  "comments": [
+    {
+      "id": 4661518623,
+      "author": "cottsay",
+      "created_at": "2026-06-09T15:49:51Z",
+      "updated_at": "2026-06-09T15:49:51Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1039#issuecomment-4661518623",
+      "body": "This has been deployed."
+    }
+  ]
+}

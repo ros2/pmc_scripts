@@ -1,0 +1,37 @@
+{
+  "number": 494,
+  "title": "Add new release repository for rmw_zenoh",
+  "author": "Yadunund",
+  "state": "closed",
+  "created_at": "2024-04-19T13:10:43Z",
+  "updated_at": "2024-05-03T23:00:17Z",
+  "closed_at": "2024-05-03T21:24:00Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/494",
+  "body": "* Name of the release team: ros_team\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [rmw_zenoh](https://github.com/ros2/rmw_zenoh.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/40677)\r\n",
+  "comments": [
+    {
+      "id": 2068240579,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-21T22:58:17Z",
+      "updated_at": "2024-04-21T22:58:17Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/494#issuecomment-2068240579",
+      "body": "Once the linked rosdistro source PR has merged, this request can be processed."
+    },
+    {
+      "id": 2073704723,
+      "author": "Yadunund",
+      "created_at": "2024-04-24T00:26:59Z",
+      "updated_at": "2024-04-24T00:26:59Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/494#issuecomment-2073704723",
+      "body": "@nuclearsandwich the rosdistro PR has been merged!"
+    },
+    {
+      "id": 2093865558,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-03T23:00:16Z",
+      "updated_at": "2024-05-03T23:00:16Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/494#issuecomment-2093865558",
+      "body": "This change has been deployed."
+    }
+  ]
+}

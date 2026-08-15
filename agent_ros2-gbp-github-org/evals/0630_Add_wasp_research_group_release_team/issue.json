@@ -1,0 +1,21 @@
+{
+  "number": 630,
+  "title": "Add wasp_research_group release team",
+  "author": "ajtudela",
+  "state": "closed",
+  "created_at": "2024-10-18T06:38:48Z",
+  "updated_at": "2024-11-08T23:17:32Z",
+  "closed_at": "2024-11-08T19:49:58Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/630",
+  "body": "* Name of the new release team: wasp_research_group\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [slg_msgs](https://github.com/ajtudela/slg_msgs)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L9441)\r\n    * [ ] No existing release repository for ROS 2\r\n  * [laser_segmentation](https://github.com/ajtudela/laser_segmentation)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L3793)\r\n    * [ ] No existing release repository for ROS 2\r\n\r\n\r\n* Team members\r\n  * [@ajtudela](https://github.com/ajtudela/slg_msgs/blob/main/package.xml#L7)\r\n  * [@MFernandezCarmona](https://github.com/ajtudela/laser_segmentation/blob/main/package.xml#L8)\r\n",
+  "comments": [
+    {
+      "id": 2465889114,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-08T23:17:31Z",
+      "updated_at": "2024-11-08T23:17:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/630#issuecomment-2465889114",
+      "body": "This change has been deployed."
+    }
+  ]
+}

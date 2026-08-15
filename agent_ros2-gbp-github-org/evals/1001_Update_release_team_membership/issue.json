@@ -1,0 +1,12 @@
+{
+  "number": 1001,
+  "title": "Update release team membership",
+  "author": "emersonknapp",
+  "state": "closed",
+  "created_at": "2026-03-09T18:55:38Z",
+  "updated_at": "2026-03-18T20:26:40Z",
+  "closed_at": "2026-03-18T20:26:40Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1001",
+  "body": "# Updates to polymath robotics membership.\n\n## New team members\n\nIn preparation for adding some new release packages, bringing in another of our team members to the Polymath Robotics release team\n\n* [@zeerekahmad](https://github.com/polymathrobotics/socketcan_adapter/blob/main/socketcan_adapter/package.xml#L9)\n\n## Retiring team members\n\n",
+  "comments": []
+}

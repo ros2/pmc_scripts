@@ -1,0 +1,4 @@
+{
+  "commit": "dcb0cc5e3e2e9fc4188737c0e4e4cc0f8e636fba",
+  "diff": "diff --git a/gazebo.tf b/gazebo.tf\nindex 7971d8f..4a4346d 100644\n--- a/gazebo.tf\n+++ b/gazebo.tf\n@@ -2,6 +2,7 @@ locals {\n   gazebo_team = [\n     \"ahcorde\",\n     \"azeey\",\n+    \"caguero\",\n     \"clalancette\",\n     \"iche033\",\n     \"j-rivero\",\n"
+}

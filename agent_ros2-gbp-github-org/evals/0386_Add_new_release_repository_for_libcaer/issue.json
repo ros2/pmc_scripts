@@ -1,0 +1,21 @@
+{
+  "number": 386,
+  "title": "Add new release repository for libcaer",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2023-11-28T20:31:28Z",
+  "updated_at": "2024-01-06T00:42:44Z",
+  "closed_at": "2024-01-06T00:42:44Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/386",
+  "body": "* Name of the release team: ros-event-camera\r\n\r\n* Release repositories to add:\r\n* [libcaer](https://github.com/ros-event-camera/libcaer)\r\n    * [libcaer (humble)](https://github.com/ros/rosdistro/blob/a0086de3bf81a78566e2d1a2a4385641e524ad19/humble/distribution.yaml#L3029)\r\n    * [libcaer (iron)](https://github.com/ros/rosdistro/blob/a0086de3bf81a78566e2d1a2a4385641e524ad19/iron/distribution.yaml#L2567)\r\n    * [libcaer (rolling)](https://github.com/ros/rosdistro/blob/a0086de3bf81a78566e2d1a2a4385641e524ad19/rolling/distribution.yaml#L2495)\r\n",
+  "comments": [
+    {
+      "id": 1879201556,
+      "author": "clalancette",
+      "created_at": "2024-01-05T20:08:58Z",
+      "updated_at": "2024-01-05T20:08:58Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/386#issuecomment-1879201556",
+      "body": "Presumably the release team will just contain @berndpfrommer .\r\n\r\nThis looks good to me."
+    }
+  ]
+}

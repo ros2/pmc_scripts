@@ -1,0 +1,4 @@
+{
+  "commit": "696feee86243f447b7f695c5236dbca4ef46e2bc",
+  "diff": "diff --git a/dexory.tf b/dexory.tf\nindex 3475fac..9e4c304 100644\n--- a/dexory.tf\n+++ b/dexory.tf\n@@ -1,6 +1,7 @@\n locals {\n   dexory_team = [\n-    \"nachovizzo\",\n+    \"biofotis\",\n+    \"doisyg\",\n   ]\n \n   dexory_repositories = [\n"
+}

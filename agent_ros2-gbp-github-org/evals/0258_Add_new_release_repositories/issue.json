@@ -1,0 +1,45 @@
+{
+  "number": 258,
+  "title": "Add new release repositories",
+  "author": "marip8",
+  "state": "closed",
+  "created_at": "2023-05-19T20:42:37Z",
+  "updated_at": "2023-07-29T01:02:36Z",
+  "closed_at": "2023-07-28T23:51:36Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/258",
+  "body": "* Name of the release team: `ros-industrial`\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [reach](https://github.com/ros-industrial/reach)\r\n  * [reach_ros2](https://github.com/ros-industrial/reach_ros2)\r\n",
+  "comments": [
+    {
+      "id": 1574486722,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-03T00:26:35Z",
+      "updated_at": "2023-06-03T00:26:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/258#issuecomment-1574486722",
+      "body": "Hi @marip8, since these appear to be packages that are new to ROS, can you please open a PR on https://github.com/ros/rosdistro which adds a `source` entry for them in an active ROS 2 distribution. This will ensure that the packages go through new package review before release repositories are created.\r\n\r\nThanks!"
+    },
+    {
+      "id": 1590142227,
+      "author": "marip8",
+      "created_at": "2023-06-13T22:34:27Z",
+      "updated_at": "2023-06-13T22:34:27Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/258#issuecomment-1590142227",
+      "body": "I just opened the PR [here](https://github.com/ros/rosdistro/pull/37635)"
+    },
+    {
+      "id": 1655999345,
+      "author": "marip8",
+      "created_at": "2023-07-28T16:51:12Z",
+      "updated_at": "2023-07-28T16:51:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/258#issuecomment-1655999345",
+      "body": "@nuclearsandwich rosdistro links for:\r\n- [humble](https://github.com/ros/rosdistro/blob/f8caa53828ed3da50de2900a3a61f08f260639af/humble/distribution.yaml#L4924-L4933)\r\n- [rolling](https://github.com/ros/rosdistro/blob/f8caa53828ed3da50de2900a3a61f08f260639af/rolling/distribution.yaml#L4171-L4180)"
+    },
+    {
+      "id": 1656501488,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-29T01:02:36Z",
+      "updated_at": "2023-07-29T01:02:36Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/258#issuecomment-1656501488",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

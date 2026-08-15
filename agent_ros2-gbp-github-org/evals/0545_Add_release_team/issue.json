@@ -1,0 +1,21 @@
+{
+  "number": 545,
+  "title": "Add release team",
+  "author": "brow1633",
+  "state": "closed",
+  "created_at": "2024-06-15T15:30:50Z",
+  "updated_at": "2024-06-26T13:31:01Z",
+  "closed_at": "2024-06-26T04:39:16Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/545",
+  "body": "* Name of the new release team: network_bridge <!-- all lower case with words separated by `_`. -->\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [network_bridge](https://github.com/brow1633/network_bridge)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/41576/files)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@brow1633](https://github.com/brow1633/network_bridge/blob/main/package.xml)\r\n",
+  "comments": [
+    {
+      "id": 2191710731,
+      "author": "nuclearsandwich",
+      "created_at": "2024-06-26T13:31:00Z",
+      "updated_at": "2024-06-26T13:31:00Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/545#issuecomment-2191710731",
+      "body": "This change has been deployed."
+    }
+  ]
+}

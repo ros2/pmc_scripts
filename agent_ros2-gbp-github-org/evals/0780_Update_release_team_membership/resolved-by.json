@@ -1,0 +1,4 @@
+{
+  "commit": "ad51057e74547030be859c56d48f20ff78a75d9b",
+  "diff": "diff --git a/traclabs.tf b/traclabs.tf\nindex bbbc4df..b1fbff3 100644\n--- a/traclabs.tf\n+++ b/traclabs.tf\n@@ -3,7 +3,7 @@ locals {\n     \"ana-GT\",\n     \"kbrameld\",\n     \"mlanighan\",\n-    \"nstiurca\",\n+    \"smgee\",\n   ]\n   traclabs_repositories = [\n     \"trac_ik-release\",\n"
+}

@@ -1,0 +1,77 @@
+{
+  "number": 719,
+  "title": "Add release team `open_sound_control`",
+  "author": "chrisib",
+  "state": "closed",
+  "created_at": "2025-03-18T23:16:55Z",
+  "updated_at": "2025-04-12T19:41:52Z",
+  "closed_at": "2025-04-12T19:41:52Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/719",
+  "body": "* Name of the new release team: `open_sound_control`\n* Release repositories to add: `open_sound_control-release`\n* Team members\n  * [@chrisib](https://github.com/chrisib/open_sound_control_ros/blob/e2164bd4449db41283f53626c8bbfddf3be72440/open_sound_control_bridge/package.xml#L8)\n",
+  "comments": [
+    {
+      "id": 2744161881,
+      "author": "nuclearsandwich",
+      "created_at": "2025-03-21T18:35:32Z",
+      "updated_at": "2025-03-21T18:35:32Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/719#issuecomment-2744161881",
+      "body": "Hi @chrisib, before we create a release team and repository, can you please [index your package](https://docs.ros.org/en/jazzy/How-To-Guides/Releasing/Index-Your-Packages.html) so that the package goes through naming and license review. Thanks."
+    },
+    {
+      "id": 2744446935,
+      "author": "chrisib",
+      "created_at": "2025-03-21T21:06:09Z",
+      "updated_at": "2025-03-21T21:06:29Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/719#issuecomment-2744446935",
+      "body": "I believe that check was done when I initially tried blooming the package in this (now-closed MR): https://github.com/ros/rosdistro/pull/44782#pullrequestreview-2695392526"
+    },
+    {
+      "id": 2744462526,
+      "author": "christophebedard",
+      "created_at": "2025-03-21T21:14:55Z",
+      "updated_at": "2025-03-21T21:15:03Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/719#issuecomment-2744462526",
+      "body": "Maybe I'm mistaken, but, by \"indexing the package,\" we mean having a `source:` entry under your package in rosdisro and no `release:` entry (`doc:` may be added then or later): https://docs.ros.org/en/jazzy/How-To-Guides/Releasing/Index-Your-Packages.html#make-changes-to-your-fork. If you open a new PR with just that part, we can officially go through the checklist and merge it. Then this can proceed and later you can actually release the packages."
+    },
+    {
+      "id": 2746456673,
+      "author": "chrisib",
+      "created_at": "2025-03-23T20:58:15Z",
+      "updated_at": "2025-03-23T20:59:21Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/719#issuecomment-2746456673",
+      "body": "The package is now indexed. See the MR referenced above.\n\n_____\nEdit\n\nWhoops, I just noticed it was you who approved & merged it. Ignore me telling you things you probably already know lol."
+    },
+    {
+      "id": 2746465531,
+      "author": "christophebedard",
+      "created_at": "2025-03-23T21:02:47Z",
+      "updated_at": "2025-03-23T21:02:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/719#issuecomment-2746465531",
+      "body": "> Whoops, I just noticed it was you who approved & merged it. Ignore me telling you things you probably already know lol.\n\nI indeed know, but I myself can't help with this step, so it's still good that you commented here to give an update."
+    },
+    {
+      "id": 2781857219,
+      "author": "chrisib",
+      "created_at": "2025-04-07T02:14:59Z",
+      "updated_at": "2025-04-07T02:14:59Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/719#issuecomment-2781857219",
+      "body": "Is there anything else that I need to do before the `needs rosdistro source link` tag gets removed? Or it's just a matter of being patient and eventually someone will attend to it?"
+    },
+    {
+      "id": 2783741558,
+      "author": "christophebedard",
+      "created_at": "2025-04-07T15:31:23Z",
+      "updated_at": "2025-04-07T15:31:23Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/719#issuecomment-2783741558",
+      "body": "Yeah, I believe @nuclearsandwich checks every once in a while. "
+    },
+    {
+      "id": 2799013271,
+      "author": "nuclearsandwich",
+      "created_at": "2025-04-12T19:39:19Z",
+      "updated_at": "2025-04-12T19:39:19Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/719#issuecomment-2799013271",
+      "body": "Indexed in https://github.com/ros/rosdistro/pull/44859"
+    }
+  ]
+}

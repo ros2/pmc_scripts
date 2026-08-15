@@ -1,0 +1,133 @@
+{
+  "number": 289,
+  "title": "Add new release team for ROS 2 FlexBE",
+  "author": "dcconner",
+  "state": "closed",
+  "created_at": "2023-06-29T15:26:10Z",
+  "updated_at": "2023-08-11T05:51:18Z",
+  "closed_at": "2023-07-29T17:16:49Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289",
+  "body": "* Name of the new release team: flexbe\r\n* Release repositories to add:\r\n Submitted PR for naming review https://github.com/ros/rosdistro/pull/37823\r\n\r\n**_Proposed_** names of release repos:\r\n      url: https://github.com/ros2-gbp/flexbe_app-release.git\r\n      url: https://github.com/ros2-gbp/flexbe_behavior_engine-release.git\r\n\r\nThere are already a ROS 1 release repos created:\r\n  https://github.com/FlexBE/flexbe_app-release\r\n  https://github.com/FlexBE/flexbe_behavior_engine-release\r\n\r\nBut I planned to create separate ones on the ros2-gbp site .\r\n\r\nI'm listing them below for completeness, but not sure we want to import versus just create new.\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [flexbe_app](https://github.com/flexbe/flexbe_app.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L1541)\r\n    * [ ] There is an existing release repository which should be imported: https://github.com/FlexBE/flexbe_app-release\r\n  * [flexbe_behavior_engine](https://github.com/flexbe/flexbe_behavior_engine.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L1551)\r\n    * [ ] There is an existing release repository which should be imported: https://github.com/FlexBE/flexbe_behavior_engine-release\r\n\r\n* Team members\r\n  * [@dcconner](https://github.com/FlexBE/flexbe_behavior_engine/blob/ros2-devel/flexbe_behavior_engine/package.xml#L10)\r\n  * [@pschillinger](https://github.com/FlexBE/flexbe_behavior_engine/blob/ros2-devel/flexbe_behavior_engine/package.xml#L9)\r\n",
+  "comments": [
+    {
+      "id": 1615303689,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-01T00:26:35Z",
+      "updated_at": "2023-07-01T00:26:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1615303689",
+      "body": "> I'm listing them below for completeness, but not sure we want to import versus just create new.\r\n\r\nI think its entirely up to you. I'd propose either:\r\n1. importing the existing release repo contents and using the ros2-gbp release repository for both Noetic and ROS 2 distributions. To prevent accidental pushes to the previous release repo it should be archived but not deleted.\r\nOR\r\n2. starting fresh repositories in ros2-gbp and using them just for ROS 2 while using the current repositories for Noetic.\r\n\r\nThe advantages of the first option are that you don't have to worry about mistargeted pushes at the expense of slight confusion that \"ros2-gbp\" is used for ROS Noetic releases. But there's no technical reason not to do so.\r\n\r\nI've opened https://github.com/ros2-gbp/ros2-gbp-github-org/pull/293 and will wait to merge it or import release repositories pending your preference above and the merging of https://github.com/ros/rosdistro/pull/37823"
+    },
+    {
+      "id": 1615347601,
+      "author": "dcconner",
+      "created_at": "2023-07-01T01:45:04Z",
+      "updated_at": "2023-07-01T01:45:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1615347601",
+      "body": "Would it be an option to combine by doing option 2, and then recreating  the noetic release   on ros2-gdp  vs. importing the entire history.  Then I can archive the old one after the changes take effect.\r\n\r\nOtherwise, I'm inclined to just do option 2."
+    },
+    {
+      "id": 1625547311,
+      "author": "dcconner",
+      "created_at": "2023-07-07T15:02:38Z",
+      "updated_at": "2023-07-07T15:02:38Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1625547311",
+      "body": "@nuclearsandwich - Added rosdistro source link\r\n"
+    },
+    {
+      "id": 1634869567,
+      "author": "dcconner",
+      "created_at": "2023-07-13T20:30:40Z",
+      "updated_at": "2023-07-13T20:30:40Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1634869567",
+      "body": "Is there anything missing that is preventing #293 from being merged so that I can prepare the release?\r\n\r\nI have the naming approvals from rosdistro linked above:\r\n    * https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L1541\r\n    * https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L1551\r\n"
+    },
+    {
+      "id": 1636568227,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-14T23:55:58Z",
+      "updated_at": "2023-07-14T23:55:58Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1636568227",
+      "body": "> Would it be an option to combine by doing option 2, and then recreating the noetic release on ros2-gdp vs. importing the entire history. Then I can archive the old one after the changes take effect.\r\n\r\nWhat reason is there not to import the Noetic history?\r\nImporting it is a small effort, basically after I create the repository in ros2-gbp I just run\r\n```\r\ngit clone --mirror $OLD_REPO \r\ncd $OLD_REPO\r\ngit remote add ros2-gbp git@github.com:$(basename $(pwd))\r\ngit push --mirror ros2-gbp\r\n```\r\n\r\nKeeping the release history for noetic together is a much nicer experience for someone who wants to review the release history of the package.\r\n\r\n\r\n\r\n> Is there anything missing that is preventing #293 from being merged so that I can prepare the release?\r\n\r\nNope with the links you mention we're now ready to proceed pending a decision on importing noetic history or starting fresh with ROS 2 releases only."
+    },
+    {
+      "id": 1636653165,
+      "author": "dcconner",
+      "created_at": "2023-07-15T04:11:43Z",
+      "updated_at": "2023-07-17T14:08:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1636653165",
+      "body": "I planned to import full history of noetic just not the obsolete branches\r\n\r\nLet's roll with this plan.  Thanks.\r\n"
+    },
+    {
+      "id": 1638235350,
+      "author": "dcconner",
+      "created_at": "2023-07-17T14:13:23Z",
+      "updated_at": "2023-07-17T14:13:23Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1638235350",
+      "body": "To clarify, my intent was to` git push ros2-gbp noetic` then create a new humble branch \r\n\r\nIf that is not sufficient and you want to mirror the entire repo with obsolete branches before noetic, let me know.   I'd lean toward just doing option 2 in that case and only using this repo for ROS 2, but happy to comply with whatever you want to move this forward."
+    },
+    {
+      "id": 1643048836,
+      "author": "dcconner",
+      "created_at": "2023-07-20T03:28:36Z",
+      "updated_at": "2023-07-20T03:28:36Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1643048836",
+      "body": "@nuclearsandwich  ?"
+    },
+    {
+      "id": 1654122184,
+      "author": "dcconner",
+      "created_at": "2023-07-27T17:53:44Z",
+      "updated_at": "2023-07-27T17:53:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1654122184",
+      "body": "Touching base on this again.  \r\n\r\nThere is an issue with flexbe_app release identified by @sloretz https://github.com/FlexBE/flexbe_app/issues/90 \r\n\r\nI do NOT plan to push a flexbe_app release in the near term, but would like to get the humble release for flexbe_behavior_engine out the door."
+    },
+    {
+      "id": 1656416937,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-28T22:53:41Z",
+      "updated_at": "2023-07-28T22:53:41Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1656416937",
+      "body": "> I planned to import full history of noetic just not the obsolete branches\r\n\r\nGot it. Thanks for the clarification. I think that a `--mirror` clone even if it pulls in some older distros is going to be the most reliable way to make sure each ref for the noetic releases is included. It's also usually the ros2-gbp admin's responsibility to perform the initial mirror push and I'd prefer to to keep the practice limited to either mirror push or brand new repo rather than doing something in-between."
+    },
+    {
+      "id": 1656753886,
+      "author": "dcconner",
+      "created_at": "2023-07-29T15:09:43Z",
+      "updated_at": "2023-07-29T15:09:57Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1656753886",
+      "body": "Whatever you suggest to move this forward.\r\n\r\n> it's also usually the ros2-gbp admin's responsibility to perform the initial mirror push\r\n\r\nI take \"admin\" to mean @nuclearsandwich or someone will handle the initial push then. \r\n\r\nLet's just mirror the flexbe_behavior_engine-release.  \r\nThe flexbe_app-release had issues, so we will start that one fresh at the appropriate time.\r\n\r\n"
+    },
+    {
+      "id": 1656792985,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-29T17:18:21Z",
+      "updated_at": "2023-07-29T17:18:38Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1656792985",
+      "body": "#293 is being deployed now. Once it is I'll mirror flexbe_behavior_engine-release and report back here\r\n\r\n> I take \"admin\" to mean @nuclearsandwich or someone will handle the initial push then.\r\n\r\nYep that's generally me although there are [others](https://github.com/ros2-gbp/ros2-gbp-github-org/blob/e7fae2f3c7664a224ad0a4590e27c018f518aa91/00-main.tf#L8-L14) in case something happens to me."
+    },
+    {
+      "id": 1656794241,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-29T17:25:46Z",
+      "updated_at": "2023-07-29T17:25:46Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1656794241",
+      "body": "This change has been deployed and github.com/ros2-gbp/flexbe_behavior_engine-release mirrors https://github.com/FlexBE/flexbe_behavior_engine-release"
+    },
+    {
+      "id": 1658593545,
+      "author": "dcconner",
+      "created_at": "2023-07-31T15:23:49Z",
+      "updated_at": "2023-07-31T15:23:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1658593545",
+      "body": "@nuclearsandwich questions:\r\n1) why is the default branch of new mirrored repo not \"master\"\r\n   It seems odd to have a very old branch as default and not show the release history\r\n2) why do I not have permission to change the default branch settings?"
+    },
+    {
+      "id": 1674241731,
+      "author": "nuclearsandwich",
+      "created_at": "2023-08-11T05:51:18Z",
+      "updated_at": "2023-08-11T05:51:18Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/289#issuecomment-1674241731",
+      "body": "> why is the default branch of new mirrored repo not \"master\"\r\n\r\nThis is a side effect of the fact that in git the 'default' branch is just the first one pushed. So when mirroring to an empty repository the first branch is often the lexicographically topmost one and thus becomes the default.\r\n\r\nI've switched it to bloom's config branch which is `master`.\r\n\r\n\r\n> why do I not have permission to change the default branch settings?\r\n\r\nRelease team members have `mantain` permission on GitHub to protect from unintended or malicious deletion of community resources and ensure that repository configuration changes are managed via these terraform scripts."
+    }
+  ]
+}

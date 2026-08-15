@@ -1,0 +1,4 @@
+{
+  "commit": "fc9764ffe12c515396d98fc22ac2e42030e114b1",
+  "diff": "diff --git a/rdl.tf b/rdl.tf\nindex ddcff4e..3399191 100644\n--- a/rdl.tf\n+++ b/rdl.tf\n@@ -3,6 +3,8 @@ locals {\n     \"jlack1987\",\n   ]\n   rdl_repositories = [\n+    \"data_tamer_tools-release\",\n+    \"foxglove_sdk_vendor-release\",\n     \"rdl-release\",\n   ]\n }\n"
+}

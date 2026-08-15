@@ -1,0 +1,21 @@
+{
+  "number": 396,
+  "title": "Add \"pangolin\" release team",
+  "author": "christian-rauch",
+  "state": "closed",
+  "created_at": "2023-12-10T10:51:41Z",
+  "updated_at": "2024-01-06T01:11:19Z",
+  "closed_at": "2024-01-06T01:11:19Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/396",
+  "body": "* Name of the new release team: `pangolin`\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [Pangolin](https://github.com/stevenlovegrove/Pangolin)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/6bc055ea8f82b320b3234d9341bb537f79463e21/rolling/distribution.yaml#L3655-L3659)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * @christian-rauch (https://github.com/stevenlovegrove/Pangolin/blob/master/package.xml)\r\n",
+  "comments": [
+    {
+      "id": 1879219428,
+      "author": "clalancette",
+      "created_at": "2024-01-05T20:26:05Z",
+      "updated_at": "2024-01-05T20:26:05Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/396#issuecomment-1879219428",
+      "body": "One minor thing that I think would help here is to add yourself to the maintainers list in https://github.com/stevenlovegrove/Pangolin/blob/master/package.xml (that would just give us additional confidence that you are indeed one of the maintainers).\r\n\r\nBut that isn't blocking here, so this looks good to me."
+    }
+  ]
+}

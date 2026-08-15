@@ -1,0 +1,21 @@
+{
+  "number": 891,
+  "title": "Add new release repositories",
+  "author": "Noel215",
+  "state": "closed",
+  "created_at": "2025-10-14T06:49:32Z",
+  "updated_at": "2025-12-05T02:37:15Z",
+  "closed_at": "2025-12-05T02:35:35Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/891",
+  "body": "* Name of the release team: pal_robotics_team\n\n* Release repositories to add:\n  * [play_motion2](git@github.com:pal-robotics/play_motion2.git) \n    * [ros/rosdistro Humble source entry](https://github.com/ros/rosdistro/pull/36289)\n    * [ros/rosdistro Jazzy source entry](https://github.com/ros/rosdistro/pull/48287)\n    * [ros/rosdistro Kilted source entry](https://github.com/ros/rosdistro/pull/48288)\n    * [ros/rosdistro Rolling source entry](https://github.com/ros/rosdistro/pull/48289)\n\n    * [ ] There is an existing release repository which should be imported: https://github.com/pal-gbp/play_motion2-release\n",
+  "comments": [
+    {
+      "id": 3615074430,
+      "author": "cottsay",
+      "created_at": "2025-12-05T02:37:15Z",
+      "updated_at": "2025-12-05T02:37:15Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/891#issuecomment-3615074430",
+      "body": "This has been deployed. I recommend updating all ROS distributions to use the new release repositories under `ros2-gbp` so that all of the distributions are in the same place, at which time you may decommission the existing release repo."
+    }
+  ]
+}

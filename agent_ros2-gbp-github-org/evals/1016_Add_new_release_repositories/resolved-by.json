@@ -1,0 +1,4 @@
+{
+  "commit": "f167a5fc24105318242dc7552210844024b8525e",
+  "diff": "diff --git a/tier4.tf b/tier4.tf\nindex 24bcbb3..89675b6 100644\n--- a/tier4.tf\n+++ b/tier4.tf\n@@ -10,6 +10,7 @@ locals {\n     \"cudnn_cmake_module-release\",\n     \"hash_library_vendor-release\",\n     \"heaphook-release\",\n+    \"nebula-release\",\n     \"osqp_vendor-release\",\n     \"sync_tooling_msgs-release\",\n     \"tensorrt_cmake_module-release\",\n"
+}

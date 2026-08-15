@@ -1,0 +1,4 @@
+{
+  "commit": "6077e06838169df81d4370707e1d982dc8f1b464",
+  "diff": "diff --git a/analogdevices_robotics_sys_sw.tf b/analogdevices_robotics_sys_sw.tf\nindex 294aa6a..c4bb57e 100644\n--- a/analogdevices_robotics_sys_sw.tf\n+++ b/analogdevices_robotics_sys_sw.tf\n@@ -7,6 +7,7 @@ locals {\n   ]\n   analogdevicesinc_robotics_sys_sw_repositories = [\n     \"adi_3dtof_image_stitching-release\",\n+    \"depth_obstacle_detect_ros-release\",\n   ]\n }\n \n"
+}

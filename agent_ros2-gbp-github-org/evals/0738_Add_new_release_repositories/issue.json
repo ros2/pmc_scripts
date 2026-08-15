@@ -1,0 +1,45 @@
+{
+  "number": 738,
+  "title": "Add new release repositories",
+  "author": "emersonknapp",
+  "state": "closed",
+  "created_at": "2025-04-09T23:26:27Z",
+  "updated_at": "2025-04-25T20:17:36Z",
+  "closed_at": "2025-04-25T18:24:03Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/738",
+  "body": "* Name of the release team: tooling_wg\n\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [rosbag2_broll](https://github.com/ros-tooling/rosbag2_broll)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L6891) - Rolling\n    * https://github.com/ros/rosdistro/blob/master/jazzy/distribution.yaml#L7759 - Jazzy\n    * https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L8907 - Humble\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n",
+  "comments": [
+    {
+      "id": 2799040681,
+      "author": "nuclearsandwich",
+      "created_at": "2025-04-12T21:11:34Z",
+      "updated_at": "2025-04-12T21:11:34Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/738#issuecomment-2799040681",
+      "body": "@emersonknapp is this also for the ROS tooling working group?"
+    },
+    {
+      "id": 2799041341,
+      "author": "emersonknapp",
+      "created_at": "2025-04-12T21:14:14Z",
+      "updated_at": "2025-04-12T21:14:14Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/738#issuecomment-2799041341",
+      "body": "Yes! sorry thought I added it"
+    },
+    {
+      "id": 2806654886,
+      "author": "emersonknapp",
+      "created_at": "2025-04-15T16:07:39Z",
+      "updated_at": "2025-04-15T16:07:39Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/738#issuecomment-2806654886",
+      "body": "@nuclearsandwich I have updated the description and verified that yes, `tooling_wg` is the correct release team for this new repo."
+    },
+    {
+      "id": 2831354405,
+      "author": "nuclearsandwich",
+      "created_at": "2025-04-25T20:17:34Z",
+      "updated_at": "2025-04-25T20:17:34Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/738#issuecomment-2831354405",
+      "body": "This change has been deployed."
+    }
+  ]
+}

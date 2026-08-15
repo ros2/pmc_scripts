@@ -1,0 +1,21 @@
+{
+  "number": 1031,
+  "title": "Update release team membership",
+  "author": "chriseichmann",
+  "state": "closed",
+  "created_at": "2026-05-07T09:30:44Z",
+  "updated_at": "2026-06-09T15:49:40Z",
+  "closed_at": "2026-06-09T15:38:22Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1031",
+  "body": "# Updates to sick_safetyscanners membership.\n\n## New team members\n\n* [@chriseichmann](https://github.com/SICKAG/sick_safetyscanners2/blob/master/package.xml#L7)\n* [@thomtrapp](https://github.com/SICKAG/sick_safetyscanners2/blob/master/package.xml#L8)\n\n## Retiring team members\n\n* [@lenpuc](https://github.com/SICKAG/sick_safetyscanners2/commit/377ce99f95d4b1f016ed6bc82191e3b8336ca758)\n",
+  "comments": [
+    {
+      "id": 4661517172,
+      "author": "cottsay",
+      "created_at": "2026-06-09T15:49:40Z",
+      "updated_at": "2026-06-09T15:49:40Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1031#issuecomment-4661517172",
+      "body": "This has been deployed."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "91082813c455f0c91ec929fb70557de0c8df8267",
+  "diff": "diff --git a/nobleo.tf b/nobleo.tf\nindex 3384609..ad1a70b 100644\n--- a/nobleo.tf\n+++ b/nobleo.tf\n@@ -8,6 +8,8 @@ locals {\n     \"libpointmatcher-release\",\n     \"magic_enum-release\",\n     \"rtcm_msgs-release\",\n+    \"rviz_satellite-release\",\n+    \"steering_functions-release\",\n   ]\n }\n \n"
+}

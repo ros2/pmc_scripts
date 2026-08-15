@@ -1,0 +1,37 @@
+{
+  "number": 1014,
+  "title": "Add release team `open_planning`",
+  "author": "sea-bass",
+  "state": "closed",
+  "created_at": "2026-03-28T00:22:55Z",
+  "updated_at": "2026-04-04T00:42:37Z",
+  "closed_at": "2026-04-03T22:09:15Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1014",
+  "body": "* Name of the new release team: `open_planning`\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [`toppra`](https://github.com/hungpham2511/toppra)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/2802107d929fba0e6e11e27ce4f9c9a5d8337126/rolling/distribution.yaml#L9861)\n    * Currently adding ourselves as maintainers (see [this issue](https://github.com/hungpham2511/toppra/issues/275) and [this PR](https://github.com/hungpham2511/toppra/pull/277))\n  * [`roboplan`](https://github.com/open-planning/roboplan)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/2802107d929fba0e6e11e27ce4f9c9a5d8337126/rolling/distribution.yaml#L7424)\n  * [`roboplan_ros`](https://github.com/open-planning/roboplan-ros)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/2802107d929fba0e6e11e27ce4f9c9a5d8337126/rolling/distribution.yaml#L7434)\n\nAll these sources were added in https://github.com/ros/rosdistro/pull/50441 (for Rolling). Equivalent PRs to Humble, Jazzy, and Kilted also landed.\n\n* Team members\n  * [@sea-bass](https://github.com/open-planning/roboplan/blob/4a26ac81e22ced49f37698ce2020209702a4a166/roboplan/package.xml#L7)\n  * [@eholum](https://github.com/open-planning/roboplan-ros/blob/0ac5a3784de90a96d003dd5540b6c808dc041e3f/roboplan_ros_cpp/package.xml#L8)\n  * [@sjahr](https://github.com/open-planning/roboplan/blob/4a26ac81e22ced49f37698ce2020209702a4a166/roboplan_oink/package.xml#L7)",
+  "comments": [
+    {
+      "id": 4146112659,
+      "author": "sea-bass",
+      "created_at": "2026-03-28T00:23:49Z",
+      "updated_at": "2026-03-28T00:23:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1014#issuecomment-4146112659",
+      "body": "@eholum for your edification here too, though I started filling this out a little prematurely (I will update it!)\n\nSource: https://docs.ros.org/en/kilted/How-To-Guides/Releasing/Release-Team-Repository.html#start-a-new-release-team"
+    },
+    {
+      "id": 4185410378,
+      "author": "cottsay",
+      "created_at": "2026-04-03T22:11:18Z",
+      "updated_at": "2026-04-03T22:11:18Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1014#issuecomment-4185410378",
+      "body": "This has been deployed:\n- https://github.com/ros2-gbp/roboplan-release\n- https://github.com/ros2-gbp/roboplan_ros-release\n- https://github.com/ros2-gbp/toppra-release"
+    },
+    {
+      "id": 4185851650,
+      "author": "sea-bass",
+      "created_at": "2026-04-04T00:42:37Z",
+      "updated_at": "2026-04-04T00:42:37Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1014#issuecomment-4185851650",
+      "body": "Thank you!"
+    }
+  ]
+}

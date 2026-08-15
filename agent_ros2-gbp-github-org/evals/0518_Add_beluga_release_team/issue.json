@@ -1,0 +1,45 @@
+{
+  "number": 518,
+  "title": "Add beluga release team",
+  "author": "hidmic",
+  "state": "closed",
+  "created_at": "2024-05-14T11:22:28Z",
+  "updated_at": "2024-05-17T22:28:47Z",
+  "closed_at": "2024-05-17T21:37:46Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/518",
+  "body": "* Name of the new release team: beluga\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [Ekumen-OS/beluga](https://github.com/Ekumen-OS/beluga)\r\n    * [noetic source entry](https://github.com/ros/rosdistro/blob/33229c39fb48111a754c18c67a7e85e558fad9a7/noetic/distribution.yaml#L572-L581)\r\n    * [humble source entry](https://github.com/ros/rosdistro/blob/33229c39fb48111a754c18c67a7e85e558fad9a7/humble/distribution.yaml#L795-L804)\r\n    * [iron source entry](https://github.com/ros/rosdistro/blob/33229c39fb48111a754c18c67a7e85e558fad9a7/iron/distribution.yaml#L617-L626)\r\n    * [jazzy source entry](https://github.com/ros/rosdistro/blob/33229c39fb48111a754c18c67a7e85e558fad9a7/jazzy/distribution.yaml#L655-L664)\r\n\r\n* Team members\r\n  * @nahueespinosa ([maintainer](https://github.com/Ekumen-OS/beluga/blob/71d3f0cae0588ce2fed1beb847999bf08e2fcf69/beluga_amcl/package.xml#L12))\r\n  * @glpuga ([maintainer](https://github.com/Ekumen-OS/beluga/blob/71d3f0cae0588ce2fed1beb847999bf08e2fcf69/beluga_amcl/package.xml#L9))\r\n  * @hidmic ([maintainer](https://github.com/Ekumen-OS/beluga/blob/71d3f0cae0588ce2fed1beb847999bf08e2fcf69/beluga_amcl/package.xml#L11))\r\n",
+  "comments": [
+    {
+      "id": 2111420424,
+      "author": "hidmic",
+      "created_at": "2024-05-15T01:31:44Z",
+      "updated_at": "2024-05-15T01:31:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/518#issuecomment-2111420424",
+      "body": "Friendly ping @nuclearsandwich perhaps?"
+    },
+    {
+      "id": 2112362227,
+      "author": "mjcarroll",
+      "created_at": "2024-05-15T12:11:16Z",
+      "updated_at": "2024-05-15T12:11:16Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/518#issuecomment-2112362227",
+      "body": "Howdy @hidmic! I think that @nuclearsandwich usually does a pass over ros2-gbp on Fridays."
+    },
+    {
+      "id": 2117643493,
+      "author": "hidmic",
+      "created_at": "2024-05-17T13:44:28Z",
+      "updated_at": "2024-05-17T13:44:41Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/518#issuecomment-2117643493",
+      "body": "Cool, thanks @mjcarroll @nuclearsandwich. I've added #520 so we can (hopefully) do it all in one go. Let me know if and how I can help."
+    },
+    {
+      "id": 2118451242,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-17T22:28:45Z",
+      "updated_at": "2024-05-17T22:28:45Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/518#issuecomment-2118451242",
+      "body": "This change has been deployed."
+    }
+  ]
+}

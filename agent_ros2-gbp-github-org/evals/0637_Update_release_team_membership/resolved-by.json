@@ -1,0 +1,4 @@
+{
+  "commit": "eb1e613dd0a8810f18232f4ebd96691f56bf0ad8",
+  "diff": "diff --git a/rt_net.tf b/rt_net.tf\nindex 2aea404..2d7a9dc 100644\n--- a/rt_net.tf\n+++ b/rt_net.tf\n@@ -1,9 +1,9 @@\n locals {\n   rt_net_team = [\n-    \"chama1176\",\n+    \"KuraZuzu\",\n     \"Kuwamai\",\n-    \"ShotaAk\",\n     \"YusukeKato\",\n+    \"chama1176\",\n   ]\n   rt_net_repositories = [\n     \"crane_plus-release\",\n"
+}

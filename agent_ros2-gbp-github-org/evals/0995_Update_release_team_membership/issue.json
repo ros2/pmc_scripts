@@ -1,0 +1,29 @@
+{
+  "number": 995,
+  "title": "Update release team membership",
+  "author": "man2clj",
+  "state": "closed",
+  "created_at": "2026-03-02T12:24:49Z",
+  "updated_at": "2026-03-23T06:29:11Z",
+  "closed_at": "2026-03-23T06:27:11Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/995",
+  "body": "# Updates to bosch_engineering_ohw membership.\n\n## New team members\n\n* [@man2clj](https://github.com/bosch-engineering/off_highway_sensor_drivers/graphs/contributors)\n\n## Retiring team members\n\n* [@Sopterean-Calin](https://github.com/bosch-engineering/off_highway_sensor_drivers/graphs/contributors)\n* [@Gabriela-AdrianaLapuste](https://github.com/bosch-engineering/off_highway_sensor_drivers/graphs/contributors)\n",
+  "comments": [
+    {
+      "id": 4082616104,
+      "author": "man2clj",
+      "created_at": "2026-03-18T13:35:10Z",
+      "updated_at": "2026-03-18T13:35:10Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/995#issuecomment-4082616104",
+      "body": "Hello @nuclearsandwich, would it be possible to get an update regarding of when the team can be updated? We are currently preparing a new release and this would be the last step.\n \nAs for my contribution, it will be pushed with the new release. I will be taking over as the maintainer over @Gabriela-AdrianaLapuste for some of the code in the repository. @shu-beg can approve this if necessary.\n \nThank you very much!"
+    },
+    {
+      "id": 4108326334,
+      "author": "cottsay",
+      "created_at": "2026-03-23T06:29:11Z",
+      "updated_at": "2026-03-23T06:29:11Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/995#issuecomment-4108326334",
+      "body": "This has been deployed."
+    }
+  ]
+}

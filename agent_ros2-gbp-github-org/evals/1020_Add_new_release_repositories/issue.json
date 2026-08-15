@@ -1,0 +1,29 @@
+{
+  "number": 1020,
+  "title": "Add new release repositories",
+  "author": "gstavrinos",
+  "state": "closed",
+  "created_at": "2026-04-04T15:34:20Z",
+  "updated_at": "2026-06-09T15:47:01Z",
+  "closed_at": "2026-06-09T15:36:55Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1020",
+  "body": "\n* Name of the release team: gstavrinos\n\n<!--\nBefore release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\nGuidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\nIf you are requesting multiple repositories at once, please list them all here instead of creating multiple issues.\n-->\n* Release repositories to add: https://github.com/ros2-gbp/video_to_image_msg_publisher-release.git \n\nPRs on rosdistro:\n* https://github.com/ros/rosdistro/pull/50631\n* https://github.com/ros/rosdistro/pull/50632\n* https://github.com/ros/rosdistro/pull/50633\n* https://github.com/ros/rosdistro/pull/50634\n\n",
+  "comments": [
+    {
+      "id": 4276855166,
+      "author": "gstavrinos",
+      "created_at": "2026-04-19T21:26:26Z",
+      "updated_at": "2026-04-19T21:26:26Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1020#issuecomment-4276855166",
+      "body": "Updated links after fixing my mistake on rosdistro PRs"
+    },
+    {
+      "id": 4661496889,
+      "author": "cottsay",
+      "created_at": "2026-06-09T15:47:01Z",
+      "updated_at": "2026-06-09T15:47:01Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1020#issuecomment-4661496889",
+      "body": "This has been deployed: https://github.com/ros2-gbp/video_to_image_msg_publisher-release"
+    }
+  ]
+}

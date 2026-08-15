@@ -1,0 +1,21 @@
+{
+  "number": 670,
+  "title": "Add release team \"uleroboticsgroup\"",
+  "author": "mgonzs13",
+  "state": "closed",
+  "created_at": "2024-12-06T09:37:46Z",
+  "updated_at": "2024-12-16T01:58:22Z",
+  "closed_at": "2024-12-15T23:52:17Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/670",
+  "body": "* Name of the new release team: uleroboticsgroup\r\n\r\n* Release repositories to add:\r\n  * [yasmin](https://github.com/uleroboticsgroup/yasmin)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/43524)\r\n\r\n* Team members\r\n  * @mgonzs13\r\n",
+  "comments": [
+    {
+      "id": 2544324830,
+      "author": "nuclearsandwich",
+      "created_at": "2024-12-16T01:58:20Z",
+      "updated_at": "2024-12-16T01:58:20Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/670#issuecomment-2544324830",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

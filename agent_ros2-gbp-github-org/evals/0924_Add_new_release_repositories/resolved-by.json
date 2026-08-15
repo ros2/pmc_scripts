@@ -1,0 +1,4 @@
+{
+  "commit": "a942c348f38733664fb042c2dd18e147e2b00a6c",
+  "diff": "diff --git a/fictionlab.tf b/fictionlab.tf\nindex 9e133df..ecccb66 100644\n--- a/fictionlab.tf\n+++ b/fictionlab.tf\n@@ -9,6 +9,7 @@ locals {\n     \"aruco_opencv-release\",\n     \"leo_common-release\",\n     \"leo_desktop-release\",\n+    \"leo_examples-ros2-release\",\n     \"leo_robot-release\",\n     \"leo_simulator-release\",\n     \"raph_common-release\",\n"
+}

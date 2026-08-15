@@ -1,0 +1,12 @@
+{
+  "number": 457,
+  "title": "Add release team marine_msgs",
+  "author": "rolker",
+  "state": "closed",
+  "created_at": "2024-02-28T19:27:38Z",
+  "updated_at": "2024-03-09T00:40:20Z",
+  "closed_at": "2024-03-09T00:40:20Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/457",
+  "body": "* Name of the new release team: marine_msgs\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [https://github.com/apl-ocean-engineering/marine_msgs/tree/ros2](https://github.com/apl-ocean-engineering/marine_msgs/tree/ros2)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/506bceb93c6570fafd9fc3f4762d53e07b9add5f/noetic/distribution.yaml#L5441)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@rolker](https://github.com/apl-ocean-engineering/marine_msgs/blob/59de95d3f2179bdb2a62aa581b487b9b412f3ca9/marine_acoustic_msgs/package.xml#L10)\r\n  * [@lauralindzey](https://github.com/apl-ocean-engineering/marine_msgs/blob/59de95d3f2179bdb2a62aa581b487b9b412f3ca9/marine_acoustic_msgs/package.xml#L9)\r\n\r\nPlease note that the rosdistro source entry is for noetic and points to a different branch of the same repo. My PR for a rolling source entry was closed without merging due to Ubuntu 24.04 migration: https://github.com/ros/rosdistro/pull/40014",
+  "comments": []
+}

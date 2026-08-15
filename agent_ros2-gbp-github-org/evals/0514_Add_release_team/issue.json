@@ -1,0 +1,37 @@
+{
+  "number": 514,
+  "title": "Add release team",
+  "author": "AndreasKuhner",
+  "state": "closed",
+  "created_at": "2024-05-06T11:34:36Z",
+  "updated_at": "2024-05-17T22:28:43Z",
+  "closed_at": "2024-05-17T21:24:28Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/514",
+  "body": "* Name of the new release team: franka_robotics <!-- all lower case with words separated by `_`. -->\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [franka_description](https://github.com/frankaemika/franka_description.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/f2adfe56b1ef4184dd7e5d6de7eff6a7cff6b0e7/humble/distribution.yaml#L2208C3-L2208C21)\r\n\r\n* Team members\r\n  * [@BarisYazici](https://github.com/BarisYazici)\r\n  * [@AndreasKuhner](https://github.com/AndreasKuhner)\r\n  * [@kmohyeldin](https://github.com/kmohyeldin)\r\n  * [@winkma](https://github.com/winkma)\r\n  * [@gomezgu](https://github.com/gomezgu)\r\n",
+  "comments": [
+    {
+      "id": 2109540418,
+      "author": "AndreasKuhner",
+      "created_at": "2024-05-14T08:05:51Z",
+      "updated_at": "2024-05-14T08:05:51Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/514#issuecomment-2109540418",
+      "body": "What would be the next step? :)"
+    },
+    {
+      "id": 2118400733,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-17T21:24:21Z",
+      "updated_at": "2024-05-17T21:24:21Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/514#issuecomment-2118400733",
+      "body": "> What would be the next step? :)\r\n\r\nThank you for the patience here. I've been backed up on some other infrastructure work and hadn't had a chance to work down this review queue. #521 will resolve this request once merged and deployed in the next couple of hours."
+    },
+    {
+      "id": 2118451209,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-17T22:28:42Z",
+      "updated_at": "2024-05-17T22:28:42Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/514#issuecomment-2118451209",
+      "body": "This change has been deployed."
+    }
+  ]
+}

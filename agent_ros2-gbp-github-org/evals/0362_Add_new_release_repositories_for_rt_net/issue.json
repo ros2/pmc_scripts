@@ -1,0 +1,37 @@
+{
+  "number": 362,
+  "title": "Add new release repositories for rt-net",
+  "author": "YusukeKato",
+  "state": "closed",
+  "created_at": "2023-11-07T09:27:39Z",
+  "updated_at": "2023-11-18T00:38:25Z",
+  "closed_at": "2023-11-18T00:15:10Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/362",
+  "body": "* Name of the release team: rt-net\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [raspimouse_sim](https://github.com/rt-net/raspimouse_sim)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L5120-L5124)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>",
+  "comments": [
+    {
+      "id": 1798130441,
+      "author": "YusukeKato",
+      "created_at": "2023-11-07T09:33:46Z",
+      "updated_at": "2023-11-09T01:56:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/362#issuecomment-1798130441",
+      "body": "I don't know how to create a Pull Request only for source entry using `bloom`. Therefore, I created the PR manually.\r\n\r\nhttps://github.com/ros/rosdistro/pull/38915"
+    },
+    {
+      "id": 1809350413,
+      "author": "YusukeKato",
+      "created_at": "2023-11-14T00:31:22Z",
+      "updated_at": "2023-11-14T00:31:22Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/362#issuecomment-1809350413",
+      "body": "I have added the source entry."
+    },
+    {
+      "id": 1817288857,
+      "author": "nuclearsandwich",
+      "created_at": "2023-11-18T00:38:24Z",
+      "updated_at": "2023-11-18T00:38:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/362#issuecomment-1817288857",
+      "body": "This change has been deployed."
+    }
+  ]
+}

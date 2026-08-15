@@ -1,0 +1,21 @@
+{
+  "number": 544,
+  "title": "Add new release repository flex_sync",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2024-06-12T11:13:23Z",
+  "updated_at": "2024-06-26T13:30:56Z",
+  "closed_at": "2024-06-26T04:34:18Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/544",
+  "body": "* Name of the release team: ros-misc-utilities\r\n\r\n* Release repositories to add:\r\n  * [flex_sync](https://github.com/ros-misc-utilities/flex_sync)\r\n    * [ros/rosdistro source entry (humble)](https://github.com/ros/rosdistro/blob/1e7d9f567c1ea81b37dad217823d800d56f75989/humble/distribution.yaml#L2129)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n ",
+  "comments": [
+    {
+      "id": 2191710549,
+      "author": "nuclearsandwich",
+      "created_at": "2024-06-26T13:30:55Z",
+      "updated_at": "2024-06-26T13:30:55Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/544#issuecomment-2191710549",
+      "body": "This change has been deployed."
+    }
+  ]
+}

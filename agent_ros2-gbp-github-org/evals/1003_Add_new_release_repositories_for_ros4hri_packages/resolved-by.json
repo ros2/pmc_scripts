@@ -1,0 +1,4 @@
+{
+  "commit": "c576986918bb6ec31f604ed99307ac672ed1ecca",
+  "diff": "diff --git a/ros4hri.tf b/ros4hri.tf\nindex 06c765e..12cfa02 100644\n--- a/ros4hri.tf\n+++ b/ros4hri.tf\n@@ -3,7 +3,11 @@ locals {\n     \"severin-lemaignan\",\n   ]\n   ros4hri_repositories = [\n+    \"hri_actions_msgs-release\",\n     \"hri_msgs-release\",\n+    \"hri_rviz-release\",\n+    \"human_description-release\",\n+    \"libhri-release\",\n   ]\n }\n \n"
+}

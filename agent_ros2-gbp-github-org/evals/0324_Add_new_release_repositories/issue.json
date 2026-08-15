@@ -1,0 +1,29 @@
+{
+  "number": 324,
+  "title": "Add new release repositories",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2023-08-29T10:56:07Z",
+  "updated_at": "2023-09-15T18:06:53Z",
+  "closed_at": "2023-09-04T18:55:32Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/324",
+  "body": "* Name of the release team: ros-event-camera\r\n\r\n* Release repositories to add:\r\n  * [event_camera_codecs](https://github.com/ros-event-camera/event_camera_codecs)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/a691abf5ef31dfa719ba6b7f08bd6eed858581b7/rolling/distribution.yaml#L1237)\r\n  * [event_camera_py](https://github.com/ros-event-camera/event_camera_py)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/a691abf5ef31dfa719ba6b7f08bd6eed858581b7/rolling/distribution.yaml#L1262)\r\n  * [event_camera_renderer](https://github.com/ros-event-camera/event_camera_renderer)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/a691abf5ef31dfa719ba6b7f08bd6eed858581b7/rolling/distribution.yaml#L1272)\r\n    ",
+  "comments": [
+    {
+      "id": 1706442434,
+      "author": "berndpfrommer",
+      "created_at": "2023-09-05T11:29:39Z",
+      "updated_at": "2023-09-05T11:29:39Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/324#issuecomment-1706442434",
+      "body": "It seems that none of the new repositories are not available. For instance I cannot access\r\n\r\nhttps://github.com/ros2-gbp/event_camera_codecs-release.git\r\n\r\nWhat am I doing wrong?"
+    },
+    {
+      "id": 1721658168,
+      "author": "nuclearsandwich",
+      "created_at": "2023-09-15T18:06:52Z",
+      "updated_at": "2023-09-15T18:06:52Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/324#issuecomment-1721658168",
+      "body": "Due to a deployment issue this change was only just deployed."
+    }
+  ]
+}

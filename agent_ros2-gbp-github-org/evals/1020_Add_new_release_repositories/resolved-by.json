@@ -1,0 +1,4 @@
+{
+  "commit": "0e1406ca8d57476c26bf447633399393342ddc97",
+  "diff": "diff --git a/gstavrinos.tf b/gstavrinos.tf\nindex 4403d90..13c1172 100644\n--- a/gstavrinos.tf\n+++ b/gstavrinos.tf\n@@ -5,6 +5,7 @@ locals {\n   gstavrinos_repositories = [\n     \"doom_ros-release\",\n     \"odom_to_tf_ros2-release\",\n+    \"video_to_image_msg_publisher-release\",\n   ]\n }\n \n"
+}

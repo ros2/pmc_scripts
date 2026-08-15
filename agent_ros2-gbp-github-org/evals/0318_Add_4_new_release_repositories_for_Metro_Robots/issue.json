@@ -1,0 +1,45 @@
+{
+  "number": 318,
+  "title": "Add 4 new release repositories for Metro Robots",
+  "author": "DLu",
+  "state": "closed",
+  "created_at": "2023-08-22T14:44:20Z",
+  "updated_at": "2023-08-30T02:27:02Z",
+  "closed_at": "2023-08-26T01:38:04Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/318",
+  "body": "* Name of the release team: [metro_robots](https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/metro_robots.tf)\r\n\r\n* Release repositories to add: \r\n  * [metrics_msgs](https://github.com/MetroRobots/metrics_msgs.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/66407c7e305a83531ab7bf602cade6f06bbb053a/humble/distribution.yaml#L3177-L3182)\r\n  * [metro_gazebo_plugins](https://github.com/MetroRobots/metro_gazebo_plugins.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/66407c7e305a83531ab7bf602cade6f06bbb053a/humble/distribution.yaml#L3183-L3188)\r\n  * [the_navigation_gauntlet](https://github.com/MetroRobots/the_navigation_gauntlet.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/0b3102b04c630b6da008a0a249246951d125c0ad/humble/distribution.yaml#L7503-L7507)\r\n  * [metro_nav](https://github.com/MetroRobots/metro_nav.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/1778246d21399eaf2e78b7b147eb60f07c8728f5/humble/distribution.yaml#L3189-L3194)\r\n",
+  "comments": [
+    {
+      "id": 1690593320,
+      "author": "DLu",
+      "created_at": "2023-08-23T20:28:31Z",
+      "updated_at": "2023-08-23T20:28:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/318#issuecomment-1690593320",
+      "body": "The *three* repositories we need are `metrics_msgs`, `metro_gazebo_plugins`, `the_navigation_gauntlet` and `metro_nav`. Wait, no....Amongst the release repositories we need are `fear`, `surprise`, and `fanatical_devotion_to_the_pope`"
+    },
+    {
+      "id": 1690595230,
+      "author": "DLu",
+      "created_at": "2023-08-23T20:30:15Z",
+      "updated_at": "2023-08-23T20:30:15Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/318#issuecomment-1690595230",
+      "body": "Ok, finally all up to date. "
+    },
+    {
+      "id": 1694123873,
+      "author": "nuclearsandwich",
+      "created_at": "2023-08-26T02:24:11Z",
+      "updated_at": "2023-08-26T02:24:11Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/318#issuecomment-1694123873",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 1698395962,
+      "author": "DLu",
+      "created_at": "2023-08-30T02:27:02Z",
+      "updated_at": "2023-08-30T02:27:02Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/318#issuecomment-1698395962",
+      "body": "Thanks !!"
+    }
+  ]
+}

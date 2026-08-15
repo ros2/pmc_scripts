@@ -1,0 +1,21 @@
+{
+  "number": 910,
+  "title": "Add new release repositories",
+  "author": "rafal-gorecki",
+  "state": "closed",
+  "created_at": "2025-11-06T09:03:02Z",
+  "updated_at": "2025-12-05T20:31:59Z",
+  "closed_at": "2025-12-05T20:26:05Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/910",
+  "body": "Thanks!\n\n* Name of the release team: husarion\n\n* Release repositories to add:\n[rosbot_ros](https://github.com/husarion/rosbot_ros)\n[rosdistro/humble](https://github.com/ros/rosdistro/blob/b22df5612854feac6808ea1942f58189aa3f7bad/humble/distribution.yaml#L9702)\n[rosdistro/jazzy](https://github.com/ros/rosdistro/blob/b22df5612854feac6808ea1942f58189aa3f7bad/jazzy/distribution.yaml#L8651)",
+  "comments": [
+    {
+      "id": 3618511153,
+      "author": "cottsay",
+      "created_at": "2025-12-05T20:31:59Z",
+      "updated_at": "2025-12-05T20:31:59Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/910#issuecomment-3618511153",
+      "body": "This has been deployed: https://github.com/ros2-gbp/rosbot_ros-release"
+    }
+  ]
+}

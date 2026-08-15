@@ -1,0 +1,21 @@
+{
+  "number": 1067,
+  "title": "Add release team dyno_robotics",
+  "author": "ksatyaki",
+  "state": "closed",
+  "created_at": "2026-06-15T20:56:43Z",
+  "updated_at": "2026-07-16T21:11:30Z",
+  "closed_at": "2026-07-16T21:04:19Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1067",
+  "body": "* Name of the new release team: dyno_robotics\n* Release repositories to add:\n  * [connection_inspector](https://github.com/ksatyaki/ros2_node_inspector.git)\n    * [ros/rosdistro PR](https://github.com/ros/rosdistro/pull/52092)\n    \n* Team members\n  * [@jack-mcmurdo](https://github.com/ksatyaki/ros2_node_inspector/blob/c7a3bd383a718665257ff4447935d123933e0d1d/package.xml#L10)\n  * @ksatyaki, Alternative user id of @jack-mcmurdo\n  * @Erikorjehag, CEO of Dyno Robotics AB\n  ",
+  "comments": [
+    {
+      "id": 4996630144,
+      "author": "cottsay",
+      "created_at": "2026-07-16T21:11:30Z",
+      "updated_at": "2026-07-16T21:11:30Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1067#issuecomment-4996630144",
+      "body": "This has been deployed: https://github.com/ros2-gbp/connection_inspector-release"
+    }
+  ]
+}

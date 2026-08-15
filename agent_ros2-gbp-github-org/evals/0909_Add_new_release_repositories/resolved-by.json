@@ -1,0 +1,4 @@
+{
+  "commit": "380a50bebd286b4d32bde18e827785aa23c4efad",
+  "diff": "diff --git a/sony_rdc.tf b/sony_rdc.tf\nindex 523b654..c186f2a 100644\n--- a/sony_rdc.tf\n+++ b/sony_rdc.tf\n@@ -6,6 +6,7 @@ locals {\n   sony_rdc_repositories = [\n     \"persist_parameter_server-release\",\n     \"rcl_logging_syslog-release\",\n+    \"ros2ai-release\",\n     \"service_load_balancing-release\",\n   ]\n }\n"
+}

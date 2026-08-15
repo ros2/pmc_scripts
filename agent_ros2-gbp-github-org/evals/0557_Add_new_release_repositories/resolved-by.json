@@ -1,0 +1,4 @@
+{
+  "commit": "43697b1bad1584f840f4a92804f2dc7ba862fe9f",
+  "diff": "diff --git a/nobleo.tf b/nobleo.tf\nindex ad1a70b..e8a4435 100644\n--- a/nobleo.tf\n+++ b/nobleo.tf\n@@ -7,6 +7,8 @@ locals {\n     \"libnabo-release\",\n     \"libpointmatcher-release\",\n     \"magic_enum-release\",\n+    \"rslidar_msg-release\",\n+    \"rslidar_sdk-release\",\n     \"rtcm_msgs-release\",\n     \"rviz_satellite-release\",\n     \"steering_functions-release\",\n"
+}

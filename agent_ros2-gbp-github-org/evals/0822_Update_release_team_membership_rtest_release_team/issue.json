@@ -1,0 +1,29 @@
+{
+  "number": 822,
+  "title": "Update release team membership rtest_release_team",
+  "author": "Mariusz-Szczepanik",
+  "state": "closed",
+  "created_at": "2025-07-18T06:51:32Z",
+  "updated_at": "2025-08-03T15:38:21Z",
+  "closed_at": "2025-08-02T14:36:54Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/822",
+  "body": "# Updates to rtest_release_team membership.\n\n## New team members\n\n[@MariuszSzczepanikSpyrosoft](https://github.com/Beam-and-Spyrosoft/rtest/blob/main/rtest/package.xml#L9)\n[@slci](https://github.com/Beam-and-Spyrosoft/rtest/blob/main/rtest/package.xml#L8)\n",
+  "comments": [
+    {
+      "id": 3146542556,
+      "author": "nuclearsandwich",
+      "created_at": "2025-08-02T14:36:54Z",
+      "updated_at": "2025-08-02T14:36:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/822#issuecomment-3146542556",
+      "body": "Resolved by #811."
+    },
+    {
+      "id": 3148501587,
+      "author": "Mariusz-Szczepanik",
+      "created_at": "2025-08-03T15:38:21Z",
+      "updated_at": "2025-08-03T15:38:21Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/822#issuecomment-3148501587",
+      "body": "Hi @nuclearsandwich, I still received an error when I try to push --dry-run to rtest-release repository:\n\n```\ngit push origin master --dry-run\nERROR: Permission to ros2-gbp/rtest-release.git denied to MariuszSzczepanikSpyrosoft.\nfatal: Could not read from remote repository.\n\nPlease make sure you have the correct access rights\nand the repository exists.\n```\n"
+    }
+  ]
+}

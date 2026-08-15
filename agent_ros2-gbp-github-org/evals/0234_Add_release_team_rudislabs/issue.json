@@ -1,0 +1,12 @@
+{
+  "number": 234,
+  "title": "Add release team: rudislabs",
+  "author": "bperseghetti",
+  "state": "closed",
+  "created_at": "2023-04-04T15:33:58Z",
+  "updated_at": "2023-04-11T17:03:21Z",
+  "closed_at": "2023-04-11T17:03:21Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/234",
+  "body": "* rudislabs: <!-- all lower case with words separated by `_`. -->\r\n* Release repositories to add:\r\n  * [actuator_msgs](https://github.com/rudislabs/actuator_msgs)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@bperseghetti](https://github.com/rudislabs/actuator_msgs/blob/1834f8e8f719b51c4b29ff6c7a3c0bb4cc247962/package.xml#L7)\r\n\r\n",
+  "comments": []
+}

@@ -1,0 +1,21 @@
+{
+  "number": 406,
+  "title": "Add release team",
+  "author": "whoenig",
+  "state": "closed",
+  "created_at": "2024-01-04T06:35:01Z",
+  "updated_at": "2024-01-06T01:17:38Z",
+  "closed_at": "2024-01-06T01:17:38Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/406",
+  "body": "* Name of the new release team: imrclab\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [motion_capture_tracking](https://github.com/IMRCLab/motion_capture_tracking/tree/ros2)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/a993f650899ac6a5c1002a74becd19a4b618ed10/rolling/distribution.yaml#L2912)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@whoenig](https://github.com/IMRCLab/motion_capture_tracking/blob/5aa112de46b53615a74178de9fc3844879edee7a/motion_capture_tracking/package.xml#L7)\r\n",
+  "comments": [
+    {
+      "id": 1879228149,
+      "author": "clalancette",
+      "created_at": "2024-01-05T20:35:35Z",
+      "updated_at": "2024-01-05T20:35:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/406#issuecomment-1879228149",
+      "body": "This looks good to me."
+    }
+  ]
+}

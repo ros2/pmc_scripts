@@ -1,0 +1,4 @@
+{
+  "commit": "a55fcc78592f2b81d43ee5ff8866fb0c5fa20d1f",
+  "diff": "diff --git a/nobleo.tf b/nobleo.tf\nindex ac6551c..d972192 100644\n--- a/nobleo.tf\n+++ b/nobleo.tf\n@@ -11,6 +11,7 @@ locals {\n     \"magic_enum-release\",\n     \"mp_units_vendor-release\",\n     \"nobleo_socketcan_bridge-release\",\n+    \"pfs-release\",\n     \"ros2_fmt_logger-release\",\n     \"rslidar_msg-release\",\n     \"rslidar_sdk-release\",\n"
+}

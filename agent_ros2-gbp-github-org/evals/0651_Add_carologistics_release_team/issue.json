@@ -1,0 +1,37 @@
+{
+  "number": 651,
+  "title": "Add carologistics release team",
+  "author": "TarikViehmann",
+  "state": "closed",
+  "created_at": "2024-11-14T09:41:14Z",
+  "updated_at": "2024-11-21T18:58:23Z",
+  "closed_at": "2024-11-21T18:07:53Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/651",
+  "body": "* Name of the new release team: carologistics\r\n  * [clips_vendor](https://github.com/carologistics/clips_vendor)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/8384c11cfbd2455db9115cda80545ec6593887fa/rolling/distribution.yaml#L904C1-L909C23)\r\n    * [ ] ~There is an existing release repository which should be imported:~\r\n\r\n* Team members\r\n  * [TarikViehmann](https://github.com/carologistics/clips_vendor/blob/29a831ca44d7fa43736dfe01a06fd9030f0f3b91/package.xml#L7)\r\n  * [techtasie](https://github.com/carologistics/clips_vendor/blob/29a831ca44d7fa43736dfe01a06fd9030f0f3b91/package.xml#L8)\r\n  \r\nCarologistics is a robotics team of students and reasearch assistants competing at RoboCup since 2012 as well as doing research in the field of robotics.\r\nWith our migration to ROS 2 we would like to make our contributions readily available to the ROS community.\r\nAs a first project, we are preparing to release our CLIPS based reasoning framework suitable for knowledge-based applications.\r\nTim and I have experience with general packaging in fedora and I maintain ROS binaries for Fedora for many years now (https://copr.fedorainfracloud.org/coprs/tavie/ros2).\r\n\r\nTo start, we want to get familiar with the ROS workflows by releasing the clips_vendor (the knowledge engine we use to build the framework) for humble, jazzy and rolling.",
+  "comments": [
+    {
+      "id": 2475987641,
+      "author": "TarikViehmann",
+      "created_at": "2024-11-14T10:33:50Z",
+      "updated_at": "2024-11-14T10:33:50Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/651#issuecomment-2475987641",
+      "body": "fixed the build issue due to missing svn dependency: https://github.com/carologistics/clips_vendor/pull/1"
+    },
+    {
+      "id": 2477703986,
+      "author": "TarikViehmann",
+      "created_at": "2024-11-15T00:36:51Z",
+      "updated_at": "2024-11-15T10:21:28Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/651#issuecomment-2477703986",
+      "body": "we encounter some issues related to svn during the build:\r\n```\r\n01:17:29   from pkg_resources import load_entry_point\r\n01:17:29 === ./clips_vendor (svn) ===\r\n01:17:29 Could not checkout repository 'https://svn.code.sf.net/p/clipsrules/code/branches/64x': svn: E155004: Run 'svn cleanup' to remove locks (type 'svn help cleanup' for details)\r\n01:17:29 svn: E155004: Working copy '/tmp/ws/build_isolated/clips_vendor/clips_vendor-prefix/src/clips_vendor' locked.\r\n01:17:29 svn: E155004: '/tmp/ws/build_isolated/clips_vendor/clips_vendor-prefix/src/clips_vendor' is already locked.\r\n01:17:29 gmake[2]: *** [CMakeFiles/clips_vendor.dir/build.make:101: clips_vendor-prefix/src/clips_vendor-stamp/clips_vendor-download] Error 1\r\n01:17:29 gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/clips_vendor.dir/all] Error 2\r\n01:17:29 gmake: *** [Makefile:146: all] Error 2\r\n01:17:29 ---\r\n```\r\n\r\nBut we are not sure what the issue is. We mainly use `ament_cmake_vendor_package` and they more-or-less hand it through to cmakes `externalProject_add`.\r\n\r\nCould this be an issue with the build farm polling the svn working directory in multiple threads and locking it?\r\n\r\nAs it seems that barely any other packages even depends on svn I could offer to mirror the svn to git and use the git mirror for the vendor.\r\nNot sure if that is acceptable or not.\r\n\r\nIf this is the wrong place to discuss this, just let me know.\r\n\r\nEdit: We actually just migrated to downloading the code via zip"
+    },
+    {
+      "id": 2492030130,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-21T18:58:22Z",
+      "updated_at": "2024-11-21T18:58:22Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/651#issuecomment-2492030130",
+      "body": "This change has been deployed."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "number": 1050,
+  "title": "Update release team membership",
+  "author": "doisyg",
+  "state": "closed",
+  "created_at": "2026-06-08T19:32:39Z",
+  "updated_at": "2026-06-09T19:36:06Z",
+  "closed_at": "2026-06-09T15:38:40Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1050",
+  "body": "# Updates to `dexory` membership.\n\n## New team members\n\n* [@doisyg](https://github.com/botsandus/ament_black/blob/c77faf7011d9/ament_black/package.xml#L10)\n* [@biofotis](https://github.com/botsandus/ament_black/blob/c77faf7011d9/ament_black/package.xml#L11)\n\n## Retiring team members\n\n* [@nachovizzo](https://github.com/botsandus/ament_black/commit/c77faf7011d9) — left Dexory; maintainer tags updated in this commit",
+  "comments": [
+    {
+      "id": 4661520374,
+      "author": "cottsay",
+      "created_at": "2026-06-09T15:50:04Z",
+      "updated_at": "2026-06-09T15:50:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1050#issuecomment-4661520374",
+      "body": "This has been deployed."
+    },
+    {
+      "id": 4663356450,
+      "author": "doisyg",
+      "created_at": "2026-06-09T19:36:06Z",
+      "updated_at": "2026-06-09T19:36:06Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1050#issuecomment-4663356450",
+      "body": "Thanks !"
+    }
+  ]
+}

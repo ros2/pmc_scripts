@@ -1,0 +1,69 @@
+{
+  "number": 753,
+  "title": "Add release team and repository for simulation_interfaces",
+  "author": "zakmat",
+  "state": "closed",
+  "created_at": "2025-04-16T14:58:55Z",
+  "updated_at": "2025-05-09T20:13:59Z",
+  "closed_at": "2025-05-09T18:24:29Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/753",
+  "body": "* Name of the new release team: <!-- all lower case with words separated by `_`. --> simulation_interfaces_team\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [simulation_interfaces](https://github.com/ros-simulation/simulation_interfaces)\n    * [ros/rosdistro source entry](LINK TO SOURCE FIELD IN ROS/ROSDISTRO) - PR is waiting for merge: https://github.com/ros/rosdistro/pull/45205\n      \n* Team members\n  * [@adamdbrw](https://github.com/ros-simulation/simulation_interfaces/blob/cc6a6fcbce665a394d55ccbaf668137d0a67477a/package.xml#L10)\n  * @mjcarroll Owner of ros-simulation/simulation_interfaces\n",
+  "comments": [
+    {
+      "id": 2831142206,
+      "author": "nuclearsandwich",
+      "created_at": "2025-04-25T18:31:10Z",
+      "updated_at": "2025-04-25T18:31:10Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/753#issuecomment-2831142206",
+      "body": "@zakmat should you also be included in the release team?\n"
+    },
+    {
+      "id": 2831144970,
+      "author": "nuclearsandwich",
+      "created_at": "2025-04-25T18:32:40Z",
+      "updated_at": "2025-04-25T18:32:40Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/753#issuecomment-2831144970",
+      "body": "Once the rosdistro PR is merged we can resolve this by merging #759."
+    },
+    {
+      "id": 2831278043,
+      "author": "zakmat",
+      "created_at": "2025-04-25T19:33:04Z",
+      "updated_at": "2025-04-25T19:33:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/753#issuecomment-2831278043",
+      "body": "> @zakmat should you also be included in the release team?\n> \n\nOnly members of the release team will have permissions to run bloom, right? Sure we can do that. Thanks! "
+    },
+    {
+      "id": 2847740096,
+      "author": "nuclearsandwich",
+      "created_at": "2025-05-02T17:28:57Z",
+      "updated_at": "2025-05-02T17:28:57Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/753#issuecomment-2847740096",
+      "body": "> Only members of the release team will have permissions to run bloom, right? Sure we can do that. Thanks!\n\nCorrect."
+    },
+    {
+      "id": 2854083576,
+      "author": "zakmat",
+      "created_at": "2025-05-06T10:36:27Z",
+      "updated_at": "2025-05-06T10:36:27Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/753#issuecomment-2854083576",
+      "body": "@nuclearsandwich looks that rosdistro PR https://github.com/ros/rosdistro/pull/45205 was merged to master"
+    },
+    {
+      "id": 2862663309,
+      "author": "zakmat",
+      "created_at": "2025-05-08T11:11:31Z",
+      "updated_at": "2025-05-08T11:11:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/753#issuecomment-2862663309",
+      "body": "humble rosdistro-source-link: https://github.com/ros/rosdistro/blob/37c83ee0ed407624b70861ddf208cac477ae4ff9/humble/distribution.yaml#L10169\njazzy rosdistro-source-link: https://github.com/ros/rosdistro/blob/37c83ee0ed407624b70861ddf208cac477ae4ff9/jazzy/distribution.yaml#L9099\nrolling rosdistro-source-link: https://github.com/ros/rosdistro/blob/37c83ee0ed407624b70861ddf208cac477ae4ff9/rolling/distribution.yaml#L8063\n"
+    },
+    {
+      "id": 2867784713,
+      "author": "nuclearsandwich",
+      "created_at": "2025-05-09T20:13:58Z",
+      "updated_at": "2025-05-09T20:13:58Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/753#issuecomment-2867784713",
+      "body": "This change has been deployed."
+    }
+  ]
+}

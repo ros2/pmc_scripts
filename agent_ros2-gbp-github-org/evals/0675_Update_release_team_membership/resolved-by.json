@@ -1,0 +1,4 @@
+{
+  "commit": "a556fee9a87169a9cf1824896d9a468aaee27184",
+  "diff": "diff --git a/fraunhofer_iosb_ars.tf b/fraunhofer_iosb_ars.tf\nindex 4f7088b..4ab1447 100644\n--- a/fraunhofer_iosb_ars.tf\n+++ b/fraunhofer_iosb_ars.tf\n@@ -1,7 +1,7 @@\n locals {\n   fraunhofer_iosb_ars_team = [\n-    \"boitumeloruf\",\n     \"jpetereit\",\n+    \"migranram\",\n     \"rapzag\",\n     \"thomasemter\",\n   ]\n"
+}

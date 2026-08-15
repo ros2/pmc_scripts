@@ -1,0 +1,21 @@
+{
+  "number": 390,
+  "title": "Add release team: ros_misc_utilities",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2023-12-04T11:51:45Z",
+  "updated_at": "2024-04-13T12:30:42Z",
+  "closed_at": "2024-01-06T00:57:24Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/390",
+  "body": "* Name of the new release team: ros_misc_utilities\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [ffmpeg_image_transport_msgs](https://github.com/ros-misc-utilities/ffmpeg_image_transport_msgs)\r\n    * [ffmpeg_image_transport_msgs (humble)](https://github.com/ros/rosdistro/blob/6efee826f8b194f3cf9f708dfee813c4066c3192/humble/distribution.yaml#L1794)\r\n    * [ffmpeg_image_transport_msgs (iron)](https://github.com/ros/rosdistro/blob/6efee826f8b194f3cf9f708dfee813c4066c3192/iron/distribution.yaml#L1431)\r\n    * [ffmpeg_image_transport_msgs (rolling)](https://github.com/ros/rosdistro/blob/6efee826f8b194f3cf9f708dfee813c4066c3192/rolling/distribution.yaml#L1396)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n  * [ffmpeg_image_transport](https://github.com/ros-misc-utilities/ffmpeg_image_transport)\r\n    * [ffmpeg_image_transport (humble)](https://github.com/ros/rosdistro/blob/6efee826f8b194f3cf9f708dfee813c4066c3192/humble/distribution.yaml#L1784)\r\n    * [ffmpeg_image_transport (iron)](https://github.com/ros/rosdistro/blob/6efee826f8b194f3cf9f708dfee813c4066c3192/iron/distribution.yaml#L1421)\r\n    * [ffmpeg_image_transport (rolling)](https://github.com/ros/rosdistro/blob/6efee826f8b194f3cf9f708dfee813c4066c3192/rolling/distribution.yaml#L1386)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@berndpfrommer](https://github.com/ros-misc-utilities/ffmpeg_image_transport/blob/74c7b9bc5c26f51a255e3731d3d546dcf4bf6394/package.xml#L10)\r\n",
+  "comments": [
+    {
+      "id": 2053633453,
+      "author": "berndpfrommer",
+      "created_at": "2024-04-13T12:30:41Z",
+      "updated_at": "2024-04-13T12:30:41Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/390#issuecomment-2053633453",
+      "body": "Just realized now that this was added as \"ffmpeg_image_transport_team\" as opposed to \"ros_misc_utilities\" team as requested.\r\nSure enough, this caused confusion later when adding more repositories to the team. Now we have in #488 the ffmpeg_image_transport_tools repository added to the \"\"misc_utilities\" team.\r\nSo we have two teams now: \"ffmpeg_image_transport_team\" and the \"misc_utilities\" team, neither of which matches the original requested \"ros_misc_utilities\" (which I chose to be the name of the github organization).\r\nCan we merge these two teams into one (called \"ros_misc_utilities\")?\r\nThanks!\r\n"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "a1725375245e02b9327a2206d3927889b803c55e",
+  "diff": "diff --git a/tuda_sim.tf b/tuda_sim.tf\nindex 07ebb4b..e96d9a3 100644\n--- a/tuda_sim.tf\n+++ b/tuda_sim.tf\n@@ -5,8 +5,9 @@ locals {\n     \"StefanFabian\",\n   ]\n   tuda_sim_repositories = [\n-    \"ros_babel_fish-release\",\n+    \"hector_rviz_overlay-release\",\n     \"qml_ros2_plugin-release\",\n+    \"ros_babel_fish-release\",\n   ]\n }\n \n"
+}

@@ -1,0 +1,21 @@
+{
+  "number": 905,
+  "title": "Add release team",
+  "author": "mrpollo",
+  "state": "closed",
+  "created_at": "2025-10-29T02:39:16Z",
+  "updated_at": "2025-12-05T20:06:45Z",
+  "closed_at": "2025-12-05T20:04:22Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/905",
+  "body": "* Name of the new release team: PX4 maintainers\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [px4_msgs](https://github.com/PX4/px4_msgs)\n    * [ros/rosdistro/px4_msgs](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L5711)\n\n* Team members\n  * [@mrpollo](https://github.com/PX4/px4_msgs/blob/main/package.xml#L7)\n",
+  "comments": [
+    {
+      "id": 3618417061,
+      "author": "cottsay",
+      "created_at": "2025-12-05T20:06:45Z",
+      "updated_at": "2025-12-05T20:06:45Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/905#issuecomment-3618417061",
+      "body": "This has been deployed: https://github.com/ros2-gbp/px4_msgs-release\n\nI recommend updating all ROS distributions to use the new release repositories under `ros2-gbp` so that all of the distributions are in the same place, at which time you may decommission the existing release repo."
+    }
+  ]
+}

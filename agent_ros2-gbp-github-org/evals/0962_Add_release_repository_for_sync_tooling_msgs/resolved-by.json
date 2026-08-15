@@ -1,0 +1,4 @@
+{
+  "commit": "a077be8599501be5e0e5959f9055e28f06abfef3",
+  "diff": "diff --git a/tier4.tf b/tier4.tf\nindex 19f3443..8d4a280 100644\n--- a/tier4.tf\n+++ b/tier4.tf\n@@ -12,6 +12,7 @@ locals {\n     \"hash_library_vendor-release\",\n     \"heaphook-release\",\n     \"osqp_vendor-release\",\n+    \"sync_tooling_msgs-release\",\n     \"tensorrt_cmake_module-release\",\n   ]\n }\n"
+}

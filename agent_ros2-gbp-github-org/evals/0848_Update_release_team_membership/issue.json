@@ -1,0 +1,21 @@
+{
+  "number": 848,
+  "title": "Update release team membership",
+  "author": "Svastits",
+  "state": "closed",
+  "created_at": "2025-08-12T12:02:30Z",
+  "updated_at": "2025-09-10T22:56:39Z",
+  "closed_at": "2025-09-10T17:49:49Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/848",
+  "body": "# Updates to kuka membership.\n\n## New team members\n\n* [@pasztork](https://github.com/kroshu/kuka_drivers/blob/master/kuka_drivers/package.xml)\n* [@altex111](https://github.com/kroshu/kuka_drivers/blob/master/kuka_drivers/package.xml)\n* [@Groebehavn](https://github.com/kroshu/kuka_drivers/blob/master/kuka_drivers/package.xml)\n\n## Retiring team members\n\n* [@VX792](https://github.com/kroshu/kuka_drivers/commit/25d2f44fbd1e0b13ef2a70e9f60358113c878f62#diff-a8a6a8136a3194a9e327a2656aa82adce3bdc04210a25651b35f5348363ee8ae)\n",
+  "comments": [
+    {
+      "id": 3276780202,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-10T22:56:39Z",
+      "updated_at": "2025-09-10T22:56:39Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/848#issuecomment-3276780202",
+      "body": "This change has been deployed."
+    }
+  ]
+}

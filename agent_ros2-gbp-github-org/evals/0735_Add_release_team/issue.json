@@ -1,0 +1,37 @@
+{
+  "number": 735,
+  "title": "Add release team",
+  "author": "troygibb",
+  "state": "closed",
+  "created_at": "2025-04-09T21:44:25Z",
+  "updated_at": "2025-05-09T20:13:54Z",
+  "closed_at": "2025-05-09T18:23:36Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/735",
+  "body": "* Name of the new release team: polymath_robotics\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [replay_testing](https://github.com/polymathrobotics/replay_testing)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/45047)\n\n* Team members\n  * [@troygibb](https://github.com/polymathrobotics/replay_testing/blob/main/package.xml#L7)\n",
+  "comments": [
+    {
+      "id": 2799039414,
+      "author": "nuclearsandwich",
+      "created_at": "2025-04-12T21:07:04Z",
+      "updated_at": "2025-04-12T21:07:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/735#issuecomment-2799039414",
+      "body": "Once the rosdistro PR for indexing is merged we can close this by merging #747."
+    },
+    {
+      "id": 2851615002,
+      "author": "emersonknapp",
+      "created_at": "2025-05-05T16:46:15Z",
+      "updated_at": "2025-05-05T16:46:15Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/735#issuecomment-2851615002",
+      "body": "@nuclearsandwich Source entries have been merged, at https://github.com/ros/rosdistro/commit/c7197cf6be1a3abff82e8577436fe13a47d05d63\n\nThat should unblock #747 (I added a comment there to add me to the release team as well, if we could do that while we're at it)"
+    },
+    {
+      "id": 2867784598,
+      "author": "nuclearsandwich",
+      "created_at": "2025-05-09T20:13:54Z",
+      "updated_at": "2025-05-09T20:13:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/735#issuecomment-2867784598",
+      "body": "This change has been deployed."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "number": 1027,
+  "title": "Add new release repositories",
+  "author": "rafal-gorecki",
+  "state": "closed",
+  "created_at": "2026-04-22T15:02:18Z",
+  "updated_at": "2026-06-09T15:48:51Z",
+  "closed_at": "2026-06-09T15:37:53Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1027",
+  "body": "Name of the release team: husarion\n\nRelease repositories to add:\n**husarion_controllers**\n[husarion_controllers](https://github.com/husarion/husarion_controllers)\n[rosdistro/jazzy](https://github.com/ros/rosdistro/blob/master/jazzy/distribution.yaml#L4178)\n\n**husarion_gz_worlds**\n[husarion_gz_worlds](https://github.com/husarion/husarion_gz_worlds)\n[rosdistro/jazzy](https://github.com/ros/rosdistro/blob/master/jazzy/distribution.yaml#L4184)\n\nThanks!",
+  "comments": [
+    {
+      "id": 4460797499,
+      "author": "rafal-gorecki",
+      "created_at": "2026-05-15T14:51:50Z",
+      "updated_at": "2026-05-15T15:50:02Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1027#issuecomment-4460797499",
+      "body": "Gentle bump — this is blocking the rosbot_ros Jazzy release on build.ros2.org\n  (Jdev__rosbot_ros__ubuntu_noble_amd64 fails on rosdep key  'husarion_mecanum_drive_controller' which lives in this [husarion_controllers](https://github.com/husarion/husarion_controllers) repo)"
+    },
+    {
+      "id": 4661510696,
+      "author": "cottsay",
+      "created_at": "2026-06-09T15:48:51Z",
+      "updated_at": "2026-06-09T15:48:51Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1027#issuecomment-4661510696",
+      "body": "This has been deployed:\n- https://github.com/ros2-gbp/husarion_controllers-release\n- https://github.com/ros2-gbp/husarion_gz_worlds-release"
+    }
+  ]
+}

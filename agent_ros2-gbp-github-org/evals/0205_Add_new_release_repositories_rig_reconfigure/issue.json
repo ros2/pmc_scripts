@@ -1,0 +1,21 @@
+{
+  "number": 205,
+  "title": "Add new release repositories: rig_reconfigure",
+  "author": "ottojo",
+  "state": "closed",
+  "created_at": "2023-02-21T14:07:41Z",
+  "updated_at": "2023-02-24T21:23:16Z",
+  "closed_at": "2023-02-24T21:07:48Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/205",
+  "body": "* Name of the release team: [teamspatzenhirn](https://github.com/orgs/ros2-gbp/teams/teamspatzenhirn)\r\n\r\n* Release repositories to add:\r\n  * [rig_reconfigure](https://github.com/teamspatzenhirn/rig_reconfigure)\r\n\r\n(rosdistro PR: https://github.com/ros/rosdistro/pull/36192)",
+  "comments": [
+    {
+      "id": 1444520568,
+      "author": "nuclearsandwich",
+      "created_at": "2023-02-24T21:23:16Z",
+      "updated_at": "2023-02-24T21:23:16Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/205#issuecomment-1444520568",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

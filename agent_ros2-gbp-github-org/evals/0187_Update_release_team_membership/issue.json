@@ -1,0 +1,21 @@
+{
+  "number": 187,
+  "title": "Update release team membership",
+  "author": "sloretz",
+  "state": "closed",
+  "created_at": "2023-01-31T18:39:56Z",
+  "updated_at": "2023-02-11T01:37:17Z",
+  "closed_at": "2023-02-11T01:13:08Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/187",
+  "body": "# Updates to `locusrobotics` membership.\r\n\r\n## New team members\r\n\r\n* [@ayrton04](https://github.com/locusrobotics/fuse/blob/32076ccf3b37451d038eb1af857cb5e74ddc6c25/fuse_models/package.xml#L10)\r\n\r\n## Retiring team members\r\n\r\n\r\n",
+  "comments": [
+    {
+      "id": 1426560700,
+      "author": "nuclearsandwich",
+      "created_at": "2023-02-11T01:37:17Z",
+      "updated_at": "2023-02-11T01:37:17Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/187#issuecomment-1426560700",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

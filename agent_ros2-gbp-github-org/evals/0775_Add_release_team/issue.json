@@ -1,0 +1,29 @@
+{
+  "number": 775,
+  "title": "Add release team",
+  "author": "Severn-J-Lortie",
+  "state": "closed",
+  "created_at": "2025-05-14T13:20:37Z",
+  "updated_at": "2025-06-06T23:11:57Z",
+  "closed_at": "2025-06-06T18:24:20Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/775",
+  "body": "* Name of the new release team: canboat_vendor\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [canboat_vendor](https://github.com/robotic-esp/canboat_vendor)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/jazzy/distribution.yaml#L1034)\n\n* Team members\n  * [@Severn-J-Lortie](L[INK TO SOURCE PACKAGE.XML MAINTAINER/AUTHOR TAG](https://github.com/robotic-esp/canboat_vendor/blob/2ffe25b3830923e36c5f9f138ebd692f1ee5f155/package.xml))\n",
+  "comments": [
+    {
+      "id": 2904474204,
+      "author": "Severn-J-Lortie",
+      "created_at": "2025-05-23T13:44:00Z",
+      "updated_at": "2025-05-23T13:44:00Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/775#issuecomment-2904474204",
+      "body": "Updated with link to rosdistro entry"
+    },
+    {
+      "id": 2951173886,
+      "author": "nuclearsandwich",
+      "created_at": "2025-06-06T23:11:56Z",
+      "updated_at": "2025-06-06T23:11:56Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/775#issuecomment-2951173886",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

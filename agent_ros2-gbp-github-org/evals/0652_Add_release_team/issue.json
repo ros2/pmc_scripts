@@ -1,0 +1,37 @@
+{
+  "number": 652,
+  "title": "Add release team",
+  "author": "Myzhar",
+  "state": "closed",
+  "created_at": "2024-11-21T10:21:53Z",
+  "updated_at": "2024-11-21T18:57:13Z",
+  "closed_at": "2024-11-21T18:14:30Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/652",
+  "body": "* Name of the new release team: Stereolabs<!-- all lower case with words separated by `_`. -->\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [zed-ros2-interfaces](https://github.com/stereolabs/zed-ros2-interfaces.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L11438-L11443)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@Myzhar](https://github.com/stereolabs/zed-ros2-interfaces/blob/main/package.xml#L8)\r\n  * [@adujardin](https://github.com/stereolabs/zed-ros2-interfaces/blob/main/package.xml#L9)\r\n  * [@obraun-sl](https://github.com/stereolabs/zed-ros2-interfaces/blob/main/package.xml#L10)\r\n  * [@P-yver](https://github.com/stereolabs/zed-ros2-interfaces/blob/main/package.xml#L11)\r\n",
+  "comments": [
+    {
+      "id": 2491997357,
+      "author": "Myzhar",
+      "created_at": "2024-11-21T18:40:49Z",
+      "updated_at": "2024-11-21T18:40:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/652#issuecomment-2491997357",
+      "body": "@nuclearsandwich I cannot find `https://github.com/ros2-gbp/zed-ros2-interfaces.git` while using `bloom-release`.\r\nDid I miss a step somewhere?"
+    },
+    {
+      "id": 2492004873,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-21T18:44:52Z",
+      "updated_at": "2024-11-21T18:44:52Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/652#issuecomment-2492004873",
+      "body": "> @nuclearsandwich I cannot find `https://github.com/ros2-gbp/zed-ros2-interfaces.git` while using `bloom-release`.\r\n> Did I miss a step somewhere?\r\n\r\nThe merged changes are still being deployed. I'll post a comment when the terraform deployment is completed."
+    },
+    {
+      "id": 2492027714,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-21T18:57:12Z",
+      "updated_at": "2024-11-21T18:57:12Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/652#issuecomment-2492027714",
+      "body": "@Myzhar the changes have now been deployed."
+    }
+  ]
+}

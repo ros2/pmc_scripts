@@ -1,0 +1,21 @@
+{
+  "number": 575,
+  "title": "Add new release repositories",
+  "author": "jlblancoc",
+  "state": "closed",
+  "created_at": "2024-07-29T08:26:53Z",
+  "updated_at": "2024-08-14T06:04:00Z",
+  "closed_at": "2024-08-14T03:38:08Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/575",
+  "body": "* Name of the release team: mrpt2\r\n\r\n* Release repositories to add:\r\n  * [mrpt_ros](https://github.com/MRPT/mrpt_ros)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L3744-L3753)\r\n    * [ ] There is an existing release repository which should be imported: NO\r\n  * [python_mrpt_ros](https://github.com/MRPT/python_mrpt_ros)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L4858-L4867)\r\n    * [ ] There is an existing release repository which should be imported: NO\r\n",
+  "comments": [
+    {
+      "id": 2287924055,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-14T06:03:59Z",
+      "updated_at": "2024-08-14T06:03:59Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/575#issuecomment-2287924055",
+      "body": "This change has been deployed."
+    }
+  ]
+}

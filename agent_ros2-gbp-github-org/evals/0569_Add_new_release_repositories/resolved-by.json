@@ -1,0 +1,4 @@
+{
+  "commit": "628f24987429a1c1a2740522ad075416a0e8abbc",
+  "diff": "diff --git a/analogdevicesinc_tmcl.tf b/analogdevicesinc_tmcl.tf\nindex 0789882..6fe2530 100644\n--- a/analogdevicesinc_tmcl.tf\n+++ b/analogdevicesinc_tmcl.tf\n@@ -7,6 +7,7 @@ locals {\n   ]\n   analogdevicesinc_tmcl_repositories = [\n     \"adi_tmcl-release\",\n+    \"adi_tmcl_coe-release\",\n   ]\n }\n \n"
+}

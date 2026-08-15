@@ -1,0 +1,53 @@
+{
+  "number": 275,
+  "title": "Add new release repositories: executive_smach",
+  "author": "130s",
+  "state": "closed",
+  "created_at": "2023-06-12T20:01:12Z",
+  "updated_at": "2023-06-24T20:03:41Z",
+  "closed_at": "2023-06-24T16:33:23Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/275",
+  "body": "* Name of the release team:\r\n\r\nOnly @130s for now, no team. If someone can volunteer to join as a backup maintenance member that's great.\r\n\r\n* Release repositories to add: \r\n  * [ros/executive_smach](https://github.com/ros/executive_smach)\r\n    * ros/rosdistro source entry --> Requested https://github.com/ros/rosdistro/pull/37620\r\n",
+  "comments": [
+    {
+      "id": 1587999460,
+      "author": "130s",
+      "created_at": "2023-06-12T20:01:52Z",
+      "updated_at": "2023-06-12T20:01:52Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/275#issuecomment-1587999460",
+      "body": "Honestly I didn't really understand what the issue template requires. Hope I've given all info requested..."
+    },
+    {
+      "id": 1589419330,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-13T14:22:54Z",
+      "updated_at": "2023-06-13T14:22:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/275#issuecomment-1589419330",
+      "body": "> Honestly I didn't really understand what the issue template requires. Hope I've given all info requested...\r\n\r\nThank you for your efforts to complete the template. You did provide all of the necessary information and completed the template successfully.\r\n\r\nIf you would be willing to comment on https://github.com/ros2-gbp/ros2-gbp-github-org/pull/125 and let me know which parts were confusing or difficult to follow, it would help me improve the templates. Thanks!\r\n\r\nOnce the Humble source entry has been approved and merged, I will merge and deploy #276 to fulfill this request."
+    },
+    {
+      "id": 1591683670,
+      "author": "130s",
+      "created_at": "2023-06-14T17:13:40Z",
+      "updated_at": "2023-06-14T17:13:40Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/275#issuecomment-1591683670",
+      "body": "Ok, posted feedback https://github.com/ros2-gbp/ros2-gbp-github-org/pull/125#pullrequestreview-1479941656!\r\n\r\nI like the idea of using PR's view, even after merge, for review (as long as it won't create confusion) :)"
+    },
+    {
+      "id": 1605673005,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-24T18:06:43Z",
+      "updated_at": "2023-06-24T18:06:43Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/275#issuecomment-1605673005",
+      "body": "In case I get lost today, the deployment of this PR was delayed because I hit the 5000 request rate limit after a few successive terraform plans. I should be updating within an hour confirming successful deployment but it's possible (given that it's Saturday) that time will get away from me while waiting."
+    },
+    {
+      "id": 1605711798,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-24T20:03:40Z",
+      "updated_at": "2023-06-24T20:03:40Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/275#issuecomment-1605711798",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

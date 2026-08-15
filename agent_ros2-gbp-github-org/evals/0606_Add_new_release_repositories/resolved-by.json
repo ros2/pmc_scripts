@@ -1,0 +1,4 @@
+{
+  "commit": "fe72d04f924140cc71261f21e7456b6a56a0fb80",
+  "diff": "diff --git a/black_coffee_robotics.tf b/black_coffee_robotics.tf\nindex 754bacb..44bba5b 100644\n--- a/black_coffee_robotics.tf\n+++ b/black_coffee_robotics.tf\n@@ -7,6 +7,7 @@ locals {\n   ]\n   black_coffee_robotics_repositories = [\n     \"bcr_bot-release\",\n+    \"vector_pursuit_controller-release\",\n   ]\n }\n \n"
+}

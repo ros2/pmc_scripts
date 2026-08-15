@@ -1,0 +1,4 @@
+{
+  "commit": "7deee67f7beddb6f5332930dd473eb17f88ccd8e",
+  "diff": "diff --git a/turtlebot4.tf b/turtlebot4.tf\nindex b244e3a..9ad3cb9 100644\n--- a/turtlebot4.tf\n+++ b/turtlebot4.tf\n@@ -10,6 +10,7 @@ locals {\n     \"turtlebot4_desktop-release\",\n     \"turtlebot4_examples-release\",\n     \"turtlebot4_robot-release\",\n+    \"turtlebot4_setup-release\",\n     \"turtlebot4_simulator-release\",\n     \"turtlebot4_tutorials-release\",\n   ]\n"
+}

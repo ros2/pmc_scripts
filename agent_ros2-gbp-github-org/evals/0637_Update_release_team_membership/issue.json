@@ -1,0 +1,29 @@
+{
+  "number": 637,
+  "title": "Update release team membership",
+  "author": "KuraZuzu",
+  "state": "closed",
+  "created_at": "2024-11-07T07:58:00Z",
+  "updated_at": "2024-11-12T00:53:47Z",
+  "closed_at": "2024-11-08T20:15:50Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/637",
+  "body": "# Updates to [rt_net_team](https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/rt_net.tf) membership.\r\n\r\n## New team members\r\n\r\n* [@KuraZuzu](https://github.com/rt-net/raspimouse2/blob/master/raspimouse/package.xml#L15)\r\n\r\n## Retiring team members\r\n\r\n* [@ShotaAk](https://github.com/rt-net/raspimouse2/blob/master/raspimouse/package.xml#L10)",
+  "comments": [
+    {
+      "id": 2465889337,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-08T23:17:49Z",
+      "updated_at": "2024-11-08T23:17:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/637#issuecomment-2465889337",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 2469369364,
+      "author": "KuraZuzu",
+      "created_at": "2024-11-12T00:53:46Z",
+      "updated_at": "2024-11-12T00:53:46Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/637#issuecomment-2469369364",
+      "body": "Thank you very much !!"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "e531c1bdd3b0a12defc2f17445722cfdfb423e10",
+  "diff": "diff --git a/data_tamer.tf b/data_tamer.tf\nindex eeb1705..50b7398 100644\n--- a/data_tamer.tf\n+++ b/data_tamer.tf\n@@ -1,6 +1,7 @@\n locals {\n   data_tamer_team = [\n     \"facontidavide\",\n+    \"henrygerardmoore\",\n   ]\n   data_tamer_repositories = [\n     \"data_tamer-release\",\n"
+}

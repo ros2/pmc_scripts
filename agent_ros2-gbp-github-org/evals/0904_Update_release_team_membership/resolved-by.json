@@ -1,0 +1,4 @@
+{
+  "commit": "29dbba160b138915019db869346d7c14eb06111a",
+  "diff": "diff --git a/pal_robotics.tf b/pal_robotics.tf\nindex b51c9a1..b26c714 100644\n--- a/pal_robotics.tf\n+++ b/pal_robotics.tf\n@@ -1,6 +1,8 @@\n locals {\n   pal_robotics_team = [\n+    \"AntoBrandi\",\n     \"Noel215\",\n+    \"ileniaperrella\",\n     \"jordan-palacios\",\n     \"lucamarchionni\",\n     \"saikishor\",\n"
+}

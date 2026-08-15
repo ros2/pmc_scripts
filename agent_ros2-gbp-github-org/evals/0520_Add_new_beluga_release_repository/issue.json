@@ -1,0 +1,37 @@
+{
+  "number": 520,
+  "title": "Add new beluga release repository",
+  "author": "hidmic",
+  "state": "closed",
+  "created_at": "2024-05-15T12:18:27Z",
+  "updated_at": "2024-05-17T21:41:19Z",
+  "closed_at": "2024-05-17T21:41:19Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/520",
+  "body": "* Name of the release team: [`beluga`](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/518)\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [Ekumen-OS/beluga](https://github.com/Ekumen-OS/beluga)\r\n    * [noetic source entry](https://github.com/ros/rosdistro/blob/33229c39fb48111a754c18c67a7e85e558fad9a7/noetic/distribution.yaml#L572-L581)\r\n    * [humble source entry](https://github.com/ros/rosdistro/blob/33229c39fb48111a754c18c67a7e85e558fad9a7/humble/distribution.yaml#L795-L804)\r\n    * [iron source entry](https://github.com/ros/rosdistro/blob/33229c39fb48111a754c18c67a7e85e558fad9a7/iron/distribution.yaml#L617-L626)\r\n    * [jazzy source entry](https://github.com/ros/rosdistro/blob/33229c39fb48111a754c18c67a7e85e558fad9a7/jazzy/distribution.yaml#L655-L664)\r\n\r\n",
+  "comments": [
+    {
+      "id": 2112378457,
+      "author": "hidmic",
+      "created_at": "2024-05-15T12:20:00Z",
+      "updated_at": "2024-05-15T12:22:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/520#issuecomment-2112378457",
+      "body": "Depends on #518. Proactively making this request so that both release team and repository can be processed in one go. HTH."
+    },
+    {
+      "id": 2118410116,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-17T21:35:09Z",
+      "updated_at": "2024-05-17T21:35:09Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/520#issuecomment-2118410116",
+      "body": "Thanks @hidmic. For future reference we can add release repositories in the new team issue as well. There's no need for a separate issue unless you're adding new repositories to an existing team."
+    },
+    {
+      "id": 2118415346,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-17T21:41:19Z",
+      "updated_at": "2024-05-17T21:41:19Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/520#issuecomment-2118415346",
+      "body": "Resolved by #524 but the auto-closer doesn't understand \"and\"."
+    }
+  ]
+}

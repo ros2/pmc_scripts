@@ -1,0 +1,37 @@
+{
+  "number": 1023,
+  "title": "Update release team membership",
+  "author": "aidan-laracy-HBK",
+  "state": "closed",
+  "created_at": "2026-04-13T15:22:07Z",
+  "updated_at": "2026-06-09T15:48:59Z",
+  "closed_at": "2026-06-09T15:37:26Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1023",
+  "body": "# Updates to microstrain_team membership.\n\n## New team members\n\n* [@aidan-laracy-HBK](https://github.com/LORD-MicroStrain/microstrain_inertial/graphs/contributors)\n\n",
+  "comments": [
+    {
+      "id": 4373084666,
+      "author": "aidan-laracy-HBK",
+      "created_at": "2026-05-04T17:30:49Z",
+      "updated_at": "2026-05-04T17:31:01Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1023#issuecomment-4373084666",
+      "body": "Hello @cottsay , I just wanted to check in on the status of adding me to the release team. We are releasing some new firmware for one of our devices in a week or two and I'd like to release a new version of microstrain_inertial to accompany it. Let me know if you need anything on my end."
+    },
+    {
+      "id": 4661501041,
+      "author": "cottsay",
+      "created_at": "2026-06-09T15:47:32Z",
+      "updated_at": "2026-06-09T15:47:32Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1023#issuecomment-4661501041",
+      "body": "This has been deployed."
+    },
+    {
+      "id": 4661511645,
+      "author": "aidan-laracy-HBK",
+      "created_at": "2026-06-09T15:48:59Z",
+      "updated_at": "2026-06-09T15:48:59Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1023#issuecomment-4661511645",
+      "body": "Thank you!"
+    }
+  ]
+}

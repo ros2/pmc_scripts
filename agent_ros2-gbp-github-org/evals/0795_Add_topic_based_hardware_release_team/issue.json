@@ -1,0 +1,21 @@
+{
+  "number": 795,
+  "title": "Add topic_based_hardware release team",
+  "author": "MarqRazz",
+  "state": "closed",
+  "created_at": "2025-06-12T17:42:55Z",
+  "updated_at": "2025-07-11T19:15:41Z",
+  "closed_at": "2025-07-11T18:22:29Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/795",
+  "body": "* Name of the new release team: topic_based_hardware\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [topic_based_hardware_interfaces](https://github.com/ros-controls/topic_based_hardware_interfaces)\n    * [ros/rosdistro PR to add source entry](https://github.com/ros/rosdistro/pull/46468)\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n\n* Team members\n  * [@JafarAbdi](https://github.com/ros-controls/topic_based_hardware_interfaces/blob/main/joint_state_topic_hardware_interface/package.xml#L10)\n  * [@MarqRazz](https://github.com/ros-controls/topic_based_hardware_interfaces/blob/main/joint_state_topic_hardware_interface/package.xml#L9)\n  * [@bmagyar](https://github.com/ros-controls/topic_based_hardware_interfaces/blob/main/joint_state_topic_hardware_interface/package.xml#L11)\n",
+  "comments": [
+    {
+      "id": 3063460100,
+      "author": "nuclearsandwich",
+      "created_at": "2025-07-11T19:15:41Z",
+      "updated_at": "2025-07-11T19:15:41Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/795#issuecomment-3063460100",
+      "body": "This change has been deployed."
+    }
+  ]
+}

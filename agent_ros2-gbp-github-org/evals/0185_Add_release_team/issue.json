@@ -1,0 +1,21 @@
+{
+  "number": 185,
+  "title": "Add release team",
+  "author": "jlblancoc",
+  "state": "closed",
+  "created_at": "2023-01-30T00:04:10Z",
+  "updated_at": "2023-02-11T01:37:26Z",
+  "closed_at": "2023-02-11T01:18:23Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/185",
+  "body": "* Name of the new release team: borglab\r\n* Release repositories to add:\r\n  * [gtsam](https://github.com/borglab/gtsam/)\r\n    * (No release repo yet, please create a new one for it)\r\n\r\n* Team members\r\n  * [@ProfFan](https://github.com/borglab/gtsam/blob/develop/package.xml)\r\n  * [@jlblancoc](https://github.com/borglab/gtsam/blob/develop/package.xml)\r\n",
+  "comments": [
+    {
+      "id": 1426560740,
+      "author": "nuclearsandwich",
+      "created_at": "2023-02-11T01:37:26Z",
+      "updated_at": "2023-02-11T01:37:26Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/185#issuecomment-1426560740",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

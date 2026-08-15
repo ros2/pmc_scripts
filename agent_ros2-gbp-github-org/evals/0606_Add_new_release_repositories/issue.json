@@ -1,0 +1,12 @@
+{
+  "number": 606,
+  "title": "Add new release repositories",
+  "author": "arthurgomes4",
+  "state": "closed",
+  "created_at": "2024-08-29T16:16:33Z",
+  "updated_at": "2024-08-29T20:18:42Z",
+  "closed_at": "2024-08-29T20:18:42Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/606",
+  "body": "* Name of the release team: black_coffee_robotics\r\n\r\n* Release repositories to add:\r\n  * [vector_pursuit_controller](https://github.com/blackcoffeerobotics/vector_pursuit_controller)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/182dd777ef5fd22c17b58223762a6f019cf855fc/humble/distribution.yaml#L10751)\r\n    * [ ] There is an existing release repository which should be imported: None\r\n",
+  "comments": []
+}

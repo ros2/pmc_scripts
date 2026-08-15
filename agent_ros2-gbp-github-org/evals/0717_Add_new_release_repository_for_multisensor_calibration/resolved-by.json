@@ -1,0 +1,4 @@
+{
+  "commit": "0617f48af9cf4b79c35f210debb7cccdbbf20fe9",
+  "diff": "diff --git a/fraunhofer_iosb_ars.tf b/fraunhofer_iosb_ars.tf\nindex 4ab1447..66deb2d 100644\n--- a/fraunhofer_iosb_ars.tf\n+++ b/fraunhofer_iosb_ars.tf\n@@ -7,6 +7,7 @@ locals {\n   ]\n   fraunhofer_iosb_ars_repositories = [\n     \"camera_aravis2-release\",\n+    \"multisensor_calibration-release\",\n   ]\n }\n \n"
+}

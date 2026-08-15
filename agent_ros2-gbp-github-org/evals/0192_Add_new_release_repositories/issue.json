@@ -1,0 +1,21 @@
+{
+  "number": 192,
+  "title": "Add new release repositories",
+  "author": "roni-kreinin",
+  "state": "closed",
+  "created_at": "2023-02-07T02:44:44Z",
+  "updated_at": "2023-02-17T01:12:46Z",
+  "closed_at": "2023-02-17T00:53:45Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/192",
+  "body": "* Name of the release team: \r\nturtlebot4\r\n* Release repositories to add:\r\n  * [turtlebot4_setup](https://github.com/turtlebot/turtlebot4_setup)\r\n\r\n",
+  "comments": [
+    {
+      "id": 1433955338,
+      "author": "nuclearsandwich",
+      "created_at": "2023-02-17T01:12:46Z",
+      "updated_at": "2023-02-17T01:12:46Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/192#issuecomment-1433955338",
+      "body": "#198 which implements this change has been deployed!"
+    }
+  ]
+}

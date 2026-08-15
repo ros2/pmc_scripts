@@ -1,0 +1,21 @@
+{
+  "number": 880,
+  "title": "Add new release repositories (launch_frontend_py)",
+  "author": "emersonknapp",
+  "state": "closed",
+  "created_at": "2025-10-05T22:23:55Z",
+  "updated_at": "2025-10-11T03:48:51Z",
+  "closed_at": "2025-10-11T03:05:49Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/880",
+  "body": "* Name of the release team: [`tooling_wg`](https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/tooling_wg.tf)\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [launch_frontend_py](https://github.com/ros-tooling/launch_frontend_py)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L4610) (it's also in Jazzy, Kilted, Rolling)\n    * [ ] There is an existing release repository which should be imported: N/A\n\n",
+  "comments": [
+    {
+      "id": 3392871924,
+      "author": "nuclearsandwich",
+      "created_at": "2025-10-11T03:48:51Z",
+      "updated_at": "2025-10-11T03:48:51Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/880#issuecomment-3392871924",
+      "body": "This change has been deployed."
+    }
+  ]
+}

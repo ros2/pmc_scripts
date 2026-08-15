@@ -1,0 +1,21 @@
+{
+  "number": 438,
+  "title": "Add new release repositories",
+  "author": "RoBeau",
+  "state": "closed",
+  "created_at": "2024-01-30T22:39:04Z",
+  "updated_at": "2024-02-09T22:36:39Z",
+  "closed_at": "2024-02-09T21:55:14Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/438",
+  "body": "* Name of the release team: Boeing\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [gazebo_planer_move_plugin](https://github.com/Boeing/gazebo_planar_move_plugin)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/0cf14cba160b9aad1d1a03b111065f13bacb69e5/humble/distribution.yaml#L2154C3-L2162C22)\r\n  * [gazebo_no_physics_plugin](https://github.com/Boeing/gazebo_no_physics_plugin)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/0cf14cba160b9aad1d1a03b111065f13bacb69e5/humble/distribution.yaml#L2145-L2153)\r\n  * [gazebo_set_joint_positions_plugin](https://github.com/Boeing/gazebo_set_joint_positions_plugin)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/0cf14cba160b9aad1d1a03b111065f13bacb69e5/humble/distribution.yaml#L2203-L2211)\r\n",
+  "comments": [
+    {
+      "id": 1936694336,
+      "author": "nuclearsandwich",
+      "created_at": "2024-02-09T22:36:37Z",
+      "updated_at": "2024-02-09T22:36:37Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/438#issuecomment-1936694336",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

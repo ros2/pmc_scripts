@@ -1,0 +1,4 @@
+{
+  "commit": "08716f20376be1ed46c3b9607d633d166b0f9d97",
+  "diff": "diff --git a/naoqi.tf b/naoqi.tf\nindex a37450f..c6d6129 100644\n--- a/naoqi.tf\n+++ b/naoqi.tf\n@@ -4,6 +4,7 @@ locals {\n     \"mbusy\",\n     \"mikaelarguedas\",\n     \"nlyubova\",\n+    \"victorpaleologue\",\n   ]\n   naoqi_repositories = [\n     \"libqi-release\",\n"
+}

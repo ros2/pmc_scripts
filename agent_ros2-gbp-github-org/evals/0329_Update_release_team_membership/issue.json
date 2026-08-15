@@ -1,0 +1,45 @@
+{
+  "number": 329,
+  "title": "Update release team membership",
+  "author": "nabetetsu",
+  "state": "closed",
+  "created_at": "2023-09-13T07:24:29Z",
+  "updated_at": "2023-10-05T02:52:43Z",
+  "closed_at": "2023-10-05T02:52:42Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/329",
+  "body": "# Updates to `tier4` membership.\r\n\r\n## New team members\r\n\r\n@nabetetsu",
+  "comments": [
+    {
+      "id": 1721669001,
+      "author": "nuclearsandwich",
+      "created_at": "2023-09-15T18:17:04Z",
+      "updated_at": "2023-09-15T18:17:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/329#issuecomment-1721669001",
+      "body": "In order to update team members, I usually ask for some evidence that the new members are indeed maintainers of the packages which this team has access to. \r\n\r\nMost commonly, this is a link to a `<maintainer>` or `<author>` field in a package's package.xml file. For example: https://github.com/ros2/ros_workspace/blob/latest/package.xml#L14\r\n\r\nSince this team corresponds to an organization on GitHub, public evidence of membership in the GitHub organization or a +1 from this team's current members: @wep21 would also be acceptable."
+    },
+    {
+      "id": 1724800460,
+      "author": "wep21",
+      "created_at": "2023-09-19T04:04:09Z",
+      "updated_at": "2023-09-19T04:04:09Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/329#issuecomment-1724800460",
+      "body": "@nuclearsandwich It's no problem to add @nabetetsu only.\r\n"
+    },
+    {
+      "id": 1724901163,
+      "author": "nabetetsu",
+      "created_at": "2023-09-19T06:28:14Z",
+      "updated_at": "2023-09-19T06:28:14Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/329#issuecomment-1724901163",
+      "body": "Thank you for your comment, @nuclearsandwich @wep21 .\r\n\r\nI changed New team members of this PR to @nabetetsu only.\r\nPlease reconfirm the PR."
+    },
+    {
+      "id": 1747958141,
+      "author": "nabetetsu",
+      "created_at": "2023-10-05T02:52:42Z",
+      "updated_at": "2023-10-05T02:52:42Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/329#issuecomment-1747958141",
+      "body": "After consulting with @wep21, it was decided to create a new team `caret` instead of joining a tier4 team."
+    }
+  ]
+}

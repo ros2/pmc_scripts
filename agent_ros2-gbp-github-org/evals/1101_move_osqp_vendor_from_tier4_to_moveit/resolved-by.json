@@ -1,0 +1,4 @@
+{
+  "commit": "e2ae852865749b9b27565f0018e11cbc0db3f085",
+  "diff": "diff --git a/moveit.tf b/moveit.tf\nindex fc6e1a5..15aaa13 100644\n--- a/moveit.tf\n+++ b/moveit.tf\n@@ -3,6 +3,7 @@ locals {\n     \"JafarAbdi\",\n     \"MarqRazz\",\n     \"christhrasher\",\n+    \"christian-rauch\",\n     \"henningkayser\",\n     \"nbbrooks\",\n     \"pac48\",\n@@ -20,6 +21,7 @@ locals {\n     \"moveit_resources-release\",\n     \"moveit_task_constructor-release\",\n     \"moveit_visual_tools-release\",\n+    \"osqp_vendor-release\",\n     \"pick_ik-release\",\n     \"random_numbers-release\",\n     \"rsl-release\",\ndiff --git a/tier4.tf b/tier4.tf\nindex 89675b6..05739df 100644\n--- a/tier4.tf\n+++ b/tier4.tf\n@@ -11,7 +11,6 @@ locals {\n     \"hash_library_vendor-release\",\n     \"heaphook-release\",\n     \"nebula-release\",\n-    \"osqp_vendor-release\",\n     \"sync_tooling_msgs-release\",\n     \"tensorrt_cmake_module-release\",\n   ]\n"
+}

@@ -1,0 +1,45 @@
+{
+  "number": 269,
+  "title": "Update release team membership - ros_industrial.tf",
+  "author": "hellantos",
+  "state": "closed",
+  "created_at": "2023-06-08T20:40:03Z",
+  "updated_at": "2023-06-09T23:42:31Z",
+  "closed_at": "2023-06-09T23:42:20Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/269",
+  "body": "# Updates to ros_industrial.tf membership.\r\n\r\n## New team members\r\n\r\n* [@ipa-cmh](https://github.com/ros-industrial/ros2_canopen/blob/master/canopen/package.xml#L7)\r\n\r\nMotivated by https://github.com/ros-industrial/ros2_canopen/issues/129",
+  "comments": [
+    {
+      "id": 1583830302,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-09T02:05:15Z",
+      "updated_at": "2023-06-09T02:05:15Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/269#issuecomment-1583830302",
+      "body": "FYI @Levi-Armstrong @marip8 are you okay with adding this repository here and granting @ipa-cmh release access to ros_industrial_cmake_boilerplate and stomp or should I create a separate release team?"
+    },
+    {
+      "id": 1583908437,
+      "author": "Levi-Armstrong",
+      "created_at": "2023-06-09T03:24:39Z",
+      "updated_at": "2023-06-09T03:24:39Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/269#issuecomment-1583908437",
+      "body": "I am fine with adding them"
+    },
+    {
+      "id": 1584646858,
+      "author": "marip8",
+      "created_at": "2023-06-09T14:13:07Z",
+      "updated_at": "2023-06-09T14:13:07Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/269#issuecomment-1584646858",
+      "body": "Yes, please do"
+    },
+    {
+      "id": 1585283245,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-09T23:42:31Z",
+      "updated_at": "2023-06-09T23:42:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/269#issuecomment-1585283245",
+      "body": "Thank you for confirming!"
+    }
+  ]
+}

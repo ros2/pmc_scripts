@@ -1,0 +1,53 @@
+{
+  "number": 291,
+  "title": "Add Kinova Robotics release team",
+  "author": "moriarty",
+  "state": "closed",
+  "created_at": "2023-06-30T20:33:21Z",
+  "updated_at": "2023-07-15T00:59:40Z",
+  "closed_at": "2023-07-15T00:02:36Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/291",
+  "body": "* Name of the new release team: kinova_robotics\r\n* Release repositories to add: ros2_kortex-release\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n\r\nI am preparing to release a new repository and set of packages for ROS 2 that will be transferred to the kinovarobotics github organization.\r\n\r\n  * ROS 2 version: https://github.com/PickNikRobotics/ros2_kortex\r\n    * kortex_api\r\n    * kortex_bringup\r\n    * kortex_description\r\n    * kortex_driver\r\n    * kortex_moveit_config\r\n\r\nNote, this is a ROS 2 re-implementation of an release of an existing ROS 1 repository.\r\n\r\n**Edit: has been open sourced under PickNikRobotics will transfer ownership after initial debian releases and support**\r\n~Unfortunately there repo is still private and ownership needs to be transferred before release. It is expected that this is finished within the next week.~\r\n\r\nI am opening this issue to have the release team and release repository created now as we would like not have any delays. There are no new package names (minor typo move_it->moveit) other packages removed as we've been able to relay more on upstream ROS 2 Control.\r\n\r\n  * ROS 1 version: https://github.com/Kinovarobotics/ros_kortex\r\n    * kortex_api\r\n    * kortex_control\r\n    * kortex_description\r\n    * kortex_driver\r\n    * kortex_examples\r\n    * kortex_move_it_config\r\n  \r\n* Team members\r\n  * @moriarty PickNik Robotics [package.xml](https://github.com/PickNikRobotics/ros2_kortex/blob/22572c7668d2afe602aacf102cec1d55fec8a0aa/kortex_driver/package.xml#L7)\r\n  * @felixmaisonneuve Kinova Robotics [package.xml](https://github.com/PickNikRobotics/ros2_kortex/blob/22572c7668d2afe602aacf102cec1d55fec8a0aa/kortex_driver/package.xml#L8)\r\n  * @martinleroux Kinova Robotics [package.xml](https://github.com/PickNikRobotics/ros2_kortex/blob/22572c7668d2afe602aacf102cec1d55fec8a0aa/kortex_driver/package.xml#L9)\r\n\r\n",
+  "comments": [
+    {
+      "id": 1615310462,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-01T00:39:22Z",
+      "updated_at": "2023-07-01T00:39:22Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/291#issuecomment-1615310462",
+      "body": "> I am opening this issue to have the release team and release repository created now as we would like not have any delays. There are no new package names (minor typo move_it->moveit) other packages removed as we've been able to relay more on upstream ROS 2 Control.\r\n\r\nI understand and appreciate the desire to be proactive. However, I don't find any occurrences (using `git grep`) of the terms `kinova` or `kortex` in [ros/rosdistro](https://github.com/ros/rosdistro) which means that these package names have not been reviewed previously and thus I think they should go through the complete current process which means that the source entry should be added to [ros/rosdistro](https://github.com/ros/rosdistro) in order to indicate that the repository and packages it contains have passed new package review.\r\n\r\nIn the meantime, I've opened #294 which will resolve this issue when the naming review is complete."
+    },
+    {
+      "id": 1615310875,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-01T00:40:18Z",
+      "updated_at": "2023-07-01T00:40:18Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/291#issuecomment-1615310875",
+      "body": "> * @moriarty PickNik Robotics\r\n> * @felixmaisonneuve Kinova Robotics\r\n> * @martinleroux Kinova Robotics\r\n\r\nWhen the source repository is public please update these to link with maintainer or author entries in the package source for transparency."
+    },
+    {
+      "id": 1619231104,
+      "author": "moriarty",
+      "created_at": "2023-07-03T22:50:50Z",
+      "updated_at": "2023-07-03T22:50:50Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/291#issuecomment-1619231104",
+      "body": "@nuclearsandwich Thanks! sorry I didn't even realize ros_kortex had never been released via rosdistro.\r\n\r\nThere is combination long weekends and summer vacations Saint-Jean-Baptiste Day, then Canada Day and now Independence Day :upside_down_face: I was trying to get this finished and released before :sweat_smile: "
+    },
+    {
+      "id": 1631182129,
+      "author": "moriarty",
+      "created_at": "2023-07-11T17:05:43Z",
+      "updated_at": "2023-07-11T17:05:43Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/291#issuecomment-1631182129",
+      "body": "> > * @moriarty PickNik Robotics\r\n> > * @felixmaisonneuve Kinova Robotics\r\n> > * @martinleroux Kinova Robotics\r\n> \r\n> When the source repository is public please update these to link with maintainer or author entries in the package source for transparency.\r\n\r\n@nuclearsandwich the repository is now public, and I've added links to the maintainers. also tagged them in the commit that referenced this issue.\r\n\r\nSo if you can create the `ros_kortex-release` repository that would be great.\r\n\r\nThere is still some missing dependencies that need to land before I can fully bloom and release all the packages...\r\n\r\n- [x] ros2_kortex -> picknik_controllers https://github.com/ros2-gbp/ros2-gbp-github-org/issues/283 https://github.com/ros2-gbp/ros2-gbp-github-org/pull/284\r\n- [ ] ros2_kortex -> ros2_robotiq_gripper https://github.com/ros2-gbp/ros2-gbp-github-org/issues/299\r\n- [ ] ros2_robotiq_gripper -> serial now cxx_serial https://github.com/wjwwood/cxx_serial/issues/1"
+    },
+    {
+      "id": 1636599285,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-15T00:59:39Z",
+      "updated_at": "2023-07-15T00:59:39Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/291#issuecomment-1636599285",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

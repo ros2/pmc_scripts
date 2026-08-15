@@ -1,0 +1,4 @@
+{
+  "commit": "2231ee461e0a5d2b7e836c62b5a9d4efa0639183",
+  "diff": "diff --git a/aerostack2.tf b/aerostack2.tf\nindex 60bc682..127a73e 100644\n--- a/aerostack2.tf\n+++ b/aerostack2.tf\n@@ -8,6 +8,12 @@ locals {\n   ]\n   aerostack2_repositories = [\n     \"aerostack2-release\",\n+    \"as2_platform_crazyfile-release\",\n+    \"as2_platform_dji_osdk-release\",\n+    \"as2_platform_dji_psdk-release\",\n+    \"as2_platform_mavlink-release\",\n+    \"as2_platform_pixhawk-release\",\n+    \"as2_platform_tello-release\",\n   ]\n }\n \n"
+}

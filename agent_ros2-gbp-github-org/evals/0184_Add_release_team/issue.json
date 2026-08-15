@@ -1,0 +1,45 @@
+{
+  "number": 184,
+  "title": "Add release team",
+  "author": "fmrico",
+  "state": "closed",
+  "created_at": "2023-01-28T08:26:24Z",
+  "updated_at": "2023-12-03T07:38:23Z",
+  "closed_at": "2023-02-16T22:54:17Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/184",
+  "body": "* Name of the new release team: plansys2\r\n* Release repositories to add:\r\n  * [popf](https://github.com/fmrico/popf.git)\r\n    * [ ] There is an existing release repository which should be imported: https://github.com/fmrico/popf-release.git\r\n  * [plansys2](https://github.com/PlanSys2/ros2_planning_system.git)\r\n    * [ ] There is an existing release repository which should be imported: https://github.com/PlanSys2/ros2_planning_system-release.git\r\n\r\n* Team members\r\n  * [@fmrico](https://github.com/PlanSys2/ros2_planning_system/blob/master/plansys2_core/package.xml)\r\n",
+  "comments": [
+    {
+      "id": 1426548513,
+      "author": "nuclearsandwich",
+      "created_at": "2023-02-11T01:06:12Z",
+      "updated_at": "2023-02-11T01:06:12Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/184#issuecomment-1426548513",
+      "body": "@fmrico I see that https://github.com/IntelligentRoboticsLabs/ros2_planning_system-release.git used to be the url used for releases of ros2_planning_system. Can you please give a comment on the apparent transfer from the https://github.com/IntelligentRoboticsLabs/ so I can confirm everything is above board?"
+    },
+    {
+      "id": 1426646653,
+      "author": "fmrico",
+      "created_at": "2023-02-11T07:27:15Z",
+      "updated_at": "2023-02-11T07:27:15Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/184#issuecomment-1426646653",
+      "body": "Hi @nuclearsandwich \r\n\r\nInitially, ros2_planning_system was at https://github.com/IntelligentRoboticsLabs. Some months ago, I created the organization https://github.com/PlanSys2 to make independent my research group from all my planning projects. I moved the release repository to https://github.com/PlanSys2/ros2_planning_system-release. Now I want also to include also popf in this movement to ros2-GBP.\r\n\r\nAFAIK, I have not been (and I shouldn't) using https://github.com/IntelligentRoboticsLabs/ros2_planning_system-release.git since the migration to https://github.com/PlanSys2\r\n\r\nBest\r\nFrancisco"
+    },
+    {
+      "id": 1433846830,
+      "author": "nuclearsandwich",
+      "created_at": "2023-02-16T22:54:05Z",
+      "updated_at": "2023-02-16T22:54:05Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/184#issuecomment-1433846830",
+      "body": "Thanks for confirming, I just needed a public comment to confirm that the transfer was above board."
+    },
+    {
+      "id": 1837397717,
+      "author": "fmrico",
+      "created_at": "2023-12-03T07:38:22Z",
+      "updated_at": "2023-12-03T07:38:22Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/184#issuecomment-1837397717",
+      "body": "Hi @nuclearsandwich \r\n\r\nI have just checked that these repositories don't exist yet. I thought that this issue would create them.\r\n- https://github.com/ros-gbp/ros2_planning_system-release\r\n- https://github.com/ros-gbp/popf-release\r\n\r\nMay you create them, or should I do anything else?\r\n\r\nThanks!!"
+    }
+  ]
+}

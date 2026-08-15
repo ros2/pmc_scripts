@@ -1,0 +1,69 @@
+{
+  "number": 541,
+  "title": "Add release team",
+  "author": "StefanFabian",
+  "state": "closed",
+  "created_at": "2024-06-07T10:18:51Z",
+  "updated_at": "2024-08-14T06:08:10Z",
+  "closed_at": "2024-08-14T03:48:17Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/541",
+  "body": "* Name of the new release team: tuda_sim\r\n* Release repositories to add:\r\n  * [ros_babel_fish](https://github.com/LOEWE-emergenCITY/ros2_babel_fish)\r\n    * [rosdep/jazzy](https://github.com/ros/rosdistro/blob/master/jazzy/distribution.yaml#L6365)\r\n  * [qml_ros2_plugin](https://github.com/StefanFabian/qml_ros2_plugin)\r\n    * [rosdep/jazzy](https://github.com/ros/rosdistro/blob/master/jazzy/distribution.yaml#L5159)\r\n* Team members\r\n  * [@StefanFabian](https://github.com/LOEWE-emergenCITY/ros2_babel_fish/blob/jazzy/ros2_babel_fish/package.xml#L11)\r\n  * [@Martin-Oehler](https://github.com/tu-darmstadt-ros-pkg/image_projection/blob/master/image_projection/package.xml#L9)\r\n  * [@JoLichtenfeld](https://github.com/tu-darmstadt-ros-pkg/hector_grid_map_compression/blob/main/hector_grid_map_compression/package.xml#L10)\r\n",
+  "comments": [
+    {
+      "id": 2190533006,
+      "author": "nuclearsandwich",
+      "created_at": "2024-06-26T04:14:30Z",
+      "updated_at": "2024-06-26T04:14:30Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/541#issuecomment-2190533006",
+      "body": "Hi @StefanFabian, can you please update this issue to list the release repositories that this team will be responsible for managing?\r\n\r\nWe need at least one repository before we create a release team."
+    },
+    {
+      "id": 2191048091,
+      "author": "StefanFabian",
+      "created_at": "2024-06-26T07:51:11Z",
+      "updated_at": "2024-06-26T07:51:11Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/541#issuecomment-2191048091",
+      "body": "Okay, I must admit I'm a bit confused.\r\nAccording to the [docs](https://docs.ros.org/en/jazzy/How-To-Guides/Releasing/First-Time-Release.html) I need to be part of a release team before I can create a new release repository.\r\nWe do have our own release org from ROS 1 times (see [hector_slam release repository](https://github.com/tu-darmstadt-ros-pkg-gbp/hector_slam-release)) but as I understood it, we should now use this org for release repos.\r\n\r\nSo, if I understand correctly, I should first make an \"Add New Release Repositories\" issue contrary to what the docs say?"
+    },
+    {
+      "id": 2226438801,
+      "author": "nuclearsandwich",
+      "created_at": "2024-07-12T22:26:51Z",
+      "updated_at": "2024-07-12T22:26:51Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/541#issuecomment-2226438801",
+      "body": "Sorry for the confusion. The intended path through that documentation is that you'd start a new release team following https://docs.ros.org/en/jazzy/How-To-Guides/Releasing/Release-Team-Repository.html#start-a-new-release-team and open this issue. What's missing based on the template is the release repositories that this team will own. It's not required that the release repositories exist already. By way of example, if your plan is to release `hector_slam` for ROS 2, you would list `hector_slam`.\r\n\r\nThis new release team template adds both the team and repositories, whereas the \"Add new release repositories\" template is for adding new repositories to an existing team."
+    },
+    {
+      "id": 2226811221,
+      "author": "StefanFabian",
+      "created_at": "2024-07-13T07:46:32Z",
+      "updated_at": "2024-07-13T07:46:32Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/541#issuecomment-2226811221",
+      "body": "Ah okay, thank you for the explanation.\r\nI have added the two repositories I intend to release right now."
+    },
+    {
+      "id": 2257637110,
+      "author": "StefanFabian",
+      "created_at": "2024-07-30T07:13:26Z",
+      "updated_at": "2024-07-30T07:13:26Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/541#issuecomment-2257637110",
+      "body": "Just fyi I don't get a notification if only a label is added. Not sure if this is due to my settings or generally the case.\r\nI've added rosdistro links to the entries for both repos."
+    },
+    {
+      "id": 2287924404,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-14T06:04:17Z",
+      "updated_at": "2024-08-14T06:04:17Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/541#issuecomment-2287924404",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 2287928646,
+      "author": "StefanFabian",
+      "created_at": "2024-08-14T06:07:39Z",
+      "updated_at": "2024-08-14T06:08:10Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/541#issuecomment-2287928646",
+      "body": "Thank you, while you're currently at it, could you add another release repo for this package that was also just added to rosdistro:\r\n* [hector_rviz_overlay](https://github.com/tu-darmstadt-ros-pkg/hector_rviz_overlay)\r\n  * [rosdistro/jazzy](https://github.com/ros/rosdistro/blob/master/jazzy/distribution.yaml#L2575)\r\n  \r\n  I can also create a new repo issue if you'd prefer that route."
+    }
+  ]
+}

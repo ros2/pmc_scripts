@@ -1,0 +1,53 @@
+{
+  "number": 502,
+  "title": "Add release team",
+  "author": "yukkysaito",
+  "state": "closed",
+  "created_at": "2024-04-21T13:18:49Z",
+  "updated_at": "2024-05-07T00:19:33Z",
+  "closed_at": "2024-05-03T21:53:29Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/502",
+  "body": "* Name of the new release team: yukkysaito\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [multiple_topic_monitor](https://github.com/yukkysaito/multiple_topic_monitor)\r\n    * [humble](https://github.com/yukkysaito/multiple_topic_monitor/tree/humble)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@yukkysaito](https://github.com/yukkysaito/multiple_topic_monitor/blob/main/package.xml#L7)\r\n",
+  "comments": [
+    {
+      "id": 2068256518,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-21T23:09:21Z",
+      "updated_at": "2024-04-21T23:09:21Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/502#issuecomment-2068256518",
+      "body": "@yukkysaito can you please follow the guide here: https://docs.ros.org/en/humble/How-To-Guides/Releasing/Release-Team-Repository.html#create-a-new-release-repository and open a PR on https://github.com/ros/rosdistro so that these packages undergo REP-144 naming and license review before release repositories are created."
+    },
+    {
+      "id": 2072398855,
+      "author": "yukkysaito",
+      "created_at": "2024-04-23T14:00:52Z",
+      "updated_at": "2024-04-23T14:01:07Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/502#issuecomment-2072398855",
+      "body": "> open a PR on https://github.com/ros/rosdistro so that these packages undergo REP-144 naming and license review before release repositories are created.\r\n\r\nThank you for reply :pray: \r\nI create the PR. This is my first registration, so I apologize if I cause any inconvenience.\r\nhttps://github.com/ros/rosdistro/pull/40779"
+    },
+    {
+      "id": 2090782181,
+      "author": "yukkysaito",
+      "created_at": "2024-05-02T15:14:30Z",
+      "updated_at": "2024-05-02T15:14:30Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/502#issuecomment-2090782181",
+      "body": "@nuclearsandwich Hi, [the pull reques](https://github.com/ros/rosdistro/pull/40779)t have been merged. Please review if you would like to."
+    },
+    {
+      "id": 2093865600,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-03T23:00:20Z",
+      "updated_at": "2024-05-03T23:00:20Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/502#issuecomment-2093865600",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 2097136670,
+      "author": "yukkysaito",
+      "created_at": "2024-05-07T00:19:32Z",
+      "updated_at": "2024-05-07T00:19:32Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/502#issuecomment-2097136670",
+      "body": "@nuclearsandwich Thank you"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "number": 824,
+  "title": "Add release team cellumation",
+  "author": "jmachowinski",
+  "state": "closed",
+  "created_at": "2025-07-25T12:09:09Z",
+  "updated_at": "2025-08-03T17:29:22Z",
+  "closed_at": "2025-08-02T14:52:12Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/824",
+  "body": "* Name of the new release team: cellumation\n* Release repositories to add:\n  * [cm_executors](https://github.com/cellumation/cm_executors)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/9bd0cc10c46190c6375058cb7dd6b38b2e4bbe00/jazzy/distribution.yaml#L1377)\n\n* Team members\n  * [@jmachowinski] ([LINK TO SOURCE PACKAGE.XML MAINTAINER/AUTHOR TAG](https://github.com/cellumation/cm_executors/blob/bebdfde90378fd1708396f3927b023625d3ad9d7/package.xml#L8))\n * [@arneboe] () \n * [@kohrt] ()",
+  "comments": [
+    {
+      "id": 3148587333,
+      "author": "nuclearsandwich",
+      "created_at": "2025-08-03T17:29:22Z",
+      "updated_at": "2025-08-03T17:29:22Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/824#issuecomment-3148587333",
+      "body": "This change has been deployed."
+    }
+  ]
+}

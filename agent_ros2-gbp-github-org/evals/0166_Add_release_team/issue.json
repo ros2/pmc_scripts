@@ -1,0 +1,53 @@
+{
+  "number": 166,
+  "title": "Add release team",
+  "author": "miferco97",
+  "state": "closed",
+  "created_at": "2022-12-20T11:37:01Z",
+  "updated_at": "2023-02-11T01:36:44Z",
+  "closed_at": "2023-02-11T00:50:03Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/166",
+  "body": "* Name of the new release team: aerostack2\r\n* Release repositories to add:\r\n  * [aerostack2](https://github.com/aerostack2/aerostack2)\r\n    * [ ] There is an existing release repository which should be imported: <https://github.com/aerostack2/aerostack2-release.git>\r\n\r\n* Team members  (https://github.com/aerostack2/aerostack2/blob/main/aerostack2/package.xml)\r\n  * @miferco97\r\n  * @pariaspe\r\n  * @RPS98\r\n  * @perezsaura-david\r\n",
+  "comments": [
+    {
+      "id": 1366035383,
+      "author": "tfoote",
+      "created_at": "2022-12-27T16:40:49Z",
+      "updated_at": "2022-12-27T16:40:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/166#issuecomment-1366035383",
+      "body": "Thanks for opening this request. Most of the team is on holiday break, but we plan to review PRs to this repository early in the new year. "
+    },
+    {
+      "id": 1382593418,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-13T23:58:24Z",
+      "updated_at": "2023-01-13T23:58:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/166#issuecomment-1382593418",
+      "body": "Hi @miferco97, thanks again for your patience as we ramp back into release repo admin after the end of year holidays.\r\n\r\nBefore release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\nGuidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\nThis section of the current contribution guideline is the best guide for the process so far https://github.com/ros/rosdistro/blob/master/CONTRIBUTING.md#documentation-indexing some of the information may only apply to ROS 1 packages but opening a PR for source and doc entries for any ROS 2 distribution will be enough to trigger the naming review.\r\n\r\nI have opened #173 which implements this request but I have left it in draft pending the naming review above."
+    },
+    {
+      "id": 1385828475,
+      "author": "miferco97",
+      "created_at": "2023-01-17T18:09:03Z",
+      "updated_at": "2023-01-17T18:09:03Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/166#issuecomment-1385828475",
+      "body": "Thanks @nuclearsandwich we have made some name changes at https://github.com/aerostack2/aerostack2 to fulfill REP-144, do we have to create the issue again? "
+    },
+    {
+      "id": 1398766377,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-20T18:16:53Z",
+      "updated_at": "2023-01-20T18:17:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/166#issuecomment-1398766377",
+      "body": "> do we have to create the issue again?\r\n\r\nNo that's not necessary, but if you could please open the documentation indexing request PR described above and then link that here, we can move forward with the release repository setup once indexing is complete."
+    },
+    {
+      "id": 1426560432,
+      "author": "nuclearsandwich",
+      "created_at": "2023-02-11T01:36:44Z",
+      "updated_at": "2023-02-11T01:36:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/166#issuecomment-1426560432",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

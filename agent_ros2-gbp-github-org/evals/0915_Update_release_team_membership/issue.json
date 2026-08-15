@@ -1,0 +1,21 @@
+{
+  "number": 915,
+  "title": "Update release team membership",
+  "author": "chriseichmann",
+  "state": "closed",
+  "created_at": "2025-11-20T14:17:33Z",
+  "updated_at": "2025-12-05T21:00:03Z",
+  "closed_at": "2025-12-05T20:59:17Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/915",
+  "body": "# Updates to sick_safevisionary membership.\n\n## New team members\n\n* [@chriseichmann](https://github.com/SICKAG/sick_safevisionary_ros2/blob/main/sick_safevisionary_driver/package.xml#L7)\n\n## Retiring team members\n\n* [@stefanscherzinger](https://github.com/SICKAG/sick_safevisionary_ros2/commit/4d233336ff2973fd5fa6c0bbb31a718240d19c36#diff-4c651f8dba4fe9ca26e8cb7cd81f395415c0109e755ff3f65cb7634cf11bda37L8)\n",
+  "comments": [
+    {
+      "id": 3618588033,
+      "author": "cottsay",
+      "created_at": "2025-12-05T21:00:03Z",
+      "updated_at": "2025-12-05T21:00:03Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/915#issuecomment-3618588033",
+      "body": "This has been deployed."
+    }
+  ]
+}

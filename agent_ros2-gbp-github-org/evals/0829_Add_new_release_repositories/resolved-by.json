@@ -1,0 +1,4 @@
+{
+  "commit": "1a0c80ce4c644dbe3b5638c5dd0e16b26877d7e6",
+  "diff": "diff --git a/robotraconteur.tf b/robotraconteur.tf\nindex db11f1e..a33ac6b 100644\n--- a/robotraconteur.tf\n+++ b/robotraconteur.tf\n@@ -4,6 +4,7 @@ locals {\n   ]\n   robotraconteur_repositories = [\n     \"robotraconteur-release\",\n+    \"robotraconteur_companion-release\",\n   ]\n }\n \n"
+}

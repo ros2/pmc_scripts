@@ -1,0 +1,29 @@
+{
+  "number": 718,
+  "title": "Update release team membership: fortefibre",
+  "author": "f0reachARR",
+  "state": "closed",
+  "created_at": "2025-03-13T15:44:35Z",
+  "updated_at": "2025-03-23T02:46:09Z",
+  "closed_at": "2025-03-21T18:31:55Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/718",
+  "body": "# Updates to fortefibre membership.\n\nhttps://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/fortefibre.tf\n\n## New team members\n\n* @f0reachARR (https://github.com/ForteFibre/ros2_parameter_expression/blob/main/package.xml#L7)\n\n## Retiring team members\n\n* none\n\n## Note\n\nWe are planning to expose our utility package of ROS 2 parameters. This is a first step of it.",
+  "comments": [
+    {
+      "id": 2744245887,
+      "author": "nuclearsandwich",
+      "created_at": "2025-03-21T19:15:09Z",
+      "updated_at": "2025-03-21T19:15:09Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/718#issuecomment-2744245887",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 2745981521,
+      "author": "f0reachARR",
+      "created_at": "2025-03-23T02:46:08Z",
+      "updated_at": "2025-03-23T02:46:08Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/718#issuecomment-2745981521",
+      "body": "Thank you so much!"
+    }
+  ]
+}

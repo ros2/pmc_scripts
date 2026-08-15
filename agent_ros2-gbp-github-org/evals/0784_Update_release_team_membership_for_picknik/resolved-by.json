@@ -1,0 +1,4 @@
+{
+  "commit": "f159749c61f0ffa14aacada1fba8be583182f285",
+  "diff": "diff --git a/picknik.tf b/picknik.tf\nindex d22a6c1..3bfd6a0 100644\n--- a/picknik.tf\n+++ b/picknik.tf\n@@ -5,8 +5,10 @@ locals {\n     \"JafarAbdi\",\n     \"MarqRazz\",\n     \"moriarty\",\n+    \"nbbrooks\",\n     \"pac48\",\n     \"sea-bass\",\n+    \"shaur-k\",\n     \"sjahr\",\n     \"tylerjw\",\n     \"vatanaksoytezer\",\n"
+}

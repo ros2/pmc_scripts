@@ -1,0 +1,21 @@
+{
+  "number": 493,
+  "title": "Add new release repository: apriltag_mit",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2024-04-15T19:50:26Z",
+  "updated_at": "2024-04-21T23:22:19Z",
+  "closed_at": "2024-04-21T22:54:27Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/493",
+  "body": "* Name of the release team: ros-misc-utilities (look for \"misc_utilities.tf\")\r\n\r\n  * [apriltag_mit](https://github.com/ros-misc-utilities/apriltag_mit)\r\n    * [humble source entry](https://github.com/ros/rosdistro/blob/09f9f734f0700e2b1683d88765e7bcd64b1e2bdf/humble/distribution.yaml#L480)\r\n\r\n",
+  "comments": [
+    {
+      "id": 2068260448,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-21T23:22:08Z",
+      "updated_at": "2024-04-21T23:22:19Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/493#issuecomment-2068260448",
+      "body": "This change has been deployed. This is the first release repository to be created with a default template (#499) which should smooth out recent issues with GitHub release repositories and bloom. Please open a new issue on https://github.com/ros2-gbp/ros2-gbp-github-org if you have any problems. Thanks!"
+    }
+  ]
+}

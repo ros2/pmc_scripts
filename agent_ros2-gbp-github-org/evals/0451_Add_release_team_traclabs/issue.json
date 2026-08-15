@@ -1,0 +1,29 @@
+{
+  "number": 451,
+  "title": "Add release team traclabs",
+  "author": "mlanighan",
+  "state": "closed",
+  "created_at": "2024-02-21T21:31:19Z",
+  "updated_at": "2024-03-08T19:00:18Z",
+  "closed_at": "2024-03-08T19:00:18Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/451",
+  "body": "* Name of the new release team: traclabs\r\n* Release repositories to add:\r\n  * [track_ik](https://bitbucket.org/traclabs/trac_ik/src/rolling-devel/)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/cf4a78801b6083b4898cec267a25bb2061cf333d/rolling/distribution.yaml#L7057)\r\n\r\n* Team members\r\n  * @mlanighan\r\n  * @kbrameld\r\n  * @ana-GT\r\n  * @nstiurca\r\n\r\n",
+  "comments": [
+    {
+      "id": 1962410680,
+      "author": "nuclearsandwich",
+      "created_at": "2024-02-24T16:06:19Z",
+      "updated_at": "2024-02-24T16:06:19Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/451#issuecomment-1962410680",
+      "body": "Hi @mlanighan we don't create release teams without at least one release repository that team maintains.\r\n\r\nCan you please update this request to include at least one release repository. If it helps you can refer to the [new release team template](https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/.github/ISSUE_TEMPLATE/new_release_team.md) for the requested information."
+    },
+    {
+      "id": 1964438533,
+      "author": "mlanighan",
+      "created_at": "2024-02-26T15:36:18Z",
+      "updated_at": "2024-02-26T15:36:18Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/451#issuecomment-1964438533",
+      "body": "Hi @nuclearsandwich we are trying to release [trac_ik](https://bitbucket.org/traclabs/trac_ik/src/rolling-devel/) to rolling. We have an open [PR](https://github.com/ros/rosdistro/pull/39986) to add it to rosdistro. "
+    }
+  ]
+}

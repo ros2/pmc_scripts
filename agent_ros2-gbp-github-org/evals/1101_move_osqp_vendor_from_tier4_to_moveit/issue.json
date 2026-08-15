@@ -1,0 +1,21 @@
+{
+  "number": 1101,
+  "title": "move `osqp_vendor` from `tier4` to `moveit`",
+  "author": "christian-rauch",
+  "state": "closed",
+  "created_at": "2026-07-29T07:34:02Z",
+  "updated_at": "2026-08-05T18:23:02Z",
+  "closed_at": "2026-08-05T18:12:55Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1101",
+  "body": "# Updates to <!-- RELEASE_TEAM --> membership.\n\nPlease move the `osqp_vendor` release repo from release team `tier4` to `moveit`. Also, please add me to the `moveit` release team.\n\nThis replaces https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1078.\n\n## New team members\n\n* [@christian-rauch](LINK TO SOURCE PACKAGE.XML MAINTAINER/AUTHOR TAG)\n\n## Retiring team members\n\n* [@GITHUB_USERNAME](LINK TO SOURCE COMMIT OR PULL REQUEST UPDATING MAINTAINER INFORMATION)\n",
+  "comments": [
+    {
+      "id": 5195642496,
+      "author": "cottsay",
+      "created_at": "2026-08-05T18:23:02Z",
+      "updated_at": "2026-08-05T18:23:02Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1101#issuecomment-5195642496",
+      "body": "This has been deployed."
+    }
+  ]
+}

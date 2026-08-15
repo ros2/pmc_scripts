@@ -1,0 +1,21 @@
+{
+  "number": 946,
+  "title": "Add release team",
+  "author": "ishaanbhimwal",
+  "state": "closed",
+  "created_at": "2025-12-12T14:06:53Z",
+  "updated_at": "2026-01-12T23:14:49Z",
+  "closed_at": "2026-01-12T23:12:40Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/946",
+  "body": "Hey, I am trying to release my first ros2 package and I am stuck at the release team part as mentioned [here](https://docs.ros.org/en/kilted/How-To-Guides/Releasing/First-Time-Release.html). The pkg was successfully indexed in [ros/rosdistro](https://github.com/ros/rosdistro/pull/48762) last week. I would appreciate some guidance on how to move forward.\n* Name of the new release team: <!-- all lower case with words separated by `_`. --> ?\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n    * https://index.ros.org/p/ros2tree/#humble\n    * [https://github.com/ishaanbhimwal/ros2tree](https://github.com/ishaanbhimwal/ros2tree)\n\n* Team members\n  * https://github.com/ishaanbhimwal/ros2tree/blob/f0c3a958c36b8574eac56c28cfc750e3f7b796b2/package.xml#L7\n",
+  "comments": [
+    {
+      "id": 3740929831,
+      "author": "cottsay",
+      "created_at": "2026-01-12T23:14:49Z",
+      "updated_at": "2026-01-12T23:14:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/946#issuecomment-3740929831",
+      "body": "This has been deployed: https://github.com/ros2-gbp/ros2tree-release"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "21953ff34634b3a17ebe360959c3d2aaabd0e731",
+  "diff": "diff --git a/fkie.tf b/fkie.tf\nindex 509e2e3..2955987 100644\n--- a/fkie.tf\n+++ b/fkie.tf\n@@ -5,6 +5,8 @@ locals {\n   ]\n   fkie_repositories = [\n     \"fkie_message_filters-release\",\n+    \"live555_vendor-release\",\n+    \"rtsp_image_transport-release\",\n   ]\n }\n \n"
+}

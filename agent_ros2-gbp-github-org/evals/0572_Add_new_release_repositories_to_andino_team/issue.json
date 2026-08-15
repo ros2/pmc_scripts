@@ -1,0 +1,29 @@
+{
+  "number": 572,
+  "title": "Add new release repositories to andino_team",
+  "author": "francocipollone",
+  "state": "closed",
+  "created_at": "2024-07-23T19:54:45Z",
+  "updated_at": "2024-08-14T06:04:06Z",
+  "closed_at": "2024-08-14T03:39:07Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/572",
+  "body": "* Name of the release team: andino_team\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [andino_gz](https://github.com/Ekumen-OS/andino_gz)\r\n    * [ros/rosdistro/humble source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L412-L422)\r\n",
+  "comments": [
+    {
+      "id": 2246178035,
+      "author": "francocipollone",
+      "created_at": "2024-07-23T19:55:34Z",
+      "updated_at": "2024-07-23T19:55:52Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/572#issuecomment-2246178035",
+      "body": "FTR: https://github.com/ros/rosdistro/pull/42167"
+    },
+    {
+      "id": 2287924180,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-14T06:04:05Z",
+      "updated_at": "2024-08-14T06:04:05Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/572#issuecomment-2287924180",
+      "body": "This change has been deployed."
+    }
+  ]
+}

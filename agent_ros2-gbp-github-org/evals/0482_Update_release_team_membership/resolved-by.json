@@ -1,0 +1,4 @@
+{
+  "commit": "ee397ef6f2768be5de0b2572189b3b7a5230bb84",
+  "diff": "diff --git a/pal_robotics.tf b/pal_robotics.tf\nindex 9551c33..638ac82 100644\n--- a/pal_robotics.tf\n+++ b/pal_robotics.tf\n@@ -1,9 +1,9 @@\n locals {\n   pal_robotics_team = [\n+    \"Noel215\",\n     \"jordan-palacios\",\n     \"lucamarchionni\",\n     \"saikishor\",\n-    \"v-lopez\",\n   ]\n   pal_robotics_repositories = [\n     \"backward_ros-release\",\n"
+}

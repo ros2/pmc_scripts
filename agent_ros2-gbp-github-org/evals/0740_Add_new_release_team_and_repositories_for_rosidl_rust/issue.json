@@ -1,0 +1,21 @@
+{
+  "number": 740,
+  "title": "Add new release team and repositories for rosidl_rust",
+  "author": "esteve",
+  "state": "closed",
+  "created_at": "2025-04-11T18:34:48Z",
+  "updated_at": "2025-04-14T18:09:02Z",
+  "closed_at": "2025-04-14T18:09:02Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/740",
+  "body": "* Name of the release team: ros2-rust\n\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [rosidl_rust](https://github.com/ros2-rust/rosidl_rust)\n    * [ros/rosdistro source entry](LINK TO SOURCE FIELD IN ROS/ROSDISTRO) <--- Not yet, waiting for https://github.com/ros/rosdistro/pull/45134\n\n* Team members\n  * [@esteve](https://github.com/ros2-rust/rosidl_rust/blob/main/rosidl_generator_rs/package.xml#L9)",
+  "comments": [
+    {
+      "id": 2799043007,
+      "author": "nuclearsandwich",
+      "created_at": "2025-04-12T21:19:39Z",
+      "updated_at": "2025-04-12T21:19:39Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/740#issuecomment-2799043007",
+      "body": "Once the rosdistro PR has merged #749 can merge and resolve this request."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "number": 443,
+  "title": "Add release team - bosch_engineering_ohw",
+  "author": "daniel4ohw",
+  "state": "closed",
+  "created_at": "2024-02-09T13:15:52Z",
+  "updated_at": "2024-02-12T17:03:55Z",
+  "closed_at": "2024-02-09T22:23:22Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/443",
+  "body": "* Name of the new release team: \r\n  - bosch_engineering_ohw\r\n\r\n* Release repositories to add: \r\n  - [off_highway_sensor_drivers](https://github.com/bosch-engineering/off_highway_sensor_drivers)\r\n  - [PR for ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/39861)\r\n\r\n* Team members\r\n  - [daniel4ohw](https://github.com/daniel4ohw)\r\n  - [rcp1-beg](https://github.com/rcp1-beg)\r\n  - [shu-beg](https://github.com/shu-beg)",
+  "comments": [
+    {
+      "id": 1936694692,
+      "author": "nuclearsandwich",
+      "created_at": "2024-02-09T22:37:00Z",
+      "updated_at": "2024-02-09T22:37:00Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/443#issuecomment-1936694692",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "number": 823,
+  "title": "Add new husarion release repository",
+  "author": "BOOTCFG",
+  "state": "closed",
+  "created_at": "2025-07-23T11:07:04Z",
+  "updated_at": "2025-08-03T17:03:35Z",
+  "closed_at": "2025-08-02T14:45:43Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/823",
+  "body": "* Name of the release team: husarion\n\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [husarion_components_description](https://github.com/husarion/husarion_components_description)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/99bd4aad1ecf9b3b02806a84c7c23e42a132f29e/humble/distribution.yaml#L3759)\n\nThanks!",
+  "comments": [
+    {
+      "id": 3148561268,
+      "author": "nuclearsandwich",
+      "created_at": "2025-08-03T17:03:35Z",
+      "updated_at": "2025-08-03T17:03:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/823#issuecomment-3148561268",
+      "body": "This change has been deployed."
+    }
+  ]
+}

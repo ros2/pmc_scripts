@@ -1,0 +1,69 @@
+{
+  "number": 847,
+  "title": "Add rdl_release_team release team",
+  "author": "jlack1987",
+  "state": "closed",
+  "created_at": "2025-08-11T15:57:31Z",
+  "updated_at": "2025-09-28T05:14:21Z",
+  "closed_at": "2025-09-26T17:58:49Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/847",
+  "body": "* Name of the new release team: <!-- all lower case with words separated by `_`. --> rdl_release_team\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html-->\n- https://github.com/ros/rosdistro/pull/47276/files\n\n \n* Team members\n  * [@jlack1987](https://gitlab.com/jlack/rdl/-/blob/master/rdl/package.xml?ref_type=heads#L7)\n",
+  "comments": [
+    {
+      "id": 3276093285,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-10T18:35:52Z",
+      "updated_at": "2025-09-10T18:35:52Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/847#issuecomment-3276093285",
+      "body": "> * rdl_release_team\n\nSince rdl_release_team is redundant and will mess with some of the templating I'm fulfilling the request with `rdl` as the release team name."
+    },
+    {
+      "id": 3276100423,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-10T18:38:35Z",
+      "updated_at": "2025-09-10T18:38:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/847#issuecomment-3276100423",
+      "body": "@jlack1987 can you please link an updated rosdistro PR which shows the rdl package source listing for a ROS 2 distro. It doesn't matter which ROS 2 distro you submit to and one is enough to cover release repository creation for all of them."
+    },
+    {
+      "id": 3276107760,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-10T18:40:03Z",
+      "updated_at": "2025-09-10T18:40:03Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/847#issuecomment-3276107760",
+      "body": "#862 will resolve this request once the rosdistro source requirement is met."
+    },
+    {
+      "id": 3315200106,
+      "author": "jlack1987",
+      "created_at": "2025-09-20T19:50:03Z",
+      "updated_at": "2025-09-20T19:50:03Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/847#issuecomment-3315200106",
+      "body": "ok here's the link: https://github.com/ros/rosdistro/pull/47734\n\nappreciate the help 🙏 "
+    },
+    {
+      "id": 3339885607,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-26T18:02:34Z",
+      "updated_at": "2025-09-26T18:02:34Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/847#issuecomment-3339885607",
+      "body": "@jlack1987 this change has been merged and when deployed shortly you'll gain access to the release repository in the ros2-gbp organization. I have mirrored the existing release repository from https://github.com/jlack1987/rdl-release.git into the ros2-gbp organization and my recommendation is that you use the ros2-gbp repository for all new releases going forward. To ensure that you don't unintentionally use the original release repository I would suggest archiving it. This ensures that older references in ros/rosdistro can still access artifacts from it but that no new releases can be pushed to it by mistake."
+    },
+    {
+      "id": 3339906413,
+      "author": "jlack1987",
+      "created_at": "2025-09-26T18:10:12Z",
+      "updated_at": "2025-09-26T18:10:12Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/847#issuecomment-3339906413",
+      "body": "Roger that it has been archived. Appreciate it 🙏 "
+    },
+    {
+      "id": 3342301068,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-28T05:14:21Z",
+      "updated_at": "2025-09-28T05:14:21Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/847#issuecomment-3342301068",
+      "body": "This change has been deployed."
+    }
+  ]
+}

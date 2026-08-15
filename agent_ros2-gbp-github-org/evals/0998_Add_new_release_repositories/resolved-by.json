@@ -1,0 +1,4 @@
+{
+  "commit": "77192c97538ae6ace88e303410b26c0b7d73d39c",
+  "diff": "diff --git a/pal_robotics.tf b/pal_robotics.tf\nindex b26c714..a0d9b95 100644\n--- a/pal_robotics.tf\n+++ b/pal_robotics.tf\n@@ -26,6 +26,7 @@ locals {\n     \"tiago_pro_navigation-release\",\n     \"tiago_pro_robot-release\",\n     \"tiago_pro_simulation-release\",\n+    \"urdf_test-release\",\n   ]\n }\n \n"
+}

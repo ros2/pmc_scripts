@@ -1,0 +1,29 @@
+{
+  "number": 780,
+  "title": "Update release team membership",
+  "author": "kbrameld",
+  "state": "closed",
+  "created_at": "2025-05-19T13:50:07Z",
+  "updated_at": "2025-06-06T23:11:58Z",
+  "closed_at": "2025-06-06T18:27:58Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/780",
+  "body": "# Updates to traclabs membership.\n\n## New team members\n\n* @smgee\n\n## Retiring team members\n\n* @nstiurca\n\nThe maintainer in the package.xml in our packages list the company\n\n`<maintainer email=\"robotics@traclabs.com\">TRACLabs Robotics</maintainer>`\n\nso there are no PRs related to updating maintainer information.",
+  "comments": [
+    {
+      "id": 2950812210,
+      "author": "kbrameld",
+      "created_at": "2025-06-06T21:14:36Z",
+      "updated_at": "2025-06-06T21:14:36Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/780#issuecomment-2950812210",
+      "body": "Thanks @nuclearsandwich !"
+    },
+    {
+      "id": 2951173915,
+      "author": "nuclearsandwich",
+      "created_at": "2025-06-06T23:11:57Z",
+      "updated_at": "2025-06-06T23:11:57Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/780#issuecomment-2951173915",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "ca55493ead8961dfabf60ea60a6ebae213f54b94",
+  "diff": "diff --git a/ros_industrial.tf b/ros_industrial.tf\nindex 9e42b2a..57bfd68 100644\n--- a/ros_industrial.tf\n+++ b/ros_industrial.tf\n@@ -1,9 +1,11 @@\n locals {\n   ros_industrial_team = [\n     \"Levi-Armstrong\",\n+    \"ipa-cmh\",\n     \"marip8\",\n   ]\n   ros_industrial_repositories = [\n+    \"ros2_canopen-release\",\n     \"ros_industrial_cmake_boilerplate-release\",\n     \"stomp-release\",\n   ]\n"
+}

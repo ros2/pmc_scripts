@@ -1,0 +1,141 @@
+{
+  "number": 645,
+  "title": "Update release team membership",
+  "author": "Smith-JackSmith",
+  "state": "closed",
+  "created_at": "2024-11-12T10:14:29Z",
+  "updated_at": "2024-12-16T08:40:39Z",
+  "closed_at": "2024-12-14T16:21:29Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645",
+  "body": "# Updates to franka_robotics membership.\r\n\r\n## New team members\r\n\r\n* [@Smith-JackSmith]\r\n* [@ssilenzi]\r\n\r\n## Current Members include\r\n[@AndreasKuhner]\r\n[@gomezgu]\r\n[@BarisYazici]\r\n[@winkma]\r\n\r\n",
+  "comments": [
+    {
+      "id": 2491899662,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-21T17:52:13Z",
+      "updated_at": "2024-11-21T17:52:13Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2491899662",
+      "body": "@Smith-JackSmith can you please update the issue body to include links to your maintainer entries in franka_robotics repositories. Or else have two current members of the team 👍🏼 this request."
+    },
+    {
+      "id": 2492347053,
+      "author": "Smith-JackSmith",
+      "created_at": "2024-11-21T21:13:24Z",
+      "updated_at": "2024-11-21T21:13:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2492347053",
+      "body": "It appears I need more information - surprise - because, as far as I can see, there isn't any team named \"franka_robotics_team\" ."
+    },
+    {
+      "id": 2492472691,
+      "author": "Smith-JackSmith",
+      "created_at": "2024-11-21T22:26:47Z",
+      "updated_at": "2024-11-21T22:26:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2492472691",
+      "body": "Are you suggesting that I either:\n\n1.) Edit this request, adding , into the body of the request, the GitHub user ID of the people responsible for the github repository (or group of repositories) that I wish to have access to. \n\nOr, \n\n2.) ask two members of the team named \"franka_robotics_team\" to access this github request (on GitHub) and approve it ,  somehow. \n\nBoth those suggestions, while sensible, imply a degree of knowledge and understanding that is not matched in reality.  I'll look into this as soon as possible.\n\n\n\n\n\n"
+    },
+    {
+      "id": 2492534578,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-21T23:05:59Z",
+      "updated_at": "2024-11-21T23:05:59Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2492534578",
+      "body": "There's an existing release team here: https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/franka_robotics.tf\r\n\r\nWhat would be the difference between the newly proposed team and this existing one?"
+    },
+    {
+      "id": 2493850132,
+      "author": "Smith-JackSmith",
+      "created_at": "2024-11-22T14:08:05Z",
+      "updated_at": "2024-11-22T15:38:25Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2493850132",
+      "body": "I was told the group name \"franka_robotics_release\" , but, maybe there was some confusion about what it is really named.\r\n\r\nAll of the names listed in the team,  \"franka_robotics\" -   [franka_robotics](https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/franka_robotics.tf) -  appear to be the people on my development team.  So, I'm pretty sure that's what is intended "
+    },
+    {
+      "id": 2504303567,
+      "author": "Smit-tay",
+      "created_at": "2024-11-27T16:27:50Z",
+      "updated_at": "2024-11-27T16:31:05Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2504303567",
+      "body": "@nuclearsandwich \r\n\r\nPlease explain the phrase :  maintainer entries in franka_robotics\r\n\r\nIs there an GitHub attribute of a GitHub team member that is a GitHub team \"maintainer\", or is this at the GitHub repository level ?\r\n\r\nOr, are you referring to this:\r\n\r\n`<maintainer email=\"support@franka.de\">Franka Robotics GmbH</maintainer>`\r\n\r\nWhich I guess is the \"maintainer entry\" for all of Franka Robotics packages as required in package.xml"
+    },
+    {
+      "id": 2511260756,
+      "author": "AndreasKuhner",
+      "created_at": "2024-12-02T11:19:37Z",
+      "updated_at": "2024-12-02T11:19:37Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2511260756",
+      "body": "Hi @nuclearsandwich ,\r\nyes, this is the one: https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/franka_robotics.tf - there we have our 2 new members [@Smith-JackSmith] and [@ssilenzi].\r\n\r\n@BarisYazici can you also please thumbs up the initial post?\r\n\r\nCheers,\r\nAndreas\r\n"
+    },
+    {
+      "id": 2539826181,
+      "author": "Smith-JackSmith",
+      "created_at": "2024-12-12T19:19:00Z",
+      "updated_at": "2024-12-12T19:19:00Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2539826181",
+      "body": "@nuclearsandwich \n\nDo we have an expected completion date for this request? "
+    },
+    {
+      "id": 2539931509,
+      "author": "tfoote",
+      "created_at": "2024-12-12T20:16:27Z",
+      "updated_at": "2024-12-12T20:16:27Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2539931509",
+      "body": "@Smith-JackSmith Please make sure that there is a comment back when there's an update to be reviewed by the maintainers. I see that @BarisYazici thumbs upped the post, but that doesn't generate a notification for maintainers to know that this is completed. So a comment back can help. We do periodic updates on this repository, and can usually action things within a few days. But with holidays sometimes it takes longer. \r\n\r\nIf you'd like to make it easier and faster you could open a PR against https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/franka_robotics.tf and reference this for the approval. PRs make it easier for the maintainers to review and merge quickly. "
+    },
+    {
+      "id": 2539941790,
+      "author": "Smith-JackSmith",
+      "created_at": "2024-12-12T20:20:38Z",
+      "updated_at": "2024-12-12T20:25:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2539941790",
+      "body": "@tfoote \r\nThank you for the reply.\r\nCan you tell me what the status of this is issue is, please.\r\n\r\nI followed the instructions for this, and submitted the template found here: [Template](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/new/choose).\r\n\r\nI have responded to all questions, immediately, I am unclear about  the current status of this issue."
+    },
+    {
+      "id": 2539955079,
+      "author": "tfoote",
+      "created_at": "2024-12-12T20:28:48Z",
+      "updated_at": "2024-12-12T20:28:48Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2539955079",
+      "body": "It looks like you've gotten approvals from 2 existing maintainers as requested above. So now it requires a maintainer to come by and turn that into a PR validate it and then merge it on their next pass. If you make the PR to enact that it will make it lower effort and thus a maintainer taking a pass will need less time. I suspect that the next pass on this will be in a couple of days. The main thing that this was waiting on was approval by the existing maintainers which was just verified by me 11 minutes ago. "
+    },
+    {
+      "id": 2539967297,
+      "author": "Smith-JackSmith",
+      "created_at": "2024-12-12T20:36:20Z",
+      "updated_at": "2024-12-12T20:36:20Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2539967297",
+      "body": "Which maintainer are you referring to? \n\nThe repository holding the team configuration file is owned/permissioned  by some group of ros2 people, not any of our Franka developers listed in the team configuration file.\n\nThe instructions don't say anything about creating a pull request on that file.  If that is really the process, why isn't it documented? "
+    },
+    {
+      "id": 2542446657,
+      "author": "tfoote",
+      "created_at": "2024-12-13T21:57:24Z",
+      "updated_at": "2024-12-13T21:57:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2542446657",
+      "body": "It's not waiting on the maintainers of this repository to do their next batch update. Because this is granting access there's a strong manual review process and it requires putting aside focus time and as you've seen above requires all the verifications for us to move forward. We don't want to rush security. \r\n\r\nThe PR is not required, but for those with technical knowledge and capabilities it can help accelerate things which you seem interested in. There's some documentation in the CONTRIBUTING.md https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/CONTRIBUTING.md Because PRs are much more concrete they are less ambiguous and consequently make the reviews easier, as well as avoid risks of typos along the way etc. "
+    },
+    {
+      "id": 2542920334,
+      "author": "Smith-JackSmith",
+      "created_at": "2024-12-14T07:15:45Z",
+      "updated_at": "2024-12-14T07:15:45Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2542920334",
+      "body": "\"It's not waiting...\" \n\nI'm guessing that is a typo, and should read: \"It's now waiting\". \n\nOtherwise, if it's not waiting on the maintainers, what is it waiting for next? "
+    },
+    {
+      "id": 2544323895,
+      "author": "nuclearsandwich",
+      "created_at": "2024-12-16T01:57:33Z",
+      "updated_at": "2024-12-16T01:57:33Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2544323895",
+      "body": "This change has been deployed!"
+    },
+    {
+      "id": 2544936188,
+      "author": "AndreasKuhner",
+      "created_at": "2024-12-16T08:40:38Z",
+      "updated_at": "2024-12-16T08:40:38Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/645#issuecomment-2544936188",
+      "body": "Thanks @tfoote and @nuclearsandwich :partying_face: "
+    }
+  ]
+}

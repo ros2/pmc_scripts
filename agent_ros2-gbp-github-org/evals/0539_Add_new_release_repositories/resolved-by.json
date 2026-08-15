@@ -1,0 +1,4 @@
+{
+  "commit": "a27a2fce7044551e9eded903a0819978f0b9e7e3",
+  "diff": "diff --git a/navigation.tf b/navigation.tf\nindex a3c2a66..21d203d 100644\n--- a/navigation.tf\n+++ b/navigation.tf\n@@ -5,7 +5,7 @@ locals {\n     \"paulbovbel\",\n   ]\n   navigation_repositories = [\n-    \"nav2_minimal_turtlebot_simulator-release\",\n+    \"nav2_minimal_turtlebot_simulation-release\",\n     \"navigation-release\",\n     \"navigation2-release\",\n     \"navigation_msgs-release\",\n"
+}

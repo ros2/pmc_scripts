@@ -1,0 +1,21 @@
+{
+  "number": 583,
+  "title": "Add new release repositories for aerostack2 platforms",
+  "author": "pariaspe",
+  "state": "closed",
+  "created_at": "2024-08-13T09:41:15Z",
+  "updated_at": "2024-08-14T06:05:39Z",
+  "closed_at": "2024-08-14T04:51:15Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/583",
+  "body": "* Name of the release team: aerostack2\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [as2_platform_crazyflie](https://github.com/aerostack2/as2_platform_crazyflie.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/38dcef7e304a90bb9044e16c7f0bbb4db04c52fd/humble/distribution.yaml#L584-L594)\r\n    * [ ] There is an existing release repository which should be imported: NO\r\n  * [as2_platform_dji_osdk]( https://github.com/aerostack2/as2_platform_dji_osdk.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/38dcef7e304a90bb9044e16c7f0bbb4db04c52fd/humble/distribution.yaml#L595-L605)\r\n    * [ ] There is an existing release repository which should be imported: NO\r\n  * [as2_platform_dji_psdk]( https://github.com/aerostack2/as2_platform_dji_psdk.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/38dcef7e304a90bb9044e16c7f0bbb4db04c52fd/humble/distribution.yaml#L606-L616)\r\n    * [ ] There is an existing release repository which should be imported: NO\r\n  * [as2_platform_mavlink]( https://github.com/aerostack2/as2_platform_mavlink.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/38dcef7e304a90bb9044e16c7f0bbb4db04c52fd/humble/distribution.yaml#L617-L627)\r\n    * [ ] There is an existing release repository which should be imported: NO\r\n  * [as2_platform_pixhawk]( https://github.com/aerostack2/as2_platform_pixhawk.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/38dcef7e304a90bb9044e16c7f0bbb4db04c52fd/humble/distribution.yaml#L628-L638)\r\n    * [ ] There is an existing release repository which should be imported: NO\r\n  * [as2_platform_tello]( https://github.com/aerostack2/as2_platform_tello.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/38dcef7e304a90bb9044e16c7f0bbb4db04c52fd/humble/distribution.yaml#L639-649)\r\n    * [ ] There is an existing release repository which should be imported: NO",
+  "comments": [
+    {
+      "id": 2287926094,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-14T06:05:39Z",
+      "updated_at": "2024-08-14T06:05:39Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/583#issuecomment-2287926094",
+      "body": "This change has been deployed."
+    }
+  ]
+}

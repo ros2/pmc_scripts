@@ -1,0 +1,4 @@
+{
+  "commit": "4f823610f6ae88b94f683da3ff9b8cf373f13a54",
+  "diff": "diff --git a/fictionlab.tf b/fictionlab.tf\nindex ecccb66..2c650e5 100644\n--- a/fictionlab.tf\n+++ b/fictionlab.tf\n@@ -1,6 +1,5 @@\n locals {\n   fictionlab_team = [\n-    \"Bitterisland6\",\n     \"bjsowa\",\n     \"jasiex01\",\n     \"szlachcic\",\n"
+}

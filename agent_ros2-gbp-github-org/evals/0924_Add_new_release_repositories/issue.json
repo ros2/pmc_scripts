@@ -1,0 +1,21 @@
+{
+  "number": 924,
+  "title": "Add new release repositories",
+  "author": "Bitterisland6",
+  "state": "closed",
+  "created_at": "2025-12-05T16:14:54Z",
+  "updated_at": "2025-12-05T20:49:27Z",
+  "closed_at": "2025-12-05T20:47:07Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/924",
+  "body": "* Name of the release team:  fictionlab\n\n* Release repositories to add:\n   - [leo_examples-ros2](https://github.com/LeoRover/leo_examples-ros2.git)\n     * [ros/rosdistro Jazzy source entry](https://github.com/ros/rosdistro/blob/c53076d72372aa71e00240d84e5c612fc8ed4c39/jazzy/distribution.yaml#L4304C3-L4309C23)\n     * [ros/rosdistro Kilted source entry](https://github.com/ros/rosdistro/blob/c53076d72372aa71e00240d84e5c612fc8ed4c39/kilted/distribution.yaml#L3661C2-L3666C23)\n     * [ros/rosdistro Rolling source entry](https://github.com/ros/rosdistro/blob/65e3b6f40d3c91d3c4ee6e82829d378d545ad6d2/rolling/distribution.yaml#L3607C2-L3612C23)\n",
+  "comments": [
+    {
+      "id": 3618562783,
+      "author": "cottsay",
+      "created_at": "2025-12-05T20:49:27Z",
+      "updated_at": "2025-12-05T20:49:27Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/924#issuecomment-3618562783",
+      "body": "This has been deployed: https://github.com/ros2-gbp/leo_examples-ros2-release"
+    }
+  ]
+}

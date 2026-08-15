@@ -1,0 +1,69 @@
+{
+  "number": 466,
+  "title": "Add release team for niwcpac",
+  "author": "xydesa",
+  "state": "closed",
+  "created_at": "2024-03-08T15:53:20Z",
+  "updated_at": "2024-05-03T23:00:12Z",
+  "closed_at": "2024-05-03T20:55:03Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/466",
+  "body": "* Name of the new release team: niwcpac\r\n* Release repositories to add:\r\n  * [rqt_dotgraph](https://github.com/niwcpac/rqt_dotgraph)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L6265)\r\n* Team members\r\n  * [@xydesa](https://github.com/niwcpac/rqt_dotgraph/blob/main/package.xml#L7)\r\n  * [@denewiler](https://github.com/niwcpac/rqt_dotgraph/blob/main/package.xml#L8)\r\n  * [@gregtkogut](https://github.com/niwcpac/rqt_dotgraph/blob/main/package.xml#L9)",
+  "comments": [
+    {
+      "id": 1986051755,
+      "author": "denewiler",
+      "created_at": "2024-03-08T16:53:24Z",
+      "updated_at": "2024-03-08T16:53:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/466#issuecomment-1986051755",
+      "body": "I have a rosdistro branch ready to go that adds a new package to rosdistro distribution.yaml files if we need to do that first.\r\n\r\nhttps://github.com/ros/rosdistro/compare/master...tdenewiler:rosdistro:rqt-dotgraph"
+    },
+    {
+      "id": 1986666154,
+      "author": "nuclearsandwich",
+      "created_at": "2024-03-09T01:02:56Z",
+      "updated_at": "2024-03-09T01:02:56Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/466#issuecomment-1986666154",
+      "body": "@denewiler @xydesa before the release team is created, the PR to rosdistro which adds the `source` (and optionally `doc`) entries should be created so that the package can undergo license and naming review. The `release` stanza should be omitted from the manually created PR and added by using the `bloom` utility to create the release once the release repository is created.\r\n\r\nOnce the linked comparison has been opened as a PR and merged into ros/rosdistro please update this request."
+    },
+    {
+      "id": 1989211000,
+      "author": "xydesa",
+      "created_at": "2024-03-11T18:56:00Z",
+      "updated_at": "2024-03-11T18:56:00Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/466#issuecomment-1989211000",
+      "body": "@nuclearsandwich Thanks for letting us know. FYI the [ROS2 documentation](https://docs.ros.org/en/humble/How-To-Guides/Releasing/First-Time-Release.html) makes it seem like we needed a release team first and the ticket template in here is ambiguous on that count. Which is why I made this PR first."
+    },
+    {
+      "id": 2016113031,
+      "author": "nuclearsandwich",
+      "created_at": "2024-03-22T23:24:09Z",
+      "updated_at": "2024-03-22T23:24:09Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/466#issuecomment-2016113031",
+      "body": "> FYI the [ROS2 documentation](https://docs.ros.org/en/humble/How-To-Guides/Releasing/First-Time-Release.html) makes it seem like we needed a release team first and the ticket template in here is ambiguous on that count. Which is why I made this PR first.\r\n\r\nIt's a bit labyrinthine but the documentation for [Creating a release repository](https://docs.ros.org/en/humble/How-To-Guides/Releasing/Release-Team-Repository.html#create-a-new-release-repository) points out that \"If your repository is new to the ROS community, you should first open a pull request on [ros/rosdistro](https://github.com/ros/rosdistro) adding a source entry for your repository.\"\r\n\r\nBuilding better tooling for this workflow (or optimizing it away) is definitely in my goals for the future."
+    },
+    {
+      "id": 2021588675,
+      "author": "xydesa",
+      "created_at": "2024-03-26T22:38:49Z",
+      "updated_at": "2024-03-26T22:38:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/466#issuecomment-2021588675",
+      "body": "https://github.com/ros/rosdistro/pull/40169\r\n\r\nhas been merged. ticket description updated."
+    },
+    {
+      "id": 2085412269,
+      "author": "tdenewiler",
+      "created_at": "2024-04-30T13:58:05Z",
+      "updated_at": "2024-04-30T13:58:05Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/466#issuecomment-2085412269",
+      "body": "I know you are busy working on the Jazzy release (and we are excited for that). Just adding a comment here to see if there is time to create this new release team. Thanks!"
+    },
+    {
+      "id": 2093865504,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-03T23:00:10Z",
+      "updated_at": "2024-05-03T23:00:10Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/466#issuecomment-2093865504",
+      "body": "This change has been deployed.\r\n\r\n> I know you are busy working on the Jazzy release (and we are excited for that). Just adding a comment here to see if there is time to create this new release team. Thanks!\r\n\r\nThanks for your patience and understanding!"
+    }
+  ]
+}

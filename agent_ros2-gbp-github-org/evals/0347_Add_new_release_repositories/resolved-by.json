@@ -1,0 +1,4 @@
+{
+  "commit": "feafb093eb7fa05edd98cb051449e816f609767f",
+  "diff": "diff --git a/fictionlab.tf b/fictionlab.tf\nindex d339718..3c90901 100644\n--- a/fictionlab.tf\n+++ b/fictionlab.tf\n@@ -10,6 +10,7 @@ locals {\n     \"leo_common-release\",\n     \"leo_desktop-release\",\n     \"leo_robot-release\",\n+    \"leo_simulator-release\",\n   ]\n }\n \n"
+}

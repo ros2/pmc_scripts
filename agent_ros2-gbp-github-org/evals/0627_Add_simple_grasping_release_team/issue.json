@@ -1,0 +1,29 @@
+{
+  "number": 627,
+  "title": "Add simple_grasping release team",
+  "author": "mikeferguson",
+  "state": "closed",
+  "created_at": "2024-10-01T19:31:07Z",
+  "updated_at": "2024-11-08T23:17:26Z",
+  "closed_at": "2024-11-08T19:34:43Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/627",
+  "body": "* Name of the new release team: simple_grasping\r\n* Release repositories to add:\r\n\r\n  * [simple_grasping](https://github.com/mikeferguson/simple_grasping)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/commit/89eb119b911ffc05e03cb3742cbaeaf38a52c302)\r\n    * [x] No existing release repository for ROS 2\r\n  * [grasping_msgs](https://github.com/mikeferguson/grasping_msgs)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/commit/bc8aa818cae2fd5cb0881612e9ad02964c39e528)\r\n    * [x] There is an existing release repository which should be imported: https://github.com/mikeferguson/grasping_msgs-ros2-gbp\r\n\r\n* Team members\r\n  * @mikeferguson You'll notice both source repos are under my account\r\n \r\ngrasping_msgs is already released into humble/iron/jazzy - wanting to release into rolling, hence the moving of the GBP. simple_grasping was available in ROS 1, now getting it released into ROS 2 (especially since it is featured in an upcoming ROSCON talk later this month). I would normally just create a PR with the changes - but not sure how we do the import of an existing GBP.",
+  "comments": [
+    {
+      "id": 2465685250,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-08T20:19:01Z",
+      "updated_at": "2024-11-08T20:19:01Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/627#issuecomment-2465685250",
+      "body": "https://github.com/mikeferguson/grasping_msgs-ros2-gbp has been mirrored into https://github.com/ros2-gbp/grasping_msgs-release"
+    },
+    {
+      "id": 2465889056,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-08T23:17:25Z",
+      "updated_at": "2024-11-08T23:17:25Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/627#issuecomment-2465889056",
+      "body": "This change has been deployed."
+    }
+  ]
+}

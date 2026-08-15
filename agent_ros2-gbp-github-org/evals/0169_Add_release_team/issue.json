@@ -1,0 +1,21 @@
+{
+  "number": 169,
+  "title": "Add release team",
+  "author": "stefanscherzinger",
+  "state": "closed",
+  "created_at": "2023-01-02T13:09:47Z",
+  "updated_at": "2023-01-14T01:01:25Z",
+  "closed_at": "2023-01-14T00:26:22Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/169",
+  "body": "* Name of the new release team: schunk_svh\r\n* Release repositories to add:\r\n  * [schunk_svh_library](https://github.com/fzi-forschungszentrum-informatik/schunk_svh_library.git)\r\n  * [schunk_svh_ros_driver](https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver.git)\r\n\r\n* Team members\r\n  * [@stefanscherzinger](https://github.com/fzi-forschungszentrum-informatik/schunk_svh_ros_driver/blob/ros2-humble/schunk_svh_driver/package.xml#L9)\r\n  * ...\r\n",
+  "comments": [
+    {
+      "id": 1382616734,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-14T01:01:24Z",
+      "updated_at": "2023-01-14T01:01:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/169#issuecomment-1382616734",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "a5f423b923af5dd7c7a40e71a93baf91312e79b9",
+  "diff": "diff --git a/husarion.tf b/husarion.tf\nindex 7236eef..e8027eb 100644\n--- a/husarion.tf\n+++ b/husarion.tf\n@@ -9,6 +9,7 @@ locals {\n     \"rafal-gorecki\",\n   ]\n   husarion_repositories = [\n+    \"husarion_components_description-release\",\n     \"husarion_ugv_ros-release\",\n   ]\n }\n"
+}

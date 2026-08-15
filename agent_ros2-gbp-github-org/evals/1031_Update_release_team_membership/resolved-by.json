@@ -1,0 +1,4 @@
+{
+  "commit": "13056a227266a32739b2f9f65a8061fde4f856bd",
+  "diff": "diff --git a/sick_safetyscanners.tf b/sick_safetyscanners.tf\nindex b78121f..8a8356d 100644\n--- a/sick_safetyscanners.tf\n+++ b/sick_safetyscanners.tf\n@@ -1,6 +1,7 @@\n locals {\n   sick_safetyscanners_team = [\n-    \"lenpuc\",\n+    \"chriseichmann\",\n+    \"thomtrapp\",\n   ]\n   sick_safetyscanners_repositories = [\n     \"sick_safetyscanners2-release\",\n"
+}

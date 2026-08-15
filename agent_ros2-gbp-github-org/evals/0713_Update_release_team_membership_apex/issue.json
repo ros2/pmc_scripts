@@ -1,0 +1,37 @@
+{
+  "number": 713,
+  "title": "Update release team membership: apex",
+  "author": "christophebedard",
+  "state": "closed",
+  "created_at": "2025-02-28T16:20:00Z",
+  "updated_at": "2025-03-21T18:24:12Z",
+  "closed_at": "2025-03-21T18:24:12Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/713",
+  "body": "# Updates to apex membership.\n\nhttps://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/apex.tf\n\n## New team members\n\n* @christophebedard\n\n## Retiring team members\n\n* `@erikatapex` (no longer with the company)\n",
+  "comments": [
+    {
+      "id": 2707876005,
+      "author": "nuclearsandwich",
+      "created_at": "2025-03-08T01:42:50Z",
+      "updated_at": "2025-03-08T01:42:50Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/713#issuecomment-2707876005",
+      "body": "@christophebedard I know that we have a social connection that I can use to trust your addition but could you also link a package.xml maintainer entry or get signoff from an existing member of the release team linked to this request."
+    },
+    {
+      "id": 2708756460,
+      "author": "LanderU",
+      "created_at": "2025-03-09T09:27:47Z",
+      "updated_at": "2025-03-09T09:27:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/713#issuecomment-2708756460",
+      "body": "@nuclearsandwich, thanks for checking it out, @christophebedard, should be part of the list :) I hope this is the confirmation you need."
+    },
+    {
+      "id": 2708756595,
+      "author": "LanderU",
+      "created_at": "2025-03-09T09:28:13Z",
+      "updated_at": "2025-03-09T09:28:13Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/713#issuecomment-2708756595",
+      "body": "And also we should remove @erikatapex, thanks!"
+    }
+  ]
+}

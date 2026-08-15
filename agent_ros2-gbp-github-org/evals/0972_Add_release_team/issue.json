@@ -1,0 +1,12 @@
+{
+  "number": 972,
+  "title": "Add release team",
+  "author": "bob-ros2",
+  "state": "closed",
+  "created_at": "2026-02-01T23:04:00Z",
+  "updated_at": "2026-02-03T04:37:37Z",
+  "closed_at": "2026-02-03T04:37:37Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/972",
+  "body": "* Name of the new release team: bob\n* Release repositories to add:\n  * [bob_llm](https://github.com/bob-ros2/bob_llm)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L953-L956)\n    * [x] There is an existing release repository which should be imported: https://github.com/bob-ros2/bob_llm-release\n* Team members\n  * [@bob-ros2](https://github.com/bob-ros2/bob_llm/blob/main/package.xml#L7)",
+  "comments": []
+}

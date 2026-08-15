@@ -1,0 +1,21 @@
+{
+  "number": 517,
+  "title": "Add new release repositories: libcaer_vendor",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2024-05-13T15:57:33Z",
+  "updated_at": "2024-05-17T22:28:46Z",
+  "closed_at": "2024-05-17T21:30:27Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/517",
+  "body": "* Name of the release team: ros-event-camera\r\n* Release repositories to add:\r\n  * [libcaer_vendor](https://github.com/ros-event-camera/libcaer/)\r\n    * [humble source entry](https://github.com/ros/rosdistro/blob/72eeaec8e84f147feed051717ed324edc006a60c/humble/distribution.yaml#L3515)\r\n    * [iron source entry](https://github.com/ros/rosdistro/blob/72eeaec8e84f147feed051717ed324edc006a60c/iron/distribution.yaml#L2822)\r\n    * [jazzy source entry](https://github.com/ros/rosdistro/blob/72eeaec8e84f147feed051717ed324edc006a60c/jazzy/distribution.yaml#L2924)\r\n    * [rolling source entry](https://github.com/ros/rosdistro/blob/72eeaec8e84f147feed051717ed324edc006a60c/rolling/distribution.yaml#L2951)\r\n  \r\n",
+  "comments": [
+    {
+      "id": 2118451233,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-17T22:28:45Z",
+      "updated_at": "2024-05-17T22:28:45Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/517#issuecomment-2118451233",
+      "body": "This change has been deployed."
+    }
+  ]
+}

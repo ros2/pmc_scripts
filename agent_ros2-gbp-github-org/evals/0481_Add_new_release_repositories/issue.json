@@ -1,0 +1,21 @@
+{
+  "number": 481,
+  "title": "Add new release repositories",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2024-04-03T22:11:15Z",
+  "updated_at": "2024-04-14T16:18:49Z",
+  "closed_at": "2024-04-12T20:46:34Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/481",
+  "body": "* Name of the release team: ros-misc-utilities\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [ffmpeg_image_transport_tools](https://github.com/ros-misc-utilities/ffmpeg_image_transport_tools/)\r\n    * [humble](https://github.com/ros/rosdistro/blob/7bf26e15f472a22cbfab2c9e3044283956cb211e/humble/distribution.yaml#L1922)\r\n    * [iron](https://github.com/ros/rosdistro/blob/7bf26e15f472a22cbfab2c9e3044283956cb211e/iron/distribution.yaml#L1489)\r\n  ",
+  "comments": [
+    {
+      "id": 2054111545,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-14T16:18:48Z",
+      "updated_at": "2024-04-14T16:18:48Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/481#issuecomment-2054111545",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

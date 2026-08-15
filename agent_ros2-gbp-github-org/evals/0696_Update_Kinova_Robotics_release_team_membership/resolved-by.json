@@ -1,0 +1,4 @@
+{
+  "commit": "e9e7aec9b525d9f5b0368447c82c3592628ee8a7",
+  "diff": "diff --git a/kinova_robotics.tf b/kinova_robotics.tf\nindex c9544ab..652b02f 100644\n--- a/kinova_robotics.tf\n+++ b/kinova_robotics.tf\n@@ -1,6 +1,6 @@\n locals {\n   kinova_robotics_team = [\n-    \"felixmaisonneuve\",\n+    \"aalmrad\",\n     \"martinleroux\",\n     \"moriarty\",\n   ]\n"
+}

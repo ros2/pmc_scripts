@@ -1,0 +1,4 @@
+{
+  "commit": "6059c93023d0847f508508031839c34d261c1031",
+  "diff": "diff --git a/carologistics.tf b/carologistics.tf\nindex f3c646b..3055f12 100644\n--- a/carologistics.tf\n+++ b/carologistics.tf\n@@ -4,7 +4,9 @@ locals {\n     \"techtasie\",\n   ]\n   carologistics_repositories = [\n+    \"clips_executive-release\",\n     \"clips_vendor-release\",\n+    \"protobuf_comm-release\",\n   ]\n }\n \n"
+}

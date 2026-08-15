@@ -1,0 +1,29 @@
+{
+  "number": 462,
+  "title": "Update ika_rwth_aachen_team membership",
+  "author": "lreiher",
+  "state": "closed",
+  "created_at": "2024-03-01T08:36:20Z",
+  "updated_at": "2024-03-09T02:07:35Z",
+  "closed_at": "2024-03-09T00:43:57Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/462",
+  "body": "# Updates to [ika_rwth_aachen_team ](https://github.com/ros2-gbp/ros2-gbp-github-org/pull/458)membership.\r\n\r\nTwo of our ROS release repositories have just been moved to ros2-gbp, see [here](https://github.com/ros/rosdistro/pull/40024) and [here](https://github.com/ros/rosdistro/pull/40025). I'd like to add two more team members to our [new team](https://github.com/ros2-gbp/ros2-gbp-github-org/pull/458) for adding a third repository.\r\n\r\n## New team members\r\n\r\n* [@jpbusch](https://github.com/ika-rwth-aachen/etsi_its_messages/blob/main/etsi_its_messages/package.xml#L8)\r\n* [@gkueppers](https://github.com/ika-rwth-aachen/etsi_its_messages/blob/main/etsi_its_messages/package.xml#L9)\r\n",
+  "comments": [
+    {
+      "id": 1972756104,
+      "author": "lreiher",
+      "created_at": "2024-03-01T08:42:01Z",
+      "updated_at": "2024-03-01T08:42:01Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/462#issuecomment-1972756104",
+      "body": "Related to https://github.com/ros2-gbp/ros2-gbp-github-org/issues/463"
+    },
+    {
+      "id": 1986692568,
+      "author": "nuclearsandwich",
+      "created_at": "2024-03-09T02:07:34Z",
+      "updated_at": "2024-03-09T02:07:34Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/462#issuecomment-1986692568",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

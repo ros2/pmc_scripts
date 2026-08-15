@@ -1,0 +1,21 @@
+{
+  "number": 851,
+  "title": "Add new release repositories",
+  "author": "mathew4STAR",
+  "state": "closed",
+  "created_at": "2025-08-25T13:24:28Z",
+  "updated_at": "2025-09-10T22:58:26Z",
+  "closed_at": "2025-09-10T18:44:29Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/851",
+  "body": "* Name of the release team: black_coffee_robotics\n\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [bcr_arm](https://github.com/blackcoffeerobotics/bcr_arm)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L1173)\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n\n",
+  "comments": [
+    {
+      "id": 3276782596,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-10T22:58:26Z",
+      "updated_at": "2025-09-10T22:58:26Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/851#issuecomment-3276782596",
+      "body": "This change has been deployed."
+    }
+  ]
+}

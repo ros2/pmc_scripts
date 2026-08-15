@@ -1,0 +1,4 @@
+{
+  "commit": "96fe3ed5bd4118143dd85436c59d80f0a7382287",
+  "diff": "diff --git a/tooling_wg.tf b/tooling_wg.tf\nindex 61b5cc8..0978d07 100644\n--- a/tooling_wg.tf\n+++ b/tooling_wg.tf\n@@ -13,6 +13,7 @@ locals {\n     \"graph_monitor-release\",\n     \"keyboard_handler-release\",\n     \"libstatistics_collector-release\",\n+    \"rosbag2_broll-release\",\n     \"rosbag2_storage_mcap-release\",\n     \"topic_tools-release\",\n   ]\n"
+}

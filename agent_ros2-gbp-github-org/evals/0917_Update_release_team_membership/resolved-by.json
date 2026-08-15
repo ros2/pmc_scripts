@@ -1,0 +1,4 @@
+{
+  "commit": "0316ac9dc6b7cbaef3ff1a247ebec3f2e5ea7562",
+  "diff": "diff --git a/beluga.tf b/beluga.tf\nindex 246c421..7f35431 100644\n--- a/beluga.tf\n+++ b/beluga.tf\n@@ -1,9 +1,9 @@\n locals {\n   beluga_team = [\n+    \"LaBruma\",\n     \"glpuga\",\n     \"hidmic\",\n     \"nahueespinosa\",\n-\n   ]\n   beluga_repositories = [\n     \"beluga-release\",\n"
+}

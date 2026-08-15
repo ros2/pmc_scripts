@@ -1,0 +1,21 @@
+{
+  "number": 785,
+  "title": "Update release team membership: 00-ros2_core",
+  "author": "christophebedard",
+  "state": "closed",
+  "created_at": "2025-06-03T16:55:06Z",
+  "updated_at": "2025-06-06T17:51:52Z",
+  "closed_at": "2025-06-06T17:51:52Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/785",
+  "body": "# Updates to 00-ros2_core membership.\n\nhttps://github.com/ros2-gbp/ros2-gbp-github-org/blob/7d32ad892edc99fff36aa8c6883434baba199f8b/00-ros2_core.tf#L2\n\n## New team members\n\n* @christophebedard\n* @emersonknapp\n\nhttps://docs.ros.org/en/rolling/The-ROS2-Project/Governance.html#current-ros-pmc-constituents\n\n## Retiring team members\n\nnone\n",
+  "comments": [
+    {
+      "id": 2936307417,
+      "author": "christophebedard",
+      "created_at": "2025-06-03T16:56:43Z",
+      "updated_at": "2025-06-03T16:56:43Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/785#issuecomment-2936307417",
+      "body": "See #786"
+    }
+  ]
+}

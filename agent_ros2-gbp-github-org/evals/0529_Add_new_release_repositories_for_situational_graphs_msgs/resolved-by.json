@@ -1,0 +1,4 @@
+{
+  "commit": "a568d6e9070acd334698bfcc697617df9a4d82cc",
+  "diff": "diff --git a/snt_arg.tf b/snt_arg.tf\nindex 2d7cee9..ad0cda6 100644\n--- a/snt_arg.tf\n+++ b/snt_arg.tf\n@@ -6,6 +6,7 @@ locals {\n   snt_arg_repositories = [\n     \"fast_gicp-release\",\n     \"ndt_omp-release\",\n+    \"situational_graphs_msgs-release\",\n     \"unitree_ros-release\",\n   ]\n }\n"
+}

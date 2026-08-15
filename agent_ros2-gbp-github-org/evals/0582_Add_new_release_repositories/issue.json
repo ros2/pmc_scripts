@@ -1,0 +1,37 @@
+{
+  "number": 582,
+  "title": "Add new release repositories",
+  "author": "johnwason",
+  "state": "closed",
+  "created_at": "2024-08-12T12:41:44Z",
+  "updated_at": "2024-08-14T06:05:34Z",
+  "closed_at": "2024-08-14T04:39:41Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/582",
+  "body": "* Name of the release team: robotraconteur\r\n\r\n* Release repositories to add: \r\n  * https://github.com/robotraconteur-packaging/robotraconteur-ros-release\r\n  * https://github.com/robotraconteur-packaging/robotraconteur-ros2-release\r\n  \r\n  * [robotraconteur](https://github.com/robotraconteur/robotraconteur)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/9d89561fcb48e294847437a0c7be955bd724e893/rolling/distribution.yaml#L5819)\r\n    * [x] There is an existing release repository which should be imported: <https://github.com/robotraconteur-packaging/robotraconteur-ros2-release>\r\n ",
+  "comments": [
+    {
+      "id": 2283879870,
+      "author": "johnwason",
+      "created_at": "2024-08-12T12:42:30Z",
+      "updated_at": "2024-08-12T12:42:30Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/582#issuecomment-2283879870",
+      "body": "I am also planning on submitting a few more related packages in the next few weeks/months. Should I create release repositories in my org or here?"
+    },
+    {
+      "id": 2287845260,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-14T04:44:39Z",
+      "updated_at": "2024-08-14T04:44:39Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/582#issuecomment-2287845260",
+      "body": "The previous release repositories have been mirrored into ros2-gbp/robotraconteur-release. I recommend archiving the previous repositories to leave them available but prevent pushing new artifacts to them unintentionally."
+    },
+    {
+      "id": 2287925675,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-14T06:05:19Z",
+      "updated_at": "2024-08-14T06:05:19Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/582#issuecomment-2287925675",
+      "body": "This change has been deployed."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "number": 482,
+  "title": "Update release team membership",
+  "author": "jordan-palacios",
+  "state": "closed",
+  "created_at": "2024-04-05T09:21:17Z",
+  "updated_at": "2024-04-14T16:18:54Z",
+  "closed_at": "2024-04-12T20:49:12Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/482",
+  "body": "# Updates to pal_robotics team membership.\r\n\r\n## New team members\r\n\r\n* [@Noel215](https://github.com/pal-robotics/pal_statistics/blob/humble-devel/pal_statistics/package.xml#L8)\r\n\r\n## Retiring team members\r\n\r\n* [@v-lopez ](https://github.com/pal-robotics/pal_statistics/commit/17b012505be99279a4e5d9d7429cdcb132504683#diff-f9d91a6784b725ff32281061a0a4a4dea0c945f25357429093fda2d8f832cc78)\r\n",
+  "comments": [
+    {
+      "id": 2054111570,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-14T16:18:54Z",
+      "updated_at": "2024-04-14T16:18:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/482#issuecomment-2054111570",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

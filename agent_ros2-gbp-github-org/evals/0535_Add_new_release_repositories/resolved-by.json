@@ -1,0 +1,4 @@
+{
+  "commit": "29916dd6e7a366e725395278c6d84e386a166a73",
+  "diff": "diff --git a/snt_arg.tf b/snt_arg.tf\nindex 31c53d1..948753d 100644\n--- a/snt_arg.tf\n+++ b/snt_arg.tf\n@@ -5,10 +5,13 @@ locals {\n   ]\n   snt_arg_repositories = [\n     \"fast_gicp-release\",\n+    \"lidar_situational_graphs-release\",\n     \"ndt_omp-release\",\n     \"situational_graphs_dataset-release\",\n     \"situational_graphs_msgs-release\",\n     \"situational_graphs_reasoning-release\",\n+    \"situational_graphs_reasoning_msgs-release\",\n+    \"situational_graphs_wrapper-release\",\n     \"unitree_ros-release\",\n   ]\n }\n"
+}

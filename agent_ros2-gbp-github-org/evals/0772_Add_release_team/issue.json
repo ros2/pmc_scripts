@@ -1,0 +1,21 @@
+{
+  "number": 772,
+  "title": "Add release team",
+  "author": "TonyWelte",
+  "state": "closed",
+  "created_at": "2025-05-11T16:40:30Z",
+  "updated_at": "2025-05-16T18:39:36Z",
+  "closed_at": "2025-05-16T17:58:37Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/772",
+  "body": "* Name of the new release team: rosidlcpp\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [rosidlcpp](https://github.com/TonyWelte/rosidlcpp)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/45612/files)\n\n* Team members\n  * [@TonyWelte](https://github.com/TonyWelte/rosidlcpp/blob/141a2407e78a22332520be54682975143dd62310/rosidlcpp_generator_c/package.xml#L8)\n",
+  "comments": [
+    {
+      "id": 2887434152,
+      "author": "nuclearsandwich",
+      "created_at": "2025-05-16T18:39:35Z",
+      "updated_at": "2025-05-16T18:39:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/772#issuecomment-2887434152",
+      "body": "This change has been deployed."
+    }
+  ]
+}

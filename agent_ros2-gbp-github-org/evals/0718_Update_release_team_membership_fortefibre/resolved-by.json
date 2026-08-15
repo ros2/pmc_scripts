@@ -1,0 +1,4 @@
+{
+  "commit": "054efe043fed801b465403b32488be454178393d",
+  "diff": "diff --git a/fortefibre.tf b/fortefibre.tf\nindex d8e2c98..5a86951 100644\n--- a/fortefibre.tf\n+++ b/fortefibre.tf\n@@ -1,6 +1,7 @@\n locals {\n   fortefibre_team = [\n     \"HansRobo\",\n+    \"f0reachARR\",\n     \"shouth\",\n   ]\n   fortefibre_repositories = [\n"
+}

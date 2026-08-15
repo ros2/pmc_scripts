@@ -1,0 +1,4 @@
+{
+  "commit": "9e0e349542d689fe17a926c959f2a0e96c4f7df4",
+  "diff": "diff --git a/vision_msgs.tf b/vision_msgs.tf\nindex 67589da..74bfc2a 100644\n--- a/vision_msgs.tf\n+++ b/vision_msgs.tf\n@@ -1,6 +1,7 @@\n locals {\n   vision_msgs_team = [\n     \"Kukanani\",\n+    \"SteveMacenski\",\n   ]\n   vision_msgs_repositories = [\n     \"vision_msgs-release\",\n"
+}

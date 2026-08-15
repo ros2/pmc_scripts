@@ -1,0 +1,45 @@
+{
+  "number": 783,
+  "title": "Add release team",
+  "author": "ipa-danb",
+  "state": "closed",
+  "created_at": "2025-06-02T13:57:18Z",
+  "updated_at": "2025-06-21T15:29:44Z",
+  "closed_at": "2025-06-20T18:03:24Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/783",
+  "body": "* Name of the new release team: frame_editor\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [rqt_frame_editor_plugin](  https://github.com/ipa320/rqt_frame_editor_plugin)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/46393)\n    * [ ] There is an existing release repository which should be imported: [release_repo](https://github.com/ipa320/rqt_frame_editor_plugin-release)\n\n\n* Team members\n  * [@ipa-danb](https://github.com/ipa320/rqt_frame_editor_plugin/blob/dev/ros2/package.xml#L7)\n\n",
+  "comments": [
+    {
+      "id": 2930869785,
+      "author": "ipa-danb",
+      "created_at": "2025-06-02T13:58:45Z",
+      "updated_at": "2025-06-02T13:58:45Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/783#issuecomment-2930869785",
+      "body": "Hi, im trying to release a former ROS1 package for ROS2. Im not sure if im doing everything correctly, i.e., not sure if i need to put a PR to the rosdistro if there already exists an entry for `noetic`?"
+    },
+    {
+      "id": 2950143016,
+      "author": "nuclearsandwich",
+      "created_at": "2025-06-06T18:36:22Z",
+      "updated_at": "2025-06-06T18:36:22Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/783#issuecomment-2950143016",
+      "body": "Hi @ipa-danb, I think it's worth sending a rosdistro index PR for rolling or another ROS 2 distro. In general most packages that were part of ROS 1 distributions are likely to pass our review checks for ROS 2 but better to undergo those checks explicitly than accidentally let something slide."
+    },
+    {
+      "id": 2977416299,
+      "author": "ipa-danb",
+      "created_at": "2025-06-16T17:16:38Z",
+      "updated_at": "2025-06-16T17:16:38Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/783#issuecomment-2977416299",
+      "body": "Hi!\n@nuclearsandwich the repo was re-indexed for jazzy\n\nhttps://github.com/ros/rosdistro/pull/46393\n\n\n"
+    },
+    {
+      "id": 2993635799,
+      "author": "nuclearsandwich",
+      "created_at": "2025-06-21T15:29:44Z",
+      "updated_at": "2025-06-21T15:29:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/783#issuecomment-2993635799",
+      "body": "This change has been deployed."
+    }
+  ]
+}

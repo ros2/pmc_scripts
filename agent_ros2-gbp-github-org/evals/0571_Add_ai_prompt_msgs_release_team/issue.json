@@ -1,0 +1,21 @@
+{
+  "number": 571,
+  "title": "Add `ai_prompt_msgs` release team",
+  "author": "AndyZe",
+  "state": "closed",
+  "created_at": "2024-07-19T13:29:50Z",
+  "updated_at": "2024-08-14T06:04:38Z",
+  "closed_at": "2024-08-14T04:05:51Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/571",
+  "body": "* Name of the new release team: `ai_prompt_msgs`\r\n* Release repositories to add:\r\n\r\n  * [ai_prompt_msgs](https://github.com/robosoft-ai/ai_prompt_msgs)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/30e3197c9cc9a39642e3a73c814ed0d5bb8af9fd/jazzy/distribution.yaml#L83)\r\n  * [robosoft_openai](https://github.com/robosoft-ai/robosoft_openai)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/30e3197c9cc9a39642e3a73c814ed0d5bb8af9fd/jazzy/distribution.yaml#L5917)\r\n\r\n* Team members\r\n  * [@AndyZe](https://github.com/robosoft-ai/ai_prompt_msgs/blob/fa4d2354fd9770be891a6bcd32ff808fdeef95a9/package.xml#L7)\r\n",
+  "comments": [
+    {
+      "id": 2287924795,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-14T06:04:37Z",
+      "updated_at": "2024-08-14T06:04:37Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/571#issuecomment-2287924795",
+      "body": "This change has been deployed."
+    }
+  ]
+}

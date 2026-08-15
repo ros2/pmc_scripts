@@ -1,0 +1,4 @@
+{
+  "commit": "4e29e488fdf2b898c678b7f7ef0531767b48d2ab",
+  "diff": "diff --git a/franka_robotics.tf b/franka_robotics.tf\nindex b356dfb..fa08f31 100644\n--- a/franka_robotics.tf\n+++ b/franka_robotics.tf\n@@ -10,6 +10,8 @@ locals {\n   ]\n   franka_robotics_repositories = [\n     \"franka_description-release\",\n+    \"franka_ros2-release\",\n+    \"libfranka-release\",\n   ]\n }\n \n"
+}

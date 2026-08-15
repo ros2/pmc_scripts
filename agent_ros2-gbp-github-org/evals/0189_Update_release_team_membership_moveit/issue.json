@@ -1,0 +1,12 @@
+{
+  "number": 189,
+  "title": "Update release team membership - moveit",
+  "author": "tylerjw",
+  "state": "closed",
+  "created_at": "2023-02-01T21:27:17Z",
+  "updated_at": "2023-02-11T00:59:07Z",
+  "closed_at": "2023-02-11T00:59:07Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/189",
+  "body": "# Updates to moveit membership.\r\n\r\n## New team members\r\n\r\n* [@christhrasher](https://github.com/PickNikRobotics/RSL/blob/ecd88708f5b4742aa484c87127a1d0f36d2c310d/package.xml#L9)\r\n\r\n",
+  "comments": []
+}

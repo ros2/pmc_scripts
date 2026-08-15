@@ -1,0 +1,37 @@
+{
+  "number": 791,
+  "title": "Add release team",
+  "author": "Mariusz-Szczepanik",
+  "state": "closed",
+  "created_at": "2025-06-10T08:52:02Z",
+  "updated_at": "2025-07-15T06:59:00Z",
+  "closed_at": "2025-07-09T00:15:50Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/791",
+  "body": "* Name of the new release team: rtest_release_team\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [rtest](https://github.com/Beam-and-Spyrosoft/rtest)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/46380)\n    * [ ] There is an existing release repository which should be imported: <>\n\n* Team members\n  * [@MariuszSzczepanikSpyrosoft](https://github.com/Beam-and-Spyrosoft/rtest/blob/main/rtest/package.xml#9)\n  * [@slci](https://github.com/Beam-and-Spyrosoft/rtest/blob/main/rtest/package.xml#8)\n",
+  "comments": [
+    {
+      "id": 3003524283,
+      "author": "Mariusz-Szczepanik",
+      "created_at": "2025-06-25T06:29:58Z",
+      "updated_at": "2025-06-25T06:29:58Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/791#issuecomment-3003524283",
+      "body": "@nuclearsandwich rtest added to rosdistro: https://github.com/ros/rosdistro/pull/46380"
+    },
+    {
+      "id": 3050741292,
+      "author": "nuclearsandwich",
+      "created_at": "2025-07-09T01:26:19Z",
+      "updated_at": "2025-07-09T01:26:19Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/791#issuecomment-3050741292",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 3072283518,
+      "author": "Mariusz-Szczepanik",
+      "created_at": "2025-07-15T06:59:00Z",
+      "updated_at": "2025-07-15T06:59:00Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/791#issuecomment-3072283518",
+      "body": "@nuclearsandwich, could you please grant us write access to the repository https://github.com/ros2-gbp/rtest-release?\nIt seems we currently don't have sufficient permissions to push to it."
+    }
+  ]
+}

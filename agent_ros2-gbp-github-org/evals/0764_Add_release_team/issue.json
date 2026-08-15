@@ -1,0 +1,21 @@
+{
+  "number": 764,
+  "title": "Add release team",
+  "author": "ma-shangao",
+  "state": "closed",
+  "created_at": "2025-05-08T11:26:24Z",
+  "updated_at": "2025-05-09T20:14:15Z",
+  "closed_at": "2025-05-09T18:56:51Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/764",
+  "body": "* Name of the new release team: shangao<!-- all lower case with words separated by `_`. -->\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [at_sonde_ros_driver](https://github.com/ma-shangao/at_sonde_ros_driver)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/37c83ee0ed407624b70861ddf208cac477ae4ff9/rolling/distribution.yaml#L561)\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n\n\n* Team members\n  * [@ma-shangao](https://github.com/ma-shangao/at_sonde_ros_driver/blob/5ddc2fb7a0df95969969c7d98cee92577f406be7/package.xml#L7)\n",
+  "comments": [
+    {
+      "id": 2867785135,
+      "author": "nuclearsandwich",
+      "created_at": "2025-05-09T20:14:14Z",
+      "updated_at": "2025-05-09T20:14:14Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/764#issuecomment-2867785135",
+      "body": "This change has been deployed."
+    }
+  ]
+}

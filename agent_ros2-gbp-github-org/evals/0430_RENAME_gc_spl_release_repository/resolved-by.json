@@ -1,0 +1,4 @@
+{
+  "commit": "b350a240b4435984c055b30b232f47319463f980",
+  "diff": "diff --git a/sports.tf b/sports.tf\nindex 9f4f595..98101a4 100644\n--- a/sports.tf\n+++ b/sports.tf\n@@ -4,7 +4,7 @@ locals {\n   ]\n \n   sports_repositories = [\n-    \"gc_spl-release\",\n+    \"game_controller_spl-release\",\n     \"r2r_spl-release\",\n     \"rcss3d_agent-release\",\n     \"rcss3d_nao-release\",\n"
+}

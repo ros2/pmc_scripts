@@ -1,0 +1,4 @@
+{
+  "commit": "b26a4d321e98da458630603e5242f591c5a6ffd8",
+  "diff": "diff --git a/astuff.tf b/astuff.tf\nindex 71bce8a..0569e84 100644\n--- a/astuff.tf\n+++ b/astuff.tf\n@@ -3,6 +3,7 @@ locals {\n     \"icolwell-as\",\n   ]\n   astuff_repositories = [\n+    \"astuff_sensor_msgs-release\",\n     \"automotive_autonomy_msgs-release\",\n     \"avt_vimba_camera-release\",\n   ]\n"
+}

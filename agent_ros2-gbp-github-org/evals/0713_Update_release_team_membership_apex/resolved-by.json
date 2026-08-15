@@ -1,0 +1,4 @@
+{
+  "commit": "03a3b2f753bec298cc35e206582778bd440c885d",
+  "diff": "diff --git a/apex.tf b/apex.tf\nindex 5c09693..a140aba 100644\n--- a/apex.tf\n+++ b/apex.tf\n@@ -2,7 +2,7 @@ locals {\n   apex_team = [\n     \"LanderU\",\n     \"carlossvg\",\n-    \"erikatapex\",\n+    \"christophebedard\",\n     \"flynneva\",\n     \"revati-naik\",\n   ]\n"
+}

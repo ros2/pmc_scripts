@@ -1,0 +1,61 @@
+{
+  "number": 283,
+  "title": "Add new release repository picknik_controllers-release",
+  "author": "moriarty",
+  "state": "closed",
+  "created_at": "2023-06-20T21:48:25Z",
+  "updated_at": "2023-07-01T03:26:02Z",
+  "closed_at": "2023-06-24T17:22:13Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/283",
+  "body": "* Name of the release team: picknik\r\n  * https://github.com/ros2-gbp/ros2-gbp-github-org/pull/281\r\n  * Issue #280 \r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [picknik_controllers](https://github.com/PickNikRobotics/picknik_controllers)\r\n    * ros/rosdistro source entry: https://github.com/ros/rosdistro/pull/37736\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\nThe https://github.com/ros/rosdistro/pull/37736 hasn't been merged yet but I'm opening this issue early assuming there are no naming issues.",
+  "comments": [
+    {
+      "id": 1605656378,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-24T17:20:00Z",
+      "updated_at": "2023-06-24T17:20:00Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/283#issuecomment-1605656378",
+      "body": "> assuming there are no naming issues.\r\n\r\nOpening the issue early is definitely welcome. I would still block release repository creation on approval of the REP-144 naming in particular since if they don't pass those review the release repository name is likely to change. In this case, I went ahead and did the source entry review as a prerequisite to approving this PR."
+    },
+    {
+      "id": 1605673176,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-24T18:06:55Z",
+      "updated_at": "2023-06-24T18:06:55Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/283#issuecomment-1605673176",
+      "body": "In case I get lost today, the deployment of this PR was delayed because I hit the 5000 request rate limit after a few successive terraform plans. I should be updating within an hour confirming successful deployment but it's possible (given that it's Saturday) that time will get away from me while waiting."
+    },
+    {
+      "id": 1605711808,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-24T20:03:46Z",
+      "updated_at": "2023-06-24T20:03:46Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/283#issuecomment-1605711808",
+      "body": "This change has been deployed!"
+    },
+    {
+      "id": 1608456817,
+      "author": "tylerjw",
+      "created_at": "2023-06-26T23:24:16Z",
+      "updated_at": "2023-06-26T23:24:16Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/283#issuecomment-1608456817",
+      "body": "picknik_controllers-release doesn't seem to exist as a repo, are we missing something?"
+    },
+    {
+      "id": 1611643438,
+      "author": "moriarty",
+      "created_at": "2023-06-28T15:23:23Z",
+      "updated_at": "2023-06-28T15:23:57Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/283#issuecomment-1611643438",
+      "body": "Hi @nuclearsandwich \r\n\r\nI still don't see a https://github.com/ros2-gbp/picknik_controllers-release\r\n\r\nDoes adding the line in #284 automatically get deployed or automatically create the repository eventually?\r\nOr do we still need someone with permissions to manually create the release repository?"
+    },
+    {
+      "id": 1615411398,
+      "author": "moriarty",
+      "created_at": "2023-07-01T03:26:02Z",
+      "updated_at": "2023-07-01T03:26:02Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/283#issuecomment-1615411398",
+      "body": "Great, the repo was created today.\n\nThanks!"
+    }
+  ]
+}

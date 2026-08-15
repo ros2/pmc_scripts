@@ -1,0 +1,4 @@
+{
+  "commit": "4ff1ee540fa02a4aced8886933765515ff4d9515",
+  "diff": "diff --git a/pal_robotics.tf b/pal_robotics.tf\nindex 5924b5a..cb2ec37 100644\n--- a/pal_robotics.tf\n+++ b/pal_robotics.tf\n@@ -9,6 +9,7 @@ locals {\n     \"aruco_ros-release\",\n     \"backward_ros-release\",\n     \"pal_statistics-release\",\n+    \"play_motion_builder-release\",\n   ]\n }\n \n"
+}

@@ -1,0 +1,45 @@
+{
+  "number": 631,
+  "title": "Add release team",
+  "author": "pep248",
+  "state": "closed",
+  "created_at": "2024-10-29T07:46:59Z",
+  "updated_at": "2024-11-21T18:57:30Z",
+  "closed_at": "2024-11-21T17:50:26Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/631",
+  "body": "* Name of the new release team: ikerlan_ker\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n\r\n  * [FIRST_REPOSITORY](SOURCE URL)\r\n    * [ros/rosdistro source entry](https://github.com/Ikerlan-KER/rosdistro/blob/ba069c6cbecbe990b52ab2baa5e52bc5b7244401/humble/distribution.yaml#L2231C1-L2239C23)\r\n    * [x] There is an existing release repository which should be imported: https://github.com/Ikerlan-KER/extrinsic_calibrator\r\nWe are currently waiting the [pull request](https://github.com/ros/rosdistro/pull/43284) approval.\r\n\r\n\r\n* Team members\r\n  * [@pep248](https://github.com/Ikerlan-KER/extrinsic_calibrator/blob/main/extrinsic_calibrator_core/package.xml)\r\n  * [@agonzat](https://github.com/Ikerlan-KER/extrinsic_calibrator/blob/main/extrinsic_calibrator_core/package.xml)",
+  "comments": [
+    {
+      "id": 2465653178,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-08T19:58:30Z",
+      "updated_at": "2024-11-08T19:58:30Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/631#issuecomment-2465653178",
+      "body": "@pep248 can you please link to a merged rosdistro PR for the rosdistro source entry. Your current link is in a fork and therefore not valid evidence that the change has been merged."
+    },
+    {
+      "id": 2467970898,
+      "author": "pep248",
+      "created_at": "2024-11-11T11:41:55Z",
+      "updated_at": "2024-11-11T11:41:55Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/631#issuecomment-2467970898",
+      "body": "> @pep248 can you please link to a merged rosdistro PR for the rosdistro source entry. Your current link is in a fork and therefore not valid evidence that the change has been merged.\r\n\r\nhttps://github.com/ros/rosdistro/pull/43284\r\n\r\nWe are waiting for the pull-request to be accepted.\r\n\r\nWe will provide the link you requested as soon as we are accepted."
+    },
+    {
+      "id": 2485028750,
+      "author": "pep248",
+      "created_at": "2024-11-19T08:33:10Z",
+      "updated_at": "2024-11-19T08:33:10Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/631#issuecomment-2485028750",
+      "body": "It has been approved:\r\nhttps://github.com/ros/rosdistro/blob/master/humble/distribution.yaml\r\n\r\n```\r\n  extrinsic_calibrator:\r\n    doc:\r\n      type: git\r\n      url: https://github.com/Ikerlan-KER/extrinsic_calibrator.git\r\n      version: humble\r\n    source:\r\n      type: git\r\n      url: https://github.com/Ikerlan-KER/extrinsic_calibrator.git\r\n      version: humble\r\n    status: maintained\r\n```"
+    },
+    {
+      "id": 2492028186,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-21T18:57:28Z",
+      "updated_at": "2024-11-21T18:57:28Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/631#issuecomment-2492028186",
+      "body": "This change has been deployed."
+    }
+  ]
+}

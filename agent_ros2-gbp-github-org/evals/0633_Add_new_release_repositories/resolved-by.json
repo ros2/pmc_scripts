@@ -1,0 +1,4 @@
+{
+  "commit": "74544166b9277c85512b859d9176df223d0830da",
+  "diff": "diff --git a/nobleo.tf b/nobleo.tf\nindex e8a4435..88089f9 100644\n--- a/nobleo.tf\n+++ b/nobleo.tf\n@@ -4,6 +4,7 @@ locals {\n   ]\n   nobleo_repositories = [\n     \"azure_iot_sdk_c-release\",\n+    \"boost_sml_vendor-release\",\n     \"libnabo-release\",\n     \"libpointmatcher-release\",\n     \"magic_enum-release\",\n"
+}

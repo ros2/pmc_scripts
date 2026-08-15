@@ -1,0 +1,12 @@
+{
+  "number": 855,
+  "title": "Add new release repositories: better_launch",
+  "author": "ndahn",
+  "state": "closed",
+  "created_at": "2025-09-10T14:23:58Z",
+  "updated_at": "2025-09-10T18:47:57Z",
+  "closed_at": "2025-09-10T18:47:57Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/855",
+  "body": "* Name of the release team: better_launch\n\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [better_launch](https://github.com/dfki-ric/better_launch)\n    * [rosdistro/humble](https://github.com/ndahn/rosdistro/blob/a2f12e218353218d13b33cc3edcf05f62b1197de/humble/distribution.yaml#L1165)\n    * [rosdistro/jazzy](https://github.com/ndahn/rosdistro/blob/a2f12e218353218d13b33cc3edcf05f62b1197de/jazzy/distribution.yaml#L949)\n    * [rosdistro/kilted](https://github.com/ndahn/rosdistro/blob/a2f12e218353218d13b33cc3edcf05f62b1197de/kilted/distribution.yaml#L799)\n    * [rosdistro/rolling](https://github.com/ndahn/rosdistro/blob/a2f12e218353218d13b33cc3edcf05f62b1197de/rolling/distribution.yaml#L864)\n    * [ ] There is an existing release repository which should be imported:\n",
+  "comments": []
+}

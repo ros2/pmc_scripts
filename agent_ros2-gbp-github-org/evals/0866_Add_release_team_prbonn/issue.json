@@ -1,0 +1,29 @@
+{
+  "number": 866,
+  "title": "Add release team prbonn",
+  "author": "mehermvr",
+  "state": "closed",
+  "created_at": "2025-09-12T12:47:37Z",
+  "updated_at": "2025-09-28T07:50:15Z",
+  "closed_at": "2025-09-26T18:18:01Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/866",
+  "body": "* Name of the new release team: prbonn\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [rko_lio](https://github.com/PRBonn/rko_lio)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/3c8f20c38195ebeef8bca6ad8cc136e9fe983b23/rolling/distribution.yaml#L6225) - merged in ros/rosdistro#47605\n\n\n* Team members\n  * [@mehermvr](https://github.com/PRBonn/rko_lio/blob/46ba69761444879dec9e0995155cfa55b522d2b3/ros/package.xml#L6)\n",
+  "comments": [
+    {
+      "id": 3342301197,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-28T05:14:34Z",
+      "updated_at": "2025-09-28T05:14:34Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/866#issuecomment-3342301197",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 3342495886,
+      "author": "mehermvr",
+      "created_at": "2025-09-28T07:50:15Z",
+      "updated_at": "2025-09-28T07:50:15Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/866#issuecomment-3342495886",
+      "body": "Thank you!"
+    }
+  ]
+}

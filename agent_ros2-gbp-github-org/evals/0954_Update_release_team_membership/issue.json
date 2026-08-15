@@ -1,0 +1,12 @@
+{
+  "number": 954,
+  "title": "Update release team membership",
+  "author": "hr1799",
+  "state": "closed",
+  "created_at": "2026-01-07T19:40:39Z",
+  "updated_at": "2026-01-12T23:12:22Z",
+  "closed_at": "2026-01-12T23:12:22Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/954",
+  "body": "# Updates to hebi membership.\n\n## New team members\n\n*  @iamtesch ([maintainer](https://github.com/HebiRobotics/hebi_cpp_api_ros/blob/f7953f67f0dc097fbfcc84efb4786ad2af95dd57/package.xml#L11))\n",
+  "comments": []
+}

@@ -1,0 +1,53 @@
+{
+  "number": 381,
+  "title": "Add analogdevicesinc_tmcl release team",
+  "author": "jmacagba",
+  "state": "closed",
+  "created_at": "2023-11-21T06:57:56Z",
+  "updated_at": "2024-01-09T23:23:29Z",
+  "closed_at": "2024-01-06T00:52:21Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/381",
+  "body": "* Name of the new release team: analogdevicesinc_tmcl_team\r\n* Release repositories to add:\r\n  * [adi_tmcl](https://github.com/analogdevicesinc/tmcl_ros2)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/fa6c417d1bb9fe138bb3deb5d732633285b77af3/humble/distribution.yaml#L82C1-L91C23)\r\n\r\n* Team members\r\n  * [mmaralit-adi](https://github.com/mmaralit-adi)\r\n  * [jmacagba](https://github.com/jmacagba)\r\n  * [CAcarADI](https://github.com/CAcarADI)\r\n  * [KApostolADI](https://github.com/KApostolADI)\r\n",
+  "comments": [
+    {
+      "id": 1841976941,
+      "author": "jmacagba",
+      "created_at": "2023-12-06T02:19:29Z",
+      "updated_at": "2023-12-06T02:19:29Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/381#issuecomment-1841976941",
+      "body": "In relation to [#382](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/382), the requested release repository for **adi_tmcl** will also be used for the ROS1 release.\r\n\r\n**adi_tmcl** has been added to noetic distribution ([PR #39108](https://github.com/ros/rosdistro/pull/39108#pullrequestreview-1765323424)).\r\n\r\n- adi_tmcl ROS1 [source link](https://github.com/analogdevicesinc/tmcl_ros)\r\n- Noetic [rosdistro source entry](https://github.com/ros/rosdistro/blob/6f6275a00d232171989ead40681c4adef6bb8300/noetic/distribution.yaml#L78C1-L87C23)\r\n"
+    },
+    {
+      "id": 1879183184,
+      "author": "clalancette",
+      "created_at": "2024-01-05T19:50:31Z",
+      "updated_at": "2024-01-05T19:50:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/381#issuecomment-1879183184",
+      "body": "Looks good to me."
+    },
+    {
+      "id": 1880325835,
+      "author": "jmacagba",
+      "created_at": "2024-01-08T03:06:23Z",
+      "updated_at": "2024-01-08T03:06:23Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/381#issuecomment-1880325835",
+      "body": "Thank you @cottsay !\r\n\r\nWill all the team members listed have permission to change the default branch of the release repository?\r\nIf not, how can we change the default branch of https://github.com/ros2-gbp/adi_tmcl-release?\r\n\r\n"
+    },
+    {
+      "id": 1883351073,
+      "author": "cottsay",
+      "created_at": "2024-01-09T16:14:49Z",
+      "updated_at": "2024-01-09T16:14:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/381#issuecomment-1883351073",
+      "body": "I changed it to `master` for you, but keep in mind that Bloom doesn't care what the default branch is - it will always use `master` regardless."
+    },
+    {
+      "id": 1883952533,
+      "author": "jmacagba",
+      "created_at": "2024-01-09T23:23:28Z",
+      "updated_at": "2024-01-09T23:23:28Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/381#issuecomment-1883952533",
+      "body": "Thanks again @cottsay , we wanted to have `master` as default branch anyway, so this is perfect."
+    }
+  ]
+}

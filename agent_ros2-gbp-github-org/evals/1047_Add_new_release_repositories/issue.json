@@ -1,0 +1,21 @@
+{
+  "number": 1047,
+  "title": "Add new release repositories",
+  "author": "jlblancoc",
+  "state": "closed",
+  "created_at": "2026-06-04T22:27:42Z",
+  "updated_at": "2026-06-08T21:39:54Z",
+  "closed_at": "2026-06-08T21:36:48Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1047",
+  "body": "\n* Name of the release team: mrpt2\n\n* Release repositories to add:\n  * [rosbag_timing_inspector](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L10453C3-L10453C26)\n   * [ ] There is an existing release repository which should be imported: NO\n  * [mola_input_rosbag1](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L5995)\n   * [ ] There is an existing release repository which should be imported: NO\n  * [nanoflann](https://github.com/ros/rosdistro/pull/51894)\n   * [ ] There is an existing release repository which should be imported: NO\n",
+  "comments": [
+    {
+      "id": 4653789451,
+      "author": "cottsay",
+      "created_at": "2026-06-08T21:39:54Z",
+      "updated_at": "2026-06-08T21:39:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1047#issuecomment-4653789451",
+      "body": "This has been deployed:\n- https://github.com/ros2-gbp/mola_input_rosbag1-release\n- https://github.com/ros2-gbp/nanoflann-release\n- https://github.com/ros2-gbp/rosbag_timing_inspector-release"
+    }
+  ]
+}

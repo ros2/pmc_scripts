@@ -1,0 +1,21 @@
+{
+  "number": 1084,
+  "title": "Update release team membership",
+  "author": "azeey",
+  "state": "closed",
+  "created_at": "2026-07-16T17:13:00Z",
+  "updated_at": "2026-07-16T21:11:54Z",
+  "closed_at": "2026-07-16T21:05:08Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1084",
+  "body": "# Updates to `gazebo` membership.\n\n## New team members\n\n* [@caguero](https://github.com/gazebosim/gz-transport/blob/f8dc7c12d755f5fe62c3d8e5504e5f7c20f9e3e5/package.xml#L7)\n",
+  "comments": [
+    {
+      "id": 4996633226,
+      "author": "cottsay",
+      "created_at": "2026-07-16T21:11:54Z",
+      "updated_at": "2026-07-16T21:11:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1084#issuecomment-4996633226",
+      "body": "This has been deployed."
+    }
+  ]
+}

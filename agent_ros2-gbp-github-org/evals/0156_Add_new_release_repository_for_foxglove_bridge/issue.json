@@ -1,0 +1,29 @@
+{
+  "number": 156,
+  "title": "Add new release repository for foxglove_bridge",
+  "author": "jhurliman",
+  "state": "closed",
+  "created_at": "2022-11-15T22:52:26Z",
+  "updated_at": "2022-11-17T18:00:15Z",
+  "closed_at": "2022-11-17T18:00:15Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/156",
+  "body": "* Name of the release team: [foxglove_bridge_team](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/146)\r\n\r\n* Release repositories to add:\r\n  * [foxglove/ros-foxglove-bridge](https://github.com/foxglove/ros-foxglove-bridge)\r\n    ~* [ ] There is an existing release repository which should be imported~\r\n",
+  "comments": [
+    {
+      "id": 1315973583,
+      "author": "jhurliman",
+      "created_at": "2022-11-15T22:52:32Z",
+      "updated_at": "2022-11-15T22:52:32Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/156#issuecomment-1315973583",
+      "body": "cc @achim-k "
+    },
+    {
+      "id": 1319006886,
+      "author": "jhurliman",
+      "created_at": "2022-11-17T18:00:15Z",
+      "updated_at": "2022-11-17T18:00:15Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/156#issuecomment-1319006886",
+      "body": "n/m this is already done"
+    }
+  ]
+}

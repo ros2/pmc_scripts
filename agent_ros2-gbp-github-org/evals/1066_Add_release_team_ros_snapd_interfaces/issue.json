@@ -1,0 +1,21 @@
+{
+  "number": 1066,
+  "title": "Add release team: ros_snapd_interfaces",
+  "author": "Guillaumebeuzeboc",
+  "state": "closed",
+  "created_at": "2026-06-12T13:23:42Z",
+  "updated_at": "2026-07-16T21:11:14Z",
+  "closed_at": "2026-07-16T21:03:57Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1066",
+  "body": "* Name of the new release team: ros_snapd_interfaces\n* Release repositories to add:\n  * [ros_snapd_interfaces](https://github.com/canonical/ros_snapd_interfaces)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/51954)\n\n* Team members\n  * @MirkoFerrati\n  * @artivis\n  * @Guillaumebeuzeboc",
+  "comments": [
+    {
+      "id": 4996628094,
+      "author": "cottsay",
+      "created_at": "2026-07-16T21:11:14Z",
+      "updated_at": "2026-07-16T21:11:14Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1066#issuecomment-4996628094",
+      "body": "This has been deployed: https://github.com/ros2-gbp/ros_snapd_interfaces-release"
+    }
+  ]
+}

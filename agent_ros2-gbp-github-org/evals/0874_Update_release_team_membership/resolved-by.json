@@ -1,0 +1,4 @@
+{
+  "commit": "c7dbe3ee000d94e3c9de99e9070f91d9d3a751b2",
+  "diff": "diff --git a/grid_map.tf b/grid_map.tf\nindex 0f59047..8c8672e 100644\n--- a/grid_map.tf\n+++ b/grid_map.tf\n@@ -1,5 +1,6 @@\n locals {\n   grid_map_team = [\n+    \"ANYZichong\",\n     \"Ryanf55\",\n     \"maximilianwulf\",\n     \"wep21\",\n"
+}

@@ -1,0 +1,21 @@
+{
+  "number": 180,
+  "title": "Add release team",
+  "author": "maxbader",
+  "state": "closed",
+  "created_at": "2023-01-22T20:09:10Z",
+  "updated_at": "2023-01-28T05:51:20Z",
+  "closed_at": "2023-01-28T05:01:59Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/180",
+  "body": "* Name of the new release team: tuw_robotics\r\n* Release repositories to add:\r\n  * [marker_msgs](https://github.com/tuw-robotics/marker_msgs)\r\n    * [x] There is an existing release repository which should be imported: <https://github.com/tuw-robotics/marker_msgs-release>\r\n  * [marker_rviz_plugin](https://github.com/tuw-robotics/marker_rviz_plugin)\r\n    * [x] There is an existing release repository which should be imported: <(https://github.com/tuw-robotics/marker_rviz_plugin-release>\r\n  * [tuw_msgs](https://github.com/tuw-robotics/tuw_msgs)\r\n    * [x] There is an existing release repository which should be imported: <(https://github.com/tuw-robotics/tuw_msgs-release>\r\n* Team members\r\n  * [@maxbader](https://github.com/tuw-robotics/marker_msgs/blob/master/package.xml)\r\n",
+  "comments": [
+    {
+      "id": 1407301847,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-28T05:51:20Z",
+      "updated_at": "2023-01-28T05:51:20Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/180#issuecomment-1407301847",
+      "body": "This change has been deployed.\r\n\r\nI would suggest archiving the old release repositories so they remain available for earlier versions of the distribution files but are not inadvertently used for future releases."
+    }
+  ]
+}

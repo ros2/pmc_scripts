@@ -1,0 +1,21 @@
+{
+  "number": 1026,
+  "title": "Add new release repositories",
+  "author": "christophfroehlich",
+  "state": "closed",
+  "created_at": "2026-04-17T18:30:26Z",
+  "updated_at": "2026-06-09T15:48:12Z",
+  "closed_at": "2026-06-09T15:37:45Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1026",
+  "body": "<!--\n  Which release team will maintain these repositories?\n  If you do not yet have a release team in the ros2-gbp-github-org project, please use the [new release team](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/new?assignees=&labels=&projects=&template=new_release_team.md&title=Add+release+team) template instead.\n  That template supports adding a new team and repositories at the same time.\n-->\n* Name of the release team: control\n\n<!--\nBefore release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\nGuidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\nIf you are requesting multiple repositories at once, please list them all here instead of creating multiple issues.\n-->\n* Release repositories to add:\n  * onnxruntime_vendor https://github.com/ros/rosdistro/pull/50401\n    <!--\n      The ROS project maintains an index of official ROS distributions and the packages that they contain.\n      Before a release repository is created, your repository must be listed in that index.\n      You can request that a new repostiory be added by submitting a pull request to https://github.com/ros/rosdistro\n      Once you have submitted the pull request, you may use it to complete and submit this issue.\n      However, the release repository will not be created until the ros/rosdistro pull request has been merged.\n\n    If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n      Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n\n    -->\n\nThank you!",
+  "comments": [
+    {
+      "id": 4661505812,
+      "author": "cottsay",
+      "created_at": "2026-06-09T15:48:11Z",
+      "updated_at": "2026-06-09T15:48:11Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1026#issuecomment-4661505812",
+      "body": "This has been deployed: https://github.com/ros2-gbp/onnxruntime_vendor-release"
+    }
+  ]
+}

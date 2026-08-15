@@ -1,0 +1,4 @@
+{
+  "commit": "7e34bb421226a1359b83b519c78ce47f9b6382a1",
+  "diff": "diff --git a/franka_robotics.tf b/franka_robotics.tf\nindex 4604c21..b356dfb 100644\n--- a/franka_robotics.tf\n+++ b/franka_robotics.tf\n@@ -2,8 +2,10 @@ locals {\n   franka_robotics_team = [\n     \"AndreasKuhner\",\n     \"BarisYazici\",\n+    \"Smith-JackSmith\",\n     \"gomezgu\",\n     \"kmohyeldin\",\n+    \"ssilenzi\",\n     \"winkma\",\n   ]\n   franka_robotics_repositories = [\n"
+}

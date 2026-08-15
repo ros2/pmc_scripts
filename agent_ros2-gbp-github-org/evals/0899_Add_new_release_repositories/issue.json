@@ -1,0 +1,37 @@
+{
+  "number": 899,
+  "title": "Add new release repositories",
+  "author": "Barry-Xu-2018",
+  "state": "closed",
+  "created_at": "2025-10-21T06:14:13Z",
+  "updated_at": "2025-12-05T19:52:48Z",
+  "closed_at": "2025-12-05T19:50:26Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/899",
+  "body": "* Name of the release team: sony_rdc\n\n* Release repositories to add:\n  * [persist_parameter_server-release](https://github.com/fujitatomoya/ros2_persist_parameter_server)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/47829)",
+  "comments": [
+    {
+      "id": 3588098999,
+      "author": "fujitatomoya",
+      "created_at": "2025-11-28T06:41:45Z",
+      "updated_at": "2025-11-28T06:41:45Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/899#issuecomment-3588098999",
+      "body": "friendly ping? it's been almost 2 months."
+    },
+    {
+      "id": 3604659685,
+      "author": "Barry-Xu-2018",
+      "created_at": "2025-12-03T01:36:18Z",
+      "updated_at": "2025-12-03T01:36:18Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/899#issuecomment-3604659685",
+      "body": "@nuclearsandwich Friendly ping"
+    },
+    {
+      "id": 3618374896,
+      "author": "cottsay",
+      "created_at": "2025-12-05T19:52:48Z",
+      "updated_at": "2025-12-05T19:52:48Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/899#issuecomment-3618374896",
+      "body": "This has been deployed: https://github.com/ros2-gbp/persist_parameter_server-release"
+    }
+  ]
+}

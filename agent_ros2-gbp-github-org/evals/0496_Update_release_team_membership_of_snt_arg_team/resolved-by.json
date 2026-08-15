@@ -1,0 +1,4 @@
+{
+  "commit": "e83a3ac620818eafcff326820b385b5b7e0c7db2",
+  "diff": "diff --git a/snt_arg.tf b/snt_arg.tf\nindex 88e3163..c1c8a2d 100644\n--- a/snt_arg.tf\n+++ b/snt_arg.tf\n@@ -1,6 +1,7 @@\n locals {\n   snt_arg_team = [\n     \"PedroS235\",\n+    \"hridaybavle\",\n   ]\n   snt_arg_repositories = [\n     \"unitree_ros-release\",\n"
+}

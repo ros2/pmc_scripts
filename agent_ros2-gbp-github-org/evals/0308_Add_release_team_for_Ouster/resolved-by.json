@@ -1,0 +1,4 @@
+{
+  "commit": "b7aa22a5fdd2442a81c7aaa7c7742dbe970290b7",
+  "diff": "diff --git a/ouster.tf b/ouster.tf\nnew file mode 100644\nindex 0000000..c593c3f\n--- /dev/null\n+++ b/ouster.tf\n@@ -0,0 +1,16 @@\n+locals {\n+  ouster_team = [\n+    \"Samahu\",\n+  ]\n+  ouster_repositories = [\n+    \"ouster-ros-release\",\n+  ]\n+}\n+\n+module \"ouster_team\" {\n+  source       = \"./modules/release_team\"\n+  team_name    = \"ouster\"\n+  members      = local.ouster_team\n+  repositories = local.ouster_repositories\n+  depends_on   = [github_membership.members, github_repository.repositories]\n+}\n"
+}

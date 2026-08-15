@@ -1,0 +1,21 @@
+{
+  "number": 895,
+  "title": "Add mujoco_vendor release repositories",
+  "author": "saikishor",
+  "state": "closed",
+  "created_at": "2025-10-17T07:53:37Z",
+  "updated_at": "2025-12-05T02:55:18Z",
+  "closed_at": "2025-12-05T02:54:33Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/895",
+  "body": "* Name of the release team: pal_robotics_team\n\n* Release repositories to add: \n      - https://github.com/ros/rosdistro/pull/48100\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [Humble]\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/123ba30ced4a2239dfff73634fed9826a44e4ce3/humble/distribution.yaml#L5917-L5926)\n  * [Jazzy]\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/123ba30ced4a2239dfff73634fed9826a44e4ce3/jazzy/distribution.yaml#L5306-L5315)\n  * [Kilted]\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/123ba30ced4a2239dfff73634fed9826a44e4ce3/kilted/distribution.yaml#L4596-L4605)\n  * [Rolling]\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/123ba30ced4a2239dfff73634fed9826a44e4ce3/rolling/distribution.yaml#L4570-L4579)",
+  "comments": [
+    {
+      "id": 3615104811,
+      "author": "cottsay",
+      "created_at": "2025-12-05T02:55:18Z",
+      "updated_at": "2025-12-05T02:55:18Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/895#issuecomment-3615104811",
+      "body": "This has been deployed: https://github.com/ros2-gbp/mujoco_vendor-release"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "f0fde45cfc2f0c6bf4d1b9e1964905414cdef588",
+  "diff": "diff --git a/00-ros2_core.tf b/00-ros2_core.tf\nindex cb6a3fe..2c9e891 100644\n--- a/00-ros2_core.tf\n+++ b/00-ros2_core.tf\n@@ -6,8 +6,10 @@ locals {\n     \"ahcorde\",\n     \"audrow\",\n     \"chapulina\",\n+    \"christophebedard\",\n     \"clalancette\",\n     \"cottsay\",\n+    \"emersonknapp\",\n     \"gbiggs\",\n     \"hidmic\",\n     \"ivanpauno\",\n"
+}

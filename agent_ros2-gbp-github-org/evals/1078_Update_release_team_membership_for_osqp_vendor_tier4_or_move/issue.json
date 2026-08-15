@@ -1,0 +1,29 @@
+{
+  "number": 1078,
+  "title": "Update release team membership for osqp_vendor (tier4 or moveit)",
+  "author": "christian-rauch",
+  "state": "closed",
+  "created_at": "2026-07-13T12:17:39Z",
+  "updated_at": "2026-08-05T16:28:14Z",
+  "closed_at": "2026-08-05T16:28:14Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1078",
+  "body": "# Updates to tier4 membership.\n\nThe [`osqp_vendor` repo](https://github.com/tier4/osqp_vendor) appears abandoned and specifically the PR https://github.com/tier4/osqp_vendor/pull/25, which unblocks MoveIt2 builds, is unmerged for 3.5 months now.\n\nI request to either have myself added to the `tier4.tf` release team, in order to release new `osqp_vendor` packages, or alternatively, I request that the `osqp_vendor-release` repo is moved from the `tier4.tf` to the `moveit.tf` release team and that I am added to the `moveit.tf` release team.\n\n## New team members\n\n* [@christian-rauch](LINK TO SOURCE PACKAGE.XML MAINTAINER/AUTHOR TAG)\n\n",
+  "comments": [
+    {
+      "id": 5167938874,
+      "author": "nbbrooks",
+      "created_at": "2026-08-03T14:51:42Z",
+      "updated_at": "2026-08-03T14:51:42Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1078#issuecomment-5167938874",
+      "body": "We have updated the maintainer list for moveit/osqp_vendor here https://github.com/moveit/osqp_vendor/pull/2"
+    },
+    {
+      "id": 5194464146,
+      "author": "clalancette",
+      "created_at": "2026-08-05T16:28:14Z",
+      "updated_at": "2026-08-05T16:28:14Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1078#issuecomment-5194464146",
+      "body": "I'm going to close this one in favor of #1101 "
+    }
+  ]
+}

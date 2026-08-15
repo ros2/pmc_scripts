@@ -1,0 +1,4 @@
+{
+  "commit": "36154fa2b34fa44a65634b5a6ebf83089e28dc52",
+  "diff": "diff --git a/mrt_cmake_modules.tf b/mrt_cmake_modules.tf\nindex 7cd1783..a2391cd 100644\n--- a/mrt_cmake_modules.tf\n+++ b/mrt_cmake_modules.tf\n@@ -1,6 +1,7 @@\n locals {\n   mrt_cmake_modules_team = [\n     \"JohannesBeck\",\n+    \"poggenhans\",\n   ]\n   mrt_cmake_modules_repositories = [\n     \"mrt_cmake_modules-release\",\n"
+}

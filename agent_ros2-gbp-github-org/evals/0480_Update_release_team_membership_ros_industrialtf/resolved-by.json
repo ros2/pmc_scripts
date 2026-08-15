@@ -1,0 +1,4 @@
+{
+  "commit": "d0340953930b9d783f9f4a87e673ad11d573b68a",
+  "diff": "diff --git a/ros_industrial.tf b/ros_industrial.tf\nindex 693994b..50b8ff7 100644\n--- a/ros_industrial.tf\n+++ b/ros_industrial.tf\n@@ -2,6 +2,7 @@ locals {\n   ros_industrial_team = [\n     \"Levi-Armstrong\",\n     \"hellantos\",\n+    \"ipa-vsp\",\n     \"marip8\",\n   ]\n   ros_industrial_repositories = [\n"
+}

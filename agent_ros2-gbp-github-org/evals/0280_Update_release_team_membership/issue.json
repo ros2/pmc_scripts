@@ -1,0 +1,29 @@
+{
+  "number": 280,
+  "title": "Update release team membership",
+  "author": "MarqRazz",
+  "state": "closed",
+  "created_at": "2023-06-16T16:13:28Z",
+  "updated_at": "2023-06-24T20:03:42Z",
+  "closed_at": "2023-06-24T16:43:51Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/280",
+  "body": "# Updates to `picknik_team` membership.\r\n\r\n## New team members\r\n\r\n[@moriarty](https://github.com/PickNikRobotics/ros2_robotiq_gripper/blob/58eda4b7f58052c427e79cec09bd4b302dcdd3cb/robotiq_description/package.xml#L8)\r\n[@marqrazz](https://github.com/PickNikRobotics/ros2_robotiq_gripper/blob/58eda4b7f58052c427e79cec09bd4b302dcdd3cb/robotiq_description/package.xml#L9)\r\n",
+  "comments": [
+    {
+      "id": 1605673046,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-24T18:06:47Z",
+      "updated_at": "2023-06-24T18:06:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/280#issuecomment-1605673046",
+      "body": "In case I get lost today, the deployment of this PR was delayed because I hit the 5000 request rate limit after a few successive terraform plans. I should be updating within an hour confirming successful deployment but it's possible (given that it's Saturday) that time will get away from me while waiting."
+    },
+    {
+      "id": 1605711802,
+      "author": "nuclearsandwich",
+      "created_at": "2023-06-24T20:03:42Z",
+      "updated_at": "2023-06-24T20:03:42Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/280#issuecomment-1605711802",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

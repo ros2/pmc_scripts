@@ -1,0 +1,29 @@
+{
+  "number": 596,
+  "title": "Add new release repository: ffmpeg_encoder_decoder",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2024-08-21T00:13:17Z",
+  "updated_at": "2024-08-30T05:01:55Z",
+  "closed_at": "2024-08-29T18:53:58Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/596",
+  "body": "* Name of the release team: ros-misc-utilities\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [ffmpeg_encoder_decoder](https://github.com/ros-misc-utilities/ffmpeg_encoder_decoder)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/278b8b6a3535d64995ec5200c3e9fa8d564319d2/jazzy/distribution.yaml#L1688)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n ",
+  "comments": [
+    {
+      "id": 2319669229,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-30T01:55:59Z",
+      "updated_at": "2024-08-30T01:55:59Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/596#issuecomment-2319669229",
+      "body": "Although this change has merged it has not yet been deployed. Please see https://github.com/ros2-gbp/ros2-gbp-github-org/issues/618 for updates."
+    },
+    {
+      "id": 2320057900,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-30T05:01:54Z",
+      "updated_at": "2024-08-30T05:01:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/596#issuecomment-2320057900",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "number": 953,
+  "title": "Add release team 'tf_tree_terminal'",
+  "author": "Tanneguydv",
+  "state": "closed",
+  "created_at": "2026-01-07T15:12:16Z",
+  "updated_at": "2026-01-23T22:58:33Z",
+  "closed_at": "2026-01-23T22:48:39Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/953",
+  "body": "* Name of the new release team: ros_tf_tree_terminal\n* Release repositories to add:\n \n  * [tf_tree_terminal](https://github.com/Tanneguydv/tf_tree_terminal)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/49290/files#L11744)\n    * [x] There is an existing release repository which should be imported: [(https://github.com/Tanneguydv/tf_tree_terminal-release)](https://github.com/Tanneguydv/tf_tree_terminal-release)\n \n\n* Team members\n  * [@Tanneguydv](https://github.com/Tanneguydv)\n\n",
+  "comments": [
+    {
+      "id": 3740895451,
+      "author": "cottsay",
+      "created_at": "2026-01-12T23:01:06Z",
+      "updated_at": "2026-01-12T23:01:06Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/953#issuecomment-3740895451",
+      "body": "Blocked on ros/rosdistro#49290."
+    },
+    {
+      "id": 3743291767,
+      "author": "Tanneguydv",
+      "created_at": "2026-01-13T09:49:54Z",
+      "updated_at": "2026-01-13T09:49:54Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/953#issuecomment-3743291767",
+      "body": "I created a new clean PR to add source to rodistro : https://github.com/ros/rosdistro/pull/49404 "
+    },
+    {
+      "id": 3790724081,
+      "author": "Tanneguydv",
+      "created_at": "2026-01-23T15:16:32Z",
+      "updated_at": "2026-01-23T15:16:32Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/953#issuecomment-3790724081",
+      "body": "Please review, the source has been added thanks to merged PR :\nhttps://github.com/ros/rosdistro/pull/49404\n\n"
+    },
+    {
+      "id": 3790724233,
+      "author": "Tanneguydv",
+      "created_at": "2026-01-23T15:16:33Z",
+      "updated_at": "2026-01-23T15:16:33Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/953#issuecomment-3790724233",
+      "body": "Please review, the source has been added thanks to merged PR :\nhttps://github.com/ros/rosdistro/pull/49404\n\n"
+    },
+    {
+      "id": 3792938960,
+      "author": "cottsay",
+      "created_at": "2026-01-23T22:58:25Z",
+      "updated_at": "2026-01-23T22:58:25Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/953#issuecomment-3792938960",
+      "body": "Deployed: https://github.com/ros2-gbp/tf_tree_terminal-release\n\nPlease consider changing all existing references to the original release repository to point to the new `ros2-gbp` repository to limit the chances of \"crossing the streams\"."
+    }
+  ]
+}

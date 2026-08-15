@@ -1,0 +1,4 @@
+{
+  "commit": "49d331c67172e9c56eefd7197644b9b6fdfb09c3",
+  "diff": "diff --git a/ika_rwth_aachen.tf b/ika_rwth_aachen.tf\nindex 6f7d1c3..dafe7b7 100644\n--- a/ika_rwth_aachen.tf\n+++ b/ika_rwth_aachen.tf\n@@ -9,6 +9,7 @@ locals {\n     \"etsi_its_messages-release\",\n     \"message_tf_frame_transformer-release\",\n     \"mqtt_client-release\",\n+    \"unbag-release\",\n   ]\n }\n \n"
+}

@@ -1,0 +1,29 @@
+{
+  "number": 343,
+  "title": "Add release team",
+  "author": "RoBeau",
+  "state": "closed",
+  "created_at": "2023-10-11T03:15:36Z",
+  "updated_at": "2023-11-05T19:47:07Z",
+  "closed_at": "2023-11-05T16:59:52Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/343",
+  "body": "* Name of the new release team: boeing\r\n* Team members\r\n  @[brta-jc](https://github.com/brta-jc)\r\n  @[RoBeau](https://github.com/robeau)\r\n  @[derme302](https://github.com/derme302)\r\n* New Release Repository\r\n    * [boeing_gazebo_model_attachment_plugin](https://github.com/ros/rosdistro/blob/bbd5053080d273f6dd8b7b9cb999a4a9143ba07c/noetic/distribution.yaml#L526C1-L534)\r\n\r\n\r\n",
+  "comments": [
+    {
+      "id": 1786255900,
+      "author": "RoBeau",
+      "created_at": "2023-10-31T00:36:30Z",
+      "updated_at": "2023-10-31T00:36:30Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/343#issuecomment-1786255900",
+      "body": "@nuclearsandwich any idea when this will be reviewed?"
+    },
+    {
+      "id": 1793828388,
+      "author": "nuclearsandwich",
+      "created_at": "2023-11-05T19:47:07Z",
+      "updated_at": "2023-11-05T19:47:07Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/343#issuecomment-1793828388",
+      "body": "Thanks for your patience here @RoBeau! I have been in a deep backlog on reviews.\r\n\r\nThis change has been deployed!"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "b41cec079ce3803b61cf05ecc7d7bc00f4d1e9f5",
+  "diff": "diff --git a/bosch_engineering_ohw.tf b/bosch_engineering_ohw.tf\nindex a48c67e..8a0129a 100644\n--- a/bosch_engineering_ohw.tf\n+++ b/bosch_engineering_ohw.tf\n@@ -1,8 +1,7 @@\n locals {\n   bosch_engineering_ohw_team = [\n-    \"Gabriela-AdrianaLapuste\",\n-    \"Sopterean-Calin\",\n     \"daniel4ohw\",\n+    \"man2clj\",\n     \"rcp1-beg\",\n     \"shu-beg\",\n   ]\n"
+}

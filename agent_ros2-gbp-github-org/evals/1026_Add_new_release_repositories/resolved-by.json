@@ -1,0 +1,4 @@
+{
+  "commit": "79df406440b123ebc75ef4098f0f259a38549eb5",
+  "diff": "diff --git a/control.tf b/control.tf\nindex 87f3b1d..4161823 100644\n--- a/control.tf\n+++ b/control.tf\n@@ -13,6 +13,7 @@ locals {\n     \"ign_ros2_control-release\",\n     \"kinematics_interface-release\",\n     \"mujoco_ros2_control-release\",\n+    \"onnxruntime_vendor-release\",\n     \"realtime_tools-release\",\n     \"ros2_control-release\",\n     \"ros2_control_cmake-release\",\n"
+}

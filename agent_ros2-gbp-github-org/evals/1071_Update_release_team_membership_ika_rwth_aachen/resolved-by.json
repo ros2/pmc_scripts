@@ -1,0 +1,4 @@
+{
+  "commit": "92605addd8ec1eedd4538f368ca5a7c3130f1b3e",
+  "diff": "diff --git a/ika_rwth_aachen.tf b/ika_rwth_aachen.tf\nindex 51e06e7..6f7d1c3 100644\n--- a/ika_rwth_aachen.tf\n+++ b/ika_rwth_aachen.tf\n@@ -2,6 +2,7 @@ locals {\n   ika_rwth_aachen_team = [\n     \"gkueppers\",\n     \"jpbusch\",\n+    \"lostendo\",\n     \"lreiher\",\n   ]\n   ika_rwth_aachen_repositories = [\n"
+}

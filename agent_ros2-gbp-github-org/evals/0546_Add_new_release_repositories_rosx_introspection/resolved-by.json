@@ -1,0 +1,4 @@
+{
+  "commit": "430d7f5b8d224ad3fb0bc2e54dab8834d510131b",
+  "diff": "diff --git a/plotjuggler.tf b/plotjuggler.tf\nindex 136a6d4..3e60384 100644\n--- a/plotjuggler.tf\n+++ b/plotjuggler.tf\n@@ -6,6 +6,7 @@ locals {\n     \"plotjuggler-release\",\n     \"plotjuggler-ros-plugins-release\",\n     \"plotjuggler_msgs-release\",\n+    \"rosx_introspection-release\",\n   ]\n }\n \n"
+}

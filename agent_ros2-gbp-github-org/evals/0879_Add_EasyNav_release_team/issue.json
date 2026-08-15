@@ -1,0 +1,53 @@
+{
+  "number": 879,
+  "title": "Add EasyNav release team",
+  "author": "fmrico",
+  "state": "closed",
+  "created_at": "2025-10-04T06:44:04Z",
+  "updated_at": "2025-12-08T06:54:09Z",
+  "closed_at": "2025-12-05T02:28:12Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/879",
+  "body": "* Name of the new release team: easynav\n* Release repositories to add:\n \n  * [yaets](https://github.com/fmrico/yaets.git)\n    * [In process](https://github.com/ros/rosdistro/pull/47801) of release to rosdistro. **Update:** canceled waiting for this issue.\n    * [x] There is an existing release repository which should be imported: https://github.com/fmrico/yaets-release.git\n  * [NavMap](https://github.com/EasyNavigation/NavMap.git)\n    * [In process](https://github.com/ros/rosdistro/pull/47798) of release to rosdistro. **Update:** canceled waiting for this issue.\n    * [x] There is an existing release repository which should be imported: https://github.com/EasyNavigation/NavMap-release.git\n  * [EasyNav](https://github.com/EasyNavigation/EasyNavigation.git)\n    * [In process](https://github.com/ros/rosdistro/pull/47804) of release to rosdistro. **Update:** canceled waiting for this issue.\n    * [x] There is an existing release repository which should be imported: https://github.com/EasyNavigation/EasyNavigation-release.git\n  * [easynav_plugins](https://github.com/EasyNavigation/easynav_plugins.git)\n    * No releases yet.\n    * [ ] There is no existing release repository, so it has to be created.\n\n* Team members\n  * [@fmrico](https://github.com/fmrico)\n  * [@Butakus](https://github.com/Butakus)\n  * [@jmguerreroh](https://github.com/jmguerreroh)\n  * [@estherag](https://github.com/estherag)\n  * [@juanscelyg](https://github.com/juanscelyg)\n",
+  "comments": [
+    {
+      "id": 3388321110,
+      "author": "fmrico",
+      "created_at": "2025-10-10T05:14:50Z",
+      "updated_at": "2025-10-10T05:14:50Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/879#issuecomment-3388321110",
+      "body": "Hi @nuclearsandwich \n\nI have just added `easynav_plugins`. Is there anything else we have to do in this process?\n\nThanks!!"
+    },
+    {
+      "id": 3392801822,
+      "author": "nuclearsandwich",
+      "created_at": "2025-10-11T02:40:22Z",
+      "updated_at": "2025-10-11T02:40:22Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/879#issuecomment-3392801822",
+      "body": "Hi @fmrico looking at the repositories above, I see yaets is indexed in ROS 2 Jazzy but the others are not yet indexed. In other words, they do not yet have a source entry in a ROS 2 distribution. It's unfortunately convoluted but before assigning release repositories we ask that packages get source entries listed in rosdistro so that they undergo naming and license review.\n\nI'd suggest re-opening the linked PRs for NavMap, EasyNav, and easy_nav plugins but removing the release stanzas. They can be added in later or just re-released from the updated release repository.\n\nSince yaets is already indexed, I've mirrored the release repository into https://github.com/ros2-gbp/yaets-release but I'll give it a bit of time before I wire up the terraform permissions in case the others come through this weekend."
+    },
+    {
+      "id": 3394953980,
+      "author": "fmrico",
+      "created_at": "2025-10-12T17:10:40Z",
+      "updated_at": "2025-10-12T17:10:40Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/879#issuecomment-3394953980",
+      "body": "Hi @nuclearsandwich \n\nFollowing your instructions, I have just released an updated version of all the interdependent packages, to have a source entry in `kilted`:\n\n- [yaets](https://github.com/ros/rosdistro/pull/48018), pointing to https://github.com/fmrico/yaets-release.git begause I still have no permissions in https://github.com/ros2-gbp/yaets-release\n- [NavMap](https://github.com/ros/rosdistro/pull/48019)\n- [EasyNav](https://github.com/ros/rosdistro/pull/48020)\n- [easynav-plugins](https://github.com/ros/rosdistro/pull/48021)\n\nPlease, let me know if I have made any mistakes in the process.\n\nThanks!!"
+    },
+    {
+      "id": 3615058901,
+      "author": "cottsay",
+      "created_at": "2025-12-05T02:28:16Z",
+      "updated_at": "2025-12-05T02:28:16Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/879#issuecomment-3615058901",
+      "body": "I have freshly mirrored `yaets-release` and `NavMap-release` into `ros2-gbp`. Since `EasyNav` and `easynav-plugins` haven't made it into any ROS distributions yet, they will need to be handled in a follow-up ticket.\n\nI recommend updating Kilted and Jazzy to use the new release repositories under `ros2-gbp` so that all of the distributions are in the same place, at which time you may decommission the existing release repos."
+    },
+    {
+      "id": 3625290563,
+      "author": "fmrico",
+      "created_at": "2025-12-08T06:54:03Z",
+      "updated_at": "2025-12-08T06:54:09Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/879#issuecomment-3625290563",
+      "body": "Thanks @cottsay !!\n\nWe will open a ticket as soon as `easynav` and  `easynav-plugins` are released."
+    }
+  ]
+}

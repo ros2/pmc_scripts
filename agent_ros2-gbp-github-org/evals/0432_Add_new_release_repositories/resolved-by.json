@@ -1,0 +1,4 @@
+{
+  "commit": "6f4ae8fbe0d26044391b78a4041206a17176dce6",
+  "diff": "diff --git a/00-ros2_core.tf b/00-ros2_core.tf\nindex d697c7c..e4b29e3 100644\n--- a/00-ros2_core.tf\n+++ b/00-ros2_core.tf\n@@ -115,6 +115,7 @@ locals {\n     \"laser_geometry-release\",\n     \"laser_proc-release\",\n     \"libyaml_vendor-release\",\n+    \"linux_isolate_process-release\",\n     \"mimick_vendor-release\",\n     \"navigation_msgs-release\",\n     \"nodl_to_policy-release\",\n"
+}

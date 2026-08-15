@@ -1,0 +1,37 @@
+{
+  "number": 597,
+  "title": "Add release team: sick_safetyscanners",
+  "author": "lenpuc",
+  "state": "closed",
+  "created_at": "2024-08-21T07:53:03Z",
+  "updated_at": "2024-08-30T05:04:13Z",
+  "closed_at": "2024-08-29T19:04:02Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/597",
+  "body": "* Name of the new release team: sick_safetyscanners\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [sick_safetyscanners_base](https://github.com/SICKAG/sick_safetyscanners_base/tree/ros2)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/iron/distribution.yaml#L7316)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n  * [sick_safetyscanners2_interfaces](https://github.com/SICKAG/sick_safetyscanners2_interfaces)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/iron/distribution.yaml#L7301)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n   * [sick_safetyscanners2](https://github.com/SICKAG/sick_safetyscanners2)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/iron/distribution.yaml#L7276)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@puck-fzi](https://github.com/SICKAG/sick_safetyscanners2/blob/master/package.xml#L7)\r\n\r\n\r\nI am unsure about the migration of the previous release repos. Is this something that should be done even for older distros? Should humble and iron be moved to the new repository, or is this currently limited for jazzy and rolling? Asking concerning: https://github.com/ros/rosdistro/pull/42513, for humble and iron the merges were accepted. Since this is the first release for both jazzy and rolling. I would be fine with just creating a new release repo for these tracks and continuing forward from them but I would adhere to the best practices there.",
+  "comments": [
+    {
+      "id": 2318639937,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-29T18:57:40Z",
+      "updated_at": "2024-08-29T18:57:40Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/597#issuecomment-2318639937",
+      "body": "> Is this something that should be done even for older distros?\r\n\r\nFor convenience we recommend all active ROS 2 distributions use the same release repository, so that would include releases for Humble and Iron.\r\n\r\nMirroring the existing artifacts to the ros2-gbp repositories is very straightforward (even easier than only moving some artifacts) so my recommendation is to update all distros to use the ros2-gbp repositories and archive the previous repositories in order to prevent accidentally pushing to them once the switch is made."
+    },
+    {
+      "id": 2319669410,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-30T01:56:05Z",
+      "updated_at": "2024-08-30T01:56:05Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/597#issuecomment-2319669410",
+      "body": "Although this change has merged it has not yet been deployed. Please see https://github.com/ros2-gbp/ros2-gbp-github-org/issues/618 for updates."
+    },
+    {
+      "id": 2320061569,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-30T05:04:11Z",
+      "updated_at": "2024-08-30T05:04:11Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/597#issuecomment-2320061569",
+      "body": "This change has been deployed. Additionally, I have mirrored the previous release repositories to their ros2-gbp counterparts. If you archive the previous release repositories you can either manually update the release repository urls in ros/rosdistro before your next bloom release or use the `--override-release-repository-url` option."
+    }
+  ]
+}

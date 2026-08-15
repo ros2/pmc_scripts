@@ -1,0 +1,21 @@
+{
+  "number": 171,
+  "title": "Add release team locusrobotics",
+  "author": "sloretz",
+  "state": "closed",
+  "created_at": "2023-01-11T23:52:27Z",
+  "updated_at": "2023-01-14T01:01:34Z",
+  "closed_at": "2023-01-14T00:35:19Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/171",
+  "body": "* Name of the new release team: `locusrobotics`\r\n* Release repositories to add:\r\n  * [fuse](https://github.com/locusrobotics/fuse)\r\n  * [tf2_2d](https://github.com/locusrobotics/tf2_2d/)\r\n\r\n\r\n* Team members\r\n  * @svwilliams [package author](https://github.com/locusrobotics/fuse/blob/3860ca3de512b318bc49c4eb9b941552630758a6/fuse/package.xml#L10)\r\n",
+  "comments": [
+    {
+      "id": 1382616811,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-14T01:01:34Z",
+      "updated_at": "2023-01-14T01:01:34Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/171#issuecomment-1382616811",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

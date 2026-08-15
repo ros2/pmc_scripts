@@ -1,0 +1,29 @@
+{
+  "number": 449,
+  "title": "Update release team membership",
+  "author": "Ryanf55",
+  "state": "closed",
+  "created_at": "2024-02-19T17:08:20Z",
+  "updated_at": "2024-02-24T18:53:32Z",
+  "closed_at": "2024-02-24T16:02:31Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/449",
+  "body": "# Updates to `grid_map_team` membership.\r\n\r\n## New team members\r\n\r\n* [@ryanf55](https://github.com/ANYbotics/grid_map/blob/e332abbcc4b50ebea432d5a40d3609bf5cb52fa1/grid_map/package.xml#L9)\r\n\r\n",
+  "comments": [
+    {
+      "id": 1962411377,
+      "author": "nuclearsandwich",
+      "created_at": "2024-02-24T16:09:12Z",
+      "updated_at": "2024-02-24T16:09:12Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/449#issuecomment-1962411377",
+      "body": "This change has been merged but not yet deployed as I'm away from power at the moment and don't have enough charge to deploy. I'll be deploying this change later today and will update the issue when completed."
+    },
+    {
+      "id": 1962536059,
+      "author": "nuclearsandwich",
+      "created_at": "2024-02-24T18:53:31Z",
+      "updated_at": "2024-02-24T18:53:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/449#issuecomment-1962536059",
+      "body": "This change has been deployed."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "number": 247,
+  "title": "Update release team membership",
+  "author": "Yadunund",
+  "state": "closed",
+  "created_at": "2023-04-14T17:15:46Z",
+  "updated_at": "2023-04-15T01:46:06Z",
+  "closed_at": "2023-04-15T01:46:06Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/247",
+  "body": "I need permissions for `ros2-gbp/rmf_battery-release`, `ros2-gbp/rmf_task-release` and `ros2-gbp/rmf_task_sequence-release`\r\n\r\n# Updates to <!-- RELEASE_TEAM --> membership.\r\n\r\n## New team members\r\n\r\n* [@yadunund]\r\n\r\n",
+  "comments": []
+}

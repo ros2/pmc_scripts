@@ -1,0 +1,4 @@
+{
+  "commit": "7eea4d28a12cf7ec2417f902074e5e3aa9091e68",
+  "diff": "diff --git a/00-ros2_core.tf b/00-ros2_core.tf\nindex 48f348e..d697c7c 100644\n--- a/00-ros2_core.tf\n+++ b/00-ros2_core.tf\n@@ -21,6 +21,7 @@ locals {\n     \"sloretz\",\n     \"tfoote\",\n     \"wjwwood\",\n+    \"Yadunund\",\n   ]\n \n   ros_core_repositories = [\n"
+}

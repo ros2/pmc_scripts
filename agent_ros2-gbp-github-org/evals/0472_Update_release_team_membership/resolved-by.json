@@ -1,0 +1,4 @@
+{
+  "commit": "505ea05ee07d29111deb910afd711eb05764d15d",
+  "diff": "diff --git a/sick_scan_xd.tf b/sick_scan_xd.tf\nindex 6f4af77..1659554 100644\n--- a/sick_scan_xd.tf\n+++ b/sick_scan_xd.tf\n@@ -1,5 +1,6 @@\n locals {\n   sick_scan_xd_team = [\n+    \"michael109\",\n     \"rostest\",\n   ]\n   sick_scan_xd_repositories = [\n"
+}

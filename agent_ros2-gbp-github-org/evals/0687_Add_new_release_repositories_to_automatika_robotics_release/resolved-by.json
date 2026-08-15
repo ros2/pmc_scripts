@@ -1,0 +1,4 @@
+{
+  "commit": "b41e7989a86e10b368d9396db5d94aebda83bc44",
+  "diff": "diff --git a/automatika_robotics.tf b/automatika_robotics.tf\nindex 55391f6..fcde399 100644\n--- a/automatika_robotics.tf\n+++ b/automatika_robotics.tf\n@@ -4,7 +4,9 @@ locals {\n     \"mkabtoul\",\n   ]\n   automatika_robotics_repositories = [\n+    \"automatika_embodied_agents-release\",\n     \"automatika_ros_sugar-release\",\n+    \"kompass-release\",\n   ]\n }\n \n"
+}

@@ -1,0 +1,21 @@
+{
+  "number": 559,
+  "title": "Add release team",
+  "author": "boitumeloruf",
+  "state": "closed",
+  "created_at": "2024-07-09T13:55:17Z",
+  "updated_at": "2024-07-12T23:58:06Z",
+  "closed_at": "2024-07-12T22:42:51Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/559",
+  "body": "* Name of the new release team: fraunhofer_iosb_ars\r\n* Release repositories to add:\r\n  * [camera_aravis2](https://github.com/FraunhoferIOSB/camera_aravis2.git)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/1b07b45419478a4857080ec47fcbbc0da8482726/jazzy/distribution.yaml#L816)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * [@boitumeloruf](https://github.com/FraunhoferIOSB/camera_aravis2/blob/main/camera_aravis2/package.xml)\r\n  * @rapzag\r\n  * @thomasemter\r\n  * @jpetereit\r\n",
+  "comments": [
+    {
+      "id": 2226546915,
+      "author": "nuclearsandwich",
+      "created_at": "2024-07-12T23:58:06Z",
+      "updated_at": "2024-07-12T23:58:06Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/559#issuecomment-2226546915",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

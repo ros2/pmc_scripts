@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agent_ros2-gbp-github-org"
+version = "0.1.0"
+description = "CLI tool for agent_ros2-gbp-github-org"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "Apache-2.0"
+dependencies = [
+    "google-antigravity",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+]
+
+[project.scripts]
+agent_ros2-gbp-github-org = "agent_ros2_gbp_github_org.cli:main"

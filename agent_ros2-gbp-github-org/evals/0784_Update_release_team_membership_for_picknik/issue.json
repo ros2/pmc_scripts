@@ -1,0 +1,21 @@
+{
+  "number": 784,
+  "title": "Update release team membership for picknik",
+  "author": "nbbrooks",
+  "state": "closed",
+  "created_at": "2025-06-03T14:40:21Z",
+  "updated_at": "2025-06-06T23:12:04Z",
+  "closed_at": "2025-06-06T18:39:54Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/784",
+  "body": "# Updates to picknik membership.\n\n## New team members\n\n* [@shaur-k](https://github.com/PickNikRobotics/generate_parameter_library/blob/main/generate_parameter_library/package.xml#L9)\n* [@nbbrooks](https://github.com/PickNikRobotics/generate_parameter_library/blob/main/generate_parameter_library/package.xml#L8)\n",
+  "comments": [
+    {
+      "id": 2951174032,
+      "author": "nuclearsandwich",
+      "created_at": "2025-06-06T23:12:03Z",
+      "updated_at": "2025-06-06T23:12:03Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/784#issuecomment-2951174032",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

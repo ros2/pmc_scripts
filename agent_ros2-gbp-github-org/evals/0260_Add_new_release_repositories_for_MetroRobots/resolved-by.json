@@ -1,0 +1,4 @@
+{
+  "commit": "27cdead305e4fca9f6795fc33cb09935539e26d8",
+  "diff": "diff --git a/metro_robots.tf b/metro_robots.tf\nindex 9f4ee51..c36e4cd 100644\n--- a/metro_robots.tf\n+++ b/metro_robots.tf\n@@ -3,10 +3,13 @@ locals {\n     \"DLu\",\n   ]\n   metro_robots_repositories = [\n+    \"classic_bags-release\",\n     \"color_util-release\",\n     \"polygon_ros-release\",\n     \"ros_system_fingerprint-release\",\n     \"simple_actions-release\",\n+    \"social_nav_ros-release\",\n+    \"urdf_launch-release\",\n   ]\n }\n \n"
+}

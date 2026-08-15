@@ -1,0 +1,93 @@
+{
+  "number": 393,
+  "title": "Add release team and repository for data_tamer",
+  "author": "facontidavide",
+  "state": "closed",
+  "created_at": "2023-12-06T09:52:29Z",
+  "updated_at": "2024-01-20T09:17:53Z",
+  "closed_at": "2024-01-19T19:49:35Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393",
+  "body": "* Name of the new release team: **data_tamer_team**\r\n\r\n* Release repositories to add: **data_tamer-release**\r\n  * SOURCE URL: https://github.com/PickNikRobotics/data_tamer\r\n\r\n* Team members\r\n  * @facontidavide \r\n",
+  "comments": [
+    {
+      "id": 1862558465,
+      "author": "facontidavide",
+      "created_at": "2023-12-19T11:06:49Z",
+      "updated_at": "2023-12-19T11:06:49Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393#issuecomment-1862558465",
+      "body": "Hi,\r\n\r\nsorry to bother you, but I would really really release the library and this is blocking me.\r\nShould I start using, maybe another release repo, instead of gbp?"
+    },
+    {
+      "id": 1875484022,
+      "author": "facontidavide",
+      "created_at": "2024-01-03T14:43:46Z",
+      "updated_at": "2024-01-03T14:44:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393#issuecomment-1875484022",
+      "body": "\r\n![hello_forrest](https://github.com/ros2-gbp/ros2-gbp-github-org/assets/2822888/b7a8a4de-0ac0-4cf9-aa62-d16239c1b4ff)\r\n"
+    },
+    {
+      "id": 1875498291,
+      "author": "clalancette",
+      "created_at": "2024-01-03T14:53:00Z",
+      "updated_at": "2024-01-03T14:53:00Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393#issuecomment-1875498291",
+      "body": "> sorry to bother you, but I would really really release the library and this is blocking me. Should I start using, maybe another release repo, instead of gbp?\r\n\r\nSorry, we are working through this.  We'll get back to you soon.  Again, sorry for the delay."
+    },
+    {
+      "id": 1879206625,
+      "author": "clalancette",
+      "created_at": "2024-01-05T20:13:37Z",
+      "updated_at": "2024-01-05T20:13:37Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393#issuecomment-1879206625",
+      "body": "This needs to go through a naming review first.  Can you please open a source-only PR to https://github.com/ros/rosdistro adding this repository?  Once we have done the naming review, then we can come back here and create the release repository."
+    },
+    {
+      "id": 1888695643,
+      "author": "facontidavide",
+      "created_at": "2024-01-12T09:02:44Z",
+      "updated_at": "2024-01-12T09:02:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393#issuecomment-1888695643",
+      "body": "Sorry for the stupid question, but what is a \"source-only PR\"?\r\nI usually use **bloom** and I am not sure that I understand what you mean"
+    },
+    {
+      "id": 1889202386,
+      "author": "clalancette",
+      "created_at": "2024-01-12T13:26:16Z",
+      "updated_at": "2024-01-12T13:26:16Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393#issuecomment-1889202386",
+      "body": "> Sorry for the stupid question, but what is a \"source-only PR\"?\r\n\r\nNot a stupid question at all.  https://github.com/ros/rosdistro/pull/39513 is an example of a \"source-only\" PR; it only adds in a `source` and `doc` entry to the relevant ROS distribution.  Once it is approved and merged there, we can then finish this issue and create the ros2-gbp repository."
+    },
+    {
+      "id": 1889693278,
+      "author": "facontidavide",
+      "created_at": "2024-01-12T17:30:09Z",
+      "updated_at": "2024-01-12T17:30:09Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393#issuecomment-1889693278",
+      "body": "done https://github.com/ros/rosdistro/pull/39529"
+    },
+    {
+      "id": 1892669991,
+      "author": "facontidavide",
+      "created_at": "2024-01-15T19:18:30Z",
+      "updated_at": "2024-01-15T19:18:30Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393#issuecomment-1892669991",
+      "body": "the rosdistro PR was merged... next step :smiley: ?"
+    },
+    {
+      "id": 1901272630,
+      "author": "nuclearsandwich",
+      "created_at": "2024-01-19T23:08:02Z",
+      "updated_at": "2024-01-19T23:08:02Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393#issuecomment-1901272630",
+      "body": "Thanks for your patience here @facontidavide, this change has been deployed!"
+    },
+    {
+      "id": 1902029317,
+      "author": "facontidavide",
+      "created_at": "2024-01-20T09:17:53Z",
+      "updated_at": "2024-01-20T09:17:53Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/393#issuecomment-1902029317",
+      "body": "Awesome, thanks "
+    }
+  ]
+}

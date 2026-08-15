@@ -1,0 +1,4 @@
+{
+  "commit": "11fcb310778d8d05e6599b5ff555cdeab4afc6df",
+  "diff": "diff --git a/picknik.tf b/picknik.tf\nindex 5a55f12..cef8bfc 100644\n--- a/picknik.tf\n+++ b/picknik.tf\n@@ -12,6 +12,7 @@ locals {\n     \"graph_msgs-release\",\n     \"launch_param_builder-release\",\n     \"picknik_ament_copyright-release\",\n+    \"picknik_controllers-release\",\n     \"rviz_visual_tools-release\",\n     \"snowbot_release\",\n   ]\n"
+}

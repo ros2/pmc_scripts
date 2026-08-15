@@ -1,0 +1,53 @@
+{
+  "number": 1025,
+  "title": "Add new release repositories",
+  "author": "knorth55",
+  "state": "closed",
+  "created_at": "2026-04-15T03:34:43Z",
+  "updated_at": "2026-06-09T16:29:05Z",
+  "closed_at": "2026-06-09T15:37:35Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1025",
+  "body": "<!--\n  Which release team will maintain these repositories?\n  If you do not yet have a release team in the ros2-gbp-github-org project, please use the [new release team](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/new?assignees=&labels=&projects=&template=new_release_team.md&title=Add+release+team) template instead.\n  That template supports adding a new team and repositories at the same time.\n-->\n* Name of the release team: audio_common\n\n<!--\nBefore release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\nGuidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\nIf you are requesting multiple repositories at once, please list them all here instead of creating multiple issues.\n-->\n* Release repositories to add:\n  * [audio_capture](https://github.com/ros-drivers/audio_common/tree/ros2/audio_capture)\n  * [audio_common](https://github.com/ros-drivers/audio_common/tree/ros2/audio_common)\n  * [audio_common_msgs](https://github.com/ros-drivers/audio_common/tree/ros2/audio_common_msgs)\n  * [audio_play](https://github.com/ros-drivers/audio_common/tree/ros2/audio_play)\n  * [sound_play](https://github.com/ros-drivers/audio_common/tree/ros2/sound_play)\n  * [sound_play_msgs](https://github.com/ros-drivers/audio_common/tree/ros2/sound_play_msgs)\n\n* ROSDISTRO: https://github.com/ros/rosdistro/pull/50756\n\n\n\nrelated to https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1041",
+  "comments": [
+    {
+      "id": 4331058897,
+      "author": "knorth55",
+      "created_at": "2026-04-27T22:55:46Z",
+      "updated_at": "2026-04-27T22:55:46Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1025#issuecomment-4331058897",
+      "body": "can anyone create release repo for this project?"
+    },
+    {
+      "id": 4507312612,
+      "author": "tomkimsour",
+      "created_at": "2026-05-21T10:40:47Z",
+      "updated_at": "2026-05-21T10:40:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1025#issuecomment-4507312612",
+      "body": "I think you are missing the audio_common release team as it does not exist. Likely you need to open another issue for it.\nhttps://github.com/ros2-gbp/ros2-gbp-github-org/issues/new?assignees=&labels=&projects=&template=new_release_team.md&title=Add+release+team"
+    },
+    {
+      "id": 4512435706,
+      "author": "knorth55",
+      "created_at": "2026-05-21T20:19:10Z",
+      "updated_at": "2026-05-21T20:19:10Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1025#issuecomment-4512435706",
+      "body": "@tomkimsour Great! thank you. I made another issue. https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1041"
+    },
+    {
+      "id": 4661504118,
+      "author": "cottsay",
+      "created_at": "2026-06-09T15:47:57Z",
+      "updated_at": "2026-06-09T15:47:57Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1025#issuecomment-4661504118",
+      "body": "This has been deployed: https://github.com/ros2-gbp/audio_common-release"
+    },
+    {
+      "id": 4661826485,
+      "author": "knorth55",
+      "created_at": "2026-06-09T16:29:05Z",
+      "updated_at": "2026-06-09T16:29:05Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1025#issuecomment-4661826485",
+      "body": "Thank you so much!"
+    }
+  ]
+}

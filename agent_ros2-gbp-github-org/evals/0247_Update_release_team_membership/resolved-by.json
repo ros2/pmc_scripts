@@ -1,0 +1,4 @@
+{
+  "commit": "b65859f2616a3d81594ef83c7438454ed866a920",
+  "diff": "diff --git a/rmf.tf b/rmf.tf\nindex 23554a2..e929ea6 100644\n--- a/rmf.tf\n+++ b/rmf.tf\n@@ -2,6 +2,7 @@ locals {\n   rmf_team = [\n     \"codebot\",\n     \"marcoag\",\n+    \"Yadunund\",\n   ]\n   rmf_repositories = [\n     \"ament_cmake_catch2-release\",\n"
+}

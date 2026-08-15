@@ -1,0 +1,4 @@
+{
+  "commit": "3aac8a587e71073373c34bb300b303e8714f2a45",
+  "diff": "diff --git a/tuw_robotics.tf b/tuw_robotics.tf\nindex 48475f7..0890b24 100644\n--- a/tuw_robotics.tf\n+++ b/tuw_robotics.tf\n@@ -5,7 +5,9 @@ locals {\n   tuw_robotics_repositories = [\n     \"marker_msgs-release\",\n     \"marker_rviz_plugin-release\",\n+    \"tuw_geometry-release\",\n     \"tuw_msgs-release\",\n+    \"tuw_rviz_plugins-release\",\n   ]\n }\n \n"
+}

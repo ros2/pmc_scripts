@@ -1,0 +1,37 @@
+{
+  "number": 439,
+  "title": "Add release team 'ros4hri'",
+  "author": "severin-lemaignan",
+  "state": "closed",
+  "created_at": "2024-01-31T17:30:50Z",
+  "updated_at": "2024-02-13T14:02:44Z",
+  "closed_at": "2024-02-09T22:04:26Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/439",
+  "body": "* Name of the new release team: ros4hri\r\n* Release repositories to add:\r\n  \r\n  * [hri_msgs](https://github.com/ros4hri/hri_msgs)\r\n    * [ros/rosdistro source entry](https://github.com/ros4hri/hri_msgs.git)\r\n    * https://github.com/ros/rosdistro/pull/39751\r\n    * [ ] There is an existing release repository which should be imported: https://github.com/ros4hri/hri_msgs-release.git\r\n\r\nThere will be several additional repo to be added to this team,as we release ROS4HRI on ROS 2. I can either submit them to `rosdistro` and add them to this issue, or we first create the release team with only `hri_msgs`, and I'll create additional issues for the subsequent package additions?\r\n\r\n* Team members\r\n  * [@severin-lemaignan](https://github.com/ros4hri/hri_msgs/blob/humble-devel/package.xml#L7)\r\n \r\n",
+  "comments": [
+    {
+      "id": 1936659659,
+      "author": "nuclearsandwich",
+      "created_at": "2024-02-09T21:58:41Z",
+      "updated_at": "2024-02-09T21:58:41Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/439#issuecomment-1936659659",
+      "body": "> There will be several additional repo to be added to this team,as we release ROS4HRI on ROS 2. I can either submit them to `rosdistro` and add them to this issue, or we first create the release team with only `hri_msgs`, and I'll create additional issues for the subsequent package additions?\r\n\r\nI'll process this issue now and you can open an additional one for the remaining repositories. Depending on how many repositories and how long naming review takes, let's aim for around ~week between batches as needed."
+    },
+    {
+      "id": 1936694440,
+      "author": "nuclearsandwich",
+      "created_at": "2024-02-09T22:36:44Z",
+      "updated_at": "2024-02-09T22:36:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/439#issuecomment-1936694440",
+      "body": "This change has been deployed!"
+    },
+    {
+      "id": 1941589157,
+      "author": "severin-lemaignan",
+      "created_at": "2024-02-13T14:02:43Z",
+      "updated_at": "2024-02-13T14:02:43Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/439#issuecomment-1941589157",
+      "body": "brilliant, thanks!\r\nWe are still in the midst of porting and testing the full ros4hri pipelines -> I'll probably need a few more weeks before pushing the next repos (`human_description` and `libhri`)"
+    }
+  ]
+}

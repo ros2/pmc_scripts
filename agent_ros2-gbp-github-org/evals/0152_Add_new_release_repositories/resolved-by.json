@@ -1,0 +1,4 @@
+{
+  "commit": "eef845cb472a561a43154f0ec53ed182140c7a5f",
+  "diff": "diff --git a/42dot.tf b/42dot.tf\nindex dd60271..aa90c92 100644\n--- a/42dot.tf\n+++ b/42dot.tf\n@@ -3,7 +3,7 @@ locals {\n     \"huchijwk\",\n   ]\n   _42dot_repositories = [\n-    \"42dot-release\",\n+    \"foros-release\",\n   ]\n }\n \n"
+}

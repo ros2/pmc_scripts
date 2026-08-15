@@ -1,0 +1,77 @@
+{
+  "number": 484,
+  "title": "Add new release repositories",
+  "author": "Timple",
+  "state": "closed",
+  "created_at": "2024-04-11T14:00:39Z",
+  "updated_at": "2024-04-21T22:56:10Z",
+  "closed_at": "2024-04-15T02:26:48Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/484",
+  "body": "* Name of the release team: \r\n~~azure-iot-sdk-c-releasers? Or whatever is common~~ :slightly_smiling_face: \r\n`nobleo_team`\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [azure-iot-sdk-c](https://github.com/Azure/azure-iot-sdk-c)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/iron/distribution.yaml#L520-L534)\r\n    * [ ] There is an existing release repository which should be imported: https://github.com/nobleo/azure-iot-sdk-c-release",
+  "comments": [
+    {
+      "id": 2052520298,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-12T20:58:47Z",
+      "updated_at": "2024-04-12T20:58:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/484#issuecomment-2052520298",
+      "body": "@Timple given that this package is hosted by nobleo, does it need its own release separate release team at this time? We can always split it out later if you add other maintainers.\r\n\r\nI'm also holding off due to https://github.com/nobleo/azure-iot-sdk-c-release/pull/1"
+    },
+    {
+      "id": 2052527318,
+      "author": "Timple",
+      "created_at": "2024-04-12T21:01:30Z",
+      "updated_at": "2024-04-12T21:01:30Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/484#issuecomment-2052527318",
+      "body": "Doesn't need a release team. But is seemed to be a mandatory question "
+    },
+    {
+      "id": 2054087134,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-14T14:52:36Z",
+      "updated_at": "2024-04-14T14:52:36Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/484#issuecomment-2054087134",
+      "body": "> Doesn't need a release team. But is seemed to be a mandatory question\r\n\r\nThanks for explaining and my apologies for the confusion. The intent of the template was to request the name of an existing release team the repository should be added to, the `nobleo` team makes sense to me so I'll open the PR with that.\r\n\r\nIf you have a suggested rewording for the template that makes that clearer to you. Please feel free to open a PR proposing it."
+    },
+    {
+      "id": 2054087458,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-14T14:53:52Z",
+      "updated_at": "2024-04-14T14:53:52Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/484#issuecomment-2054087458",
+      "body": "In the meantime, https://github.com/ros2-gbp/ros2-gbp-github-org/pull/491 is open to provide the release repository with its conventional name: `azure_iot_sdk_c-release`. Please let me know if that works for you by approving that PR."
+    },
+    {
+      "id": 2054127438,
+      "author": "Timple",
+      "created_at": "2024-04-14T17:24:45Z",
+      "updated_at": "2024-04-14T17:24:45Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/484#issuecomment-2054127438",
+      "body": "Ah, I didn't get that part. Might be me, I'll think of a rephrase :slightly_smiling_face: "
+    },
+    {
+      "id": 2054128250,
+      "author": "Timple",
+      "created_at": "2024-04-14T17:28:35Z",
+      "updated_at": "2024-04-14T17:28:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/484#issuecomment-2054128250",
+      "body": "I've modified the team name, this should still be open to create the repository."
+    },
+    {
+      "id": 2055405373,
+      "author": "Timple",
+      "created_at": "2024-04-15T05:48:10Z",
+      "updated_at": "2024-04-15T05:48:10Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/484#issuecomment-2055405373",
+      "body": "This is now closed, but the repository https://github.com/ros2-gbp/azure-iot-sdk-c-release.git hasn't been created yet. I thought that was the idea here.\r\n\r\nHow can I get that done? I'm not allowed to create it myself it seems."
+    },
+    {
+      "id": 2068240075,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-21T22:56:10Z",
+      "updated_at": "2024-04-21T22:56:10Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/484#issuecomment-2068240075",
+      "body": "Sorry for the confusion. I neglected to deploy the changes after merging this batch of PRs.\r\nThis change is now deployed and the release repository has been created using the underscored variation of the name (matching the ROS 2 package name): https://github.com/ros2-gbp/azure_iot_sdk_c-release.git"
+    }
+  ]
+}

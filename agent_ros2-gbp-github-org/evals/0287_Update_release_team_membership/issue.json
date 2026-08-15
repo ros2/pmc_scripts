@@ -1,0 +1,45 @@
+{
+  "number": 287,
+  "title": "Update release team membership",
+  "author": "deyouslamtec",
+  "state": "closed",
+  "created_at": "2023-06-28T10:24:48Z",
+  "updated_at": "2023-07-15T00:59:35Z",
+  "closed_at": "2023-07-14T23:48:00Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/287",
+  "body": "# Updates to rplidar release membership.\r\n\r\n## New team members\r\n\r\n* [@deyouslamtec](https://github.com/slamtec/rplidar_ros/blob/ros2/package.xml#L9)\r\n\r\n## Retiring team members\r\n\r\n* [@allenh1](https://github.com/allenh1/rplidar_ros/blob/ros2/package.xml#L7)\r\n\r\nThe rplidar_ros package is currently maintained by allenh1, and the repository address is https://github.com/allenh1/rplidar_ros/tree/ros2. \r\nIn the future, rplidar_ros will be maintained by Slamtec. The new repository address is https://github.com/Slamtec/rplidar_ros/tree/ros2.\r\n\r\n@allenh1 Please be informed",
+  "comments": [
+    {
+      "id": 1615313393,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-01T00:44:58Z",
+      "updated_at": "2023-07-01T00:44:58Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/287#issuecomment-1615313393",
+      "body": "@deyouslamtec both of the above links point to the same repository. Is that a typo?\r\nIn spite of #238 I think that this separate implementation probably requires a completely independent release team and release repository. I'm going to confer with @tfoote next week to follow up."
+    },
+    {
+      "id": 1617145231,
+      "author": "deyouslamtec",
+      "created_at": "2023-07-03T02:55:03Z",
+      "updated_at": "2023-07-03T02:55:03Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/287#issuecomment-1617145231",
+      "body": "@nuclearsandwich Thank you for reminding me. I mistyped the first repo. It has been corrected now."
+    },
+    {
+      "id": 1617149154,
+      "author": "deyouslamtec",
+      "created_at": "2023-07-03T03:00:09Z",
+      "updated_at": "2023-07-03T03:00:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/287#issuecomment-1617149154",
+      "body": "@nuclearsandwich We have discussed how to handle the handover of rplidar_ros package in this [issue](https://github.com/ros/rosdistro/issues/37679#issuecomment-1606004819)"
+    },
+    {
+      "id": 1636599229,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-15T00:59:35Z",
+      "updated_at": "2023-07-15T00:59:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/287#issuecomment-1636599229",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

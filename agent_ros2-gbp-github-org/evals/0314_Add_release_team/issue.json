@@ -1,0 +1,61 @@
+{
+  "number": 314,
+  "title": "Add release team",
+  "author": "Kansea",
+  "state": "closed",
+  "created_at": "2023-08-15T05:47:08Z",
+  "updated_at": "2023-09-15T18:30:37Z",
+  "closed_at": "2023-09-15T18:30:36Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/314",
+  "body": "* Name of the new release team: techmagic<!-- all lower case with words separated by `_`. -->\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [weight_scale_interfaces](https://github.com/TechMagicKK/weight_scale_interfaces)\r\n      * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/f79a517a60de00fae0439bf7097165ea54fa4f04/humble/distribution.yaml#L8710C9-L8710C9)\r\n        * [x] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n  * [aandd_ekew_driver_py](https://github.com/TechMagicKK/aandd_ekew_driver_py)\r\n      * [ros/rosdistro source entry]()\r\n        * [x] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n* Team members\r\n  * @Kansea\r\n  * [@longjie0723](https://github.com/TechMagicKK/weight_scale_interfaces/blob/main/package.xml)\r\n  * @s000ne\r\n  * @XiandiShan\r\n",
+  "comments": [
+    {
+      "id": 1684877070,
+      "author": "nuclearsandwich",
+      "created_at": "2023-08-19T07:21:35Z",
+      "updated_at": "2023-08-19T07:21:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/314#issuecomment-1684877070",
+      "body": "Hi @Kansea, the ros/rosdistro source entry link appears to link to an existing release repository rather than a reference to the `weight_scale_interfaces` repository listed in https://github.com/ros/rosdistro. For example, here is `rclcpp`'s source entry: https://github.com/ros/rosdistro/blob/e08b9f1b4b511dcbf247d08e2ff5b8ef1e65bdfd/rolling/distribution.yaml#L4114-L4118\r\n\r\nOnce that PR is opened and merged, we can proceed with creating the release repository."
+    },
+    {
+      "id": 1685528235,
+      "author": "Kansea",
+      "created_at": "2023-08-21T02:37:16Z",
+      "updated_at": "2023-08-21T02:38:11Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/314#issuecomment-1685528235",
+      "body": "Hi @nuclearsandwich, i have already updated the source entry link in the PR https://github.com/ros/rosdistro/pull/38254.\r\nDo I need to wait for the approval of the administrator now?"
+    },
+    {
+      "id": 1687298077,
+      "author": "Kansea",
+      "created_at": "2023-08-22T01:57:06Z",
+      "updated_at": "2023-08-22T01:57:06Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/314#issuecomment-1687298077",
+      "body": "Hi @nuclearsandwich, i have already modified version \"humble\" to \"main\" in source entry in the PR https://github.com/ros/rosdistro/pull/38254 yesterday. \r\n Could you please help me execute the workflow again."
+    },
+    {
+      "id": 1694103063,
+      "author": "nuclearsandwich",
+      "created_at": "2023-08-26T01:30:18Z",
+      "updated_at": "2023-08-26T01:30:18Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/314#issuecomment-1694103063",
+      "body": "The new package needs to undergo REP-144 naming and license review I've requested that review in https://github.com/ros/rosdistro/pull/38254#issuecomment-1694102242 once it is complete, we can proceed with the release repository setup."
+    },
+    {
+      "id": 1707507776,
+      "author": "Kansea",
+      "created_at": "2023-09-06T01:15:55Z",
+      "updated_at": "2023-09-06T01:15:55Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/314#issuecomment-1707507776",
+      "body": "Hi @nuclearsandwich , we have opened a new PR [ros/rosdistro#38416](https://github.com/ros/rosdistro/pull/38416) to release a new package named \"aandd_ekew_driver_py\". Thank you"
+    },
+    {
+      "id": 1721683315,
+      "author": "nuclearsandwich",
+      "created_at": "2023-09-15T18:30:36Z",
+      "updated_at": "2023-09-15T18:30:36Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/314#issuecomment-1721683315",
+      "body": "The updates here are deploying now and I have mirrored your existing release repositories into their ros2-gbp counterparts. I recommend that you do the following to complete the migration into ros2-gbp:\r\n\r\n1. Archive the repositories https://github.com/TechMagicKK/aandd_ekew_driver_py-release and https://github.com/TechMagicKK/weight_scale_interfaces-release so that they are not pushed to unintentionally.\r\n2. Review the following PR updating the release repository URLs for Humble https://github.com/ros/rosdistro/pull/38559"
+    }
+  ]
+}

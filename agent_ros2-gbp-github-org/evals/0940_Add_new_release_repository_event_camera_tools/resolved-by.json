@@ -1,0 +1,4 @@
+{
+  "commit": "8afb1c0a8d52c14547b35c35f2dea00c119b5f13",
+  "diff": "diff --git a/ros_event_camera.tf b/ros_event_camera.tf\nindex 5356560..3f33955 100644\n--- a/ros_event_camera.tf\n+++ b/ros_event_camera.tf\n@@ -8,6 +8,7 @@ locals {\n     \"event_camera_msgs-release\",\n     \"event_camera_py-release\",\n     \"event_camera_renderer-release\",\n+    \"event_camera_tools-release\",\n     \"event_image_reconstruction_fibar-release\",\n     \"fibar_lib-release\",\n     \"libcaer_driver-release\",\n"
+}

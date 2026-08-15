@@ -1,0 +1,4 @@
+{
+  "commit": "08af6d655625d4de72186ad21ae08b8bbd6579f8",
+  "diff": "diff --git a/locusrobotics.tf b/locusrobotics.tf\nindex e6ac7d6..20a774e 100644\n--- a/locusrobotics.tf\n+++ b/locusrobotics.tf\n@@ -1,5 +1,6 @@\n locals {\n   locusrobotics_team = [\n+    \"ayrton04\",\n     \"svwilliams\",\n   ]\n   locusrobotics_repositories = [\n"
+}

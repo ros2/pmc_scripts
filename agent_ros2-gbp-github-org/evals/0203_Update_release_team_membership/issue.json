@@ -1,0 +1,21 @@
+{
+  "number": 203,
+  "title": "Update release team membership",
+  "author": "marip8",
+  "state": "closed",
+  "created_at": "2023-02-20T19:35:03Z",
+  "updated_at": "2023-02-24T21:23:02Z",
+  "closed_at": "2023-02-24T20:59:01Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/203",
+  "body": "# Updates to `ros_industrial` membership.\r\n\r\n## New team members\r\n\r\n* [@marip8](https://github.com/ros-industrial/ros_industrial_cmake_boilerplate/blob/891c5427f219c2607d041276163a07dff717b8ca/package.xml#L7)",
+  "comments": [
+    {
+      "id": 1444519675,
+      "author": "nuclearsandwich",
+      "created_at": "2023-02-24T21:23:02Z",
+      "updated_at": "2023-02-24T21:23:02Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/203#issuecomment-1444519675",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

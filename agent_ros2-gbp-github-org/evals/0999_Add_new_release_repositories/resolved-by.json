@@ -1,0 +1,4 @@
+{
+  "commit": "6ec2d35e39b7742b232259752d4517e5c88d03bf",
+  "diff": "diff --git a/namo_robotics.tf b/namo_robotics.tf\nindex ad77257..feae89a 100644\n--- a/namo_robotics.tf\n+++ b/namo_robotics.tf\n@@ -4,6 +4,7 @@ locals {\n   ]\n   namo_robotics_repositories = [\n     \"aruco_markers-release\",\n+    \"system_webview-release\",\n   ]\n }\n \n"
+}

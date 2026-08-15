@@ -1,0 +1,21 @@
+{
+  "number": 619,
+  "title": "Add new release repository: foxglove_compressed_video_transport",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2024-08-30T13:47:53Z",
+  "updated_at": "2024-09-14T05:21:05Z",
+  "closed_at": "2024-09-14T05:01:47Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/619",
+  "body": "* Name of the release team: ros-misc-utilities\r\n\r\n* Release repositories to add:\r\n \r\n  * [foxglove_compressed_video_transport](https://github.com/ros-misc-utilities/foxglove_compressed_video_transport/)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/84ed5f4b5b37e945843e74a479709d6f77704c89/humble/distribution.yaml#L2559)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\n",
+  "comments": [
+    {
+      "id": 2350846062,
+      "author": "nuclearsandwich",
+      "created_at": "2024-09-14T05:21:05Z",
+      "updated_at": "2024-09-14T05:21:05Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/619#issuecomment-2350846062",
+      "body": "This change has been deployed."
+    }
+  ]
+}

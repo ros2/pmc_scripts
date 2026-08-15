@@ -1,0 +1,29 @@
+{
+  "number": 363,
+  "title": "Update release team membership",
+  "author": "RoBeau",
+  "state": "closed",
+  "created_at": "2023-11-08T03:54:58Z",
+  "updated_at": "2023-11-18T00:38:32Z",
+  "closed_at": "2023-11-18T00:38:32Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/363",
+  "body": "# Updates to Boeing membership.\r\n\r\n## New team members\r\n[@btra-jc ](https://github.com/brta-jc)\r\n[@derme302](https://github.com/derme302)\r\n",
+  "comments": [
+    {
+      "id": 1817279310,
+      "author": "nuclearsandwich",
+      "created_at": "2023-11-18T00:18:27Z",
+      "updated_at": "2023-11-18T00:18:27Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/363#issuecomment-1817279310",
+      "body": "Both individuals are already members of the release team. However it appears that they did not accept the invitation to join before it expired. An additional invitation will be sent out a new deployment shortly. They must accept the invitations within 7 days. https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/boeing.tf#L4-L5"
+    },
+    {
+      "id": 1817288915,
+      "author": "nuclearsandwich",
+      "created_at": "2023-11-18T00:38:32Z",
+      "updated_at": "2023-11-18T00:38:32Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/363#issuecomment-1817288915",
+      "body": "These invites have been resent."
+    }
+  ]
+}

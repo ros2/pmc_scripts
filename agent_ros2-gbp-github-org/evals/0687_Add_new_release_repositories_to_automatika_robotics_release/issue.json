@@ -1,0 +1,37 @@
+{
+  "number": 687,
+  "title": "Add new release repositories to automatika_robotics release team",
+  "author": "mkabtoul",
+  "state": "closed",
+  "created_at": "2025-01-10T15:02:05Z",
+  "updated_at": "2025-01-24T08:22:10Z",
+  "closed_at": "2025-01-23T19:20:38Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/687",
+  "body": "* Name of the release team: [automatika_robotics](https://github.com/orgs/ros2-gbp/teams/automatika_robotics)\r\n\r\n* Release repositories to add:\r\n\r\n  * [kompass](https://github.com/automatika-robotics/kompass)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L3882)\r\n    * [ ] There is an existing release repository which should be imported\r\n  * [automatika_embodied_agents](https://github.com/automatika-robotics/ros-agents)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L734)\r\n    * [ ] There is an existing release repository which should be imported\r\n",
+  "comments": [
+    {
+      "id": 2609856990,
+      "author": "mkabtoul",
+      "created_at": "2025-01-23T13:48:41Z",
+      "updated_at": "2025-01-23T13:48:41Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/687#issuecomment-2609856990",
+      "body": "@nuclearsandwich leaving a kind reminder for you on this issue."
+    },
+    {
+      "id": 2611099278,
+      "author": "nuclearsandwich",
+      "created_at": "2025-01-23T21:56:36Z",
+      "updated_at": "2025-01-23T21:56:36Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/687#issuecomment-2611099278",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 2611928922,
+      "author": "mkabtoul",
+      "created_at": "2025-01-24T08:22:08Z",
+      "updated_at": "2025-01-24T08:22:08Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/687#issuecomment-2611928922",
+      "body": "Thanks!"
+    }
+  ]
+}

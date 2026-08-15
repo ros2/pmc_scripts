@@ -1,0 +1,21 @@
+{
+  "number": 1073,
+  "title": "Add new release repositories",
+  "author": "Noel215",
+  "state": "closed",
+  "created_at": "2026-06-29T20:37:17Z",
+  "updated_at": "2026-07-16T21:32:58Z",
+  "closed_at": "2026-07-16T21:28:46Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1073",
+  "body": "* Name of the release team:  pal_robotics_team\n\n* Release repositories to add:\n  * [kangaroo_robot](https://github.com/pal-robotics/kangaroo_robot)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/52162)\n  * [kangaroo_moveit_config](https://github.com/pal-robotics/kangaroo_moveit_config)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/52162)\n  * [kangaroo_simulation](https://github.com/pal-robotics/kangaroo_simulation)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/52162)\n",
+  "comments": [
+    {
+      "id": 4996791147,
+      "author": "cottsay",
+      "created_at": "2026-07-16T21:32:58Z",
+      "updated_at": "2026-07-16T21:32:58Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1073#issuecomment-4996791147",
+      "body": "This has been deployed:\n- https://github.com/ros2-gbp/kangaroo_moveit_config-release\n- https://github.com/ros2-gbp/kangaroo_robot-release\n- https://github.com/ros2-gbp/kangaroo_simulation-release"
+    }
+  ]
+}

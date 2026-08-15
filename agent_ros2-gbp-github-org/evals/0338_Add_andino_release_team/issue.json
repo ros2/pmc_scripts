@@ -1,0 +1,37 @@
+{
+  "number": 338,
+  "title": "Add andino release team",
+  "author": "francocipollone",
+  "state": "closed",
+  "created_at": "2023-09-28T03:24:19Z",
+  "updated_at": "2023-10-07T03:11:29Z",
+  "closed_at": "2023-10-07T00:17:42Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/338",
+  "body": "* Name of the new release team: <!-- all lower case with words separated by `_`. --> andino_team\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [andino](https://github.com/Ekumen-OS/andino)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L362-L372)\r\n\r\n\r\n* Team members\r\n  * @francocipollone \r\n  * @jballoffet\r\n",
+  "comments": [
+    {
+      "id": 1738380599,
+      "author": "francocipollone",
+      "created_at": "2023-09-28T03:25:19Z",
+      "updated_at": "2023-09-28T03:25:19Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/338#issuecomment-1738380599",
+      "body": "Hey there! The repository has several packages. Let me know if I need to provide more information to the issue"
+    },
+    {
+      "id": 1751538916,
+      "author": "nuclearsandwich",
+      "created_at": "2023-10-07T01:03:26Z",
+      "updated_at": "2023-10-07T01:03:26Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/338#issuecomment-1751538916",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 1751580146,
+      "author": "francocipollone",
+      "created_at": "2023-10-07T03:11:29Z",
+      "updated_at": "2023-10-07T03:11:29Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/338#issuecomment-1751580146",
+      "body": "> This change has been deployed.\r\n\r\nThanks a lot!"
+    }
+  ]
+}

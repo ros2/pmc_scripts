@@ -1,0 +1,4 @@
+{
+  "commit": "556d093cbb884237b173277a310fc42733efbc2a",
+  "diff": "diff --git a/imrclab.tf b/imrclab.tf\nindex 6df6594..df541b4 100644\n--- a/imrclab.tf\n+++ b/imrclab.tf\n@@ -3,6 +3,7 @@ locals {\n     \"whoenig\",\n   ]\n   imrclab_repositories = [\n+    \"crazyswarm2-release\",\n     \"motion_capture_tracking-release\",\n   ]\n }\n"
+}

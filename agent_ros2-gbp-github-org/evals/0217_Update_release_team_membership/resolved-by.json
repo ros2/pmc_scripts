@@ -1,0 +1,4 @@
+{
+  "commit": "202425dc198f13744a2655e86ca2a26029b51fcc",
+  "diff": "diff --git a/schunk_svh.tf b/schunk_svh.tf\nindex e21aeea..6ec4457 100644\n--- a/schunk_svh.tf\n+++ b/schunk_svh.tf\n@@ -1,5 +1,6 @@\n locals {\n   schunk_svh_team = [\n+    \"harry-arnst\",\n     \"stefanscherzinger\",\n   ]\n   schunk_svh_repositories = [\n"
+}

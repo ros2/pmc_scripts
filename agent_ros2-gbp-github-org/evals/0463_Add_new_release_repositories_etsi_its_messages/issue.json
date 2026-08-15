@@ -1,0 +1,21 @@
+{
+  "number": 463,
+  "title": "Add new release repositories: etsi_its_messages",
+  "author": "lreiher",
+  "state": "closed",
+  "created_at": "2024-03-01T08:41:43Z",
+  "updated_at": "2024-03-09T02:07:38Z",
+  "closed_at": "2024-03-09T00:45:40Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/463",
+  "body": "Two of our ROS release repositories have just been moved to ros2-gbp, see [here](https://github.com/ros/rosdistro/pull/40024) and [here](https://github.com/ros/rosdistro/pull/40025). I'd like to move a third release repository to ros2-gbp.\r\n\r\nAlso, one question: since the release repositories in here are only used for ROS2, am I right to assume that we should still keep releasing ROS1 updates to those repositories to the existing release repositories in our organization?\r\n\r\n* Name of the release team: [ika_rwth_aachen_team](https://github.com/ros2-gbp/ros2-gbp-github-org/pull/458)\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [ika-rwth-aachen/etsi_its_messages](https://github.com/ika-rwth-aachen/etsi_its_messages)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L1728)\r\n    * [ ] There is an existing release repository which should be imported: [ika-rwth-aachen/etsi_its_messages-release](https://github.com/ika-rwth-aachen/etsi_its_messages-release)\r\n",
+  "comments": [
+    {
+      "id": 1986692581,
+      "author": "nuclearsandwich",
+      "created_at": "2024-03-09T02:07:37Z",
+      "updated_at": "2024-03-09T02:07:37Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/463#issuecomment-1986692581",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

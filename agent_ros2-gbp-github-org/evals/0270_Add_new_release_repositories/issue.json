@@ -1,0 +1,12 @@
+{
+  "number": 270,
+  "title": "Add new release repositories",
+  "author": "hellantos",
+  "state": "closed",
+  "created_at": "2023-06-08T20:44:59Z",
+  "updated_at": "2023-06-09T23:42:21Z",
+  "closed_at": "2023-06-09T23:42:21Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/270",
+  "body": "* Name of the release team: ros_industrial\r\n\r\n* Release repositories to add:\r\n  * [ros2_canopen](https://github.com/ros-industrial/ros2_canopen)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/1813cdde6bdb0b0abf9ba66d55ede1dd58080015/rolling/distribution.yaml#L4569)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\r\n\r\nmotivated by https://github.com/ros-industrial/ros2_canopen/issues/129\r\ndepends on #269 \r\n",
+  "comments": []
+}

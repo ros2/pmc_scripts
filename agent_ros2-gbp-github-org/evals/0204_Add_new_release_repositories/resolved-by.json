@@ -1,0 +1,4 @@
+{
+  "commit": "728b16b5045575387d0578b5159013915e21effd",
+  "diff": "diff --git a/ros_industrial.tf b/ros_industrial.tf\nindex 31f0792..9e42b2a 100644\n--- a/ros_industrial.tf\n+++ b/ros_industrial.tf\n@@ -5,6 +5,7 @@ locals {\n   ]\n   ros_industrial_repositories = [\n     \"ros_industrial_cmake_boilerplate-release\",\n+    \"stomp-release\",\n   ]\n }\n \n"
+}

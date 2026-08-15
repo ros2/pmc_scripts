@@ -1,0 +1,21 @@
+{
+  "number": 941,
+  "title": "Add new release repository: frequency_cam",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2025-12-06T17:37:52Z",
+  "updated_at": "2025-12-08T16:08:28Z",
+  "closed_at": "2025-12-08T16:06:40Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/941",
+  "body": "* Name of the release team: ros-event-camera\n\n* Release repositories to add:\n  * [frequency_cam](https://github.com/ros-event-camera/frequency_cam/)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/6480237662bc87f35d40e395fbb47137f0b470ef/jazzy/distribution.yaml#L2898)\n\n \n",
+  "comments": [
+    {
+      "id": 3627751234,
+      "author": "cottsay",
+      "created_at": "2025-12-08T16:08:28Z",
+      "updated_at": "2025-12-08T16:08:28Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/941#issuecomment-3627751234",
+      "body": "This has been deployed: https://github.com/ros2-gbp/frequency_cam-release"
+    }
+  ]
+}

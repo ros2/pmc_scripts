@@ -1,0 +1,21 @@
+{
+  "number": 515,
+  "title": "Add release team",
+  "author": "dlangenkamp-avt",
+  "state": "closed",
+  "created_at": "2024-05-08T12:57:37Z",
+  "updated_at": "2024-05-17T22:28:44Z",
+  "closed_at": "2024-05-17T21:27:44Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/515",
+  "body": "* Name of the new release team: alliedvision\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [vimbax_ros2_driver](https://github.com/alliedvision/vimbax_ros2_driver.git)\r\n    * ros/rosdistro source entry -> PR: https://github.com/ros/rosdistro/pull/41095\r\n\r\n* Team members\r\n  * @dlangenkamp-avt\r\n  * @fklostermann\r\n  * @khoepke\r\n",
+  "comments": [
+    {
+      "id": 2118451224,
+      "author": "nuclearsandwich",
+      "created_at": "2024-05-17T22:28:44Z",
+      "updated_at": "2024-05-17T22:28:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/515#issuecomment-2118451224",
+      "body": "This change has been deployed."
+    }
+  ]
+}

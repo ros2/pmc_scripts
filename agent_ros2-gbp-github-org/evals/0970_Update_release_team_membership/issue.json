@@ -1,0 +1,21 @@
+{
+  "number": 970,
+  "title": "Update release team membership",
+  "author": "fujitatomoya",
+  "state": "closed",
+  "created_at": "2026-01-29T05:48:11Z",
+  "updated_at": "2026-02-03T08:56:36Z",
+  "closed_at": "2026-02-03T04:37:41Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/970",
+  "body": "# Updates to 00-ros2_core membership.\n\n## New team members\n\n* [@fujitatomoya](https://github.com/ros2/rcl_logging/blob/b2b037274c99649097504cd022a7fb5f58155af6/rcl_logging_implementation/package.xml#L16)\n",
+  "comments": [
+    {
+      "id": 3839977342,
+      "author": "fujitatomoya",
+      "created_at": "2026-02-03T08:56:36Z",
+      "updated_at": "2026-02-03T08:56:36Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/970#issuecomment-3839977342",
+      "body": "@cottsay thanks!"
+    }
+  ]
+}

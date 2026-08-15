@@ -1,0 +1,29 @@
+{
+  "number": 731,
+  "title": "Add release team: `analogdevices_robotics_team`",
+  "author": "Adrian-Stanea",
+  "state": "closed",
+  "created_at": "2025-04-08T11:10:31Z",
+  "updated_at": "2025-04-13T00:17:00Z",
+  "closed_at": "2025-04-12T20:57:53Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/731",
+  "body": "* Name of the new release team: `analogdevices_robotics_team`\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [iio_ros2](https://github.com/analogdevicesinc/iio_ros2/tree/humble)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/6cc35b114bd37808066620e6da27506fa314563d/humble/distribution.yaml#L95)\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n\n\n* Team members\n  * [@Adrian-Stanea](https://github.com/analogdevicesinc/iio_ros2/blob/0c5e371dce27d13342e38de1fdae499798ed6b0e/package.xml#L7)\n  * [@adisuciu](https://github.com/analogdevicesinc/iio_ros2/blob/0c5e371dce27d13342e38de1fdae499798ed6b0e/package.xml#L7)\n  * [@VHolonec](https://github.com/analogdevicesinc/iio_ros2/blob/0c5e371dce27d13342e38de1fdae499798ed6b0e/package.xml#L7)\n  * [@rbolboac](https://github.com/analogdevicesinc/iio_ros2/blob/0c5e371dce27d13342e38de1fdae499798ed6b0e/package.xml#L7)\n  * [@rbudai98](https://github.com/analogdevicesinc/iio_ros2/blob/0c5e371dce27d13342e38de1fdae499798ed6b0e/package.xml#L7)\n  * [@SeptimiuVana](https://github.com/analogdevicesinc/iio_ros2/blob/0c5e371dce27d13342e38de1fdae499798ed6b0e/package.xml#L7)\n\n",
+  "comments": [
+    {
+      "id": 2799036103,
+      "author": "nuclearsandwich",
+      "created_at": "2025-04-12T20:56:18Z",
+      "updated_at": "2025-04-12T20:56:18Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/731#issuecomment-2799036103",
+      "body": "I removed the `_team` suffix from the GitHub team name and used the repository name / package.xml package name: `adi_iio` as the name of the release repository."
+    },
+    {
+      "id": 2799266228,
+      "author": "nuclearsandwich",
+      "created_at": "2025-04-13T00:16:59Z",
+      "updated_at": "2025-04-13T00:16:59Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/731#issuecomment-2799266228",
+      "body": "This change has been deployed."
+    }
+  ]
+}

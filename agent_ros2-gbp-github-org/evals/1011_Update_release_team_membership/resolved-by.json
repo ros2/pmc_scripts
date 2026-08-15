@@ -1,0 +1,4 @@
+{
+  "commit": "fe65b7c561ba3ea6108041a8aa61f24f51938360",
+  "diff": "diff --git a/foxglove_bridge.tf b/foxglove_bridge.tf\nindex c845d19..2657b86 100644\n--- a/foxglove_bridge.tf\n+++ b/foxglove_bridge.tf\n@@ -3,6 +3,7 @@ locals {\n     \"achim-k\",\n     \"defunctzombie\",\n     \"ericmlujan\",\n+    \"gasmith\",\n     \"jtbandes\",\n   ]\n   foxglove_bridge_repositories = [\n"
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "5af40ca5b1014d73a88ccca2011d07db83f33535",
+  "diff": "diff --git a/pal_robotics.tf b/pal_robotics.tf\nindex 1348945..b51c9a1 100644\n--- a/pal_robotics.tf\n+++ b/pal_robotics.tf\n@@ -8,10 +8,22 @@ locals {\n   pal_robotics_repositories = [\n     \"aruco_ros-release\",\n     \"backward_ros-release\",\n+    \"launch_pal-release\",\n     \"mujoco_vendor-release\",\n+    \"pal_pro_gripper-release\",\n+    \"pal_sea_arm-release\",\n+    \"pal_sea_arm_moveit_config-release\",\n+    \"pal_sea_arm_simulation-release\",\n     \"pal_statistics-release\",\n+    \"pal_urdf_utils-release\",\n     \"play_motion2-release\",\n     \"play_motion_builder-release\",\n+    \"tiago_pro_head_robot-release\",\n+    \"tiago_pro_head_simulation-release\",\n+    \"tiago_pro_moveit_config-release\",\n+    \"tiago_pro_navigation-release\",\n+    \"tiago_pro_robot-release\",\n+    \"tiago_pro_simulation-release\",\n   ]\n }\n \n"
+}

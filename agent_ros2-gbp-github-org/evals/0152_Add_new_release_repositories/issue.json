@@ -1,0 +1,53 @@
+{
+  "number": 152,
+  "title": "Add new release repositories",
+  "author": "huchijwk",
+  "state": "closed",
+  "created_at": "2022-11-10T19:01:15Z",
+  "updated_at": "2022-11-11T23:24:44Z",
+  "closed_at": "2022-11-11T23:23:00Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/152",
+  "body": "* Name of the release team: 42dot\r\n\r\n* Release repositories to add:\r\n  * [foros](https://github.com/42dot/foros)\r\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>",
+  "comments": [
+    {
+      "id": 1310774663,
+      "author": "nuclearsandwich",
+      "created_at": "2022-11-10T19:10:33Z",
+      "updated_at": "2022-11-10T19:10:33Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/152#issuecomment-1310774663",
+      "body": "@huchijwk this release repository was added when I created the new team for https://github.com/ros2-gbp/ros2-gbp-github-org/issues/141\r\n\r\nIs there an additional release repository for another project or can this issue be closed?"
+    },
+    {
+      "id": 1310812413,
+      "author": "huchijwk",
+      "created_at": "2022-11-10T19:44:04Z",
+      "updated_at": "2022-11-10T19:44:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/152#issuecomment-1310812413",
+      "body": "@nuclearsandwich Thanks for your reply. I checked that `42dot-release` was created, is it correct that the release repository is created with the team name not repository name, `foros-release`?"
+    },
+    {
+      "id": 1312258905,
+      "author": "nuclearsandwich",
+      "created_at": "2022-11-11T23:15:26Z",
+      "updated_at": "2022-11-11T23:15:26Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/152#issuecomment-1312258905",
+      "body": "🤦🏼 That was me typing faster than I was thinking. I'll open a PR to change the repo name and rename it. Sorry for the trouble."
+    },
+    {
+      "id": 1312262060,
+      "author": "nuclearsandwich",
+      "created_at": "2022-11-11T23:23:46Z",
+      "updated_at": "2022-11-11T23:23:46Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/152#issuecomment-1312262060",
+      "body": "The latest change renaming the release repository is deploying now."
+    },
+    {
+      "id": 1312262478,
+      "author": "huchijwk",
+      "created_at": "2022-11-11T23:24:44Z",
+      "updated_at": "2022-11-11T23:24:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/152#issuecomment-1312262478",
+      "body": "Thanks!"
+    }
+  ]
+}

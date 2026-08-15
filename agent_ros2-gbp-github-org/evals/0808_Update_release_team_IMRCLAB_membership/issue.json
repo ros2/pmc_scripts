@@ -1,0 +1,29 @@
+{
+  "number": 808,
+  "title": "Update release team IMRCLAB membership",
+  "author": "knmcguire",
+  "state": "closed",
+  "created_at": "2025-07-04T09:11:47Z",
+  "updated_at": "2025-07-09T07:27:51Z",
+  "closed_at": "2025-07-09T00:38:06Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/808",
+  "body": "# Updates to IMRClab membership.\n\n[imrclab](https://github.com/ros2-gbp/ros2-gbp-github-org/blob/latest/imrclab.tf)\n\n## New team members\n\n* [@knmcguire](https://github.com/IMRCLab/crazyswarm2/blob/1ac0130adde0cba24db5715ad379e8896a296d75/crazyflie/package.xml#L8C1-L9C1)\n\n## Retiring team members\n\n* N/A\n",
+  "comments": [
+    {
+      "id": 3050741551,
+      "author": "nuclearsandwich",
+      "created_at": "2025-07-09T01:26:29Z",
+      "updated_at": "2025-07-09T01:26:29Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/808#issuecomment-3050741551",
+      "body": "This change has been deployed.\n"
+    },
+    {
+      "id": 3051486998,
+      "author": "knmcguire",
+      "created_at": "2025-07-09T07:27:51Z",
+      "updated_at": "2025-07-09T07:27:51Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/808#issuecomment-3051486998",
+      "body": "Thank you!"
+    }
+  ]
+}

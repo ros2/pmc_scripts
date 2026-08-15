@@ -1,0 +1,21 @@
+{
+  "number": 883,
+  "title": "Add new release repositories",
+  "author": "Noel215",
+  "state": "closed",
+  "created_at": "2025-10-10T11:16:29Z",
+  "updated_at": "2025-10-11T03:49:03Z",
+  "closed_at": "2025-10-11T03:13:24Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/883",
+  "body": "* Name of the release team: pal_robotics_team\n\n* Release repositories to add:\n  * [play_motion_builder](https://github.com/pal-robotics/play_motion_builder)\n    * [Pull request adding the source entries](https://github.com/ros/rosdistro/pull/47906)\n    * [ros/rosdistro humble source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L7200)\n    * [ros/rosdistro jazzy source entry](https://github.com/ros/rosdistro/blob/master/jazzy/distribution.yaml#L6265)\n    * [ros/rosdistro kilted source entry](https://github.com/ros/rosdistro/blob/master/kilted/distribution.yaml#L5396)\n    * [ros/rosdistro rolling source entry](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L5363)",
+  "comments": [
+    {
+      "id": 3392872049,
+      "author": "nuclearsandwich",
+      "created_at": "2025-10-11T03:49:03Z",
+      "updated_at": "2025-10-11T03:49:03Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/883#issuecomment-3392872049",
+      "body": "This change has been deployed."
+    }
+  ]
+}

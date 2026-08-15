@@ -1,0 +1,21 @@
+{
+  "number": 1016,
+  "title": "Add new release repositories",
+  "author": "mojomex",
+  "state": "closed",
+  "created_at": "2026-03-31T14:31:56Z",
+  "updated_at": "2026-04-03T21:50:56Z",
+  "closed_at": "2026-04-03T21:47:46Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1016",
+  "body": "<!--\n  Which release team will maintain these repositories?\n  If you do not yet have a release team in the ros2-gbp-github-org project, please use the [new release team](https://github.com/ros2-gbp/ros2-gbp-github-org/issues/new?assignees=&labels=&projects=&template=new_release_team.md&title=Add+release+team) template instead.\n  That template supports adding a new team and repositories at the same time.\n-->\n* Name of the release team: tier4\n\n<!--\nBefore release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\nGuidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\nIf you are requesting multiple repositories at once, please list them all here instead of creating multiple issues.\n-->\n* Release repositories to add:\n  * [nebula](https://github.com/ros/rosdistro/pull/49428)\n",
+  "comments": [
+    {
+      "id": 4185355191,
+      "author": "cottsay",
+      "created_at": "2026-04-03T21:50:56Z",
+      "updated_at": "2026-04-03T21:50:56Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1016#issuecomment-4185355191",
+      "body": "This has been deployed: https://github.com/ros2-gbp/nebula-release"
+    }
+  ]
+}

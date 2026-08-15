@@ -1,0 +1,12 @@
+{
+  "number": 1049,
+  "title": "Update release team membership",
+  "author": "doisyg",
+  "state": "closed",
+  "created_at": "2026-06-06T14:45:03Z",
+  "updated_at": "2026-06-08T22:45:20Z",
+  "closed_at": "2026-06-08T22:45:20Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/1049",
+  "body": "# Updates to ament_black membership.\n\n## New team members\n\n* [@doisyg](https://github.com/botsandus/ament_black/blob/1c3ab75429d25af7e90e52bfcb3f93b6b6e7e6fa/ament_black/package.xml#L10)\n* [@biofotis](https://github.com/botsandus/ament_black/blob/1c3ab75429d25af7e90e52bfcb3f93b6b6e7e6fa/ament_black/package.xml#L11)\n\n",
+  "comments": []
+}

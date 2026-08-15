@@ -1,0 +1,21 @@
+{
+  "number": 892,
+  "title": "Add nvidia_isaac release team",
+  "author": "sgillen",
+  "state": "closed",
+  "created_at": "2025-10-14T16:16:10Z",
+  "updated_at": "2025-12-05T02:45:31Z",
+  "closed_at": "2025-12-05T02:44:46Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/892",
+  "body": "* Name of the new release team: nvidia_isaac\n* Release repositories to add:\n  * [FIRST_REPOSITORY](https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/jazzy/distribution.yaml#L3104) (targeting humble, jazzy kilted, rolling)\n\n* Team members\n  * [@sgillen](https://github.com/NVIDIA-ISAAC-ROS/greenwave_monitor/blob/main/greenwave_monitor/package.xml#L28)\n\n",
+  "comments": [
+    {
+      "id": 3615088240,
+      "author": "cottsay",
+      "created_at": "2025-12-05T02:45:31Z",
+      "updated_at": "2025-12-05T02:45:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/892#issuecomment-3615088240",
+      "body": "This was deployed: https://github.com/ros2-gbp/greenwave_monitor-release"
+    }
+  ]
+}

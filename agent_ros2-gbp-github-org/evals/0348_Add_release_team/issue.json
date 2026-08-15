@@ -1,0 +1,21 @@
+{
+  "number": 348,
+  "title": "Add release team",
+  "author": "stefanscherzinger",
+  "state": "closed",
+  "created_at": "2023-10-17T16:53:12Z",
+  "updated_at": "2023-11-05T19:47:44Z",
+  "closed_at": "2023-11-05T18:54:49Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/348",
+  "body": "* Name of the new release team: sick_safevisionary\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [sick_safevisionary_base](https://github.com/SICKAG/sick_safevisionary_base)\r\n  * [sick_safevisionary_ros2](https://github.com/SICKAG/sick_safevisionary_ros2)\r\n\r\n* Team members\r\n  * [@stefanscherzinger](https://github.com/SICKAG/sick_safevisionary_ros2/blob/df5f57b781b3cbb79088713d4ac0c41a57bdd2de/sick_safevisionary_driver/package.xml#L8)\r\n  * [@MGBla](https://github.com/SICKAG/sick_safevisionary_ros2/blob/df5f57b781b3cbb79088713d4ac0c41a57bdd2de/sick_safevisionary_driver/package.xml#L7)\r\n  * [@lienhjoSICKAG](https://github.com/SICKAG/sick_safevisionary_ros2/blob/df5f57b781b3cbb79088713d4ac0c41a57bdd2de/sick_safevisionary_driver/package.xml#L9)\r\n",
+  "comments": [
+    {
+      "id": 1793828539,
+      "author": "nuclearsandwich",
+      "created_at": "2023-11-05T19:47:44Z",
+      "updated_at": "2023-11-05T19:47:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/348#issuecomment-1793828539",
+      "body": "This change has been deployed!\r\n"
+    }
+  ]
+}

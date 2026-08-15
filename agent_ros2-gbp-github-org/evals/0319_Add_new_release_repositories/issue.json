@@ -1,0 +1,37 @@
+{
+  "number": 319,
+  "title": "Add new release repositories",
+  "author": "jlblancoc",
+  "state": "closed",
+  "created_at": "2023-08-24T01:36:51Z",
+  "updated_at": "2023-08-26T07:07:58Z",
+  "closed_at": "2023-08-26T01:40:26Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/319",
+  "body": "* Name of the release team:  mrpt2\r\n\r\n* Release repositories to add:\r\n\r\n  * [`mola`](https://github.com/MOLAorg/mola)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/rolling/distribution.yaml#L2696C1-L2705)\r\n    * There is an existing release repository which should be imported: NO\r\n",
+  "comments": [
+    {
+      "id": 1693784367,
+      "author": "jlblancoc",
+      "created_at": "2023-08-25T18:40:14Z",
+      "updated_at": "2023-08-25T18:40:14Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/319#issuecomment-1693784367",
+      "body": "BTW (For the records): The new repo will hold releases of packages formerly released independently (``mp2p_icp``), plus new ones. \r\nLinking here the related PR in rosdistro: https://github.com/ros/rosdistro/pull/38310"
+    },
+    {
+      "id": 1694123889,
+      "author": "nuclearsandwich",
+      "created_at": "2023-08-26T02:24:14Z",
+      "updated_at": "2023-08-26T02:24:14Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/319#issuecomment-1694123889",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 1694205734,
+      "author": "jlblancoc",
+      "created_at": "2023-08-26T07:07:58Z",
+      "updated_at": "2023-08-26T07:07:58Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/319#issuecomment-1694205734",
+      "body": "> This change has been deployed.\r\n\r\nThanks! "
+    }
+  ]
+}

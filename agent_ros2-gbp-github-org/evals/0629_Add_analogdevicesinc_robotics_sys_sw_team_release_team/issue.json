@@ -1,0 +1,21 @@
+{
+  "number": 629,
+  "title": "Add analogdevicesinc_robotics_sys_sw_team release team",
+  "author": "raebelchristo-adi",
+  "state": "closed",
+  "created_at": "2024-10-09T10:34:49Z",
+  "updated_at": "2024-11-08T23:16:59Z",
+  "closed_at": "2024-11-08T19:12:14Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/629",
+  "body": "* Name of the new release team: analogdevicesinc_robotics_sys_sw_team<!-- all lower case with words separated by `_`. -->\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [adi_3dtof_image_stitching](https://github.com/analogdevicesinc/adi_3dtof_image_stitching/tree/humble-devel)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/humble/distribution.yaml#L81)\r\n      - [x] No existing release repository for ROS 2\r\n* Team members\r\n  * [@anilsripadarao](https://github.com/analogdevicesinc/adi_3dtof_image_stitching/blob/noetic-devel/package.xml#L10)\r\n  * [@raebelchristo-adi](https://github.com/analogdevicesinc/adi_3dtof_image_stitching/blob/noetic-devel/package.xml#L10)\r\n  * [@SagarWalishetti](https://github.com/analogdevicesinc/adi_3dtof_image_stitching/blob/noetic-devel/package.xml#L10)\r\n  * [@Prasanna-Bhat](https://github.com/analogdevicesinc/adi_3dtof_image_stitching/blob/noetic-devel/package.xml#L10)\r\n",
+  "comments": [
+    {
+      "id": 2465888775,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-08T23:16:58Z",
+      "updated_at": "2024-11-08T23:16:58Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/629#issuecomment-2465888775",
+      "body": "This change has been deployed."
+    }
+  ]
+}

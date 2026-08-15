@@ -1,0 +1,4 @@
+{
+  "commit": "cc9bcedece0afd9265453a6ba60b3a5dd7bb3153",
+  "diff": "diff --git a/hebi.tf b/hebi.tf\nindex 4b48a43..78af227 100644\n--- a/hebi.tf\n+++ b/hebi.tf\n@@ -6,6 +6,8 @@ locals {\n   ]\n   hebi_repositories = [\n     \"hebi_cpp_api-release\",\n+    \"hebi_hardware-release\",\n+    \"hebi_msgs-release\",\n   ]\n }\n \n"
+}

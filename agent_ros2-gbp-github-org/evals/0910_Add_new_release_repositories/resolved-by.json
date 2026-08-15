@@ -1,0 +1,4 @@
+{
+  "commit": "d63d225da9b61f428ef12c3e66a0f0ef9db7924f",
+  "diff": "diff --git a/husarion.tf b/husarion.tf\nindex 9bfc160..dce64c8 100644\n--- a/husarion.tf\n+++ b/husarion.tf\n@@ -10,6 +10,7 @@ locals {\n   husarion_repositories = [\n     \"husarion_components_description-release\",\n     \"husarion_ugv_ros-release\",\n+    \"rosbot_ros-release\",\n   ]\n }\n \n"
+}

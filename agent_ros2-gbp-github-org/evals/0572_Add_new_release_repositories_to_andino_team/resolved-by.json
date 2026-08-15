@@ -1,0 +1,4 @@
+{
+  "commit": "3598774f6f44a080eab2c8019330dd5433cfab97",
+  "diff": "diff --git a/andino.tf b/andino.tf\nindex fcdddfa..ce4291a 100644\n--- a/andino.tf\n+++ b/andino.tf\n@@ -5,6 +5,7 @@ locals {\n   ]\n   andino_repositories = [\n     \"andino-release\",\n+    \"andino_gz-release\",\n   ]\n }\n \n"
+}

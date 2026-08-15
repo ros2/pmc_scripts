@@ -1,0 +1,21 @@
+{
+  "number": 901,
+  "title": "Add new release repositories",
+  "author": "jlack1987",
+  "state": "closed",
+  "created_at": "2025-10-23T19:31:06Z",
+  "updated_at": "2025-12-05T19:53:41Z",
+  "closed_at": "2025-12-05T19:50:36Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/901",
+  "body": "* Name of the release team: rdl_release_team\n\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [data_tamer_tools](https://gitlab.com/jlack/data_tamer_tools)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/48313)\n    * [ ] There is an existing release repository which should be imported: [data_tamer_tools-release](https://github.com/jlack1987/foxglove_sdk_vendor-release)\n  * [foxglove_sdk_vendor](https://gitlab.com/jlack/foxglove_sdk_vendor)\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/48330)\n    * [ ] There is an existing release repository which should be imported: [foxglove_sdk_vendor-release](https://github.com/jlack1987/foxglove_sdk_vendor-release)",
+  "comments": [
+    {
+      "id": 3618377792,
+      "author": "cottsay",
+      "created_at": "2025-12-05T19:53:41Z",
+      "updated_at": "2025-12-05T19:53:41Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/901#issuecomment-3618377792",
+      "body": "This has been deployed:\n* https://github.com/ros2-gbp/data_tamer_tools-release\n* https://github.com/ros2-gbp/foxglove_sdk_vendor-release\n\nI recommend updating all ROS distributions to use the new release repositories under `ros2-gbp` so that all of the distributions are in the same place, at which time you may decommission the existing release repo."
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{
+  "commit": "1b435a870b2bf8a3e9852ecf4d1bf6a7501a538c",
+  "diff": "diff --git a/rmf.tf b/rmf.tf\nindex f1d896e..4c5f757 100644\n--- a/rmf.tf\n+++ b/rmf.tf\n@@ -2,6 +2,7 @@ locals {\n   rmf_team = [\n     \"Yadunund\",\n     \"codebot\",\n+    \"luca-della-vedova\",\n     \"marcoag\",\n   ]\n   rmf_repositories = [\n"
+}

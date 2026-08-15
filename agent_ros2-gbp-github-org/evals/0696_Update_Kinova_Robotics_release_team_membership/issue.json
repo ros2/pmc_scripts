@@ -1,0 +1,45 @@
+{
+  "number": 696,
+  "title": "Update Kinova Robotics release team membership",
+  "author": "aalmrad",
+  "state": "closed",
+  "created_at": "2025-01-24T15:38:37Z",
+  "updated_at": "2025-02-27T15:36:30Z",
+  "closed_at": "2025-02-26T00:48:17Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/696",
+  "body": "# Updates to kinova_robotics release team membership.\n\n## New team members\n\n* @aalmrad Kinova Robotics [package.xml](https://github.com/Kinovarobotics/ros2_kortex/blob/0a7eb3bd3ed0fcd7c5fff2b0a641a9d1ab4c8083/kortex_moveit_config/kinova_gen3_lite_moveit_config/package.xml#L9)\n\n## Retiring team members\n\n* @felixmaisonneuve [package.xml](https://github.com/Kinovarobotics/ros2_kortex/commit/566c345e7d689612b171940bbe2b446822ffd595)\n\nA [pull request](https://github.com/ros/rosdistro/pull/44217) has been created on rosdistro to push a new release for the ros2_kortex packages and it is really important to update the release team members with the minimum delays so I can get write access to the ros2-gbp release repository and continue blooming releases.\n\nI'm referencing the original release team issue and the previously mentioned rosdistro pull request\n#https://github.com/ros2-gbp/ros2-gbp-github-org/issues/291\n#https://github.com/ros/rosdistro/pull/44217",
+  "comments": [
+    {
+      "id": 2643557080,
+      "author": "sloretz",
+      "created_at": "2025-02-07T17:29:46Z",
+      "updated_at": "2025-02-07T17:29:46Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/696#issuecomment-2643557080",
+      "body": "It looks like @aalmrad is now the maintainer in the upstream package.xml https://github.com/Kinovarobotics/ros2_kortex/commit/566c345e7d689612b171940bbe2b446822ffd595 , so they have write access to the source repo\n\n@nuclearsandwich what's the next step of this process to get them right access to the release repo?"
+    },
+    {
+      "id": 2644481406,
+      "author": "moriarty",
+      "created_at": "2025-02-08T03:52:29Z",
+      "updated_at": "2025-02-08T03:52:29Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/696#issuecomment-2644481406",
+      "body": "@sloretz i contacted Kinova and confirmed @aalmrad is working there.\n\nFelix and myself can be removed.\nFelix no longer works at Kinova, and I no longer have access to an arm... 😉 unless they loan me another one "
+    },
+    {
+      "id": 2685614067,
+      "author": "nuclearsandwich",
+      "created_at": "2025-02-26T16:44:22Z",
+      "updated_at": "2025-02-26T16:44:22Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/696#issuecomment-2685614067",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 2688329875,
+      "author": "aalmrad",
+      "created_at": "2025-02-27T15:36:28Z",
+      "updated_at": "2025-02-27T15:36:28Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/696#issuecomment-2688329875",
+      "body": "Perfect! Thank you @nuclearsandwich "
+    }
+  ]
+}

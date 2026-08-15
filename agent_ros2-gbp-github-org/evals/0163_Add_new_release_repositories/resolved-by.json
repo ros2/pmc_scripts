@@ -1,0 +1,4 @@
+{
+  "commit": "bd80f85c71856bee7499b5e4838f71e34097ec0b",
+  "diff": "diff --git a/moveit.tf b/moveit.tf\nindex f89e781..56982e3 100644\n--- a/moveit.tf\n+++ b/moveit.tf\n@@ -8,12 +8,15 @@ locals {\n     \"vatanaksoytezer\",\n   ]\n   moveit_repositories = [\n+    \"generate_parameter_library-release\",\n     \"geometric_shapes-release\",\n     \"moveit2-release\",\n     \"moveit_msgs-release\",\n     \"moveit_resources-release\",\n     \"moveit_visual_tools-release\",\n+    \"pick_ik-release\",\n     \"random_numbers-release\",\n+    \"rsl-release\",\n     \"srdfdom-release\",\n     \"warehouse_ros-release\",\n     \"warehouse_ros_mongo-release\",\n"
+}

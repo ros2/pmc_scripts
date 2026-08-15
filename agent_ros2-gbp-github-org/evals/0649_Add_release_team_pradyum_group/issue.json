@@ -1,0 +1,21 @@
+{
+  "number": 649,
+  "title": "Add release team pradyum_group",
+  "author": "pradyum",
+  "state": "closed",
+  "created_at": "2024-11-13T00:17:30Z",
+  "updated_at": "2024-11-21T18:58:05Z",
+  "closed_at": "2024-11-21T17:57:52Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/649",
+  "body": "* Name of the new release team: pradyum_group\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [dual_laser_merger](https://github.com/pradyum/dual_laser_merger)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/93cff5f8f227cb7dd2f61668c2130045e97eac5e/rolling/distribution.yaml#L1198)\r\n    * [ ] No existing release repository for ROS 2\r\n\r\n* Team members\r\n  * [@pradyum](https://github.com/pradyum/dual_laser_merger/blob/ff1edbf1e17136e4f92d3b0523f1c701cf757cff/package.xml#L7)\r\n",
+  "comments": [
+    {
+      "id": 2492029297,
+      "author": "nuclearsandwich",
+      "created_at": "2024-11-21T18:58:04Z",
+      "updated_at": "2024-11-21T18:58:04Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/649#issuecomment-2492029297",
+      "body": "This change has been deployed."
+    }
+  ]
+}

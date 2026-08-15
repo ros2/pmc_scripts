@@ -1,0 +1,29 @@
+{
+  "number": 604,
+  "title": "Update release team membership",
+  "author": "VinDp",
+  "state": "closed",
+  "created_at": "2024-08-29T13:38:46Z",
+  "updated_at": "2024-08-30T05:05:02Z",
+  "closed_at": "2024-08-29T20:03:30Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/604",
+  "body": "# Updates to universal_robots membership.\r\n\r\n## New team members\r\n\r\n* [@VinDp](https://github.com/UniversalRobots/Universal_Robots_ROS2_Driver/blob/76402a543dadcaf55d422905af53be249f0b9724/ur_robot_driver/package.xml#L9)\r\n\r\n",
+  "comments": [
+    {
+      "id": 2319669838,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-30T01:56:23Z",
+      "updated_at": "2024-08-30T01:56:23Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/604#issuecomment-2319669838",
+      "body": "Although this change has merged it has not yet been deployed. Please see https://github.com/ros2-gbp/ros2-gbp-github-org/issues/618 for updates."
+    },
+    {
+      "id": 2320063033,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-30T05:05:01Z",
+      "updated_at": "2024-08-30T05:05:01Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/604#issuecomment-2320063033",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

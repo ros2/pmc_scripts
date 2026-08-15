@@ -1,0 +1,29 @@
+{
+  "number": 168,
+  "title": "Add release team: cascade_lifecycle",
+  "author": "fmrico",
+  "state": "closed",
+  "created_at": "2023-01-01T07:58:46Z",
+  "updated_at": "2023-01-14T01:00:47Z",
+  "closed_at": "2023-01-14T00:11:13Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/168",
+  "body": "* Name of the new release team: cascade_lifecycle\r\n* Release repositories to add:\r\n  * [cascade_lifecycle](https://github.com/fmrico/cascade_lifecycle.git)\r\n    * [x] There is an existing release repository which should be imported: https://github.com/fmrico/cascade_lifecycle-release.git\r\n\r\n\r\n* Team members\r\n  * [fmrico](https://github.com/fmrico/cascade_lifecycle/blob/master/cascade_lifecycle_msgs/package.xml)\r\n\r\n",
+  "comments": [
+    {
+      "id": 1382598463,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-14T00:10:12Z",
+      "updated_at": "2023-01-14T00:12:10Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/168#issuecomment-1382598463",
+      "body": "Thanks for your patience as we ramp back into things after the end of year holidays!\r\n\r\nThe release repository above has been imported into ros2-gbp. I recommend archiving https://github.com/fmrico/cascade_lifecycle-release.git so that it remains available for anyone using an earlier ros/rosdistro index but cannot be pushed to by mistake."
+    },
+    {
+      "id": 1382616519,
+      "author": "nuclearsandwich",
+      "created_at": "2023-01-14T01:00:47Z",
+      "updated_at": "2023-01-14T01:00:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/168#issuecomment-1382616519",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "number": 465,
+  "title": "Add release team for filters",
+  "author": "jonbinney",
+  "state": "closed",
+  "created_at": "2024-03-04T16:28:49Z",
+  "updated_at": "2024-03-09T02:08:34Z",
+  "closed_at": "2024-03-09T00:59:48Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/465",
+  "body": "* Name of the new release team: filters\r\n* Release repositories to add:\r\n  * [filters](https://github.com/ros/filters)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/2015deacc57af0b7a10779554666cc58994356b3/rolling/distribution.yaml#L1465)\r\n    * [x ] There is an existing release repository which should be imported: https://github.com/ros2-gbp/filters-release\r\n* Team members\r\n  * [@tfoote](https://github.com/ros/filters/blob/3f4ee5a5fe3a8ae4886c1b11b6a2597b6e5c4a04/package.xml#L10)\r\n  * [@jonbinney](https://github.com/ros/filters/blob/3f4ee5a5fe3a8ae4886c1b11b6a2597b6e5c4a04/package.xml#L11)\r\n\r\n",
+  "comments": [
+    {
+      "id": 1981516040,
+      "author": "jonbinney",
+      "created_at": "2024-03-06T18:18:53Z",
+      "updated_at": "2024-03-06T18:18:53Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/465#issuecomment-1981516040",
+      "body": "This is blocking https://github.com/ros/filters/issues/72"
+    },
+    {
+      "id": 1986692592,
+      "author": "nuclearsandwich",
+      "created_at": "2024-03-09T02:07:40Z",
+      "updated_at": "2024-03-09T02:07:40Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/465#issuecomment-1986692592",
+      "body": "This change has been deployed!"
+    },
+    {
+      "id": 1986692874,
+      "author": "jonbinney",
+      "created_at": "2024-03-09T02:08:33Z",
+      "updated_at": "2024-03-09T02:08:33Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/465#issuecomment-1986692874",
+      "body": "Thank you!"
+    }
+  ]
+}

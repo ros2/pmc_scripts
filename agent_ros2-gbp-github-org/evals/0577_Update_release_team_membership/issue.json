@@ -1,0 +1,21 @@
+{
+  "number": 577,
+  "title": "Update release team membership",
+  "author": "pac48",
+  "state": "closed",
+  "created_at": "2024-07-29T14:43:34Z",
+  "updated_at": "2024-08-14T04:20:47Z",
+  "closed_at": "2024-08-14T04:20:47Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/577",
+  "body": "# Updates to moveit_team membership.\r\n\r\n## New team members\r\n\r\n* [@pac48](https://github.com/PickNikRobotics/generate_parameter_library/blob/bfc22d5645dd89b1a8bcea6fa773bd7f921e5faf/generate_parameter_library/package.xml#L9)\r\n",
+  "comments": [
+    {
+      "id": 2287824702,
+      "author": "nuclearsandwich",
+      "created_at": "2024-08-14T04:20:47Z",
+      "updated_at": "2024-08-14T04:20:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/577#issuecomment-2287824702",
+      "body": "Resolved by #580."
+    }
+  ]
+}

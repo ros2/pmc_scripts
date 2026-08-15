@@ -1,0 +1,4 @@
+{
+  "commit": "1464de8322deec7bc0b24d009c798aa610a4a915",
+  "diff": "diff --git a/josh_newans.tf b/josh_newans.tf\nindex c843f08..d3216d6 100644\n--- a/josh_newans.tf\n+++ b/josh_newans.tf\n@@ -3,6 +3,7 @@ locals {\n     \"joshnewans\",\n   ]\n   josh_newans_repositories = [\n+    \"joy_tester-release\",\n     \"twist_stamper-release\",\n   ]\n }\n"
+}

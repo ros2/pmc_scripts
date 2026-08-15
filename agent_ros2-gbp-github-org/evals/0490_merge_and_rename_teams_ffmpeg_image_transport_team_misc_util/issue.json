@@ -1,0 +1,29 @@
+{
+  "number": 490,
+  "title": "merge and rename teams (ffmpeg_image_transport_team, misc_utilities)  -> ros_misc_utilties",
+  "author": "berndpfrommer",
+  "state": "closed",
+  "created_at": "2024-04-13T12:45:04Z",
+  "updated_at": "2024-04-21T23:20:35Z",
+  "closed_at": "2024-04-15T02:27:07Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/490",
+  "body": "I originally requested a team by the the name ros_misc_utilities in issue #390. This was closed by PR  #408, but \"ffmpeg_image_transport_team\" was used as opposed to \"ros_misc_utilities\" as requested.\r\n\r\nSure enough, this caused confusion later when adding more repositories to the team. First when I requested the apriltag_detector repo being added to the \"ros_misc_utilities\" team (issue #440 closed by PR #446): a new team was created (\"misc_utilities\"), and the repo was associated with \"misc_utilities\".\r\n\r\nBut now when I requested to add the \"ffmpeg_image_transport_tools\" repo  (issue #481) it was associated with \"misc_utilities\" in PR #488.\r\n\r\nSo we have two teams now: \"ffmpeg_image_transport_team\" and the \"misc_utilities\" team, neither of which matches the original requested \"ros_misc_utilities\" (which I chose to be the name of the github organization).\r\n\r\nCan we merge these two teams into one (called \"ros_misc_utilities\")? If you dislike the \"ros_\" prefix, how about merging \"ffmpeg_image_transport_team\" into the \"misc_utilities\" team?\r\n\r\nThanks!\r\n",
+  "comments": [
+    {
+      "id": 2054091770,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-14T15:07:07Z",
+      "updated_at": "2024-04-14T15:07:07Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/490#issuecomment-2054091770",
+      "body": "Thanks for opening the issue.\r\n\r\nThe team here does our best to maintain a \"rationale\" structure for this large organization but this is very much in the eye of the beholder.\r\n\r\nWith respect to `ros_misc_utilities` vs `misc_utilities`, the convention that we've established is that for upstream organizations with a `ros[-_]` prefix where the project/package name is not `ros_foobar`, we'll drop the leading `ros[-_]` as otherwise we'll end up with 300 files named `ros_whatever.tf`. Which is how we arrived at the `misc_utilites` name for the release team and terraform file.\r\n\r\nWe can indeed consolidate the ffmpeg_image_transport team into misc_utiltiies. I've opened https://github.com/ros2-gbp/ros2-gbp-github-org/pull/492 to do just that. Please approve it if that meets your expectations.\r\n\r\nWhile the changes are deploying, you may momentarily lose push access to the ffmpeg_image_transport repositories if that team is dropped before the misc_utilities team is updated but as you'll remain part of the ros2-gbp organization for the entire transition you should not need to accept any invites before access is re-granted under the other team."
+    },
+    {
+      "id": 2068259914,
+      "author": "nuclearsandwich",
+      "created_at": "2024-04-21T23:20:35Z",
+      "updated_at": "2024-04-21T23:20:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/490#issuecomment-2068259914",
+      "body": "This change has been deployed."
+    }
+  ]
+}

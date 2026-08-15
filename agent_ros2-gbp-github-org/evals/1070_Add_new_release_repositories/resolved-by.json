@@ -1,0 +1,4 @@
+{
+  "commit": "08d3c1ecde512562ba936643e766849f9dfee3e5",
+  "diff": "diff --git a/ctu_vras.tf b/ctu_vras.tf\nindex 9f5fc56..8973b35 100644\n--- a/ctu_vras.tf\n+++ b/ctu_vras.tf\n@@ -6,6 +6,8 @@ locals {\n     \"compass-release\",\n     \"cras_msgs-release\",\n     \"cras_ros_utils-release\",\n+    \"robot_body_filter-release\",\n+    \"sensor_filters-release\",\n   ]\n }\n \n"
+}

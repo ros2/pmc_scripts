@@ -1,0 +1,21 @@
+{
+  "number": 392,
+  "title": "Add new release repositories for multidim_rrt_planner",
+  "author": "david-dorf",
+  "state": "closed",
+  "created_at": "2023-12-05T07:17:24Z",
+  "updated_at": "2024-01-06T01:13:52Z",
+  "closed_at": "2024-01-06T01:13:52Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/392",
+  "body": "* Name of the release team: orco\r\n\r\n* Release repositories to add: https://github.com/daviddorf2023/multidim_rrt_planner/tree/iron\r\n\r\nSee https://github.com/ros/rosdistro/pull/39050 for reference",
+  "comments": [
+    {
+      "id": 1879205646,
+      "author": "clalancette",
+      "created_at": "2024-01-05T20:12:26Z",
+      "updated_at": "2024-01-05T20:12:26Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/392#issuecomment-1879205646",
+      "body": "This looks good to me."
+    }
+  ]
+}

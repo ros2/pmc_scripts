@@ -1,0 +1,4 @@
+{
+  "commit": "1b402b9ddba6029ba9e390d544190eca0efc4b10",
+  "diff": "diff --git a/imrclab.tf b/imrclab.tf\nindex df541b4..8526502 100644\n--- a/imrclab.tf\n+++ b/imrclab.tf\n@@ -1,5 +1,6 @@\n locals {\n   imrclab_team = [\n+    \"knmcguire\",\n     \"whoenig\",\n   ]\n   imrclab_repositories = [\n"
+}

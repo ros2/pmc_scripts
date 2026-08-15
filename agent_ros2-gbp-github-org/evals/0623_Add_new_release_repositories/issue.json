@@ -1,0 +1,45 @@
+{
+  "number": 623,
+  "title": "Add new release repositories",
+  "author": "bjsowa",
+  "state": "closed",
+  "created_at": "2024-09-30T18:36:59Z",
+  "updated_at": "2024-10-01T00:11:39Z",
+  "closed_at": "2024-09-30T23:19:03Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/623",
+  "body": "* Name of the release team: fictionlab\r\n\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [web_video_server](https://github.com/RobotWebTools/web_video_server)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/master/dashing/distribution.yaml#L4043)\r\n    * [x] The release repository already exists in `ros2-gbp` organization: https://github.com/ros2-gbp/web_video_server-release\r\n    I just want to get access to it as the [new package maintainer](https://github.com/RobotWebTools/web_video_server/blob/ros2/package.xml#L8)\r\n",
+  "comments": [
+    {
+      "id": 2384270214,
+      "author": "nuclearsandwich",
+      "created_at": "2024-09-30T22:10:16Z",
+      "updated_at": "2024-09-30T22:10:16Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/623#issuecomment-2384270214",
+      "body": "@bjsowa following the conversation in https://github.com/RobotWebTools/web_video_server/issues/147, there are no limits on how many teams may manage a repository however, in the interest of limiting release scope to accepted maintainers, I'd rather add you to the robot_web_tools team than add this repository to the fictionlab team, unless you intend to onboard the other team members as additional maintainers.\r\n\r\nIf that works for you let me know and I'll make the change."
+    },
+    {
+      "id": 2384276085,
+      "author": "bjsowa",
+      "created_at": "2024-09-30T22:15:18Z",
+      "updated_at": "2024-09-30T22:15:18Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/623#issuecomment-2384276085",
+      "body": "> @bjsowa following the conversation in [RobotWebTools/web_video_server#147](https://github.com/RobotWebTools/web_video_server/issues/147), there are no limits on how many teams may manage a repository however, in the interest of limiting release scope to accepted maintainers, I'd rather add you to the robot_web_tools team than add this repository to the fictionlab team, unless you intend to onboard the other team members as additional maintainers.\r\n> \r\n> If that works for you let me know and I'll make the change.\r\n\r\nThat will work for me, thanks."
+    },
+    {
+      "id": 2384475344,
+      "author": "nuclearsandwich",
+      "created_at": "2024-09-30T23:44:43Z",
+      "updated_at": "2024-09-30T23:44:43Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/623#issuecomment-2384475344",
+      "body": "Deploying this has been interrupted by an unrelated issue. I'll update again when deployment is complete."
+    },
+    {
+      "id": 2384531763,
+      "author": "nuclearsandwich",
+      "created_at": "2024-10-01T00:11:38Z",
+      "updated_at": "2024-10-01T00:11:38Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/623#issuecomment-2384531763",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

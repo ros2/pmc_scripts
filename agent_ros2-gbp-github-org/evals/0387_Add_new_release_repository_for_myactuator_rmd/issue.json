@@ -1,0 +1,21 @@
+{
+  "number": 387,
+  "title": "Add new release repository for myactuator_rmd",
+  "author": "2b-t",
+  "state": "closed",
+  "created_at": "2023-11-28T22:11:03Z",
+  "updated_at": "2024-01-06T00:55:04Z",
+  "closed_at": "2024-01-06T00:55:04Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/387",
+  "body": "* Name of the release team: cerberus\r\n\r\n* Release repositories to add:\r\n  * [2b-t/myactuator_rmd](https://github.com/2b-t/myactuator_rmd)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/a0086de3bf81a78566e2d1a2a4385641e524ad19/humble/distribution.yaml#L3812-L3821)\r\n",
+  "comments": [
+    {
+      "id": 1879203144,
+      "author": "clalancette",
+      "created_at": "2024-01-05T20:10:15Z",
+      "updated_at": "2024-01-05T20:10:15Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/387#issuecomment-1879203144",
+      "body": "Presumable the only member of the cerberus team will be @2b-t .\r\n\r\nThis looks good to me."
+    }
+  ]
+}

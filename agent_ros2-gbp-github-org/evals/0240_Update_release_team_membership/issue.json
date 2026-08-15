@@ -1,0 +1,12 @@
+{
+  "number": 240,
+  "title": "Update release team membership",
+  "author": "Yadunund",
+  "state": "closed",
+  "created_at": "2023-04-11T04:14:19Z",
+  "updated_at": "2023-04-11T17:18:38Z",
+  "closed_at": "2023-04-11T17:18:38Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/240",
+  "body": "Requesting to be added to the release team for ROS 2 core package.\r\n\r\n# Updates to <!-- RELEASE_TEAM --> membership.\r\n\r\n## New team members\r\n\r\n* @yadunund\r\n",
+  "comments": []
+}

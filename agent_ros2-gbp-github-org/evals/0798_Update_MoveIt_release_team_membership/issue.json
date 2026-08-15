@@ -1,0 +1,21 @@
+{
+  "number": 798,
+  "title": "Update MoveIt release team membership",
+  "author": "nbbrooks",
+  "state": "closed",
+  "created_at": "2025-06-14T16:09:40Z",
+  "updated_at": "2025-06-21T15:29:47Z",
+  "closed_at": "2025-06-20T18:13:45Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/798",
+  "body": "# Updates to moveit membership.\n\n## New team members\n\n* [@nbbrooks](https://github.com/moveit/moveit2/blob/main/moveit/package.xml#L11)\n",
+  "comments": [
+    {
+      "id": 2993635825,
+      "author": "nuclearsandwich",
+      "created_at": "2025-06-21T15:29:47Z",
+      "updated_at": "2025-06-21T15:29:47Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/798#issuecomment-2993635825",
+      "body": "This change has been deployed."
+    }
+  ]
+}

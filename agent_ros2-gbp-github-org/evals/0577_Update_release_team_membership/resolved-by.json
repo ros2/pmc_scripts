@@ -1,0 +1,4 @@
+{
+  "commit": "7018064c00d0edc753eeff20af4d78ff3024ba7d",
+  "diff": "diff --git a/moveit.tf b/moveit.tf\nindex b8ef791..a5caf2f 100644\n--- a/moveit.tf\n+++ b/moveit.tf\n@@ -3,6 +3,7 @@ locals {\n     \"JafarAbdi\",\n     \"christhrasher\",\n     \"henningkayser\",\n+    \"pac48\",\n     \"rhaschke\",\n     \"sjahr\",\n     \"tylerjw\",\ndiff --git a/picknik.tf b/picknik.tf\nindex 18f7d5a..d22a6c1 100644\n--- a/picknik.tf\n+++ b/picknik.tf\n@@ -5,6 +5,7 @@ locals {\n     \"JafarAbdi\",\n     \"MarqRazz\",\n     \"moriarty\",\n+    \"pac48\",\n     \"sea-bass\",\n     \"sjahr\",\n     \"tylerjw\",\n"
+}

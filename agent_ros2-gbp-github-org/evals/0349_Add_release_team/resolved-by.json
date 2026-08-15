@@ -1,0 +1,4 @@
+{
+  "commit": "adc1d83b8818614d3d0fc86a271cac86969ea622",
+  "diff": "diff --git a/nlamprian.tf b/nlamprian.tf\nnew file mode 100644\nindex 0000000..58be943\n--- /dev/null\n+++ b/nlamprian.tf\n@@ -0,0 +1,16 @@\n+locals {\n+  nlamprian_team = [\n+    \"nlamprian\",\n+  ]\n+  nlamprian_repositories = [\n+    \"gazebo_video_monitors-release\"\n+  ]\n+}\n+\n+module \"nlamprian_team\" {\n+  source       = \"./modules/release_team\"\n+  team_name    = \"nlamprian\"\n+  members      = local.nlamprian_team\n+  repositories = local.nlamprian_repositories\n+  depends_on   = [github_membership.members, github_repository.repositories]\n+}\n"
+}

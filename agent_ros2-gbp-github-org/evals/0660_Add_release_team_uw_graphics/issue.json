@@ -1,0 +1,21 @@
+{
+  "number": 660,
+  "title": "Add release team uw_graphics",
+  "author": "cpsiff",
+  "state": "closed",
+  "created_at": "2024-11-21T21:48:27Z",
+  "updated_at": "2024-12-16T01:57:36Z",
+  "closed_at": "2024-12-15T22:51:45Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/660",
+  "body": "* Name of the new release team: uw_graphics\r\n* Release repositories to add:\r\n  <!--\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [mini_tof](https://github.com/uwgraphics/mini_tof)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/43540)\r\n  * [mini_tof_interfaces](https://github.com/uwgraphics/mini_tof_interfaces)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/43540)\r\n\r\n* Team members\r\n  * @cpsiff [[mini_tof author tag](https://github.com/uwgraphics/mini_tof/blob/819797f17874831a2f34930953fabe48798ac946/package.xml#L8)][[mini_tof_interfaces author tag](https://github.com/uwgraphics/mini_tof_interfaces/]blob/8711d7c3633daecf435c8a40f4b9e8f682707590/package.xml#L8)]\r\n",
+  "comments": [
+    {
+      "id": 2544323926,
+      "author": "nuclearsandwich",
+      "created_at": "2024-12-16T01:57:35Z",
+      "updated_at": "2024-12-16T01:57:35Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/660#issuecomment-2544323926",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

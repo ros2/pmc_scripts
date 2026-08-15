@@ -1,0 +1,4 @@
+{
+  "commit": "19d617aabe7e3a39788c4b4cea21afd120ecc026",
+  "diff": "diff --git a/rplidar_ros.tf b/rplidar_ros.tf\nindex 9b525bc..3741a56 100644\n--- a/rplidar_ros.tf\n+++ b/rplidar_ros.tf\n@@ -1,6 +1,6 @@\n locals {\n   rplidar_ros_team = [\n-    \"allenh1\",\n+    \"deyouslamtec\",\n   ]\n   rplidar_ros_repositories = [\n     \"rplidar_ros-release\",\n"
+}

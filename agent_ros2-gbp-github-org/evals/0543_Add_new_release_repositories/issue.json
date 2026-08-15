@@ -1,0 +1,12 @@
+{
+  "number": 543,
+  "title": "Add new release repositories",
+  "author": "hridaybavle",
+  "state": "closed",
+  "created_at": "2024-06-12T05:48:11Z",
+  "updated_at": "2024-06-26T04:23:39Z",
+  "closed_at": "2024-06-26T04:23:39Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/543",
+  "body": "* Name of the release team: \r\n\r\nsnt_arg\r\n\r\n* Release repositories to add:\r\n\r\n     a) [lidar_situational_graphs](https://github.com/snt-arg/lidar_situational_graphs)\r\n     a) [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/40800) --> merged\r\n\r\n     b) [situational_graphs_reasoning](https://github.com/snt-arg/situational_graphs_reasoning.git)\r\n     b) [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/40804) --> merged\r\n\r\n    c) [graph_wrapper](https://github.com/snt-arg/graph_wrapper.git)\r\n    c) [ros/rosdistro source entry](https://github.com/ros/rosdistro/pull/40806) --> merged\r\n",
+  "comments": []
+}

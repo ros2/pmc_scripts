@@ -1,0 +1,4 @@
+{
+  "commit": "75f1bfeb9400500da88362e3fc4eb30004f0f23b",
+  "diff": "diff --git a/rt_net.tf b/rt_net.tf\nindex c0a9f95..357983c 100644\n--- a/rt_net.tf\n+++ b/rt_net.tf\n@@ -1,7 +1,9 @@\n locals {\n   rt_net_team = [\n+    \"Kuwamai\",\n     \"ShotaAk\",\n     \"Tiryoh\",\n+    \"YusukeKato\",\n     \"shu-rt\",\n   ]\n   rt_net_repositories = [\n"
+}

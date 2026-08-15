@@ -1,0 +1,4 @@
+{
+  "commit": "e10d610d9cee4bf79d3fe13503ea189ae39973a7",
+  "diff": "diff --git a/mrpt2.tf b/mrpt2.tf\nindex 9e07773..524701e 100644\n--- a/mrpt2.tf\n+++ b/mrpt2.tf\n@@ -11,6 +11,7 @@ locals {\n     \"mola_gnss_to_markers-release\",\n     \"mola_imu_preintegration-release\",\n     \"mola_input_ouster-release\",\n+    \"mola_input_rosbag1-release\",\n     \"mola_lidar_odometry-release\",\n     \"mola_mapper_2d-release\",\n     \"mola_sm_loop_closure-release\",\n@@ -27,8 +28,10 @@ locals {\n     \"mrpt_sensors-release\",\n     \"mrpt_slam-release\",\n     \"mvsim-release\",\n+    \"nanoflann-release\",\n     \"pose_cov_ops-release\",\n     \"python_mrpt_ros-release\",\n+    \"rosbag_timing_inspector-release\",\n   ]\n }\n \n"
+}

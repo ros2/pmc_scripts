@@ -1,0 +1,29 @@
+{
+  "number": 846,
+  "title": "Add release team",
+  "author": "christian-rauch",
+  "state": "closed",
+  "created_at": "2025-08-11T13:23:48Z",
+  "updated_at": "2025-09-10T22:58:03Z",
+  "closed_at": "2025-09-10T18:34:22Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/846",
+  "body": "* Name of the new release team: `pymoveit`\n* Release repositories to add:\n  <!--\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\n  The ros/rosdistro source entry link must be included for each repository.\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\n\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\n  -->\n  * [pymoveit2](https://github.com/AndrejOrsula/pymoveit2.git)\n    * https://github.com/ros/rosdistro/pull/47271\n    * https://github.com/ros/rosdistro/blob/233e48cb8fa7f428a663553174b6bd8f26c7596d/rolling/distribution.yaml#L5583-L5587\n    * [ ] There is an existing release repository which should be imported: <RELEASE REPOSITORY URL>\n\n* Team members\n  * [@AndrejOrsula](https://github.com/AndrejOrsula/pymoveit2/blob/main/package.xml)\n  * @christian-rauch\n\n",
+  "comments": [
+    {
+      "id": 3227449187,
+      "author": "christian-rauch",
+      "created_at": "2025-08-27T09:23:12Z",
+      "updated_at": "2025-08-27T09:23:12Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/846#issuecomment-3227449187",
+      "body": "@nuclearsandwich @clalancette Is this release team request ok? Can this be deployed?"
+    },
+    {
+      "id": 3276782071,
+      "author": "nuclearsandwich",
+      "created_at": "2025-09-10T22:58:03Z",
+      "updated_at": "2025-09-10T22:58:03Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/846#issuecomment-3276782071",
+      "body": "This change has been deployed."
+    }
+  ]
+}

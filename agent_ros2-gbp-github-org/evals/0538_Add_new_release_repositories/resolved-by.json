@@ -1,0 +1,4 @@
+{
+  "commit": "f091d8f3e1328312a9c8ef52c6535ff183875bfb",
+  "diff": "diff --git a/irobot_education.tf b/irobot_education.tf\nindex 942e909..1bbbedb 100644\n--- a/irobot_education.tf\n+++ b/irobot_education.tf\n@@ -5,6 +5,7 @@ locals {\n     \"shamlian\",\n   ]\n   irobot_education_repositories = [\n+    \"create3_examples-release\",\n     \"create3_sim-release\",\n     \"irobot_create_msgs-release\",\n   ]\n"
+}

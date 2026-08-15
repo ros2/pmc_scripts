@@ -1,0 +1,37 @@
+{
+  "number": 299,
+  "title": "Add new release repositories",
+  "author": "moriarty",
+  "state": "closed",
+  "created_at": "2023-07-04T00:06:26Z",
+  "updated_at": "2023-07-15T00:59:53Z",
+  "closed_at": "2023-07-15T00:18:01Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/299",
+  "body": "* Name of the release team: picknik\r\n\r\n* Release repositories to add: ros2_robotiq_gripper-release\r\n\r\n  * [ros2_robotiq_gripper](https://github.com/PickNikRobotics/ros2_robotiq_gripper)\r\n    * [ros/rosdistro source entry] https://github.com/ros/rosdistro/pull/37857\r\n\r\nI've just submitted the PR adding the source entry into rosdistro.\r\npackage names:\r\n - robotiq_controllers\r\n - robotiq_description\r\n - robotiq_driver\r\n \r\n @MarqRazz and I from PickNik #281 will be maintaining this release along with the picknik_controllers #284 \r\n And the Robotiq gripper is the default gripper for the Kinova arm #291 ",
+  "comments": [
+    {
+      "id": 1629004677,
+      "author": "MarqRazz",
+      "created_at": "2023-07-10T13:46:56Z",
+      "updated_at": "2023-07-10T13:46:56Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/299#issuecomment-1629004677",
+      "body": "I'm really sorry @nuclearsandwich but I missed my window to accept the invite to the `ros2-gbp`. Could you please send another one?"
+    },
+    {
+      "id": 1636579133,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-15T00:17:52Z",
+      "updated_at": "2023-07-15T00:17:52Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/299#issuecomment-1636579133",
+      "body": "> I'm really sorry @nuclearsandwich but I missed my window to accept the invite to the `ros2-gbp`. Could you please send another one?\r\n\r\nYes it will send out when I do this afternoon's terraform deploy, which I'll note on this issue."
+    },
+    {
+      "id": 1636599412,
+      "author": "nuclearsandwich",
+      "created_at": "2023-07-15T00:59:53Z",
+      "updated_at": "2023-07-15T00:59:53Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/299#issuecomment-1636599412",
+      "body": "This change has been deployed!"
+    }
+  ]
+}

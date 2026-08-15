@@ -1,0 +1,101 @@
+{
+  "number": 308,
+  "title": "Add release team for Ouster",
+  "author": "Samahu",
+  "state": "closed",
+  "created_at": "2023-08-04T22:50:41Z",
+  "updated_at": "2023-08-26T02:25:33Z",
+  "closed_at": "2023-08-26T01:26:09Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308",
+  "body": "* Name of the new release team: ouster\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * ouster-ros-release: the ouster-ros-release is for [ouster-ros/iron](https://github.com/ouster-lidar/ouster-ros/blob/ros2/ouster-ros)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/9c23c70f8a9dc8afe5a6b14f73708fe258300097/iron/distribution.yaml#L3500)\r\n    * [ ] There is an existing release repository which should be imported: http://www.github.com/ouster-lidar/ouster-ros-release\r\n\r\n* Team members\r\n  * @Samahu\r\n",
+  "comments": [
+    {
+      "id": 1666252510,
+      "author": "Samahu",
+      "created_at": "2023-08-04T22:52:07Z",
+      "updated_at": "2023-08-04T22:52:07Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1666252510",
+      "body": "I am wondering if we could use the team instead of having to mention each individual member by name. Is that possible?"
+    },
+    {
+      "id": 1684868021,
+      "author": "nuclearsandwich",
+      "created_at": "2023-08-19T06:57:53Z",
+      "updated_at": "2023-08-19T07:05:14Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1684868021",
+      "body": "> I am wondering if we could use the team instead of having to mention each individual member by name. Is that possible?\r\n\r\nIt isn't possible for a GitHub team from another organization to be used, so I'll need a list of maintainer usernames to complete the release team. When updating team membership you can either open issues or send pull requests to update the membership list in this repository."
+    },
+    {
+      "id": 1684872048,
+      "author": "nuclearsandwich",
+      "created_at": "2023-08-19T07:07:15Z",
+      "updated_at": "2023-08-19T07:07:15Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1684872048",
+      "body": "@tfoote from the discussion on https://github.com/ros/rosdistro/pull/38253 it sounds like there is implicit REP-144 naming approval for the incoming packages and I can proceed even though these packages have not yet had a source entry merged."
+    },
+    {
+      "id": 1684877655,
+      "author": "nuclearsandwich",
+      "created_at": "2023-08-19T07:23:36Z",
+      "updated_at": "2023-08-19T07:23:36Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1684877655",
+      "body": "> * Name of the new release team: ouster-release-team\r\n\r\nThe best name for this team is probably simply `ouster` since every issue here creates a release team, the `release-team` in the name is redundant.\r\n\r\n"
+    },
+    {
+      "id": 1685040684,
+      "author": "Samahu",
+      "created_at": "2023-08-19T16:34:30Z",
+      "updated_at": "2023-08-19T16:34:55Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1685040684",
+      "body": "Ok, I have updated the release team name (to your recommendation and updated team members list."
+    },
+    {
+      "id": 1686553132,
+      "author": "Samahu",
+      "created_at": "2023-08-21T15:30:31Z",
+      "updated_at": "2023-08-21T15:30:31Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1686553132",
+      "body": "rosdistro Pull request was merged: https://github.com/ros/rosdistro/pull/38253#event-10142477298. The release repo still points to the location on **ouster-lidar** org instead of **ros2-gbp**. I was waiting on this to be issue to act on importing the release repository before I would change the location. But I believe we should be able to update the location of the release in a following pull request to rosdistro once the release repo has been imported."
+    },
+    {
+      "id": 1688391605,
+      "author": "tfoote",
+      "created_at": "2023-08-22T15:15:51Z",
+      "updated_at": "2023-08-22T15:15:51Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1688391605",
+      "body": "> @tfoote from the discussion on https://github.com/ros/rosdistro/pull/38253 it sounds like there is implicit REP-144 naming approval for the incoming packages and I can proceed even though these packages have not yet had a source entry merged.\r\n\r\nYes this is a maintainer transition more than new packages."
+    },
+    {
+      "id": 1688415632,
+      "author": "Samahu",
+      "created_at": "2023-08-22T15:25:06Z",
+      "updated_at": "2023-08-22T15:25:06Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1688415632",
+      "body": "Steven Macenski originally developed a package for ROS2 that interacts with Ouster sensors. Ouster had its own ROS1 driver which I later ported to ROS2 with shared code base between ROS1 and ROS2. Ouster wants to have its official driver be distributed through ROS2 build starting with ROS2 Iron. So the code base is different but I made sure to have build some compatibility towards the version Steve provided for previous ros2 distros. So I am not sure if you can consider it simply transition of the maintainer or not."
+    },
+    {
+      "id": 1690147545,
+      "author": "Samahu",
+      "created_at": "2023-08-23T15:13:24Z",
+      "updated_at": "2023-08-23T15:13:24Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1690147545",
+      "body": "I have added the rosdistro source link to the description of the issue [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/9c23c70f8a9dc8afe5a6b14f73708fe258300097/iron/distribution.yaml#L3500)\r\n"
+    },
+    {
+      "id": 1694123862,
+      "author": "nuclearsandwich",
+      "created_at": "2023-08-26T02:24:07Z",
+      "updated_at": "2023-08-26T02:24:07Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1694123862",
+      "body": "This change has been deployed."
+    },
+    {
+      "id": 1694124114,
+      "author": "Samahu",
+      "created_at": "2023-08-26T02:25:26Z",
+      "updated_at": "2023-08-26T02:25:33Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/308#issuecomment-1694124114",
+      "body": "Thank you, much appreciated it!"
+    }
+  ]
+}

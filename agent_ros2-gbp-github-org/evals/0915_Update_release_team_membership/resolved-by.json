@@ -1,0 +1,4 @@
+{
+  "commit": "08fc3f75ee5b1118952574d4ea04fe21ea138111",
+  "diff": "diff --git a/sick_safevisionary.tf b/sick_safevisionary.tf\nindex 7a023bc..19213fe 100644\n--- a/sick_safevisionary.tf\n+++ b/sick_safevisionary.tf\n@@ -1,8 +1,8 @@\n locals {\n   sick_safevisionary_team = [\n     \"MGBla\",\n+    \"chriseichmann\",\n     \"lienhjoSICKAG\",\n-    \"stefanscherzinger\",\n   ]\n   sick_safevisionary_repositories = [\n     \"sick_safevisionary_base-release\",\n"
+}

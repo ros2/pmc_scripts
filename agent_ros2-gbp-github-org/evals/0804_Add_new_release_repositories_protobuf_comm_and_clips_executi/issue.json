@@ -1,0 +1,37 @@
+{
+  "number": 804,
+  "title": "Add new release repositories protobuf_comm and clips_executive",
+  "author": "TarikViehmann",
+  "state": "closed",
+  "created_at": "2025-06-25T13:38:32Z",
+  "updated_at": "2025-07-09T01:26:25Z",
+  "closed_at": "2025-07-09T00:29:30Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/804",
+  "body": "* Name of the release team: Carologistics\n\n* Release repositories to add:\n   * [protobuf_comm](https://github.com/fawkesrobotics/protobuf_comm)\n     * [ros/rosdistro source entry rolling](https://github.com/ros/rosdistro/blob/e4bb8a9c27500bd834596f9c3886a3b27040fc3f/rolling/distribution.yaml#L5341-L5346)\n     * [kilted](https://github.com/ros/rosdistro/blob/e4bb8a9c27500bd834596f9c3886a3b27040fc3f/kilted/distribution.yaml#L5320-L5325)\n     * [jazzy](https://github.com/ros/rosdistro/blob/e4bb8a9c27500bd834596f9c3886a3b27040fc3f/jazzy/distribution.yaml#L6220-L6225)\n     * ~[ ] There is an existing release repository which should be imported:~\n   \n   * [clips_executive](https://github.com/carologistics/clips_executive)\n     * [ros/rosdistro source entry rolling](https://github.com/ros/rosdistro/blob/e4bb8a9c27500bd834596f9c3886a3b27040fc3f/rolling/distribution.yaml#L1068-L1073)\n     * [kilted](https://github.com/ros/rosdistro/blob/e4bb8a9c27500bd834596f9c3886a3b27040fc3f/kilted/distribution.yaml#L997-L1002)\n     * [jazzy](https://github.com/ros/rosdistro/blob/e4bb8a9c27500bd834596f9c3886a3b27040fc3f/jazzy/distribution.yaml#L1323-L1328)\n     * ~[ ] There is an existing release repository which should be imported:~\n    ",
+  "comments": [
+    {
+      "id": 3008694195,
+      "author": "TarikViehmann",
+      "created_at": "2025-06-26T14:27:06Z",
+      "updated_at": "2025-06-26T14:27:06Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/804#issuecomment-3008694195",
+      "body": "Quick question: the `clips_executive` project requires the `protobuf_comm` library, the latter built successfully,but my clips_executive project fails to build as protobuf_comm is not found (i guess because it is not released yet).\nIs there anything I can to to make the clips_executive project build already? Or can the `protobuf_comm` project already get the release repository so that the other project can build?"
+    },
+    {
+      "id": 3048763989,
+      "author": "TarikViehmann",
+      "created_at": "2025-07-08T12:31:44Z",
+      "updated_at": "2025-07-08T12:31:44Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/804#issuecomment-3048763989",
+      "body": "Any update on this?"
+    },
+    {
+      "id": 3050741420,
+      "author": "nuclearsandwich",
+      "created_at": "2025-07-09T01:26:25Z",
+      "updated_at": "2025-07-09T01:26:25Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/804#issuecomment-3050741420",
+      "body": "This change has been deployed."
+    }
+  ]
+}

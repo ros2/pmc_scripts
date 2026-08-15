@@ -1,0 +1,21 @@
+{
+  "number": 690,
+  "title": "Add release team `p2p_industries`",
+  "author": "Zollerboy1",
+  "state": "closed",
+  "created_at": "2025-01-14T11:20:47Z",
+  "updated_at": "2025-01-23T21:56:44Z",
+  "closed_at": "2025-01-23T19:35:14Z",
+  "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/690",
+  "body": "* Name of the new release team: p2p_industries\r\n* Release repositories to add:\r\n  <!--\r\n  Before release repositories are created, repositories and packages should be submitted to the official rosdistro repository https://github.com/ros/rosdistro for naming review.\r\n  The ros/rosdistro source entry link must be included for each repository.\r\n  Guidelines for package naming are describe in REP-144: https://www.ros.org/reps/rep-0144.html\r\n\r\n  If there are any existing release repositories which should have their contents imported into the ros2-gbp organization, list and link to them here.\r\n  Leave the checkbox _unchecked_. The ros2-gbp administrator will check the box when they have completed the repository import.\r\n  -->\r\n  * [hyveos_bridge](https://github.com/p2p-industries/hyveos_ros)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/7ee202637d280cb553ee2ce0cf84b2ab9c892649/rolling/distribution.yaml#L2604)\r\n  * [hyveos_msgs](https://github.com/p2p-industries/hyveos_ros_msgs)\r\n    * [ros/rosdistro source entry](https://github.com/ros/rosdistro/blob/7ee202637d280cb553ee2ce0cf84b2ab9c892649/rolling/distribution.yaml#L2610)\r\n\r\n* Team members\r\n  * [@Zollerboy1](https://github.com/p2p-industries/hyveos_ros/blob/cdd2c004d9477834d232efb02187ad1a7103a54e/package.xml#L7)\r\n",
+  "comments": [
+    {
+      "id": 2611099463,
+      "author": "nuclearsandwich",
+      "created_at": "2025-01-23T21:56:43Z",
+      "updated_at": "2025-01-23T21:56:43Z",
+      "html_url": "https://github.com/ros2-gbp/ros2-gbp-github-org/issues/690#issuecomment-2611099463",
+      "body": "This change has been deployed."
+    }
+  ]
+}
