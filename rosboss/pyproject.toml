@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "rosboss"
+version = "0.1.0"
+description = "CLI tool for ROS bosses."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "rosdistro",
+    "rich",
+    "keyring",
+]
+
+[project.scripts]
+rosboss = "rosboss.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/rosboss"]

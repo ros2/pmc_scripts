@@ -1,0 +1,22 @@
+[url]
+https://discourse.openrobotics.org/c/ros/release/
+
+[tags]
+release, ${distro_lower}
+
+[title]
+Preparing for ${distro_title} Sync ${sync_target_date}
+
+[body]
+Hello ${distro_title} maintainers!
+
+Starting now, I will be holding new ${distro_title} [ros/rosdistro](https://github.com/ros/rosdistro/) release PRs with a plan to sync ROS ${distro_title} packages to the main apt repo on ${sync_target_date}. Please comment here if there are any issues I should know about before performing the sync.
+
+There are currently [${num_packages} packages](https://repo.ros2.org/status_page/ros_${distro_lower}_default.html?q=SYNC) waiting to sync and [${num_regressions} regressions](https://repo.ros2.org/status_page/ros_${distro_lower}_default.html?q=REGRESSION).
+
+[chat]
+${distro_title} is in a sync hold. If you happen to review a ros/rosdistro PR then please leave a comment like
+
+```
+[Holding for ${distro_title} sync](https://discourse.openrobotics.org/t/preparing-for-${distro_lower}-sync-${sync_target_date}/)
+```
